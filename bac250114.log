@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  24 JAN 2014 16:32
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  24 JAN 2014 18:04
 entering extended mode
 **bac250114.tex
 (C:\Users\B\Desktop\Bac\bac250114.tex
@@ -1635,10 +1635,6 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [19 <C:/Users/B/Desktop/Bac/standzugrel.png>] [20 <C:/Users/B/Desktop/Bac/stand
 streckrel.png>] (C:\Users\B\Desktop\Bac\bac250114.aux)
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'bac250114.run.xml'.
  )
 (\end occurred inside a group at level 1)
@@ -1646,13 +1642,13 @@ Package logreq Info: Writing requests to 'bac250114.run.xml'.
 ### simple group (level 1) entered at line 442 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 20080 strings out of 493921
- 372801 string characters out of 3144887
+ 20082 strings out of 493921
+ 372823 string characters out of 3144887
  526578 words of memory out of 3000000
- 23010 multiletter control sequences out of 15000+200000
+ 23012 multiletter control sequences out of 15000+200000
  105577 words of font info for 84 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
- 55i,19n,88p,1543b,1448s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 50i,19n,66p,1543b,1437s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc
 }{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/M
@@ -1675,7 +1671,7 @@ pe1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 
 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on bac250114.pdf (20 pages, 5455670 bytes).
+Output written on bac250114.pdf (20 pages, 5456255 bytes).
 PDF statistics:
  195 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
