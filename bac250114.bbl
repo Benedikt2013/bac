@@ -16,6 +16,30 @@
   {}
 \endgroup
 
+\entry{hu}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Doege}{D.}%
+     {Eckart}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Behrens}{B.}%
+     {Bernd-Arno}{B.-A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer-Verlag}%
+  }
+  \strng{namehash}{DEBBA1}
+  \strng{fullhash}{DEBBA1}
+  \field{sortinit}{D}
+  \field{edition}{Zweite überarbeitete Auflage}
+  \field{title}{Handbuch Umformtechnik}
+  \field{year}{2010}
+\endentry
+
 \entry{ph}{book}{}
   \name{author}{3}{}{%
     {{}%

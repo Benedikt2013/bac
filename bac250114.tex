@@ -47,7 +47,7 @@ Strangpressprofile aus Aluminium verwendet die ein besonders hochwertiges Finish
  Die Beschaffenheit des Werkstoff- und Werkzeugmaterials ist der wohl wichtigste Beeinflussungsfaktor bei o.g. Problemprodukten (siehe \fref{fig:Verdeckkastendeckel}) .
  \begin{figure}[!htb]
  \centering
- \includegraphics[width=.5\linewidth,height=.2\textheight]{ZierleisteVerdeckklappendeckel}
+ \includegraphics[scale=.7]{ZierleisteVerdeckklappendeckel}
  \caption{Problemprodukte Zierleisten und Verdeckkastendeckel}
  \label{fig:Verdeckkastendeckel}
  \end{figure}
@@ -56,9 +56,13 @@ Die nächsten Abschnitte befassen sich mit der Durchführung und Auswertung von 
 Zur Untersuchung   sind hier vor allen Dingen die Umformverfahren  Kröpfen (siehe \fref{sec:kropf})  und Streckbiegen herangezogen worden. 
 
 
-
+\newpage
 \section{Exkurs Umformtechnik}
-Da die Gegenstände und Verfahren dieser Untersuchung in das Gebiet der Umformtechnik fallen werden die ausschlaggebendsten Begriffe und Sachverhalte dieses komplexen Gebietes noch einmal genauer umrissen. So ist es möglich über ein theoretisches Gerüst zu verfügen welches später behilflich sein wird   Analogien zu den durchzuführenden Prozessen zu erkennen. Umformverfahren können
+
+
+Da die Gegenstände und Verfahren dieser Untersuchung in das Gebiet der Umformtechnik fallen werden die ausschlaggebendsten Begriffe und Sachverhalte dieses komplexen Gebietes noch einmal genauer umrissen. So ist es möglich über ein theoretisches Gerüst zu verfügen welches später behilflich sein wird   Analogien zu den durchzuführenden Prozessen zu erkennen.
+\subsection{Systematisierung Formgebungsverfahren}
+Umformverfahren können
 auf Grund der unterschiedlichen Spannungsverhältnisse in fünf verschiedene Gruppen unterteilt werden. Einfache Beschreibungen der Spannungsverhältnisse sind kaum möglich denn,  abhängig von der Art der Operation, können  unterschiedliche Spannungen geichzeitig auftreten oder sich sogar  während des Formgebungsvorgangs verändern. Deshalb werden die überwiegenden Spannungen als Klassifikationskriterium ausgewählt. Folgende fünf Gruppen der Umformprozesse werden definiert:
 \begin{enumerate}
 \item \emph{Druckumformen} nach DIN 8583 behandelt die Formgebung eines festen Körpers  welche den  plastifizierten  Zustand hauptsächlich durch uni- oder multiaxiale Druckbeslastung herbeiführt.
@@ -86,11 +90,65 @@ Beide Punkte können weiter eingestuft werden in:
 
 In der Industriepraxis kommen letztendlich unzählige Kombinationen der oben aufgeführten Unterteilungen vor.\footcite[Vgl.][2.1ff]{kl}
 
+\subsection{Eigenspannungen}
+Das Thema Eigenspannungen im Zusammenhang mit der Verarbeitung von Blechen an die hohe Qualitätsanforderungen gestellt werden ist natürlich von besonderem Interesse bei der Analyse von Problemstellungen die auf den einzelnen Fertigungsstufen entstehen können. Es handelt sich dabei um Spannungen in einem sich im Temperaturgleichgewicht befindenden Bauteil, auf das keine mechanischen Beanspruchungen wirken. Die mit den Eigenspannungen involvierten  Beanspruchungen stehen im mechanischen Gleichgewicht zueinander. Bei Bauteilen und Werkstücken die unter Eigenspannung stehen kann ein Materialversagen wesentlich schneller eintreten da sich die tatsächlich wirkende Spannung aus Eigenspannungen und Spannungen von außen einwirkenden Kräften zusammensetzt. Durch die Eigenspannungen kann auf Grund des daraus resultierenden gestörten Gleichgewichtszustands plastische Formänderung in Form von Verzug auftreten.
+Dabei wirken sich Druckeigenspannungen in der Bauteilrandzone meist vorteilhaft aus das sie einer möglichen Rissbildung und Rissausbreitung entgegenwirken.
+
+Es wird im Hinblick auf Auswirkungen auf das Bauteilvolumen eine Unterteilung der Eigenspannungen in drei Gruppen unternommen:
+\begin{enumerate}
+\item \emph{Makroskopische Eigenspannungen}, welche sich homogen über mehrere Kristallite erstrecken. Bei Störung des Gleichgewichts führen sie zu makroskopischen Formänderungen.
+\item \emph{Eigenspannungen}, die in kleinen Abschnitten homogen sind und bei Störungen des Gleichgewichts zu makroskopischen Formänderungen führen.
+\item Mikroskopische \emph{Eigenspannungen}, welche durch inhomogene Versetzungsreihen ausgelöst werden und über wenige Atombereiche variieren. Sie tragen nicht zu makroskopischen Formänderungen bei. 
+
+
+\end{enumerate}
+
+Eigenspannungen werden verursacht durch inhomogene Deformationen im Bauteil, was zu einer weiteren Einteilung führt.
+
+Entstehungsursachen sind:
+\begin{itemize}
+\item \emph{Thermische Eigenspannungen} (siehe \fref{fig:eigenspanabk}) die bei Abkühlung eines Bauteils entstehen.\begin{figure}[!htb]
+  \centering
+  \includegraphics[scale=1.5] {eigenspanabk}
+  \caption{Zeitliche Änderung der Längsspannungverteilung im Querschnitt eines Zylinders bei schneller Abkühlung.\footcite{hu}}
+  \label{fig:eigenspanabk}
+  \end{figure}
+
+\item \emph{Verformungseigenspannungen} (siehe \fref{fig:eigenspanfaser} und \fref{fig:eigenspandrahtzieh}) welche durch inhomogene Verformung auf Grund äußerer Beanspruchung verursacht werden.\begin{figure}[!htb]
+  \centering
+  \includegraphics[scale=1.3]{eigenspanfaser}
+  \caption{Schematische Längseigenspannungsverteilung im Querschnitt eines Stabs nach plastischer Biegebeansprucheung.\footcite{hu}}
+  \label{fig:eigenspanfaser}
+  \end{figure}
+  \begin{figure}[!htb]
+  \centering
+  \includegraphics[scale=1.35] {eigenspandrahtzieh}
+  \caption{Schematische Tangentialeigensspannungsverteilung beim Drahtziehen in Abhängigkeit von der Ziehdüsenentfernung.\footcite{hu}}
+  \label{fig:eigenspandrahtzieh}
+  \end{figure}
+\item \emph{Umwandlungseigenspannungen} (siehe \fref{fig:eigenspanmol}) die durch inhomogene Gefügeumwandlungen  
+mit einer einhergehenden Volumenänderung ausgelöst werden.\begin{figure}[!htb]
+  \centering
+  \includegraphics[scale=1.8] {eigenspanmol}
+  \caption{Volumenänderung durch Veränderung der Gitterstrucktur. \footcite{hu}}
+  \label{fig:eigenspanmol}
+  \end{figure}
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
 
   
-
+\newpage
 \section{Bauteil}
-Prüfobjekt ist in den folgenden Untersuchungen der Verdeckkastendeckel  des Audi A3 Cabriolet's ({siehe \fref{fig:audia3}).
+Prüfobjekt ist in den folgenden Untersuchungen der Verdeckkastendeckel  des Audi A3 Cabriolet's (siehe \fref{fig:audia3}).
  Als Verzierung eines Luxusobjektes sind die Anforderungen an Aussehen und Qualität außergewöhnlich hoch. So dient er zum einen als rein optisches Veredelungselement zum anderen hat er auch funktionelle Aufgaben (z.B. Stabilität in den gesamten Kofferraumdeckel bringen oder auch als Antenne zu agieren). Geringe Spaltmaße,  perfekte Symmetrie (das menschliche Auge erkennt ein Hundertstel Millimeter) so wie allgemeine Benutzerfreundlichkeit (z.B. Hängenbleiben von Kleidungsstücken und ähnlichem and dem Verzierungsobjekt sollte ausgeschlossen sein) sind Anforderungen die höchste Priorität haben.
  Darüber hinaus sind  flüssige Übergänge und Einklang   zu weiteren Verzierungselementen des Fahrzeuges primordial für einen harmonischen Gesamteindruck.
  
@@ -139,7 +197,7 @@ Aufgrund seiner geringen Dichte (\SI{2.69}{\kilo\gram\per\deci\meter\cubed})\foo
 Erwähnenswert ist zu vorangegangenem noch das aufgrund der, bei den meisten Aluminiumlegierungen, nicht ausgeprägten Streckgrenze  die $R_{p0,2}$ Dehngrenze als Bemessungskennwert bei einer \SI{0.2}{\percent} bleibenden Verformung gegenüber rein elastischem Verhalten ermittelt wird (siehe \fref{fig:spanndehn2}).\footcite[Vgl.][280-281]{aa}  
 \begin{figure}[h!tbp]
 \centering
- 	\includegraphics[width=.5\linewidth,height=.2\textheight]{spanndehn2}
+ 	\includegraphics[scale=.9]{spanndehn2}
  	\caption{Spannungs-Dehnungs Schaubild mit $Rp_{0,2} $ Dehngrenze}
  	\label{fig:spanndehn2}
  	\end{figure}
@@ -150,7 +208,7 @@ Erwähnenswert ist zu vorangegangenem noch das aufgrund der, bei den meisten Alu
 Bei dem Umformverfahren Streckbiegen werden auf speziellen Streckbiegemaschinen die Enden eines Profilstranges in Spannern gehalten und auf  Zugspannung gebracht (siehe  \fref{fig:Streckbiegemaschine}). Anschließend werden sie über ein massives Biegewerkzeug streckgebogen.\footnote{Vgl.\url{http://www.tillmann-gruppe.de/de/streckbiegen.html}[27.10.2013].}
 \begin{figure}[!htb]
 \centering
-\includegraphics[width=.5\linewidth,height=.2\textheight]{Streckbiegemaschine}
+\includegraphics[scale=.12]{Streckbiegemaschine}
 \caption{Streckbiegemaschine}
 \label{fig:Streckbiegemaschine}
 \end{figure}
@@ -400,7 +458,7 @@ Zu einem ähnlichen Ergebnis kommen wir bei Betrachtung der Überlagerung der Ch
 \end{figure} 
 Unter der Voraussetzung geringer Prozessschwankungen im Streckbiegeverfahren welche bei geringer Standardabweichung unter sorgfältiger und präziser Auswahl des Vormaterials durchaus zu realisieren sind, können die Ausschussrate sowie Kosten und Zeitverluste die durch ständiges Justieren der Streckbiegemaschine durch geschultes Personal entstehen, erheblich reduziert werden.
 
-In Anbetracht der vorangegangenen Auswertung wurden noch einmal zwei Chargen (F19 und F18) bei dem Zulieferer WKW Erbslöh, zu Versuchszwecken, bestellt. Möglicherweise ist hier ein Material herauszukristallisieren welches noch geringere Prozessschwankungen ermöglicht. Wir sind dabei von einer steigenden Zugfestigkeit ausgegangen da sich nach den Diagrammen in \fref{fig:standzugrel} und \fref{fig:standstreckrel} die Standardabweichung sowie Mindestzugfestigkeit und Streckgrenze gegenläufig verhalten.
+In Anbetracht der vorangegangenen Auswertung wurden noch einmal zwei Chargen (F19 und F18) bei dem Zulieferer, zu Versuchszwecken, bestellt. Möglicherweise ist hier ein Material herauszukristallisieren welches noch geringere Prozessschwankungen ermöglicht. Wir sind dabei von einer steigenden Zugfestigkeit ausgegangen da sich nach den Diagrammen in \fref{fig:standzugrel} und \fref{fig:standstreckrel} die Standardabweichung sowie Mindestzugfestigkeit und Streckgrenze gegenläufig verhalten.
 
 
 
