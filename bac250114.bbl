@@ -93,6 +93,30 @@
   \field{year}{2010}
 \endentry
 
+\entry{fu}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Klocke}{K.}%
+     {Fritz}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {König}{K.}%
+     {Wilfried}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer-Verlag}%
+  }
+  \strng{namehash}{KFKW1}
+  \strng{fullhash}{KFKW1}
+  \field{sortinit}{K}
+  \field{edition}{Fünfte neu bearbeitete Auflage}
+  \field{title}{Fertigungsverfahren 4 Umformen}
+  \field{year}{2006}
+\endentry
+
 \entry{tp}{book}{}
   \name{author}{1}{}{%
     {{}%

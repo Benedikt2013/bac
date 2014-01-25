@@ -135,6 +135,27 @@ mit einer einhergehenden Volumenänderung ausgelöst werden.\begin{figure}[!htb]
   \end{figure}
 \end{itemize}
 
+Bei dem Messen von Eigenspannungen wird in zerstörende sowie zerstörungsfreie Erfassungsmethoden unterschieden. Hier wird hauptsächlich auf die zerstörenden Verfahren eingegangen und unter den zerstörungsfreien nur die Finite-Elemente-Methode kurz umrissen. Für zylindrische Bauteile werden Ausbohr- und Abdrehverfahren verwendet um die Eigenspannungen in radialer, tangentialer sowie axialer Richtung zu erfassen.Die Eigenspannungen in Platten und Stäbe werden mit schichtweisem Abtragen, Einschneiden und Aufschlitzen ermittelt.\begin{figure}[!htb]
+  \centering
+  \includegraphics[scale=1.1] {eigenspanschnitt}
+  \caption{Ermittlung von Eigenspannungen a) in zylindrischen Bauteilen und b) in Platten und Stäben.}
+  \label{fig:eigenspanschnitt}
+  \end{figure}
+  Nach der jeweiligen Entfernung des Materials lassen sich Bauteilgeometrieänderungen sehr gut erkennen oder auch mit Messgeräten erfassen und daraus  sind Schlüsse auf die Art und Lage der spezifischen Eigenspannungen abzuleiten (siehe \fref{fig:eigenspanschnitt})\footcite[36]{hu}. Zur ganz präzisen Analyse  und Visualisierung von Bauteilspannungen kommt heutzutage in der Industrie  die FEM (Finite-Elemente-Methode zum Einsatz).\footcite[Vgl.][32-37]{hu} Mit ihr lassen sich Umformprozesse sehr gut simulieren. Die FEM ist ein numerisches Verfahren zu näherungsweiser Lösung kontinuierlicher Feldprobleme. Darunter versteht man Probleme, in denen das Verhalten des Kontinuums durch partielle, orts- und zeitabhängige Differentialgleichungen umschrieben wird. Für jede Zustandsgröße eines Kontinuums gehören unendlich viele Werte, weil sie eine Funktion jedes Punktes des Kontinuums beschreibt. Die FEM zerlegt das Kontinuum in \emph{endlich} viele Teile, die sogenannten \emph{finiten Elemente}. Ein komplexes, kontinuierliches Problem wird dabei in eine endliche Zahl einfacher, voneinander abhängiger Probleme unterteilt.\footcite[Vgl.][48]{fu}
+\subsection{Umformgrad}
+In der Umformtechnik wird zwischen elastischer und plastischer Formänderung unterschieden. Bildet sich ein Körper nach einer Deformation vollständig zu seiner ursprünglichen Geometrie zurück so ist er in dem elastischen Bereich gedehnt worden. Wird ein Bauteil über diesen Bereich hinaus gedehnt so tritt eine bleibende Verformung ein, was man unter plastifizierten Zustand versteht.  Bei herkömmlichen einachsigen Zug- oder Druckversuchen werden Spannungn und Dehnung auf Ihre Ausgangsgrößen bezogen z.B. $ \sigma=\frac{F}{A_o} $ oder für die Dehnung $ \varepsilon = \frac{\Delta l}{l_0} $. Diese Methode der Festigkeitsberechnung ist für Bauteile die konstruktionsbedingt für den elastischen Bereich dimensioniert werden   durchaus ausreichend. In der Umformtechnik sind aber die \emph{wahren Spannungs- und Dehnungsverhältnisse} von großer Bedeutung. Die wahre Spannung, die die momentan einwirkende Kraft auf die momentane Fläche bezieht ist die \emph{Fließspannung} $ k_f $. Für die \emph{wahre Dehnung} die den eigentlichen Umformgrad $ \varphi $ darstellt bezieht sich auf den sich mit der Verformung ändernden Bezugswert. Eine Herleitung die z.B. bei einem einachsigen zylindrischen Druckversuch in dem der Höhenunterschied $ \Delta h=h_1-h_0 $ den zurückgelegten Stempelweg darstellt ist: $ \varphi=\int_{h_0}^{h_1}\frac{dh}{h}=\ln h_1 - \ln h_0 = \ln\frac{h_1}{h_0}$. Im Falle des Druckversuches ergibt scich dafür natürlich ein negativer Umformgrad. Erwähnt werden sollte in diesem Zusammenhang noch das Gesetz der \emph{Volumenkonstanz} welches aussagt das  bei plastischen Fließvorgängen das Volumen des Kontinuums unverändert bleibt. So kann man den Stauchvorgang eines Vierkantstabes so beschreiben: 
+
+
+
+
+\[ h_1 \cdot  b_1 \cdot l_1 = h_0 \cdot b_0 \cdot l_0 \]\\
+Nach Transformation und Logharitmieren der Gleichung erhält man\\
+das Gesetz der Volumenkonstanz. \\
+\[ \ln (\frac{h_1}{h_0} \cdot \frac{b_1}{b_0} \cdot \frac{l_1}{l_0}) = \ln 1 = 0 \]
+ 
+
+
+
 
 
 
@@ -459,7 +480,6 @@ Zu einem ähnlichen Ergebnis kommen wir bei Betrachtung der Überlagerung der Ch
 Unter der Voraussetzung geringer Prozessschwankungen im Streckbiegeverfahren welche bei geringer Standardabweichung unter sorgfältiger und präziser Auswahl des Vormaterials durchaus zu realisieren sind, können die Ausschussrate sowie Kosten und Zeitverluste die durch ständiges Justieren der Streckbiegemaschine durch geschultes Personal entstehen, erheblich reduziert werden.
 
 In Anbetracht der vorangegangenen Auswertung wurden noch einmal zwei Chargen (F19 und F18) bei dem Zulieferer, zu Versuchszwecken, bestellt. Möglicherweise ist hier ein Material herauszukristallisieren welches noch geringere Prozessschwankungen ermöglicht. Wir sind dabei von einer steigenden Zugfestigkeit ausgegangen da sich nach den Diagrammen in \fref{fig:standzugrel} und \fref{fig:standstreckrel} die Standardabweichung sowie Mindestzugfestigkeit und Streckgrenze gegenläufig verhalten.
-
 
 
  
