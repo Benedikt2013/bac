@@ -84,7 +84,7 @@
       <file>bac260114-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>baclit260114.bib</file>
+      <file>baclit280114.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

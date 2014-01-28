@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  26 JAN 2014 11:46
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  28 JAN 2014 12:28
 entering extended mode
 **bac260114.tex
 (C:\Users\B\Desktop\Bac\bac260114.tex
@@ -1438,70 +1438,51 @@ Overfull \hbox (13.22455pt too wide) in paragraph at lines 50--51
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 91.
 
-[6] <eigenspanabk.png, id=34, 274.02374pt x 253.69781pt>
+[6] <eigenspanabk.png, id=34, 264.23718pt x 246.9225pt>
 File: eigenspanabk.png Graphic file (type png)
-
-<use eigenspanabk.png>
+ <use eigenspanabk.png>
 Package pdftex.def Info: eigenspanabk.png used on input line 112.
-(pdftex.def)             Requested size: 411.0346pt x 380.54578pt.
- <eigenspanfaser.png, id=35, 331.99031pt x 153.57375pt>
+(pdftex.def)             Requested size: 396.35478pt x 370.38281pt.
+
+<eigenspanfaser.png, id=35, 313.17pt x 143.78719pt>
 File: eigenspanfaser.png Graphic file (type png)
-
-<use eigenspanfaser.png>
+ <use eigenspanfaser.png>
 Package pdftex.def Info: eigenspanfaser.png used on input line 119.
-(pdftex.def)             Requested size: 431.58734pt x 199.64583pt.
+(pdftex.def)             Requested size: 407.12094pt x 186.92331pt.
 
-Overfull \hbox (4.79599pt too wide) in paragraph at lines 119--120
- [][] 
- []
-
-<eigenspandrahtzieh.png, id=36, 307.90031pt x 145.29282pt>
+<eigenspandrahtzieh.png, id=36, 299.61937pt x 137.01187pt>
 File: eigenspandrahtzieh.png Graphic file (type png)
 
 <use eigenspandrahtzieh.png>
 Package pdftex.def Info: eigenspandrahtzieh.png used on input line 125.
-(pdftex.def)             Requested size: 415.66626pt x 196.14569pt.
+(pdftex.def)             Requested size: 404.48698pt x 184.9664pt.
  [7 <C:/Users/B/Desktop/Bac/eigenspanabk.png>]
-<eigenspanmol.png, id=42, 222.8325pt x 182.93344pt>
+<eigenspanmol.png, id=42, 211.54031pt x 176.91093pt>
 File: eigenspanmol.png Graphic file (type png)
  <use eigenspanmol.png>
 Package pdftex.def Info: eigenspanmol.png used on input line 132.
-(pdftex.def)             Requested size: 401.09819pt x 329.27992pt.
+(pdftex.def)             Requested size: 380.77225pt x 318.43942pt.
 
-<eigenspanschnitt.png, id=43, 356.0803pt x 191.9672pt>
+<eigenspanschnitt.png, id=43, 347.04657pt x 185.19188pt>
 File: eigenspanschnitt.png Graphic file (type png)
 
 <use eigenspanschnitt.png>
 Package pdftex.def Info: eigenspanschnitt.png used on input line 140.
-(pdftex.def)             Requested size: 391.68954pt x 211.16455pt.
-
-
-! Package varioref Error: \vref or \vpageref at page boundary 9-10 (may loop).
-
-See the varioref package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.144 ...leiten (siehe \fref{fig:eigenspanschnitt}
-                                                  )\footcite[36]{hu}. Zur ga...
-
-Please check the pages in question. You might need to replace the \vref
-or \vpageref by a normal \(page)ref to stop LaTeX running forever.
-
-[8 <C:/Users/B/Desktop/Bac/eigenspanfaser.png> <C:/Users/B/Desktop/Bac/eigenspa
-ndrahtzieh.png>] [9 <C:/Users/B/Desktop/Bac/eigenspanmol.png> <C:/Users/B/Deskt
-op/Bac/eigenspanschnitt.png>] [10] [11]
-<audia3blau.png, id=64, 562.35094pt x 270.25969pt>
+(pdftex.def)             Requested size: 381.7524pt x 203.71167pt.
+ [8 <C:/Users/B/Desktop/Bac/eigenspanfaser.png> <C:/Users/B/Desktop/Bac/eigensp
+andrahtzieh.png>] [9 <C:/Users/B/Desktop/Bac/eigenspanmol.png> <C:/Users/B/Desk
+top/Bac/eigenspanschnitt.png>] [10] [11]
+<audia3blau.png, id=64, 551.81157pt x 264.23718pt>
 File: audia3blau.png Graphic file (type png)
  <use audia3blau.png>
 Package pdftex.def Info: audia3blau.png used on input line 197.
-(pdftex.def)             Requested size: 262.45152pt x 126.13132pt.
+(pdftex.def)             Requested size: 257.53276pt x 123.32059pt.
 
-<audivdkd.png, id=65, 596.2275pt x 479.54156pt>
+<audivdkd.png, id=65, 590.205pt x 473.51906pt>
 File: audivdkd.png Graphic file (type png)
  <use audivdkd.png>
 Package pdftex.def Info: audivdkd.png used on input line 199.
-(pdftex.def)             Requested size: 156.80774pt x 126.11935pt.
+(pdftex.def)             Requested size: 155.22382pt x 124.53543pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 204--204
 [][]\T1/lmr/m/n/10 Vgl.http://www.cars.co.za/motoring_news/2014-audi-a3-cabriol
@@ -1519,11 +1500,11 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 234.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<spanndehn2.png, id=67, 434.37282pt x 249.18094pt>
+<spanndehn2.png, id=67, 377.91188pt x 236.38312pt>
 File: spanndehn2.png Graphic file (type png)
  <use spanndehn2.png>
 Package pdftex.def Info: spanndehn2.png used on input line 238.
-(pdftex.def)             Requested size: 390.93192pt x 224.26076pt.
+(pdftex.def)             Requested size: 340.11754pt x 212.74283pt.
 
 Overfull \hbox (9.15703pt too wide) in paragraph at lines 232--242
 \T1/lmr/m/n/12 cha-ni-schen Ei-gen-schaf-ten sind die Zug-fes-tig-keit $\OML/lm
@@ -1550,20 +1531,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 258--258
  ?sigle = DWB&mode = Gliederung&lemid =$
  []
 
-<kropfeinhzeich.jpg, id=82, 385.44pt x 246.9225pt>
+<kropfeinhzeich.jpg, id=82, 376.40625pt x 230.36063pt>
 File: kropfeinhzeich.jpg Graphic file (type jpg)
- <use kropfeinhzeich.jpg>
+
+<use kropfeinhzeich.jpg>
 Package pdftex.def Info: kropfeinhzeich.jpg used on input line 263.
-(pdftex.def)             Requested size: 262.09573pt x 167.90506pt.
-
-<kropfeinheit.png, id=83, 262.73157pt x 337.26pt>
+(pdftex.def)             Requested size: 255.95285pt x 156.64314pt.
+ <kropfeinheit.png, id=83, 250.68657pt x 329.73187pt>
 File: kropfeinheit.png Graphic file (type png)
- <use kropfeinheit.png>
-Package pdftex.def Info: kropfeinheit.png used on input line 265.
-(pdftex.def)             Requested size: 131.36545pt x 168.62958pt.
 
-[14 <C:/Users/B/Desktop/Bac/spanndehn2.png> <C:/Users/B/Desktop/Bac/Streckbiege
-maschine.jpg>] <kropffrasbereich.png, id=88, 183.68625pt x 193.47281pt>
+<use kropfeinheit.png>
+Package pdftex.def Info: kropfeinheit.png used on input line 265.
+(pdftex.def)             Requested size: 125.34297pt x 164.86552pt.
+ [14 <C:/Users/B/Desktop/Bac/spanndehn2.png> <C:/Users/B/Desktop/Bac/Streckbieg
+emaschine.jpg>]
+<kropffrasbereich.png, id=88, 183.68625pt x 193.47281pt>
 File: kropffrasbereich.png Graphic file (type png)
 
 <use kropffrasbereich.png>
@@ -1691,7 +1673,7 @@ m/lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.
 pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on bac260114.pdf (24 pages, 5509750 bytes).
+Output written on bac260114.pdf (24 pages, 5453235 bytes).
 PDF statistics:
  205 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
