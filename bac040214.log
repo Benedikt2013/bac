@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  4 FEB 2014 11:34
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  8 FEB 2014 09:30
 entering extended mode
 **bac040214.tex
 (C:\Users\B\Desktop\Bac\bac040214.tex
@@ -1751,11 +1751,11 @@ Package logreq Info: Writing requests to 'bac040214.run.xml'.
 Here is how much of TeX's memory you used:
  20206 strings out of 493921
  374716 string characters out of 3144887
- 527578 words of memory out of 3000000
+ 526578 words of memory out of 3000000
  23126 multiletter control sequences out of 15000+200000
  105577 words of font info for 84 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
- 50i,19n,66p,1801b,1437s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 50i,19n,66p,1802b,1437s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc
 }{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/M
@@ -1778,7 +1778,7 @@ pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on bac040214.pdf (34 pages, 5823549 bytes).
+Output written on bac040214.pdf (34 pages, 5824007 bytes).
 PDF statistics:
  258 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
