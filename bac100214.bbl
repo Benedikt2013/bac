@@ -1,0 +1,373 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{smfpd}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Boljanovic}{B.}%
+     {Vukota}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Industrial Press}%
+  }
+  \strng{namehash}{BV1}
+  \strng{fullhash}{BV1}
+  \field{sortinit}{B}
+  \field{edition}{First Edition}
+  \field{title}{Sheet Metal Forming Processes and Die Design}
+  \field{year}{2004}
+\endentry
+
+\entry{dd}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Dankert}{D.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Vieweg Teubner Verlag}%
+  }
+  \strng{namehash}{D1}
+  \strng{fullhash}{D1}
+  \field{sortinit}{D}
+  \field{edition}{Sechste überarbeitete Auflage}
+  \field{title}{Technische Mechanik}
+  \field{year}{2011}
+\endentry
+
+\entry{hu}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Doege}{D.}%
+     {Eckart}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Behrens}{B.}%
+     {Bernd-Arno}{B.-A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer-Verlag}%
+  }
+  \strng{namehash}{DEBBA1}
+  \strng{fullhash}{DEBBA1}
+  \field{sortinit}{D}
+  \field{edition}{Zweite überarbeitete Auflage}
+  \field{title}{Handbuch Umformtechnik}
+  \field{year}{2010}
+\endentry
+
+\entry{tmr}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Gross}{G.}%
+     {Dietmar}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hauger}{H.}%
+     {Werner}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer Verlag}%
+  }
+  \strng{namehash}{GDHW1}
+  \strng{fullhash}{GDHW1}
+  \field{sortinit}{G}
+  \field{edition}{Zehnte neu bearbeitete Auflage}
+  \field{title}{Technische Mechanik Band 2 Elostatik}
+  \field{year}{2009}
+\endentry
+
+\entry{ph}{book}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Hering}{H.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Martin}{M.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stohrer}{S.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer-Verlag}%
+  }
+  \strng{namehash}{HMS1}
+  \strng{fullhash}{HMS1}
+  \field{sortinit}{H}
+  \field{edition}{Zehnte Auflage}
+  \field{title}{Physik für Ingenieure}
+  \field{year}{2007}
+\endentry
+
+\entry{gst}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Holland}{H.}%
+     {Heinrich}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Scharmbacher}{S.}%
+     {Kurt}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Gabler-Verlag}%
+  }
+  \strng{namehash}{HHSK1}
+  \strng{fullhash}{HHSK1}
+  \field{sortinit}{H}
+  \field{edition}{Achte Auflage}
+  \field{title}{Grundlagen der Statistik}
+  \field{year}{2010}
+\endentry
+
+\entry{fu}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Klocke}{K.}%
+     {Fritz}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {König}{K.}%
+     {Wilfried}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer-Verlag}%
+  }
+  \strng{namehash}{KFKW1}
+  \strng{fullhash}{KFKW1}
+  \field{sortinit}{K}
+  \field{edition}{Fünfte neu bearbeitete Auflage}
+  \field{title}{Fertigungsverfahren 4 Umformen}
+  \field{year}{2006}
+\endentry
+
+\entry{tp}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kuchling}{K.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Carl Hanser Verlag}%
+  }
+  \strng{namehash}{K1}
+  \strng{fullhash}{K1}
+  \field{sortinit}{K}
+  \field{edition}{Neunzehnte Auflage}
+  \field{title}{Taschenbuch der Physik}
+  \field{year}{2007}
+\endentry
+
+\entry{kl}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lange}{L.}%
+     {Kurt}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Society of Manufacturing Engineers}%
+  }
+  \strng{namehash}{LK1}
+  \strng{fullhash}{LK1}
+  \field{sortinit}{L}
+  \field{edition}{First Edition}
+  \field{title}{Handbook of Metal Forming}
+  \field{year}{1985}
+\endentry
+
+\entry{wm}{book}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Läpple}{L.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Drube}{D.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wittke}{W.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kammer}{K.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Europa-Verlag}%
+  }
+  \strng{namehash}{L+1}
+  \strng{fullhash}{LDWK1}
+  \field{sortinit}{L}
+  \field{edition}{Zweite aktualisierte und erweiterte Auflage}
+  \field{title}{Werkstofftechnik Maschinenbau}
+  \field{year}{2010}
+\endentry
+
+\entry{aa}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ostermann}{O.}%
+     {Friedrich}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer-Verlag}%
+  }
+  \strng{namehash}{OF1}
+  \strng{fullhash}{OF1}
+  \field{sortinit}{O}
+  \field{edition}{Zweite neu bearbeitete und aktualisierte Auflage}
+  \field{title}{Anwendungstechnologie Aluminium}
+  \field{year}{2007}
+\endentry
+
+\entry{mf}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Papula}{P.}%
+     {Lothar}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Vieweg-Teubner}%
+  }
+  \strng{namehash}{PL1}
+  \strng{fullhash}{PL1}
+  \field{sortinit}{P}
+  \field{edition}{Zehnte Auflage}
+  \field{title}{Mathematische Formelsammlung}
+  \field{year}{2009}
+\endentry
+
+\entry{wki}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Roos}{R.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maile}{M.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RM1}
+  \strng{fullhash}{RM1}
+  \field{sortinit}{R}
+  \field{edition}{Dritte neu bearbeitete Auflage}
+  \field{title}{Werkstoffkunde für Ingenieure}
+  \field{year}{2008}
+\endentry
+
+\entry{hmp}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Theis}{T.}%
+     {Henry}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {CRC Press}%
+  }
+  \strng{namehash}{TH1}
+  \strng{fullhash}{TH1}
+  \field{sortinit}{T}
+  \field{edition}{First Edition}
+  \field{title}{Handbook of Metallforming Processes}
+  \field{year}{1999}
+\endentry
+
+\entry{tsch}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Tschaetsch}{T.}%
+     {Heinz}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer Verlag}%
+  }
+  \strng{namehash}{TH2}
+  \strng{fullhash}{TH2}
+  \field{sortinit}{T}
+  \field{edition}{Eighth revised edition}
+  \field{title}{Metal Forming Practise}
+  \field{year}{2005}
+\endentry
+
+\entry{wk}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Weisbach}{W.}%
+     {Wolfgang}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Vieweg-Verlag}%
+  }
+  \strng{namehash}{WW1}
+  \strng{fullhash}{WW1}
+  \field{sortinit}{W}
+  \field{edition}{Sechzehnte überarbeitete Auflage}
+  \field{title}{Werkstoffkunde}
+  \field{year}{2007}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
