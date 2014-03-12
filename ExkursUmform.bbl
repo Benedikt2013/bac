@@ -1,0 +1,172 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{dd}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Dankert}{D.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Vieweg Teubner Verlag}%
+  }
+  \strng{namehash}{D1}
+  \strng{fullhash}{D1}
+  \field{sortinit}{D}
+  \field{edition}{Sechste überarbeitete Auflage}
+  \field{title}{Technische Mechanik}
+  \field{year}{2011}
+\endentry
+
+\entry{hu}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Doege}{D.}%
+     {Eckart}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Behrens}{B.}%
+     {Bernd-Arno}{B.-A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer-Verlag}%
+  }
+  \strng{namehash}{DEBBA1}
+  \strng{fullhash}{DEBBA1}
+  \field{sortinit}{D}
+  \field{edition}{Zweite überarbeitete Auflage}
+  \field{title}{Handbuch Umformtechnik}
+  \field{year}{2010}
+\endentry
+
+\entry{tmr}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Gross}{G.}%
+     {Dietmar}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hauger}{H.}%
+     {Werner}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer Verlag}%
+  }
+  \strng{namehash}{GDHW1}
+  \strng{fullhash}{GDHW1}
+  \field{sortinit}{G}
+  \field{edition}{Zehnte neu bearbeitete Auflage}
+  \field{title}{Technische Mechanik Band 2 Elostatik}
+  \field{year}{2009}
+\endentry
+
+\entry{fu}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Klocke}{K.}%
+     {Fritz}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {König}{K.}%
+     {Wilfried}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer-Verlag}%
+  }
+  \strng{namehash}{KFKW1}
+  \strng{fullhash}{KFKW1}
+  \field{sortinit}{K}
+  \field{edition}{Fünfte neu bearbeitete Auflage}
+  \field{title}{Fertigungsverfahren 4 Umformen}
+  \field{year}{2006}
+\endentry
+
+\entry{kl}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lange}{L.}%
+     {Kurt}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Society of Manufacturing Engineers}%
+  }
+  \strng{namehash}{LK1}
+  \strng{fullhash}{LK1}
+  \field{sortinit}{L}
+  \field{edition}{First Edition}
+  \field{title}{Handbook of Metal Forming}
+  \field{year}{1985}
+\endentry
+
+\entry{wki}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Roos}{R.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maile}{M.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RM1}
+  \strng{fullhash}{RM1}
+  \field{sortinit}{R}
+  \field{edition}{Dritte neu bearbeitete Auflage}
+  \field{title}{Werkstoffkunde für Ingenieure}
+  \field{year}{2008}
+\endentry
+
+\entry{wk}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Weisbach}{W.}%
+     {Wolfgang}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Vieweg-Verlag}%
+  }
+  \strng{namehash}{WW1}
+  \strng{fullhash}{WW1}
+  \field{sortinit}{W}
+  \field{edition}{Sechzehnte überarbeitete Auflage}
+  \field{title}{Werkstoffkunde}
+  \field{year}{2007}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
