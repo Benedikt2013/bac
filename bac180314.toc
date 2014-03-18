@@ -1,0 +1,26 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Einleitung}{3}
+\contentsline {section}{\numberline {2}Bauteil}{5}
+\contentsline {subsection}{\numberline {2.1}Funktion \& Qualit\IeC {\"a}tsumfang}{5}
+\contentsline {subsection}{\numberline {2.2}Aluminium}{6}
+\contentsline {subsection}{\numberline {2.3}Streckbiegen}{7}
+\contentsline {subsection}{\numberline {2.4}Kr\IeC {\"o}pfen }{11}
+\contentsline {subsection}{\numberline {2.5}Methode Messauswertung}{15}
+\contentsline {subsection}{\numberline {2.6}Versuchskonventionen Streckbiegen}{16}
+\contentsline {subsubsection}{\numberline {2.6.1}Versuchseihe Nr.1 Streckbiegen}{17}
+\contentsline {subsubsection}{\numberline {2.6.2}Versuchsreihe Nr. 2 Streckbiegen}{23}
+\contentsline {subsection}{\numberline {2.7}Ausblick}{23}
+\contentsline {section}{\numberline {3}Anhang}{25}
+\contentsline {subsection}{\numberline {3.1}Exkurs Umformtechnik}{26}
+\contentsline {subsubsection}{\numberline {3.1.1}Systematisierung Formgebungsverfahren}{26}
+\contentsline {subsubsection}{\numberline {3.1.2}Metallurgische Zusammenh\IeC {\"a}nge}{27}
+\contentsline {subsubsection}{\numberline {3.1.3}Verformung Prinzipiell}{30}
+\contentsline {subsubsection}{\numberline {3.1.4}Rekristallisation, Erhohlung und Kaltverfestigung}{31}
+\contentsline {subsubsection}{\numberline {3.1.5}Eigenspannungen}{32}
+\contentsline {subsubsection}{\numberline {3.1.6}Umformgrad}{35}
+\contentsline {subsubsection}{\numberline {3.1.7}Umformgeschwindigkeit}{37}
+\contentsline {subsubsection}{\numberline {3.1.8}Einachsiger Spannungszustand}{37}
+\contentsline {subsubsection}{\numberline {3.1.9}Spannungsvektor und Spannungstensor}{38}
+\contentsline {subsubsection}{\numberline {3.1.10}Festigkeitshypothesen}{41}
