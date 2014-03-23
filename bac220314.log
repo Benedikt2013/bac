@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  22 MAR 2014 13:37
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  22 MAR 2014 16:01
 entering extended mode
 **bac220314.tex
 (C:\Users\B\Documents\Bac\bac220314.tex
@@ -1653,37 +1653,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 462--462
 che _ Informationen / Zustandsbezeichnungen .$
  []
 
-<standzugrel.png, id=134, 482.55281pt x 339.51843pt>
+[24] <standzugrel.png, id=137, 482.55281pt x 339.51843pt>
 File: standzugrel.png Graphic file (type png)
- <use standzugrel.png>
-Package pdftex.def Info: standzugrel.png used on input line 494.
+
+<use standzugrel.png>
+Package pdftex.def Info: standzugrel.png used on input line 497.
 (pdftex.def)             Requested size: 341.43437pt x 240.23604pt.
 
-[24]
 
 LaTeX Warning: Reference `fig:standstreckrel' on page 25 undefined on input lin
-e 502.
+e 505.
 
 
 LaTeX Warning: Reference `fig:standstreckrel' on page 25 undefined on input lin
-e 502.
+e 505.
 
 [25 <C:/Users/B/Documents/Bac/standzugrel.png>] [26]
 <makromikro.png, id=146, 770.88pt x 432.11438pt>
 File: makromikro.png Graphic file (type png)
  <use makromikro.png>
-Package pdftex.def Info: makromikro.png used on input line 558.
+Package pdftex.def Info: makromikro.png used on input line 561.
 (pdftex.def)             Requested size: 341.43437pt x 191.39027pt.
  [27]
 <elementarzellen.png, id=150, 419.31656pt x 140.77594pt>
 File: elementarzellen.png Graphic file (type png)
 
 <use elementarzellen.png>
-Package pdftex.def Info: elementarzellen.png used on input line 569.
+Package pdftex.def Info: elementarzellen.png used on input line 572.
 (pdftex.def)             Requested size: 341.43437pt x 114.62932pt.
  [28 <C:/Users/B/Documents/Bac/makromikro.png> <C:/Users/B/Documents/Bac/elemen
 tarzellen.png>]
-Overfull \hbox (27.31604pt too wide) in paragraph at lines 583--584
+Overfull \hbox (27.31604pt too wide) in paragraph at lines 586--587
 []\T1/lmr/m/it/12 Eindimensionale Git-ter-feh-ler \T1/lmr/m/n/12 sind li-ni-en-
 f�r-mi-ge Struk-tur-feh-ler (Ver-set-zun-gen)(siehe
  []
@@ -1691,7 +1691,7 @@ f�r-mi-ge Struk-tur-feh-ler (Ver-set-zun-gen)(siehe
 <versetzung.png, id=156, 257.46187pt x 135.50626pt>
 File: versetzung.png Graphic file (type png)
  <use versetzung.png>
-Package pdftex.def Info: versetzung.png used on input line 587.
+Package pdftex.def Info: versetzung.png used on input line 590.
 (pdftex.def)             Requested size: 341.43437pt x 179.71858pt.
 
 [29 <C:/Users/B/Documents/Bac/versetzung.png>]
@@ -1699,20 +1699,20 @@ Package pdftex.def Info: versetzung.png used on input line 587.
 File: eloplastkristall.png Graphic file (type png)
 
 <use eloplastkristall.png>
-Package pdftex.def Info: eloplastkristall.png used on input line 602.
+Package pdftex.def Info: eloplastkristall.png used on input line 605.
 (pdftex.def)             Requested size: 341.43437pt x 222.86702pt.
 
 <wandernstufenversetzung.png, id=162, 305.64188pt x 191.21437pt>
 File: wandernstufenversetzung.png Graphic file (type png)
 
 <use wandernstufenversetzung.png>
-Package pdftex.def Info: wandernstufenversetzung.png used on input line 609.
+Package pdftex.def Info: wandernstufenversetzung.png used on input line 612.
 (pdftex.def)             Requested size: 341.43437pt x 213.61594pt.
 
 <rekristall.png, id=163, 637.63219pt x 326.72063pt>
 File: rekristall.png Graphic file (type png)
  <use rekristall.png>
-Package pdftex.def Info: rekristall.png used on input line 618.
+Package pdftex.def Info: rekristall.png used on input line 621.
 (pdftex.def)             Requested size: 341.43437pt x 174.95084pt.
 
 [30] [31 <C:/Users/B/Documents/Bac/eloplastkristall.png> <C:/Users/B/Documents/
@@ -1720,33 +1720,33 @@ Bac/wandernstufenversetzung.png>] [32 <C:/Users/B/Documents/Bac/rekristall.png>
 ] <eigenspanabk.png, id=177, 264.23718pt x 246.9225pt>
 File: eigenspanabk.png Graphic file (type png)
  <use eigenspanabk.png>
-Package pdftex.def Info: eigenspanabk.png used on input line 646.
+Package pdftex.def Info: eigenspanabk.png used on input line 649.
 (pdftex.def)             Requested size: 341.43437pt x 319.0814pt.
 
 <eigenspanfaser.png, id=178, 313.17pt x 143.78719pt>
 File: eigenspanfaser.png Graphic file (type png)
  <use eigenspanfaser.png>
-Package pdftex.def Info: eigenspanfaser.png used on input line 653.
+Package pdftex.def Info: eigenspanfaser.png used on input line 656.
 (pdftex.def)             Requested size: 341.43437pt x 156.7688pt.
 
 <eigenspandrahtzieh.png, id=179, 299.61937pt x 137.01187pt>
 File: eigenspandrahtzieh.png Graphic file (type png)
 
 <use eigenspandrahtzieh.png>
-Package pdftex.def Info: eigenspandrahtzieh.png used on input line 659.
+Package pdftex.def Info: eigenspandrahtzieh.png used on input line 662.
 (pdftex.def)             Requested size: 341.43437pt x 156.14497pt.
 
 <eigenspanmol.png, id=180, 211.54031pt x 176.91093pt>
 File: eigenspanmol.png Graphic file (type png)
  <use eigenspanmol.png>
-Package pdftex.def Info: eigenspanmol.png used on input line 666.
+Package pdftex.def Info: eigenspanmol.png used on input line 669.
 (pdftex.def)             Requested size: 341.43437pt x 285.55214pt.
 
 <eigenspanschnitt.png, id=181, 347.04657pt x 185.19188pt>
 File: eigenspanschnitt.png Graphic file (type png)
 
 <use eigenspanschnitt.png>
-Package pdftex.def Info: eigenspanschnitt.png used on input line 674.
+Package pdftex.def Info: eigenspanschnitt.png used on input line 677.
 (pdftex.def)             Requested size: 341.43437pt x 182.20453pt.
  [33] [34 <C:/Users/B/Documents/Bac/eigenspanabk.png> <C:/Users/B/Documents/Bac
 /eigenspanfaser.png>] [35 <C:/Users/B/Documents/Bac/eigenspandrahtzieh.png> <C:
@@ -1755,13 +1755,13 @@ anschnitt.png>] [37]
 <einachsspann.png, id=204, 353.82187pt x 203.25937pt>
 File: einachsspann.png Graphic file (type png)
  <use einachsspann.png>
-Package pdftex.def Info: einachsspann.png used on input line 723.
+Package pdftex.def Info: einachsspann.png used on input line 726.
 (pdftex.def)             Requested size: 341.43437pt x 196.14716pt.
 
 ! Undefined control sequence.
 \A ->\ERROR 
             
-l.727 ...hen erhält man die Kräfte $ \sigma_0 \A
+l.730 ...hen erhält man die Kräfte $ \sigma_0 \A
                                                   _0 $ und $ \sigma_{\varphi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1770,7 +1770,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Double subscript.
-l.727 ...en erhält man die Kräfte $ \sigma_0 \A_
+l.730 ...en erhält man die Kräfte $ \sigma_0 \A_
                                                   0 $ und $ \sigma_{\varphi}...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
@@ -1778,11 +1778,11 @@ I treat `x_1_2' essentially like `x_1{}_2'.
 <normalvektor.png, id=209, 504.38437pt x 221.32687pt>
 File: normalvektor.png Graphic file (type png)
  <use normalvektor.png>
-Package pdftex.def Info: normalvektor.png used on input line 747.
+Package pdftex.def Info: normalvektor.png used on input line 750.
 (pdftex.def)             Requested size: 341.43437pt x 149.82483pt.
 
 ! Undefined control sequence.
-l.750 ...ferentialquotienten bildet in dem $ \Delt
+l.753 ...ferentialquotienten bildet in dem $ \Delt
                                                    A \rightarrow 0 $ gegen N...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1794,7 +1794,7 @@ and I'll forget about whatever was undefined.
 <tensor.png, id=214, 572.89032pt x 228.10219pt>
 File: tensor.png Graphic file (type png)
  <use tensor.png>
-Package pdftex.def Info: tensor.png used on input line 757.
+Package pdftex.def Info: tensor.png used on input line 760.
 (pdftex.def)             Requested size: 341.43437pt x 135.94696pt.
  [40 <C:/Users/B/Documents/Bac/tensor.png>] [41] [42] [43]
 (C:\Users\B\Documents\Bac\bac220314.aux)
@@ -1805,7 +1805,7 @@ Package logreq Info: Writing requests to 'bac220314.run.xml'.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 489 ({)
+### simple group (level 1) entered at line 492 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
  20331 strings out of 493921
@@ -1837,7 +1837,7 @@ pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on bac220314.pdf (43 pages, 6794955 bytes).
+Output written on bac220314.pdf (43 pages, 6777724 bytes).
 PDF statistics:
  301 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
