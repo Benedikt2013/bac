@@ -1,0 +1,79 @@
+\documentclass[12pt,a4paper,parskip]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{lmodern}
+\usepackage[babel,german=guillemets]{csquotes}
+\usepackage[style=verbose-ibid,backend=bibtex8]{biblatex}
+\bibliography{baclit110414}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage[locale=DE]{siunitx}%SI Einheiten etc.
+\usepackage[german]{fancyref}%möglicherweise rausnehmen oder justieren
+\usepackage{booktabs} %Tabellen Horizontale Linier dick darstellen
+\usepackage{rotating}
+\usepackage{lscape}
+\usepackage{subfig}
+\usepackage{here}
+\usepackage{color}
+\usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{mdwlist}
+\begin{document}
+\author{Benedikt Kaffanke}
+\title{Protokol und Annahmen zum manuellen Schleifen Polieren}
+\maketitle
+\newpage
+\tableofcontents
+\begin{description}
+\item[ $\vartheta $] Temperatur  [\si{\degreeCelsius}]
+\item[$ \dot{Q} $ ] Wärmestrom [\si{\watt}]
+\item[$ \si{T}$] thermodynamische (auch absolute) Temperatur [\si{\kelvin
+}]
+\item[$\lambda $] Wärmeleitfähigkeit [\si{\watt\per\metre\per\kelvin}], ist in diesem speziellen Fall die Wärmeleitfähigkeit von Aluminium EN AW 6060 (200-220 \si{\watt\per\meter\per\kelvin})\footnote{Vgl.\url{http://www.smh-metalle.de/internet/media/smh/pdf/datenblatt/datenblatt_en_aw_6060.pdf}[09.04.2014].}. In der Rechnung wird der Mittelwert (\SI{210}{\watt\per\meter\per\kelvin}) verwendet.
+\item[$ P_{zu} $] Leistung [\si{\watt}], hier Leistung des Antriebs der Poliermaschine (Drehstrommoter)  \SI{9}{\watt}
+\item[$P_{ab} $]  abgegebene Leistung [\si{\watt}] der Poliermaschine nach der Formel $ P_{ab} = P_{zu} \cdot \eta_{el.} \cdot \eta_{mech.}$.\footcite[Vgl.][R2]{g}
+\item[$\eta_{el.} $] Wirkungsgrad des Drehstrommotors (Richtwert 0,85)\footcite[Vgl.][40]{tm}
+\item[$\eta_{mech.} $]Wirkungsgrad des Breitkeilriemengetriebes der Poliermaschine (Richtwert 0,85)\footcite[Vgl.][40]{tm}
+\item[$A_{mess} $] effektive Fläche des Messstreifens
+\item[$x_a $]  Maß an Bauteil Außenwand (dort wo der Kontakt zum Polierring entsteht und die Wärme eintritt)[\si{\meter}]. 
+\item[$x_i$] Maß Bauteil Innenwand ( Wärmeaustritt)[\si{\meter}]
+\item[$\theta_a$] Temperatur Außenwand [\si{\degreeCelsius}] 
+\item[$\theta_i$] Temperatur Innenwand [\si{\degreeCelsius}] hier Mittelwert der Messungen \SI{107.5}{\degreeCelsius} 
+\item[$ \Delta x $] Blechdicke [\si{\meter}], hier \SI{2.8e-3}{\meter}
+
+\end{description}
+
+Herleitung der Formel\footcite[Vgl.][18-19]{wae} für die zu ermittelnde Oberflächentemperatur:
+
+\begin{gather}
+\dot{Q} = - \lambda \cdot A_{mess} \cdot \frac{d\vartheta}{dx}\\
+\int\limits_{x_a}^{x_i} \dot{Q}\,dx = \int\limits_{\theta_a}^{\theta_i} - \lambda \cdot A_{mess}\,d\vartheta\\
+\dot{Q} = \frac{\lambda}{x_i - x_a} \cdot A_{mess} \cdot (\vartheta_a - \vartheta_i) = \frac{\lambda}{\Delta x} \cdot A_{mess} \cdot (\vartheta_a - \vartheta_i)\\
+P_{zu} \cdot \eta_{el.} \cdot \eta_{mech.} = \frac{\lambda}{\Delta x} \cdot A_{mess} \cdot (\vartheta_a - \vartheta_i)\\
+\Rightarrow \quad  \vartheta_a = \frac{P \cdot \eta_{el.} \cdot \eta_{mech.} \cdot \Delta x}{\lambda \cdot A_{mess}} + \vartheta_i \\
+\vartheta_a = \left(\frac{\SI{9e3}{\watt} \cdot 0.85 \cdot 0.85 \cdot \SI{2.8e-3}{\meter}}{\SI{210}{\watt\per\meter\per\kelvin} \cdot \SI{2.54e-4}{\meter\squared}}- \SI{273.15}{\kelvin}\right) \cdot \SI{1}{\degreeCelsius\per\kelvin} + \SI{107.5}{\degreeCelsius} \notag\\
+\vartheta_a = \underline{\underline{\SI{175.69}{\degreeCelsius}}} \notag
+\end{gather}
+
+  
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+\printbibliography
+\end{document} 
+ 

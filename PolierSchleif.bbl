@@ -1,0 +1,94 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{tm}{book}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Fischer}{F.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Heinzler}{H.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Näher}{N.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Europa-Verlag}%
+  }
+  \strng{namehash}{FHN1}
+  \strng{fullhash}{FHN1}
+  \field{sortinit}{F}
+  \field{edition}{Vierundvierzigste neu bearbeitete Auflage}
+  \field{title}{Tabellenbuch Metall}
+  \field{year}{2008}
+\endentry
+
+\entry{g}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Gieck}{G.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Carl Hanser Verlag München}%
+  }
+  \strng{namehash}{G1}
+  \strng{fullhash}{G1}
+  \field{sortinit}{G}
+  \field{edition}{Zweiunddreißigste Auflage}
+  \field{title}{Technische Formelsammlung}
+  \field{year}{2011}
+\endentry
+
+\entry{wae}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {{von Böckh}}{v.}%
+     {Peter}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wetzel}{W.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer Verlag}%
+  }
+  \strng{namehash}{vPWT1}
+  \strng{fullhash}{vPWT1}
+  \field{sortinit}{V}
+  \field{edition}{Vierte Auflage}
+  \field{title}{Wärmeübertragung}
+  \field{year}{2011}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
