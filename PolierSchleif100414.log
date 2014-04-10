@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  10 APR 2014 10:15
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  10 APR 2014 14:38
 entering extended mode
-**PolierSchleif.tex
-(C:\Users\B\Documents\Bac\PolierSchleif.tex
+**PolierSchleif100414.tex
+(C:\Users\B\Documents\Bac\PolierSchleif100414.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -1193,7 +1193,7 @@ Package biblatex Info: ... file 'german.lbx' found.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\lbx\german.lbx"
 File: german.lbx 2013/07/15 v2.7a biblatex localization (PK/JW/AB)
 ))
-(C:\Users\B\Documents\Bac\PolierSchleif.aux)
+(C:\Users\B\Documents\Bac\PolierSchleif100414.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
@@ -1220,8 +1220,8 @@ Package biblatex Warning: Data encoding is 'utf8'.
 (biblatex)                Use backend=biber.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'PolierSchleif.bbl' found.
-(C:\Users\B\Documents\Bac\PolierSchleif.bbl)
+Package biblatex Info: ... file 'PolierSchleif100414.bbl' found.
+(C:\Users\B\Documents\Bac\PolierSchleif100414.bbl)
 Package biblatex Info: Reference section=0 on input line 25.
 Package biblatex Info: Reference segment=0 on input line 25.
 
@@ -1423,40 +1423,83 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(C:\Users\B\Documents\Bac\PolierSchleif.toc)
+(C:\Users\B\Documents\Bac\PolierSchleif100414.toc)
 \tf@toc=\write4
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 36.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 36.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+<messstreifen.jpg, id=8, 2346.7675pt x 1583.9175pt>
+File: messstreifen.jpg Graphic file (type jpg)
+ <use messstreifen.jpg>
+Package pdftex.def Info: messstreifen.jpg used on input line 36.
+(pdftex.def)             Requested size: 341.43437pt x 230.42346pt.
+
+<messaction.jpg, id=9, 2258.4375pt x 1090.0725pt>
+File: messaction.jpg Graphic file (type jpg)
+ <use messaction.jpg>
+Package pdftex.def Info: messaction.jpg used on input line 42.
+(pdftex.def)             Requested size: 341.43437pt x 164.78456pt.
+ [2 <C:/Users/B/Documents/Bac/messstreifen.jpg>]
+<messbereicheVDKDunterseite.jpg, id=15, 886.06032pt x 286.82156pt>
+File: messbereicheVDKDunterseite.jpg Graphic file (type jpg)
+
+<use messbereicheVDKDunterseite.jpg>
+Package pdftex.def Info: messbereicheVDKDunterseite.jpg used on input line 69.
+(pdftex.def)             Requested size: 341.43437pt x 110.5251pt.
+ [3 <C:/Users/B/Documents/Bac/messaction.jpg> <C:/Users/B/Documents/Bac/messber
+eicheVDKDunterseite.jpg>]
+<Kreide.jpg, id=20, 1770.615pt x 835.12pt>
+File: Kreide.jpg Graphic file (type jpg)
+ <use Kreide.jpg>
+Package pdftex.def Info: Kreide.jpg used on input line 102.
+(pdftex.def)             Requested size: 341.43437pt x 161.03188pt.
+
+<warmleittip.png, id=21, 126.4725pt x 165.61874pt>
+File: warmleittip.png Graphic file (type png)
+ <use warmleittip.png>
+Package pdftex.def Info: warmleittip.png used on input line 120.
+(pdftex.def)             Requested size: 341.43437pt x 447.12856pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 124.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 124.
+
+[4 <C:/Users/B/Documents/Bac/Kreide.jpg>] [5 <C:/Users/B/Documents/Bac/warmleit
+tip.png>]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 136.
+
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 [][]\T1/lmr/m/n/10 Vgl.$\T1/lmtt/m/n/10 http : / / www . smh-[]metalle . de / i
 nternet / media / smh / pdf / datenblatt / datenblatt _ en _$
  []
 
 
-Overfull \hbox (13.4247pt too wide) in paragraph at lines 40--41
+Overfull \hbox (13.4247pt too wide) in paragraph at lines 140--141
 []\T1/lmr/m/n/12 Wirkungsgrad des Breit-keil-rie-men-ge-trie-bes der Po-lier-ma
 -schi-ne (Richt-wert 0,85)[] 
  []
 
-[2] [3] (C:\Users\B\Documents\Bac\PolierSchleif.aux)
-Package logreq Info: Writing requests to 'PolierSchleif.run.xml'.
+
+Overfull \hbox (0.55562pt too wide) in paragraph at lines 141--142
+[]\T1/lmr/m/n/12 effektive Flä-che des Mess-strei-fens (sie-he a) in Ab-bil-dun
+g 1[][] auf Sei-te 2[][]) $\OML/lmm/m/it/12 A[] \OT1/lmr/m/n/12 =$
+ []
+
+[6] [7] (C:\Users\B\Documents\Bac\PolierSchleif100414.aux)
+Package logreq Info: Writing requests to 'PolierSchleif100414.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 19908 strings out of 493921
- 369738 string characters out of 3144887
- 530996 words of memory out of 3000000
- 22858 multiletter control sequences out of 15000+200000
- 106243 words of font info for 84 fonts, out of 3000000 for 9000
+ 19958 strings out of 493921
+ 370708 string characters out of 3144887
+ 531020 words of memory out of 3000000
+ 22901 multiletter control sequences out of 15000+200000
+ 109011 words of font info for 85 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
- 50i,21n,66p,859b,1375s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/
+ 50i,21n,66p,920b,1408s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x
+86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9/
 fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/d
 vips/lm/lm-rm.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex
 10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/
@@ -1472,9 +1515,9 @@ b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program
 ype1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 /lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.p
 fb>
-Output written on PolierSchleif.pdf (3 pages, 251365 bytes).
+Output written on PolierSchleif100414.pdf (7 pages, 1205925 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
+ 102 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

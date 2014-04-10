@@ -1,0 +1,5 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
+\contentsline {subsection}{\numberline {0.1}Vorgehensweise}{2}
+\contentsline {subsubsection}{\numberline {0.1.1}Herleitung der Formel und Berechnung der Oberfl\IeC {\"a}chentemperatur}{4}
