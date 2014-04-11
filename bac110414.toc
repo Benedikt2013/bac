@@ -1,0 +1,32 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Einleitung}{4}
+\contentsline {section}{\numberline {2}Bauteil}{6}
+\contentsline {subsection}{\numberline {2.1}Funktion \& Qualit\IeC {\"a}tsumfang}{6}
+\contentsline {subsection}{\numberline {2.2}Aluminium}{7}
+\contentsline {subsection}{\numberline {2.3}Streckbiegen}{8}
+\contentsline {subsection}{\numberline {2.4}Kr\IeC {\"o}pfen }{12}
+\contentsline {subsection}{\numberline {2.5}Methode Messauswertung}{16}
+\contentsline {subsection}{\numberline {2.6}Versuchskonventionen Streckbiegen}{17}
+\contentsline {subsubsection}{\numberline {2.6.1}Versuchsreihe Nr.1 Streckbiegen}{18}
+\contentsline {subsubsection}{\numberline {2.6.2}Versuchsreihe Nr. 2 Streckbiegen}{24}
+\contentsline {subsubsection}{\numberline {2.6.3}Fr\IeC {\"a}sen}{27}
+\contentsline {subsubsection}{\numberline {2.6.4}Schleifen und Polieren}{27}
+\contentsline {subsubsection}{\numberline {2.6.5}Eloxieren}{28}
+\contentsline {subsubsection}{\numberline {2.6.6}DURAPro Beschichten}{28}
+\contentsline {subsection}{\numberline {2.7}Versuchsdurchf\IeC {\"u}hrung Kr\IeC {\"o}pfen}{29}
+\contentsline {subsubsection}{\numberline {2.7.1}Protokoll Kr\IeC {\"o}pfversuche}{32}
+\contentsline {subsection}{\numberline {2.8}Ausblick}{35}
+\contentsline {section}{\numberline {3}Anhang}{36}
+\contentsline {subsection}{\numberline {3.1}Exkurs Umformtechnik}{36}
+\contentsline {subsubsection}{\numberline {3.1.1}Systematisierung Formgebungsverfahren}{36}
+\contentsline {subsubsection}{\numberline {3.1.2}Metallurgische Zusammenh\IeC {\"a}nge}{37}
+\contentsline {subsubsection}{\numberline {3.1.3}Verformung Prinzipiell}{40}
+\contentsline {subsubsection}{\numberline {3.1.4}Rekristallisation, Erholung und Kaltverfestigung}{41}
+\contentsline {subsubsection}{\numberline {3.1.5}Eigenspannungen}{41}
+\contentsline {subsubsection}{\numberline {3.1.6}Umformgrad}{44}
+\contentsline {subsubsection}{\numberline {3.1.7}Umformgeschwindigkeit}{47}
+\contentsline {subsubsection}{\numberline {3.1.8}Einachsiger Spannungszustand}{47}
+\contentsline {subsubsection}{\numberline {3.1.9}Spannungsvektor und Spannungstensor}{48}
+\contentsline {subsubsection}{\numberline {3.1.10}Festigkeitshypothesen}{51}
