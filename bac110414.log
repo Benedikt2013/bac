@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  11 APR 2014 19:25
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  12 APR 2014 11:46
 entering extended mode
 **bac110414.tex
 (C:\Users\B\Documents\Bac\bac110414.tex
@@ -1440,6 +1440,18 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 44.
 
+
+! Package varioref Error: \vref or \vpageref at page boundary 4-5 (may loop).
+
+See the varioref package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 ...kten (siehe \fref{fig:Verdeckkastendeckel}
+                                                  ) .
+Please check the pages in question. You might need to replace the \vref
+or \vpageref by a normal \(page)ref to stop LaTeX running forever.
+
 <ZierleisteVerdeckklappendeckel.jpg, id=17, 786.68906pt x 435.87843pt>
 File: ZierleisteVerdeckklappendeckel.jpg Graphic file (type jpg)
 
@@ -2042,7 +2054,7 @@ pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on bac110414.pdf (53 pages, 10722831 bytes).
+Output written on bac110414.pdf (53 pages, 10722797 bytes).
 PDF statistics:
  357 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
