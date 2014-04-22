@@ -11,7 +11,7 @@
 \contentsline {subsection}{\numberline {2.6}Versuchskonventionen Streckbiegen}{18}
 \contentsline {subsection}{\numberline {2.7}Versuchsreihe Nr.1 Streckbiegen}{19}
 \contentsline {subsection}{\numberline {2.8}Versuchsreihe Nr. 2 Streckbiegen}{25}
-\contentsline {subsection}{\numberline {2.9}Fr\IeC {\"a}sen}{28}
+\contentsline {subsection}{\numberline {2.9}Fr\IeC {\"a}sen}{27}
 \contentsline {subsection}{\numberline {2.10}Schleifen und Polieren}{31}
 \contentsline {subsubsection}{\numberline {2.10.1}Herleitung der Formel und Berechnung der Oberfl\IeC {\"a}chentemperatur}{35}
 \contentsline {subsubsection}{\numberline {2.10.2}Auswertung Schleifen und Polieren}{38}
