@@ -1,0 +1,1740 @@
+\documentclass[12pt,a4paper,parskip]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{lmodern}
+\usepackage[babel,german=guillemets]{csquotes}
+\usepackage[style=verbose-ibid,backend=bibtex8]{biblatex}
+\bibliography{baclit110414}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage[locale=DE]{siunitx}%SI Einheiten etc.
+\usepackage[german]{fancyref}%möglicherweise rausnehmen oder justieren
+\usepackage{booktabs} %Tabellen Horizontale Linier dick darstellen
+\usepackage{rotating}
+\usepackage{lscape}
+\usepackage{subfig}
+\usepackage{here}
+\usepackage{color}
+\usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{mdwlist}
+\begin{document}
+\author{Benedikt Kaffanke}
+\title{Einfluss des Ausgangs- und  Werkzeugmaterials auf Umformprozesse zur Herstellung von Verzierungselementen in der Automobilbranche}
+\maketitle
+\newpage
+\tableofcontents
+\listoffigures
+\listoftables
+\newpage
+\section{Einleitung}
+In der modernen Automobilindustrie werden heutzutage immer höhere Qualitäts- und Präzisionsansprüche an die einzelnen Fahrzeugkomponenten  gestellt. So unterliegen selbst Verzierungselemente strengen Maß- und Toleranzvorgaben von Seiten der Hersteller an die Komponenten Zulieferer.\\
+ Die Fertigungsprozesse solcher Präzisionsfabrikate erfordern ein hohes Maß an Überwachung und Kontrolle auf den einzelnen Fertigungsstufen. Es kommen überwiegend modernste Fertigungstechnologien (CNC-Maschinen, Industrie Roboter) zum Einsatz. Trotz hohem Automatisierungsgrad sind immer noch humane Fertigungskräfte unverzichtbar. So ist zum Beispiel bei einer \emph{Sichtprüfung} zur Verifikation der erforderlichen Oberflächengüte, des bearbeiteten Materials,  das menschliche Auge unersetzlich. Auch das Handling bei Nacharbeitungsverfahren (z.B. Polieren, Schleifen) geschieht häufig noch manuell. So  erstreckt sich das Spektrum der am Fertigungsprozess Involvierten von der einfachen Hilfskraft bis zum hochqualifizierten CNC-Spezialisten.\\
+  Hinter diesem Background ist es nicht zu vermeiden das eine komplexe Anzahl von Einflussgrößen bei der Wertschöpfung als Störfaktor berücksichtigt werden müssen. Eine besondere und stetige Observation, insbesondere bei der Herstellung von sehr großen Stückzahlen,  des kontinuierlichen Flusses der Bearbeitungsschritte und der Synergie der einzelnen Elemente  der Fertigungskette, ist daher ein wichtiger Punkt zur Prävention eventueller negativer Störfaktoren. Muss zum Beispiel eine Bearbeitungsstufe, während einer Serienfertigung an einer CNC-Einheit,  aufgrund von inhomogenen Spannungsverläufen im Ausgangsmaterial häufig unterbrochen werden um Justierungen an dem Gerät durch   qualifizierte Spezialisten vorzunehmen,  ist der Kosten- und Zeitaufwand wirtschaftlich nicht mehr vertretbar.\\
+     Im Fokus dieser Forschungsarbeit steht deshalb die Problematik der Optimierung der Fertigungsverfahren zur Erlangung höherer Güte bei der Herstellung von Zierleisten.
+ 
+
+Zum größten Teil werden für eben diese Verzierungselemente
+Strangpressprofile aus Aluminium verwendet die ein besonders hochwertiges Finish verbürgen (siehe \fref{fig:vormaterial}). Sie werden in speziellen Biege- und Abkantvorrichtungen in Serie gefertigt.
+ Weitere Bearbeitungsprozesse sind: \begin{itemize*}
+ \item Fräsen
+ \item Beschneiden
+ \item Schleifen und Polieren
+ \item Eloxieren
+ \item DURApro Beschichten (Nanolack)
+ \item Montage
+ \end{itemize*}
+   Besondere Schwierigkeiten treten im Bereich der Maßtoleranz Einhaltung bei diesen Biegeprozessen auf. Häufig sind bei  Biegeradien und langen Profilen Toleranzen von $\pm \SI{0.5}{\milli\meter}$ gefordert. Bei kleinen Biegeradien die größtenteils bei Abkantprozessen anfallen treten optische Merkmale und Veränderungen auf, die meistens unerwünscht sind.\\
+ Die Beschaffenheit des Werkstoff- und Werkzeugmaterials ist der wohl wichtigste Beeinflussungsfaktor bei o.g. Problemprodukten (siehe \fref{fig:Verdeckkastendeckel}) .
+ \begin{figure}[hbtp]
+ \centering
+ \includegraphics[width=0.8\textwidth]{BauteilNeu}
+ \caption{Verzierungselement Verdeckkastendeckel}
+ \label{fig:Verdeckkastendeckel}
+ \end{figure}
+
+Die nächsten Abschnitte befassen sich mit der Durchführung und Auswertung von Versuchsreihen die mit Hilfe von Messungen, herkömmlicher sowie zukunftsweisender Art (FEM-Verfahren), Erkenntnisse liefern  die die Herstellungsverfahren von Zierleisten  in qualitativer- sowie ökonomischer Sicht  optimieren.\\
+Zur Untersuchung   sind hier vor allen Dingen die Umformverfahren  Kröpfen (siehe \fref{sec:kropf})  und Streckbiegen herangezogen worden.
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=.8\textwidth]{vormaterial}
+ \caption{Vormaterial Aluminium Strangpressprofile}
+ \label{fig:vormaterial}
+ \end{figure}
+  
+
+
+
+
+
+
+
+  
+\newpage
+\section{Bauteil}
+Prüfobjekt ist in den folgenden Untersuchungen der Verdeckkastendeckel  des Audi A3 Cabriolets (siehe \fref{fig:audia3}).
+ Als Verzierung eines Luxusobjektes sind die Anforderungen an Aussehen und Qualität außergewöhnlich hoch. So dient er zum einen als rein optisches Veredelungselement zum anderen hat er auch funktionelle Aufgaben (z.B. Stabilität in den gesamten Kofferraumdeckel bringen oder auch als Antenne zu agieren). Geringe Spaltmaße,  perfekte Symmetrie (das menschliche Auge erkennt ein Hundertstel Millimeter) sowie allgemeine Benutzerfreundlichkeit (z.B. Hängenbleiben von Kleidungsstücken und Ähnlichem an dem Verzierungsobjekt sollte ausgeschlossen sein) sind Anforderungen die höchste Priorität haben.
+ Darüber hinaus sind  flüssige Übergänge und Einklang   zu weiteren Verzierungselementen des Fahrzeuges von großer Bedeutung für einen harmonischen Gesamteindruck.
+ 
+   
+\begin{figure}[hbtp]
+\centering
+\hfill
+\subfloat[Audi A3 ]{\includegraphics[scale=.4667]{audia3blau}}
+\hfill
+\subfloat[Audi A3 Verdeckkastendeckel \label{fig:audia3verdeck}]{\includegraphics[scale=.263]{audivdkd}}
+\hfill
+\caption[Audi A3 Endprodukt]{Audi A3 Endprodukt.\footnotemark }
+\label{fig:audia3}
+\end{figure}
+ \footnotetext{Vgl.http://www.cars.co.za/motoring\_news/2014-audi-a3-cabriolet-completes-the-a3-family/6061/[28.12.2013].}
+
+
+
+	 	 
+\subsection{Funktion \& Qualitätsumfang}
+An Verzierungselemente werden gerade in der Automobil Oberklasse besonders hohe Ansprüche gestellt. Es sind besonders folgende hervorzuheben:
+\begin{itemize*}
+\item keine Beulen
+\item keine Oberflächenfehler
+\item ideale Fugenläufe
+\item präzise Radien
+\item enge Form- und Lagetoleranzen (siehe \fref{fig:vdkdtol})
+\item enge Spalttoleranzen
+\end{itemize*}
+\begin{figure}[hbtp]
+  \centering
+  \includegraphics[width=0.8\textwidth]{vdkdtol}
+  \caption{Wölbungstoleranz}
+  \label{fig:vdkdtol}
+  \end{figure}
+  
+
+
+
+
+
+
+\subsection{Aluminium}
+Aufgrund seiner geringen Dichte (\SI{2.69}{\kilo\gram\per\deci\meter\cubed})\footcite[Vgl.][353]{wm}, guten Umformbarkeit, Korrosionsbeständig und mit einer hervorragend zu erzielender Oberflächengüte sowie hohem Reflexionsgrad ist Aluminium das am häufigsten verwendete Ausgangsmaterial für Zierleisten.\\
+ Es werden überwiegend Strangpressprofile verarbeitet die bei den Lieferanten mit bestimmten Eigenschaften angefordert werden. Die wichtigsten dort angeführten mechanischen Eigenschaften sind die Zugfestigkeit $R_m  [\si{\newton\per\milli\meter\squared}$], Dehnung $R_{po,2} [\si{\newton\per\milli\meter\squared}]$,   Bruchdehnung A oder auch $A_{50} [\si{\percent}]$ (der Index 50 bezieht sich auf eine Messlänge  von \SI{50}{\milli\meter} der Probe  beim einachsigen Zugversuch)\footcite[Vgl.][281]{aa}und die Korngröße.\\
+  Sie wird in der Einheit [\si{\micro\meter\squared}] angegeben und hat Einfluss auf die Oberflächengüte nach  Umformprozessen. Bei steigendem Umformgrad ergibt sich häufig eine Aufrauung der Oberfläche (Orangenhaut)\label{sec:orangenhaut} die von der Ausgangskorngröße abhängig ist. Je geringer die Ausgangskorngröße desto geringer der Aufrauungseffekt.\footcite[Vgl.][524]{aa}\\ Stark verformtes und grobkörniges Material entwickelt oft in den deformierten Zonen (insbesondere in den gestreckten Bereichen) eine Oberflächenrauigkeit (Orangenhaut), die die Reflektivität und Einfärbbarkeit des Endproduktes stark einschränkt. Das Phänomen \emph{Orangenhaut} entsteht vorwiegend an Umformbereichen die nicht in direktem Kontakt mit Werkzeugoberflächen stehen.\footcite[Vgl.][19]{hmp}
+Erwähnenswert ist zu Vorangegangenem noch, dass aufgrund der bei den meisten Aluminiumlegierungen, nicht ausgeprägten Streckgrenze  die $R_{p0,2}$ Dehngrenze als Bemessungskennwert bei einer \SI{0.2}{\percent} bleibenden Verformung gegenüber rein elastischem Verhalten ermittelt wird (siehe \fref{fig:spanndehn2}).
+\begin{figure}[hbtp]
+\centering
+ 	\includegraphics[width=0.8\textwidth]{spanndehn2}
+ 	\caption[Spannungs-Dehnungs Schaubild]{Spannungs-Dehnungs Schaubild mit $Rp_{0,2} $ Dehngrenze\protect\footnotemark}
+ 	\label{fig:spanndehn2}
+ 	\end{figure}
+ 	\footnotetext{\cite[Vgl.][280-281.]{aa}}
+	 	 	 	 
+	 	 	 	 
+
+\subsection{Streckbiegen}
+Unter Biegen versteht man nach DIN 8586 das Umformen von festen Körpern, wobei der plastische Zustand im Wesentlichen durch eine Biegebeanspruchung herbeigeführt wird.\footcite[Vgl.][376]{hu} Es wir bei dem Verfahren \emph{Streckbiegen} bei Raumtemperatur (\SI{20}{\degreeCelsius})  geformt, daher fällt es in die Rubrik \emph{Kaltumformen} (DIN 8582). Da bei Raumtemperatur ein begrenztes Formänderungsvermögen vorliegt sind höhere Umformkräfte erforderlich. Der Vorteil des Kaltumformens ist eine hohe Maßgenauigkeit.\footcite[Vgl.][8]{hu}. Eine weitere Definition besagt, dass Kaltumformen vorherrscht solange die Umformtemperatur des Werkstoffs geringer als seine Rekristallisationstemperatur ist.\footcite[Vgl.][187]{fu} Die Blechumformung verfolgt generell das Ziel aus einem Flachprodukt ein räumliches Gebilde zu formen, ohne dabei (im Idealfall) die Blechdicke zu verändern.  Eine Formänderung vollzieht sich aus diesem Grunde hauptsächlich in der Blechebene unter ebenem Spannungszustand. Als Grundverfahren in der Blechumformung sind Verfahren wie Tiefziehen, Biegen und Streckziehen (oder auch Streckbiegen) zu nennen. Gemeinsam haben sie alle, dass sich Stauch- und Streckverformungen in der Blechebene und Blechdicke abspielen und unterschiedliche Dehnungszustände und -abläufe anzutreffen sind.\\ Die Umformbarkeit (Duktilität) als Werkstoffeigenschaft ist wegen der Tatsache, dass  Spannungs- und Dehnungszustände mit den Fließ- und Brucheigenschaften eines Werkstoffes in Wechselwirkung stehen, ein komplexes Gebiet. Über das Werkzeugsystem (Stempel, Niederhalter etc.) werden die benötigten Umformkräfte in das Werkstück eingeleitet und erwirken so über die  Formänderungen, Relativbewegungen zwischen Werkzeug und Werkstück bei veränderlichen Anpresskräften. Die zwischen Bauteil (Werkstoff) und Wirkteil (Werkzeug z.B. Stempel) entstehenden Reibungsverhältnisse resultieren aus den  Grenzflächen- und Gleiteigenschaften von Wirkteil und Werkstoff.\\ Insbesondere bei Aluminiumwerkstoffen haben sie bedeutenden Einfluss auf das Umformergebnis. Der Werkzeugaufbau und die Werkzeuggeometrien so wie die Steuerung des Fertigungsvorgangs haben erheblichen Anteil an der Art und Weise des Werkstoffflusses bei den Biegeprozessen.\footcite[Vgl.][499]{aa}
+Bei dem Umformverfahren Streckbiegen werden auf speziellen Streckbiegemaschinen die Enden eines Profilstranges in Spannern gehalten und auf  Zugspannung gebracht (siehe  \fref{fig:Streckbiegemaschine}). Anschließend werden sie über ein massives Biegewerkzeug streckgebogen.\footnote{Vgl.\url{http://www.tillmann-gruppe.de/de/streckbiegen.html}[27.10.2013].} 
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=0.8\textwidth]{steckbiegeeinheit}
+\caption{Streckbiegemaschine}
+\label{fig:Streckbiegemaschine}
+\end{figure}
+Das Streckbiegeverfahren was bei der Firma DURA  für den Verdeckkastendeckel des Audi A3 eingesetzt wird ähnelt mehr dem \emph{Tangentialstreckziehen}. Der Unterschied zu dem herkömmlichen Streckziehen das in einer Arbeitsstufe erfolgt und bei dem die Zugspannung nur über den Stempel eingeleitet wird ist das Fertigen in zwei Arbeitsschritten.
+
+ Im ersten Schritt wird das Strangpressprofil in die Spannvorrichtung der Steckbiegemaschine eingelegt und an den Enden eingespannt. Danach fahren die Spannelemente horizontal auseinander und leiten eine Zugspannung in das Bauteil ein. Es wird knapp über den Bereich der Streckgrenze gestreckt. Je nach Material und erwünschtem Biegeresultats werden die aufgewandten Zugkräfte von den Maschineneinrichtern präzise eingestellt.\\
+  Im zweiten Schritt erfolgt nun die eigentliche Formgebung. Das gestreckte Strangpressprofil wir unter Aufrechterhaltung der eingebrachten Zugspannung mit einer kontinuierlichen Geschwindigkeit tangential um das formgebende Wirkteil gelegt. Die Bewegung wird von den Spannelementen alleinig ausgeführt (siehe \fref{fig:streckbiegen}).
+  \begin{figure}[hbtp]
+  \centering
+  \includegraphics[width=0.8\textwidth]{streckbiegen}
+  \caption[Prinzip Streckbiegen]{Prinzip Streckbiegen\protect\footnotemark}
+  \label{fig:streckbiegen} 
+  \end{figure}
+  \footnotetext{Vgl.\url{http://www.custompartnet.com/wu/sheet-metal-forming}[04.02.2014].}. 
+  
+Das Ausgangsmaterial (Aluminium Strangpressprofile) wird streckgebogen um eine Rückfederung (siehe \fref{fig:springback}) zu minimieren.  Die Rückfederung entsteht aus der Rückbildung der elastischen Formänderung des Bauteils nach der Beendigung des Biegevorgangs und nach dem Entfernen der eingeleiteten Kräfte. Es findet im Werkstoff eine elastische Erholung statt. In der Blechmanufaktur und Blechumformung stellt die Rückfederung eine der bedeutendsten Formgebungsproblematiken dar.
+\\
+ Sie ist ein äußerst komplexes Phänomen da sie von mannigfaltigen Interaktionen zwischen den Materialeigenschaften, der Bauteilgeometrie, der Reibung,  der Werkzeugradien und weiteren formgebenden Bedingungen abhängt. Unter den Variablen, die die Rückfederung verringern sind der Reibungskoeffizient und die Reibung, die Streckkraft, die Nachbiegekraft, die Formänderungsgeschwindigkeit, die Temperatur sowie weitere geometrische Parameter zu bezeichnen. Hervorzuheben ist an dieser Stelle, dass das Verhältnis des Biegeradius $ R $ zur Blechdicke $ t $ in einem Bereich von $ \frac{R}{t} < 10 $ die Rückfederung wesentlich vergrößert. Im Laufe der Zeit haben sich verschiedenen Methoden zur Reduzierung der Rückfederung bewährt. Zu ihnen zählen das Überbiegen, das Strecken und das Nachdrücken oder Nachpressen. Zur Kompensation der Rückfederung hat sich das Überbiegen als das sicherste Verfahren in der Vergangenheit erwiesen. Es wird in der Fertigungspraxis davon ausgegangen das ein Überbiegungsspielraum von 2 \%  bei Stahlbauteilen ausreichend ist um Rückfederungseffekte zu minimieren.\\ Das Nachpressen in der Biegeregion hat den Nachteil, dass hohe Presskräfte aufgebracht werden müssen um einen gewünschten Effekt zu erzielen. Bei dem Verfahren  Streckbiegen zur Optimierung der Rückfederung wird das Bauteilmaterial zu erst über den Bereich der Streckgrenze hinweg (meistens durch Aufbringung hydraulischer Zugkräfte) gestreckt und dann über das formgebende Werkzeug gebogen. Dieses Verfahren wird nur bei großen Biegeradien angewandt weil kleine Radien eine sehr große Vorspannung (jenseits der Mindestzugfestigkeit) benötigen würden.\footcite[Vgl.][16-19]{hmp}\\  
+ 
+ \begin{figure}[hbtp]
+ \centering
+ \includegraphics[width=0.8\textwidth]{springback}
+ \caption[Rückfederung]{Prinzip der Rückfederung. Vorher: Bauteil direkt nach Beendigung des Biegevorgangs, aber Biegespannung noch nicht vermindert.
+ Nachher: Biegespannung gelöst, Bauteil zurückgefedert.\protect\footnotemark}
+ \label{fig:springback}
+ \end{figure}
+ \footnotetext{\cite[Vgl.][65.]{smfpd}}
+ 
+Ein weiterer kritischer Punkt bei dem Verfahren Streckbiegen und Biegeprozessen generell sind die Spannungsverläufe in der Verformungszone die Eigenspannungen in das Bauteil bringen welche bei späteren Bearbeitungsverfahren wie z.B. das Beschneiden oder Fräsen in der Nähe des Deformierungsbereiches Verzug und Maßänderungen hervorrufen.\\ Je nachdem wie weit das Ausgangsmaterial über die Streckgrenze hinaus getreckt wird (bis zu welchem Grad das Material fließt) verschiebt sich die neutrale Faser in dem Biegebereich in Richtung des kleinen Radius (also nach innen). Bei sehr großer Streckung ist es möglich das die neutrale Faser sogar außerhalb des Bauteils liegt.\footcite[Vgl.][374]{fu} Bei den Versuchsreihen welche in dieser Ausarbeitung durchgeführt werden, bleibt die neutrale Faser innerhalb des Bauteils weil nur sehr knapp über die Streckgrenze hinaus gestreckt wird. Der typische Spannungsverlauf resultiert daher in Zugspannungen im Außenbereich der Biegeradien und Druckspannungen in dem Innenbereich (siehe \fref{fig:neutralefaser}).
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=0.8\textwidth]{neutralefaser}
+\caption[Spannungen in der Umformzone beim Streckbiegen]{Spannungen in der Deformierungszone beim Streckbiegen\protect\footnotemark}
+\label{fig:neutralefaser}
+\end{figure}
+
+
+In Hinblick auf die Serienfertigung sind die in den für den Fertigungsprozess  Streckbiegen durchzuführenden Versuchsserien, bei denen unter Verwendung von Strangpressprofilen der Verdeckkastendeckel des Audi A3 Cabriolets gefertigt wird, spezifische Problembereiche besonders zu beachten.\\
+Kritisch sind hier vor allen Dingen Biegeschwankungen und nicht kontinuierliche Materialeinschnürungen,  welche häufig an den Verengungen der Biegeradien auftreten. Die einflussreichsten mechanischen Eigenschaften des Werkstoffes sind bei diesem Verfahren die Härte sowie die Streckgrenze.
+
+
+
+\subsection{Kröpfen \label{sec:kropf}}
+\footnotetext{\cite[Vgl.][195.]{tsch}}
+Der eigenartig anmutende Ausdruck \emph{Kröpfen} bedeutet eigentlich nur \emph{krumm biegen}.\footnote{Vgl.\url{
+http://woerterbuchnetz.de/DWB/?sigle=DWB&mode=Gliederung&lemid=GK14769
+}[27.10.2013].}
+Bei dem Umformprozess Kröpfen werden von den  Enden der Zierleisten zu nächst die auf den Innenseiten verlaufenden Stege  abgefräst.  Daraufhin werden sie in der Kröpfeinheit (siehe \fref{fig:kropfeinheit}) auf dem Kröpfstein justiert und von einem Niederhalter durch die Anpresskraft einer Gasdruckfeder angepresst. Nun fährt, angetrieben durch einen Hydraulikzylinder, der Kröpf- oder auch Ziehstempel herunter und kantet das Material ab. Im Anschluss daran wird die Stirnseite der Kröpfung (siehe \fref{fig:kropfinstirn}) noch beschnitten.
+\begin{figure}[hbtp]
+\centering
+\hfill
+\subfloat[Kröpfeinheit CAD \label{fig:kropfeinhzeich}]{\includegraphics[scale=.205]{kropfeinhzeich}}
+\hfill
+\subfloat[Kröpfeinheit mit Wirkteil Kröpfstein\label{fig:einheit}]{\includegraphics[scale=.868]{kropfeinheit}}
+\hfill
+\caption{Kröpfeinheit }
+\label{fig:kropfeinheit}
+\end{figure}
+
+\begin{figure}[hbtp]
+\centering
+\hfill
+\subfloat[Kritischer Fräsbereich unterhalb der Kröpfzone  \label{fig:kropffrasbereich}]{\includegraphics[scale=.822]{kropffrasbereich}}
+\hfill
+\subfloat[Kröpfung \label{fig:kropfung}]{\includegraphics[scale=.16]{kropfung}}
+\hfill
+\caption{Kröpfung innen und Stirnseite }
+\label{fig:kropfinstirn}
+\end{figure}
+
+
+ 
+Problembereiche sind hier zuerst einmal die Fräsprozesse. Schon bei geringsten Unterschieden in der Materialabnahme sind Fehlstellen in der Oberflächenqualität der Radien bei einer Sichtprüfung zu erkennen. Auch der Ziehstempel und der Kröpfstein lassen Spuren auf der Oberfläche zurück. Ein nicht zu vernachlässigender Aspekt ist auch der Verschleiß des Werkzeugmaterials bei diesem Verfahren. So kommt es gerade bei Ziehstempeln aus Stahl oft zu Kaltaufschweißungen. Hier liegt nahe auch andere Werkzeugmaterialien in Versuchsreihen zu erproben.
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=0.8\textwidth]{kropfeinpic}
+\caption{Kröpfeinheit Bezeichnungen}
+\label{krofpfarbbezeich}
+\end{figure}
+
+
+
+
+
+\medskip
+
+Hervorzuheben sind folgende, aus dem Kröpfprozess resultierende, Qualitätsbeeinträchtigungen:
+\begin{itemize*}
+\item Orangenhaut (siehe \fref{sec:orangenhaut})
+\item Materialungänzen bedingt durch Materialschwankungen
+\item Abweichungen des auf das Kröpfen angepassten Fräsbildes
+\end{itemize*}
+
+Das Fertigungsprinzip Kröpfen  ist bei der Firm DURA im  Laufe der Jahre immer weiter Optimiert worden. Die mechanischen Vorgänge sind für einen Außenstehenden aufgrund der kompakten Bauweise der Kröpfeinheiten zunächst schwer zu durchschauen. Eine sehr vereinfachte Prinzipdarstellung ist zum Verständnis sehr hilfreich (siehe \fref{fig:krpfgesamt}).\\
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=0.8\textwidth]{krpfsequenz}
+\caption{Sequenz des Umformvorganges Kröpfen}
+\label{fig:krpfprinz}
+\end{figure}
+
+
+
+
+
+ Es ist in dem Vertikalschnitt deutlich zu sehen, dass das Werkstoffmaterial (rot) nach unten "`herausgekämmt"' wird. In dem Horizontalschnitt erkennt man deutlich,  dass der Werkstoff (rot) in der Kavität des Ziehstempels geführt wird und ein seitliches Ausbrechen nicht möglich ist.\\ In der Sequenz (siehe \fref{fig:krpfprinz}) wird der ganz Vorgang noch einmal transparent verbildlicht. Das Ausgangsmaterial wird zunächst auf den \emph{Kröpfstein} (blau) gelegt danach wird es durch einen Niederhalter (grün) fixiert bevor der \emph{Ziehstempel} herunterfährt und das Bauteil verformt. \\    Der Ziehstempel schlägt zuerst von oben  (a) auf das Bauteil  und knickt (oder biegt) das Bauteil in den ersten Umformgraden um. Da der Ziehspalt (Abstand zwischen Kröpfstein und Innenwand des Ziehstempels) schmaler als das Bauteil ist, erfolgt nahezu gleichzeitig  ein Kaltumformprozess der dem Drahtziehen am ähnlichsten ist (im Bild mittlere Einstellung (b)). \\ Nach Beendigung des Umformprozesses (c) ist die abgekantete Seite natürlich flacher und länger aufgrund der \emph{Volumenkonstanz}. Der ganze Vorgang ist somit eine Symbiose aus dem \emph{freien Biegen}, welches den Radius verursacht und einer Variante des Ziehens (oder auch Drahtziehens) bei der ein Fließen des Werkstoffes auftritt und welches auch eine Kaltverfestigung mit sich bringt. \\
+Eine Analogie zu dem Umformverfahren Drahtziehen und den dortigen Spannungsverläufen in der Deformierungszone (siehe \fref{fig:eigenspandrahtzieh}) bietet sich an, weil bei dem Kröpfprozess sowie bei dem Drahtziehprozess der Werkstoff in die gleiche Richtung wie die relative Bewegungsrichtung des  formgebenden Werkzeugs (bei dem Drahtziehen die Matrize und bei dem Kröpfen der Ziehstempel) fließt.\\
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=0.8\textwidth]{krpfgesamt.png}
+\caption{Kröpfen prinzipiell mit Schnitten in der Umformzone. Rechts oben im Bild: Umformzonen 1 (Biegen) und 2 (Ziehen)}
+\label{fig:krpfgesamt}
+\end{figure}
+
+
+
+Bei beiden Verfahren findet ein "`Herauskämmen"' des Materials aus der Umformzone statt. Das Werkstoffmaterialverhalten beim \emph{Kröpfen} ist zumindest in der Umformzone 2 (siehe \fref{fig:krpfgesamt} rechts oben) durchaus mit dem Materialverhalten bei dem \emph{Drahtziehen} und \emph{Extrudieren} zu vergleichen da auch sie meistens bei Raumtemperatur durchgeführt werden und so Kaltverfestigungsprozesse im Material stattfinden. Oft erfährt das Ausgangsmaterial durch die auftretende Kaltverfestigung        
+eine Steigerung der mechanischen Eigenschaften welche das Material hochwertiger machen und somit ein erwünschter Nebeneffekt sein kann. So erhält man nach dem Kröpfen zumindest in der Umformzone 2 ein Material was ökonomisch gesehen wertvoller ist da seine mechanischen Eigenschaften erhöht wurden. Insbesondere bei Aluminium wird die Mindestzugfestigkeit durch die Kaltverfestigung gesteigert. Durch die Umstände, dass der Deformierungsprozess in einer stark eingeengten Zone stattfindet wird eine hohe Oberflächenqualität erzielt. Die Vorgänge die bei dem Kröpfen ablaufen stehen im engen Zusammenhang mit dem Drahtziehen und Extrudieren im Hinblick  Materialfluss, Spannungsverhältnisse den Umformkräften sowie der Werkzeug- und Wirkteilgeometrien. Wie bei dem Drahtziehen ist nach dem Umbiegen und Beginn des Ziehvorgangs beim Kröpfen der Materialfluss in der Umformzone quasi-stationär. Das Geschwindigkeitsfeld welches durch den Weg der Materialpartikel bestimmt wird bleibt während des gesamten Prozesses größtenteils unverändert. Eine ungefähre Vorstellung wie der Materialfluss verläuft und  eine Analogie zu dem Kaltextrudieren ist in \fref{fig:git} dargestellt. Wenn man sich den unteren Teil ( blau transparent markiert) in dem Deformierungsbereich bei dem Extrudieren wegdenkt bekommt man  eine gute Einsicht wie sich das Material beim Kröpfen verhält. Der Deformierungsprozess beginnt in einem nichtstationären Bereich wo die Kavität des Ziehstempels mit Material gefüllt wird, danach beginnt das  Werkstoffmaterial zu fließen. Die Einwirkung des Materials und der Kaltverfestigung auf den Werkstofffluss ist bis heute noch nicht vollständig geklärt. Es wird jedoch angenommen, dass  
+Werkzeuggeometrien und Reibungsverhältnisse den größten Einfluss auf den Umformprozess haben. Weiterhin wird in Fachkreisen davon ausgegangen, dass die Werkzeuggeschwindigkeit (Ziehstempelgeschwindigkeit) und die Deformationstemperatur einen nicht allzu großen Einfluss auf den Materialfluss haben.\footcite[Vgl.][13.10]{kl} 
+
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=.8\textwidth]{materialflussvergleich}
+\caption{Materialflussanalogie Extrudieren/Kröpfen\protect\footnotemark}
+\label{fig:git}
+\end{figure}
+\footnotetext[19]{\cite[Vgl.][13.9.]{kl}}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Methode Messauswertung}
+Es wurde bei der Auswertung von Messreihen in dieser Untersuchung  die \textbf{\emph{empirische}} Standardabweichung 
+ $ s= \sqrt{\frac{\sum \limits_{i=1}^n (x_i - \bar{x})^2}{n-1}} $  verwendet, welche für solche Operationen von der Fachliteratur empfohlen wird.\footcite[Vgl.][301]{mf} 
+
+Durch das Quadrieren der einzelnen Abweichungen ($ x_i-\bar{x}$) und Addieren der einzelnen Abweichungsquadrate erhält man nur positive Beträge in denen eine Überbetonung einzelner Ausreißer erzielt wird.
+Die empirische Standardabweichung ist   eines der wichtigsten Vergleichsparameter in der Statistik und bietet sich zur Analyse der Versuchsreihen besonders an, da sie von Extremwerten nicht stark beeinflusst wird.\footcite[Vgl.][54]{gst} Bei der Auswertung von Messbereichen, die für unsere Problemstellung besondere Signifikanz haben, wird zusätzlich der Fehler mit Hilfe der  \emph{Standardabweichung des Mittelwertes}  $ \Delta\bar{x}= t_{0,95} \cdot \sqrt{\frac{\sum \limits_{i=1}^n (x_i - \bar{x})^2}{(n-1)\cdot n}}$  angegeben.\footcite[Vgl.][16]{ph} Da bei den Versuchsserien eine nicht allzu große Stückzahl ($ n=16-20 $) bearbeitet wurde,  ist auch der für die international geforderte statistische Sicherheit zu berücksichtigende \emph{P} Wert mit dem $ t_{0,95} $ Faktor in die Berechnungen eingegangen.\footcite[Vgl.][609]{tp}  Es sei noch bemerkt, dass der Fehler nach DIN 1333 jeweils auf die erste signifikante Stelle gerundet wurde.\footcite[Vgl.][612]{tp}
+ 	 	
+ 	
+
+ 	
+\subsection{Versuchskonventionen Streckbiegen}
+Ursprünglich war für die Versuchsreihe Streckbiegen ein Durchlauf von jeweils 20 Teilen pro Charge angesetzt. Es wurden die Aluminium Strangpressprofile F13, Fxx und F17 als Ausgangsmaterial vorgesehen. Während der Durchführung der Versuche sind mehrere Teile durch Fehler im Biegeprogramm und Fräsprogramm bei den jeweiligen Prozessen beschädigt worden, so das keine statistisch aussagekräftige Menge  der Chargen für die weiteren Prozessstufen (Polieren, Fräsen usw.) zur verfügen standen. Die Messungen auf der Messlehre wurden in dem ersten Versuchsdurchlauf von zwei Personen durchgeführt die sich mit dem Einlegen des Bauteils in die Messlehre sowie mit dem Messen und schriftlichem Festhalten der Messwerte in die dafür vorgesehenen Formulare abwechselten. Auch hierbei wurde festgestellt, dass das abwechselnde Einlegen in die Messvorrichtung und abwechselnde Notieren der Ergebnisse eine Quelle für Schwankungen in den festzuhaltenden Messergebnissen darstellt. Aus diesen Gründen wurde eine zweite Versuchsreihe durchgeführt wobei die Erkenntnisse der ersten Versuchsreihe berücksichtigt wurden. Es wurde für die "`neue"' Versuchsreihe zusätzlich das Vormaterial F18 und F19 verwendet weil die vorläufige Versuchsauswertung durch die geringe Streuung des F17er Materials vermuten ließ, dass ein Vormaterial mit noch höherer Zugfestigkeit eine noch geringere Prozessschwankung aufweist.
+
+Bei der ersten Versuchsreihe wurde daher nur der Prozess \emph{Streckbiegen} ausgewertet. Dennoch sind die Resultate hier angeführt da auch sie zu der Gesamtauswertung und weiteren Erkenntnissen beitragen. Bei der zweiten Versuchsreihe wurden in dieser schriftlichen Ausführung die Materialbezeichnungen zumindest bei der Auswertung und dem Vergleich bei dem Streckbiegeprozess mit dem Buchstaben "`n"' (steht für "`neu"' z.B. nF17) gekennzeichnet, um Verwechselungen bei Gegenüberstellungen mit dem Material aus der ersten Versuchsreihe zu vermeiden. In den weiteren Prozessverläufen (Polieren, Eloxieren usw.) wurde auf das ergänzende "`n"' verzichtet. Weiterhin wurden die Proben nur von einer Person in die Messlehre eingelegt, gemessen und die Messergebnisse schriftlich festgehalten.	 	
+
+
+\subsection{Versuchsreihe Nr.1 Streckbiegen}
+\label{sec:versuchsreihe1}
+Zur Versuchsdurchführung wurden drei Materialchargen zu jeweils 20 Profilen des Werkstoffes EN AW 6060 (Legierungsnummer EAL-6048 \emph{Alminox}, AlMgSi\,0,5) mit den Materialbezeichnungen F17 (T61/Charge 1) und Fxx (T4/Charge 2) sowie das ursprünglich zur Serienfertigung vorgesehene Material F13 (T4)  gegenübergestellt (eine Übersicht der relevantesten Eigenschaften ist in \fref{tab:chargeneigenschaften} aufgeführt).
+\begin{table}[hbtp]
+\caption{Gegenüberstellung der mechanischen Eigenschaften (Laborwerte) der Chargen}
+\label{tab:chargeneigenschaften}
+\centering
+\begin{tabular}{lllll}
+\toprule
+Material & Zugfestigkeit & Streckgrenze & Bruchdehnung & Zustand \\
+Charge &  Rm [\si{\newton\per\milli\meter\squared}] &  $R_{p0,2}$ [\si{\newton\per\milli\meter\squared}] &  $A_{50}$ [\%] & \\
+\midrule
+1.F17 & 160,25 & 85,55 &  12,3  & T61 \\
+2.Fxx & 152,4 & 74,65 &   11,65  & T61 \\
+3.F13 Serie & 149,3 & 70,55 & 20,41  & T4 \\
+\bottomrule
+
+
+
+
+\end{tabular}
+\end{table}
+
+
+
+ Die Chargen 1 und 2 wurden auch mit der herkömmlichen Zustandsbezeichnung T61 (lösungsgeglüht, nicht vollständig warmausgelagert, überaltert)\footnote{Vgl.\url{http://www.unibw.de/lrt5/lehre/praktikum/zusatzinformationen/download4/at_download/down1}[25.11.2013].} bezeichnet während das Serienmaterial im Zustand T4 (lösungsgeglüht, kaltausgelagert) bestellt wurde. \\
+ Unter Überalterung versteht man  den Prozess der Vereinigung von  submikroskopischen Ausscheidungen die sich  in der Anzahl verringern jedoch als Ausscheidung größer werden und so eine Abnahme der Festigkeit herbeiführen.\footcite[Vgl.][52]{wki}\\
+  Lösungsglühen erfolgt durch Glühen im Bereich der homogenen Mischkristalle welches das   Lösungsvermögen der Mischkristalle begünstigt, Ausscheidungen können so gelöst werden.\\
+   Unter Auslagern versteht man Liegenlassen bei Raumtemperatur (Kaltauslagern) oder bei  höheren Temperaturen (Warmauslagern), meistens zwischen 100 und 220 Grad Celsius, über einen bestimmten Zeitraum um so die Eigenschaften des Werkstoffes zu beeinflussen.\footcite[Vgl.][213]{wk}
+Ein typischer Aushärtungsprozess läuft nach folgendem Schema ab:
+
+\begin{enumerate*}
+ \item Lösungsglühen aller Ausscheidungen in einem homogenen Mischkristall 
+ \item Abschrecken
+ \item Auslagern 
+ \end{enumerate*}
+ 
+   
+ 
+ 
+
+Die Zustandsbezeichnungen F17, F13 und Fxx beziehen sich nach DIN 755-2 auf die Zugfestigkeit. Fxx ist allerdings eine firmeninterne Bezeichnung des Herstellers und bedeutet das ein  vorgezogener Kaltauslagerungsprozess durchgeführt wurde um das Strangpressprofil zu "`\emph{stabilisieren}"'. Das bedeutet ein gewisses "`Einfrieren"' des Gefüges in den momentanen Zustand um Veränderungen desselbigen auch bei nicht vorgesehener längerer Lagerung oder ungleicher Lagerungsbedingungen (z.B. Lagerung in Zugluft oder unnötiger Aussetzung in Sonnenlicht) zu verhindern. Nach Auskunft des Lieferanten ist Fxx leicht wärmebehandelt worden.
+
+
+ Bei Charge 2 (Fxx) schieden zwei Profile aufgrund von Biegefehlern aus. Die Proben wurden streckgebogen und auf einer Messlehre  mit 40 Messpunkten (Messpunkte MP1a bis MP10d) vermessen. Das Handling bei der Messdurchführung ist genau vorgeschrieben. Die Teile werden in die Messlehre eingelegt und von den Spannern fixiert. Hier ist zu erwähnen das die Spannkraft der Spanner die Anzugsraft der "`Klipse"' (siehe \fref{fig:klip})
+ \begin{figure}[H]
+ \centering
+ \includegraphics[width=.8\textwidth]{klip}
+ \caption{Montage Klips am Bauteil}
+ \label{fig:klip}
+ \end{figure}
+ 
+ 
+  die das Bauteil auf dem Verdeckkasten durch Kraftschluss fixieren (Teile werden angeschraubt) nicht übersteigen. Mit Hilfe der Messlehre soll ja das am Fahrzeug montierte Bauteil simuliert werden.  Die Messbereiche, Messpunkte und Messuhren wurden, zur besseren Übersicht, mit Farben markiert (siehe \fref{fig:messpunktevdkda3}).  \\
+ An den Messpunkten wurden folgende Messbereiche ermittelt:
+ \begin{description*}
+ \item[MP1a-MP10a] Kontur außen (grün)
+ \item[MP1b-MP10b] Spalt (gelb)
+ \item[MP1c-MP10c] Wölbung oben innen (rot)
+ \item[MP1d-MP10d] Wölbung oben außen (blau)
+ \end{description*}
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=0.8\textwidth]{messpunktevdkda3}
+\caption{Messpunkte Biegelehre}
+\label{fig:messpunktevdkda3}
+\end{figure} 
+ 
+ 
+ 
+ 
+Das Messen erfolgte durch Abfahren aller Messpunkte mit den zu den spezifischen Messbereichen zu verwendenden Messuhren (siehe \fref{fig:messverfahren}). Ein negativer Messwert lässt auf eine Verkleinerung des Messbereiches schließen. Eine Ausnahme hierzu ist der Messbereich "`\emph{Spalt vorne unten}"' welcher  bei negativen Werten eine Vergrößerung bedeutet.\\
+ Alle relevanten Messergebnisse (mit Ausnahme der Messpunkte MP1b und MP10b bei Charge 1, welche nicht zu ermitteln waren) wurden in Tabellen eingetragen und  der Mittelwert sowie die Standardabweichung
+ ermittelt. Darüber hinaus erfolgte eine Gegenüberstellung der spezifischen Werte.\\
+Da aufgrund der vielen Messpunkte  sehr umfangreiche Auswertungen durchgeführt wurden,  sind hier die für die Problematik Ausschlaggebendsten  (Messbereich \emph{Kontur aussen} näher betrachtet worden. Die Messergebnisse und Visualisierungen sowie Dokumentationen zu dem Messbereich \emph{Kontur aussen} sind dem Anhang beigefügt. 
+\begin{figure}[hbtp]
+\centering
+\hfill
+\subfloat[Messlehre mit eingelegtem Bauteil  \label{fig:messlehre}]{\includegraphics[scale=.0877]{Messlehre}}
+\hfill
+\subfloat[Messung "`Kontur aussen"' \label{fig:messvdkd}]{\includegraphics[scale=.042]{messvdkd}}
+\hfill
+\caption{Messverfahren an der "`Biegelehre"' }
+\label{fig:messverfahren}
+\end{figure}
+
+
+Der für das Streckbiegen aussagekräftigste Parameter ist der Messbereich "`\emph{Kontur aussen}"' da er dem Verlauf der Biegelinie entspricht. Besonders an den Messpunkten MP1a und MP10a sind die Auswirkungen der Rückfederung zu beobachten. Ein Vergleich der Chargen ist in \fref{tab:mwertstandstreck} übersichtlich dargestellt. \\Dort ist zu sehen, dass das Material F17 (Charge 1) an fast allen Messpunkten die geringste Standardabweichung aufweist. Lediglich bei Messpunkt MP3a liegt sie in nicht großem Abstand zwischen dem Fxx (Charge 2) und dem F13 (Serie) Material.\\Ein Vergleich der Messwerte (Kontur aussen) der Chargen (siehe  \fref{fig:mitstrckb}) ergibt, dass an den Messpunkten MP1a, MP2a, MP9a und MP10a  Charge 1 (F17) die größte Rückfederung nach dem Streckbiegeprozess auftritt. Dies ist natürlich bedingt durch die höchste Mindestzugfestigkeit (Rm \SI{160,25}{\newton\per\milli\meter\squared}) unter den Chargen.\\
+ Dennoch ist das für die Serienfertigung wichtigste Kriterium (um über hohe Stückzahlen einen kontinuierlichen Prozessverlauf zu erzielen) der Prozessschwankung (daher \emph{Standardabweichung}) bei dem F17er Material (Charge 1) am geringsten. Mit den kleinsten Standardabweichungen an den signifikanten Messpunkten MP1a (\SI{0,270}{\milli\meter}),  MP2a (\SI{0,116}{\milli\meter}),  MP9a (\SI{0,078}{\milli\meter}) und MP10a (\SI{0,210}{\milli\meter}) sind hier die F17 Strangpressprofile als Vormaterial für die spätere Serienfertigung in Erwägung zu ziehen. Auch die Fxx Charge hat größtenteils geringere Standardabweichungen als das F13 Serienmaterial.\\ Bis auf die Messpunkte MP2a, MP3a und MP4a  weist das Fxx Vormaterial eine geringere Prozessschwankung im Gegensatz zu dem Serienmaterial (F13) auf. Es sei noch erwähnt, dass das Streckbiegeprogramm während der kompletten Versuchsreihen auf das Serienmaterial angepasst war. Bei späterer Anpassung der CNC Parameter auf das spezielle Vormaterial,  wären bei der Wahl eines neuen Serienvormaterials eine weitere Verbesserung der Werte zu erwarten.\\ Der asymmetrischen Verlauf der Messwerte des Serienmaterials (F13 grüner Verlauf im Diagramm,   siehe \fref{fig:mitstrckb}) zeigt deutlich, dass die Streckbiegemaschine nicht symmetrisch arbeitet. Es müssen dort noch Optimierungen zur Erzielung eines gleichmäßigen Biegeresultats durchgeführt werden.\\
+ Die entstandenen Asymmetrien werden sich durch die weiteren Bearbeitungsprozesse ziehen und sind nicht mehr zu korrigieren. Das verdeutlicht den hohen Stellenwert der Präzision insbesondere bei dem ersten Prozess in der Prozesskette (hier das Streckbiegen).
+  
+ 
+
+
+
+
+
+
+\begin{table}[hbtp]
+\caption{Messwerte und Standardabweichungen Streckbiegen "`Kontur aussen"'} 
+\label{tab:mwertstandstreck}
+\vskip\abovecaptionskip
+
+
+
+\footnotesize
+   \begin{tabular}{cccccc}
+   \toprule
+   & \multicolumn{5}{c}{Messwert $x =  (\bar{x} \pm \Delta\bar{x})  $ [mm]}\\
+   \cmidrule(ll){2-6}
+   Material    & MP1a & MP2a & MP3a & MP4a & MP5a \\  
+   
+   \midrule
+  
+   F17& $ 1,95\pm 0,13 $ & $0,72 \pm 0,06 $ & $0,60 \pm 0,04 $ & $ 0,028 \pm 0,017 $ & $-0,297 \pm 0,014$ \\
+    Fxx & $0,81 \pm 0,21 $ & $0,34 \pm 0,07 $ & $0,15 \pm 0,05 $ & $0,021 \pm0,027 $ & $ -0,188\pm0,030$ \\
+   F13  Serie & $-0,66 \pm0,22 $ & $-0,13 \pm 0,06 $ & $-0,38 \pm 0,04$ & $ 0,028\pm0,024 $&$0,00 \pm0,05 $ \\
+     \midrule
+     
+  Material   & MP6a & MP7a & MP8a & MP9a & MP10a  \\
+  \midrule
+      F17&   $-0,368 \pm0,014 $&$-0,293 \pm0,012 $&$ 0,46 \pm 0,06 $&$ 1,31\pm 0,04$&$2,96 \pm0,10 $ \\
+Fxx &$-0,233 \pm0,024 $&$-0,251 \pm0,015 $&$-0,17 \pm0,07 $&$0,57 \pm0,06 $&$1,37 \pm0,15 $ \\
+  F13 Serie & $-0,04 \pm0,08 $&$ -0,16\pm0,11 $&$-0,55 \pm0,11 $&$0,04 \pm  0,10$&$-0,08 \pm0,21$ \\
+     
+     \bottomrule
+      
+     &&&&&\\
+     &&&&&\\
+     &&&&&\\
+     &&&&&\\
+     &&&&&\\
+     
+     \toprule
+      & \multicolumn{5}{c}{Standardabweichung s [mm]}\\
+   \cmidrule(ll){2-6}
+   Material    & MP1a & MP2a & MP3a & MP4a & MP5a \\ 
+   \midrule
+    F17&0,270&0,116&0,086&0,036&0,028\\
+    Fxx &0,416&0,138&0,098&0,053&0,060\\
+    F13 Serie&0,454&0,121&0,068&0,051&0,103\\
+     \midrule
+     
+  Material    & MP6a & MP7a & MP8a & MP9a & MP10a  \\
+  \midrule
+    F17 &0,028&0,025&0,113&0,078&0,210\\
+ Fxx   &0,048&0,028&0,132&0,121&0,291\\
+F13 Serie &0,164&0,219&0,235&0,211&0,432\\ 
+   \bottomrule 
+         
+   \end{tabular} 
+\end{table}
+
+\begin{figure}[hbtp] 
+\centering
+\includegraphics[width=0.8\textwidth]{mitkontausstrckb}
+\caption{Vergleich Messwerte $x=(\bar{x} \pm \Delta\bar{x}) $ [mm]  "`Kontur aussen"' Streckbiegen}
+\label{fig:mitstrckb}
+\end{figure}
+
+\newpage
+\subsection{Versuchsreihe Nr. 2 Streckbiegen}
+Bei Versuchsserie 2 wurden 5 neue Chargen zu je 20 Teilen vom Zulieferer bestellt. Zusätzlich zu dem Material der vorherigen Versuchsreihe wurden die Materialien F19 und F18 untersucht. F19 hat den Zustand T5 (abgeschreckt aus der Warmumformwärme und warmausgelagert) während F18 den Zustand T64 (lösungsgeglüht und teilausgehärtet, biegefähig) besitzt.\footnote{Vgl.\url{http://www.alumeco.de/Technische_Informationen/Zustandsbezeichnungen.aspx}[22.03.2014].}  Die anderen drei Chargen F13, Fxx und F17 sind in \fref{sec:versuchsreihe1} erläutert. Da die verschiedenen Chargen aber mit einer Toleranz von \SI{20}{\newton\per\milli\meter\squared} vom Zulieferer geliefert werden und zusätzlich Umwelteinflüsse während Lagerung und Transport auf die mechanischen Eigenschaften des Aluminiums Einfluss haben,  sind die Laborwerte der signifikantesten Eigenschaften noch einmal tabellarisch angeführt (siehe \fref{tab:eigenschaften2}).\\
+\begin{table}[hbtp]
+\caption{Gegenüberstellung der mechanischen Eigenschaften (Laborwerte) der Chargen 2. Versuchsreihe}
+\label{tab:eigenschaften2}
+\centering
+\begin{tabular}{lllll}
+\toprule
+Material & Zugfestigkeit & Streckgrenze & Bruchdehnung & Zustand \\
+Charge &  Rm [\si{\newton\per\milli\meter\squared}] &  $R_{p0,2}$ [\si{\newton\per\milli\meter\squared}] &  $A_{50}$ [\%] & \\
+\midrule
+1.nF17 & 166 & 87,95 & 12,45 & T61 \\
+2.nFxx & 153,3 & 71,2 &  19,15 & T61 \\
+3.nF13 Serie & 135 & 60 & 16  & T4 \\
+4.F18 & 177,75 & 104,2 & 13 & T64 \\
+5.F19 & 193,85 & 132,85 & 12,8 &  T5 \\
+
+\bottomrule
+
+
+
+
+\end{tabular}
+\end{table}
+
+ 
+Nach dem Streckbiegen trat erwartungsgemäß bei dem F19 Material (höchste Mindestzugfestigkeit) die größte Rückfederung und Prozessschwankung auf. Die F19er Charge ließ sich auf der Messlehre nicht vermessen. Sie wurde deshalb auf einer 3 D Koordinatenmessmachine vermessen.  Außerdem stellte sich heraus, dass die F19 Bauteile nicht in die Fräsvorrichtung passten. Bei dem Vergleich der Standardabweichungen hatten die  F19 Proben  die größte Streuung und wurden von weiteren Vergleichen und Untersuchungen ausgeschlossen. Die Messwerte und Prozessschwankungen sind tabellarisch in \fref{tab:mwertstandstreck2} aufgeführt.
+
+\begin{table}[hbtp]
+\caption{Messwerte und Standardabweichungen Streckbiegen "`Kontur aussen"' Versuchsreihe 2} 
+\label{tab:mwertstandstreck2}
+\vskip\abovecaptionskip
+
+
+
+\footnotesize
+   \begin{tabular}{cccccc}
+   \toprule
+   & \multicolumn{5}{c}{Messwert $x =  (\bar{x} \pm \Delta\bar{x})  $ [mm]}\\
+   \cmidrule(ll){2-6}
+   Material    & MP1a & MP2a & MP3a & MP4a & MP5a \\  
+   
+   \midrule
+  
+   nF13 Serie& $ -0,78 \pm 0,08  $ & $ 0,026 \pm 0,024  $ & $ -0,330 \pm 0,026  $ & $ -0,014 \pm 0,008  $ & $ -0,172 \pm 0,013 $ \\
+    nFxx & $ 0,81 \pm 0,06  $ & $ 0,33 \pm 0,04  $ & $ -0,14 \pm 0,08  $ & $ -0,022 \pm 0,007 $ & $ -0,268 \pm 0,019$ \\
+   nF17  & $ 2,44 \pm 0,08 $ & $ 0,935 \pm 0,018  $ & $ 0,215 \pm 0,016 $ & $ -0,049 \pm 0,005 $&$ -0,421 \pm 0,008  $ \\
+    F18 & $ 2,524 \pm 0,025   $ & $ 0,856 \pm 0,017   $ & $ 0,137  \pm 0,017   $ & $ -0,061  \pm 0,019  $ & $ -0,28  \pm 0,04  $ \\
+  F19 & $ 8,2  \pm 0,9   $ & $ 0,99  \pm 0,11   $ & $ 1,16  \pm 0,06   $ & $ -0,411  \pm 0,012   $ & $ -1,59  \pm 0,06  $ \\
+     \midrule
+     
+  Material   & MP6a & MP7a & MP8a & MP9a & MP10a  \\
+  \midrule
+      nF13 Serie &   $ -0,229 \pm 0,014 $&$ -0,265 \pm 0,008 $&$ -0,73 \pm 0,02  $&$ 0,209 \pm 0,024 $&$ -0,20 \pm 0,05 $ \\
+nFxx &$ -0,375 \pm 0,012 $&$ -0,287 \pm 0,006 $&$ -0,43 \pm 0,01 $&$ 0,632 \pm 0,024 $&$ 1,19 \pm 0,05 $ \\
+  nF17  & $ -0,510 \pm 0,009 $&$ -0,300 \pm 0,008 $&$ -0,170 \pm 0,013 $&$ 1,197 \pm 0,027  $&$ 2,84 \pm 0,06 $ \\
+ F18 & $ -0,331  \pm 0,019   $ & $ -0,257  \pm 0,013   $ & $ -0,11  \pm 0,03   $ & $ 1,3  \pm  0,1 $ & $ 3,8  \pm 0,1  $ \\
+ F19 & $ -1,59  \pm 0,05   $ & $ -0,302  \pm 0,019   $ & $ 3,05  \pm 0,13   $ & $ 5,17  \pm 0,13   $ & $ 12,36  \pm 0,26  $ \\
+     
+     \bottomrule
+      
+     &&&&&\\
+     &&&&&\\
+     &&&&&\\
+     &&&&&\\
+     &&&&&\\
+     
+     \toprule
+      & \multicolumn{5}{c}{Standardabweichung s [mm]}\\
+   \cmidrule(ll){2-6}
+   Material    & MP1a & MP2a & MP3a & MP4a & MP5a \\ 
+   \midrule
+    nF13 Serie&0,162&0,050&0,055&0,017&0,027\\
+    nFxx &0,121&0,066&0,028&0,015&0,039\\
+    nF17 &0,151&0,038&0,033&0,009&0,017\\
+    F18 &0,053&0,036&0,036&0,040&0,085\\
+    F19 &\textcolor{red}{0,678}&\textcolor{red}{0,220}&0,123&0,024&0,113\\
+     \midrule
+     
+  Material    & MP6a & MP7a & MP8a & MP9a & MP10a  \\
+  \midrule
+    nF13 Serie &0,028&0,017&0,041&0,050&0,107\\
+ nFxx   &0,025&0,012&0,020&0,051&0,104\\
+nF17  &0,019&0,015&0,026&0,057&0,109\\ 
+F18 &0,041&0,027&0,064&0,198&0,198\\
+F19 &0,101&0,040&0,152&\textcolor{red}{0,266}&\textcolor{red}{0,556}\\
+   \bottomrule 
+         
+   \end{tabular} 
+\end{table}
+\newpage
+
+Es fällt auf, dass das F19er Versuchsmaterial an den entscheidenden Messpunkten MP1a, MP2a, M9a und MP10a eine große Standardabweichung hat (rot markiert siehe \fref{tab:mwertstandstreck2}) die weit über den Vergleichsproben an den entsprechenden Stellen liegt. Daher wird das F19er Material in weitere Untersuchen nicht mit einbezogen.\\
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=.8\textwidth]{messwerte2}
+\caption{Relevante Messwerte "`Streckbiegen"' Versuchsreihe 2}
+\label{fig:messw2}
+\end{figure}
+Die Messwerte der neuen Chargen sind in \fref{fig:messw2} visualisiert. Dort ist zu sehen, dass das Fxx Material (rot) an den Stellen MP1a (\SI{0,121}{\milli\meter}), MP3a (\SI{0,028}{\milli\metre}),  MP7a (\SI{0,012}{\milli\meter}) MP8a (\SI{0,020}{\milli\meter}) und MP10a (\SI{0,104}{\milli\meter}) die geringsten Prozessschwankungen (Standardabweichung) hat.  Die F13 und F17 Proben liegen in der Standardabweichung nicht so weit auseinander, dennoch hat das F17er Material an den Messpunkten MP1 - MP8 eine geringere Streuung als F13. Aufgrund der höheren Festigkeitswerte haben die F17er Teile eine wesentliche ausgeprägtere Rückfederung als das Serienmaterial (F13). Im Gegensatz zu dem ersten Streckbiegedurchlauf ist hier das Fxx und das F17 Material gleich gut zu bewerten. Um die unterschiedlichen Ergebnisse der beiden Streckbiegeversuchsreihen zu erörtern folgt eine Tabelle mit einem Vergleich der Laborwerte der jeweiligen Chargen. 
+
+\begin{table}[H]
+\caption{Vergleich der Eigenschaften der  Ausgangsmaterialien beim Streckbiegen in den Versuchsreihen 1. und 2. (das n steht für die "`neuen Chargen"' im zweiten Durchlauf)}
+\label{tab:altneu}
+\centering
+\begin{tabular}{cccc}
+\toprule
+Material/Differenz [\si{\newton\per\milli\meter\squared}] & Rm [\si{\newton\per\milli\meter\squared}]& $R_{p0,2}$ [\si{\newton\per\milli\meter\squared}] \\
+\midrule
+F17 & 160,25 & 85,55 \\
+nF17 & 166 & 87,95 \\
+Diff. & 5,57 & 2,4 \\
+\midrule
+Fxx & 152,4 & 74,65 \\
+nFxx & 153,3 & 71,2 \\
+Diff. & \textbf{\textcolor{green}{0,9}} & -3,45 \\
+\midrule
+F13 & 149,3 & 70,54 \\
+nF13 & 135 & 60 \\
+Diff. & \textbf{\textcolor{red}{-14,3}} & -10,54 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Hier ist ersichtlich, dass das F13 Material die größte Differenz in der Zugfestigkeit aufweist. Es besitzt in Versuchsreihe 2 mit  \SI{135}{\newton\per\milli\meter\squared} eine um \SI{14,3}{\newton\milli\meter\squared} reduzierte Mindestzugfestigkeit im Vergleich zu Versuchsreihe 1. Eine größere Toleranz in den Materialeigenschaften der einzelnen Chargen führt zu erhöhten Prozessschwankungen. Um homogenere Biegeresultate in der Serienfertigung zu erhalten,  müssten die ausschlaggebenden Eigenschaften der Chargen vor jedem Fertigungsdurchlauf im Labor untersucht werden und das Biegeprogramm auf die jeweilige Charge eingerichtet werden. Auffällig ist auch die kleine Differenz von \SI{0,9}{\newton\per\milli\meter\squared} bei der Mindestzugfestigkeit der Fxx Chargen in den beiden Versuchsserien. Möglicherweise ist das Fxx Material in den Festigkeitseigenschaften,  durch das spezielle Wärmebehandlungsverfahren (siehe \fref{sec:versuchsreihe1}) des Zulieferers, konstanter über mehrere Chargen. Hier wäre eine Langzeituntersuchung,  über die Kontinuität der Materialeigenschaften der Fxx Chargen,  eine weitere aufschlussreiche Möglichkeit das wirtschaftlichste Serienmaterial herauszukristallisieren. 
+  
+
+
+
+
+
+\newpage
+\subsection{Fräsen}
+Das Fräsen der Stege an der Unterseite des Bauteils soll für eine ebene Auflagefläche des  Verdeckkastendeckels bei der Montage sorgen. Weiterhin wird durch den Fräsprozess unterhalb der Kröpfzone (siehe \fref{fig:kropffrasbereich})  das Kröpfen erst ermöglicht. Hier ist eine hohe Präzision erforderlich um im Folgeprozess "`Kröpfen"' eine gute Oberflächenqualität im Radienbereich zu erhalten. Bei zu großer Materialabnahme unterhalb der Kröpfzone neigt das Material im Radienbereich zur Rissbildung. Zu geringe Materialabnahme führt dort zu Orangenhaut, Wölbungen und Materialverdrängungen. Gefräst wird auf einer modernen Roboteranlage mit doppelter Spannvorrichtung. Die Materialabnahme verursacht,  aufgrund der durch das Biegen entstandenen Eigenspannungen,  einen weiteren Verzug des Bauteils. In  \fref{tab:biegfraes} ist ein Vergleich der Messwerte "`Kontur aussen"' zum Vorprozess "`Streckbiegen"' angeführt,  um den Verzug der Bauteile zu bewerten. Unter "`Orientierung"' wird die Richtung in die sich die Kontur der Bauteile in der x-y-Ebene verzieht ermittelt. Hier hat das Material F18 mit einem durchschnittlichen Verzug von \SI{0,3432}{\milli\meter} den größten Wert erreicht, was auf die erhöhten Eigenspannungen  die durch das Streckbiegen in das Bauteil eingebracht wurden deutet. Mit einem durchschnittlichen Bauteilverzug von \SI{0,2537}{\milli\meter} liegt bei den F17er Bauteilen der kleinste  Verzug vor. Auch das Fxx Material mit \SI{0,267}{\milli\meter} Gesamtvezug ist nicht weit von dem F17er Bauteilen entfernt. Die Standardabweichung erreicht an den Messpunkten MP9a (\SI{0,290}{\milli\meter}) und MP10a (\SI{0,402}{\milli\meter}) bei F18 Höchstwerte. In \fref{fig:fraesneumess} ist zu erkennen, dass  die Standardabweichungen bei F13, Fxx un F17 insgesamt nicht weit auseinanderliegen, lediglich an den Messpunkten MP2a (\SI{0,271}{\milli\meter}) und MP9a (\SI{0,267}{\milli\meter}) sind die Werte bei den F13 Bauteile im Gegensatz zu Fxx und F17 erhöht. 
+Hieraus lässt sich schließen, dass die Chargen Fxx und F17 auch nach dem Arbeitsschritt Fräsen für eine Serienfertigung vorzuziehen sind. 
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=.8\textwidth]{fraesneumess}
+\caption{Messwerte Fräsen (neu) "`Kontur außen"'}
+\label{fig:fraesneumess}
+\end{figure}
+
+
+
+\begin{table}[hbtp]
+\caption{Messwerte und Standardabweichungen Fräsen  "`Kontur außen"'} 
+\label{tab:mwertstandfraes}
+\vskip\abovecaptionskip
+
+
+
+\footnotesize
+   \begin{tabular}{cccccc}
+   \toprule
+   & \multicolumn{5}{c}{Messwert $x =  (\bar{x} \pm \Delta\bar{x})  $ [mm]}\\
+   \cmidrule(ll){2-6}
+   Material    & MP1a & MP2a & MP3a & MP4a & MP5a \\  
+   
+   \midrule
+  
+   F13 Serie& $ 0,13\pm 0,12 $ & $0,38 \pm 0,13$ & $-0,12\pm0,09  $ & $ -0,074\pm 0,010 $ & $-0,231 \pm 0,012$ \\
+    Fxx & $1,27 \pm 0,13 $ & $0,62 \pm 0,12 $ & $ 0,03 \pm 0,06 $ & $-0,101 \pm 0,012 $ & $-0,340 \pm 0,016 $ \\
+   F17   & $2,54 \pm 0,06 $ & $ 1,11\pm 0,08  $ & $ 0,31 \pm 0,05 $ & $-0,116 \pm 0,015$&$ -0,439 \pm 0,012 $ \\
+   F18 &$4,33\pm0,07 $&$1,49\pm0,08 $&$0,45\pm0,05 $&$-0,071\pm 0,013 $&$-0,37\pm0,03 $ \\
+     \midrule
+     
+  Material   & MP6a & MP7a & MP8a & MP9a & MP10a  \\
+  \midrule
+      F13 Serie &   $-0,274 \pm 0,014 $&$-0,232 \pm 0,015 $&$-1,06 \pm 0,07 $&$ -0,38 \pm 0,13 $&$-0,43 \pm 0,09$ \\
+Fxx &$-0,396 \pm 0,012$&$-0,251 \pm 0,014$&$ -0,84 \pm 0,10 $&$ -0,01 \pm 0,10$&$0,70 \pm 0,11 $ \\
+  F17  & $-0,481 \pm0,018 $&$-0,234 \pm 0,016 $&$ -0,56 \pm 0,06 $&$ 0,46 \pm 0,11  $&$ 1,98\pm0,11$ \\
+  F18 &$-0,35\pm0,34 $&$-0,151\pm0,022$ &$-0,31\pm0,07 $&$1,08\pm0,14$ &$3,76\pm0,19$ \\
+     
+     \bottomrule
+      
+     &&&&&\\
+     &&&&&\\
+     &&&&&\\
+     &&&&&\\
+     &&&&&\\
+     
+     \toprule
+      & \multicolumn{5}{c}{Standardabweichung s [mm]}\\
+   \cmidrule(ll){2-6}
+   Material    & MP1a & MP2a & MP3a & MP4a & MP5a \\ 
+   \midrule
+    F13 Serie &0,246&0,271&0,190&0,020&0,024\\
+    Fxx &0,277&0,240&0,126&0,025&0,033\\
+    F17 &0,121&0,151&0,086&0,032&0,026\\
+    F18 &0,145&0,154&0,087&0,026& 0,064\\
+    
+     \midrule
+     
+  Material    & MP6a & MP7a & MP8a & MP9a & MP10a  \\
+  \midrule
+    F13 Serie &0,028&0,032&0,146&0,267&0,181\\
+ Fxx   &0,025&0,029&0,202&0,193&0,219\\
+F17 &0,038&0,033&0,115&0,231&0,216\\ 
+F18 &0,072&0,046&0,149&0,290&0,402\\
+   \bottomrule 
+         
+   \end{tabular} 
+\end{table}
+
+\newpage
+
+\begin{sidewaystable}[H]
+\caption{Materialverzug im Vergleich zum Vorprozess (Biegen/Fräsen)}
+\label{tab:biegfraes}
+\vskip\abovecaptionskip
+
+
+\begin{tabular}{cccccccccccc}
+\toprule
+&& \multicolumn{10}{c}{Mittelwerte (bezüglich Messpunkt) und Verzug [\si{\milli\meter}]} \\
+\cmidrule(2){3-12}
+Prozess/Diff. & Material & MP1 & MP2 & MP3 & MP4 & MP5 & MP6 & MP7 & MP8 & MP9 & MP10 \\
+\midrule
+Biegen & \textbf{F13} & -0,78 & 0,026 & -0,33 & -0,014 & -0,127 & -0,229 & -0,265 & -0,73 & 0,209 & -0,2 \\
+Fräsen && 0,13 & 0,38 & -0,12 & -0,074 & -0,231 & -0,274 & -0,232 & -1,06 & -0,38 & -0,43 \\
+Verzug && 0,91 & 0,324 & 0,21 & 0,06 & 0,104 & 0,045 & 0,033 & 0,33 & 0,589 & 0,23 \\
+Orientierung && aussen & aussen & aussen & innen & innen & innen & aussen & innen & innen & innen \\
+\textbf{Durchschnittlicher Verzug} &&\textbf{0,2835}&&&&&&&&&\\
+\midrule
+Biegen & \textbf{Fxx} & 0,81 & 0,33 & -0,14 & -0,022 & -0,268 & -0,375 & -0,287 & -0,43 & 0,632 & 1,19\\
+Fräsen && 1,27 & 0,62 & 0,03 & -0,101 & -0,340 & -0,396 & -0,251 & -0,84 & -0,01 & 0,70 \\
+Verzug && 0,46 & 0,29 & 0,17 & 0,079 & 0,072 & 0,021 & 0,036 & 0,41 & 0,642 & 0,49 \\
+Orientierung && aussen & aussen & aussen & innen & innen & innen & aussen & innen & innen & innen \\
+\textbf{Duchschnittlicher Verzug} && \textbf{0,267}&&&&&&&&&\\
+\midrule
+Biegen & \textbf{F17} & 2,44 & 0,935 & 0,215 & -0,049 & -0,421 & -0,51 & -0,3 & -0,17 & 1,197 & 2,84 \\
+Fräsen && 2,54 & 1,11 & 0,31 & -0,116 & -0,439  & -0,481  & -0,234  & -0,56 & 0,46 & 1,98  \\
+Verzug && 0,1 & 0,175 & 0,095 & 0,067 & 0,018 & 0,029 &  0,066 & 0,39 & 0,737 & 0,86 \\
+Orientierung && aussen & aussen & aussen & innen & innen & aussen & aussen & innen & innen & innen \\
+\textbf{Durchschnittlicher Verzug} && \textbf{\textcolor{green}{0,2537}} &&&&&&&&&\\
+\midrule
+Biegen & \textbf{F18} & 2,524 & 0,856 & 0,137 & -0,061 & -0,28 & -0,331 & -0,257 & -0,11 & 1,3 & 3,8 \\
+Fräsen && 4,33 & 1,49 & 0,45 & -0,071 & -0,37 & -0,35 & -0,151 & -0,31 & 1,08 & 3,76 \\
+Verzug && 1,806 & 0,634 & 0,313 & 0,01 & 0,09 & 0,019 & 0,1 & 0,2 & 0,22 & 0,04 \\
+Orientierung && aussen & aussen & aussen & innen & innen & innen & aussen & innen & innen & innen \\
+\textbf{Durchschnittlicher Verzug} && \textbf{\textcolor{red}{0,3432}} &&&&&&&&&\\
+\bottomrule
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{tabular}
+\end{sidewaystable}
+\newpage
+\subsection{Schleifen und Polieren}
+Schleifen ist ein spanabhebender Prozess. Es wird definiert als spanabhebendes Bearbeitungsverfahren, bei dem durch eine Vielzahl harter Kristalle (Schleifkörner) undefinierter Geometrie ein Werkstoffabtrag stattfindet.\footcite[Vgl.][15]{hsp}  Eine Analogie zum Zerspanungsvorgang Drehen verdeutlicht die Vorgänge in der Deformationszone.\\
+ Die Schneide des Drehmeißels dringt in die Metalloberfläche ein und nimmt mit Hilfe der Drehung des Werkstücks laufend Material ab. Der Werkstoff löst sich in Form von Spänen. Der gleiche Ablauf findet beim Schleifen statt, mit dem Unterschied, dass das Werkstück stillsteht und die Schneide oder besser Schneiden (Schleifkörner, Kristalle unterschiedlicher Geometrie) über das Werkstück gezogen werden.\\ Die Materialabnahme steht in Korrelation zu der Größe und Härte des Schleifmittels. Beim Schleifen wird also Material von der Oberfläche abgehoben und Kratzer sowie Schleifspuren erzeugt. Je feiner das Schleifkorn, desto flacher und feiner die Schleifspuren.\footcite[Vgl.][16-17]{hsp}\\  
+Das Polieren ist ein sehr komplexer Prozess während dem sich eine ganze Anzahl von Einzelprozessen abspielen welche ineinandergreifen und sich überlagern. Zur Beschreibung des Poliervorganges gibt es verschiedene Theorien von denen hier die zwei bedeutendsten kurz Umrissen werden. Eine These besagt das zwischen Schleifen und Polieren gar kein Unterschied besteht weil  das Polieren als ein ultramikroskopischer Schleifprozess sei. Zum Zweck der Erreichung  äußersten Hochglanzes wird Material abgenommen und einzelne Kristalle aus der Oberfläche herausgebrochen. Verfechter dieser Hypothese untermauern sie mit dem simplen Vergleich, dass selbst beim Wischen mit Watte noch Teilchen aus einer Oberfläche herausgerissen werden.\\ Die zweite bedeutende These besagt das beim Poliervorgang keine Substanz abgetragen wird und dass unter dem Druck des Polierkornes in Zusammenhang mit der durch die Polierscheibe generierten Temperatursteigerung ein Schmelzen der obersten Materialschicht entsteht und eine amorphe (unregelmäßiges Muster, ohne Gestalt, Atome keine geordneten Strukturen), polierte Oberfläche resultiert. Diese These wird gestützt durch die Tatsache, dass amorphe Oberflächen eine höhere Korrosionsbeständigkeit und ein verändertes elektrisches Potential aufweisen im Gegensatz zu Oberflächen mit geordnetem Kristallgefüge.\footcite[Vgl.][38]{hsp}\\  Bei dem Polieren und Schleifen von Messing und Aluminium erreichen die Materialien Temperaturen von über 200 Grad Celsius. Es existieren Forschungsarbeiten die belegen das bei dem Schleifen sowie bei dem Polieren örtliche Temperaturen von 500 – 1000 Grad Celsius an den Metalloberflächen auftreten welche ausreichen um ein Schmelzen des Metalls an den Kontaktzonen mit dem Schleif- oder Polierkorn begünstigen. Daraus resultiert ein ultramikroskopisch feiner, beweglicher Film welcher  einer zähen Flüssigkeit ähnelt und während des Polierprozesses über die Krater, Riefen und Unebenheiten der Materialoberfläche fließt. Unter Einfluss der Oberflächenkräfte entsteht eine plane Fläche wie bei einem Liquidum.\\ Der mechanische Poliervorgang bewirkt also (beim manuellen wie auch beim automatischen Polierprozess) eine Verschiebung der Metalloberfläche in dünnster Schicht die in einer Einebnung der Oberfläche resultiert.\footcite[Vgl.][40-41]{hsp} \\
+Aufgrund von Engpässen in der Serienfertigung war es nicht möglich die Materialchargen F17, Fxx und F18 auf modernen Taktanlagen schleifen und polieren zu lassen. Deshalb wurde für diese Bearbeitungsstufe ein Handwerksbetrieb beauftragt. Um Erkenntnisse über die Oberflächentemperaturen des Bauteils während der Bearbeitung zu bekommen, wurden die Teile von innen mit Temperaturmessstreifen versehen (siehe \fref{fig:messaction}). Weiterhin wurde, um Schmelzkreide aufzutragen, während des Polierens das Werkstück kurz weggeschwenkt.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{messstreifen}
+\caption{a) - c) Verschiedene Messstreifen für verschiedene Temperaturbereiche , d) Schmelzkreide (\SI{205}{\degreeCelsius}) }
+\label{fig:messstreifen}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{messaction}
+\caption{Messstreifen mit Verfärbung Temperaturbereich}
+\label{fig:messaction}
+\end{figure}
+
+Eine Übersicht der von den  Messstreifen abgedeckten Temperaturbereiche ist in folgender Tabelle zu sehen:
+
+\begin{table}[H]
+\caption{Messbereiche der Messstreifen}
+\label{tab:messbereiche}
+\centering
+\begin{tabular}{ll}
+\toprule
+Messtreifen  & Temperaturbereich [\si{\degreeCelsius}]\\
+\midrule
+Typ A & 40-71\\
+Typ B & 77-127\\
+Typ C & 132-182\\
+Typ D & 188-249\\
+Typ 8 & 241-290\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Es sind sechs F17 Bauteile für die Versuchsserie mit den Messstreifen an jeweils drei Bereichen auf der Unterseite versehen worden.
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{messbereicheVDKDunterseite}
+\caption{Messzonen an Bauteilunterseite}
+\label{messzonen}
+\end{figure}
+
+Nach den Schleifvorgängen war keiner der Messstreifen verfärbt. Deshalb wird bei weiteren Betrachtungen nur noch der Polierprozess erwähnt. Nach dem Polieren der Proben wurden folgende Ergebnisse in einer Tabelle festgehalten und der Mittelwert (\SI{107.5}{\degreeCelsius}) ermittelt.
+
+
+
+\begin{table}[H]
+\caption{Messwerte nach dem Polieren}
+\label{tab:messwerte}
+\centering
+\begin{tabular}{llll}
+\toprule
+              & \multicolumn{3}{c}{Temperatur [\si{\degreeCelsius}]}\\
+              \cmidrule(ll){2-4}
+ Charge/Nr. & Zone 1 & Zone 2 & Zone 3 \\
+ \midrule
+ F17 14 & 93 & 82 & 93 \\
+ F17 15 & 99 & 93 & 82 \\
+ F17 16 & 110 & 132 & 116 \\
+ F17 17 & 99 & 127 & 104 \\
+ F17 18 & 104 & 127 & 127 \\
+ F17 19 & 104 & 127 & 116 \\
+ \bottomrule             
+\end{tabular}
+\end{table}
+
+Mit der auf der Oberfläche aufgetragenen Temperaturschmelzkreide ließ sich zwar schreiben, dennoch hatte sie sich nicht vollständig aufgelöst. Daraus folgt das zumindest kurz nach dem Entfernen des Bauteils aus der Polierzone auf der Oberfläche die \SI{205}{\degreeCelsius} nicht überschritten wurden. Hier ist jedoch zu beachten,  dass sich die Oberfläche (auch zusätzlich bedingt durch die kühlende Luft des rotierenden Polierringes) schnell abkühlt.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{Kreide}
+\caption{Direkt nach dem "`Wegschwenken"' der Oberfläche aus der Polierzone aufgetragene Temperaturschmelzkreide(\SI{205}{\degreeCelsius}). Nicht geschmolzen.}
+\label{kreide}
+\end{figure}
+
+
+
+
+
+
+
+
+
+\subsubsection{Herleitung der Formel und Berechnung der Oberflächentemperatur}
+Die metallurgischen Vorgänge in der Oberflächenzone bei dem Polierprozess sind sehr komplex. Auch die wirklichen Temperaturen in der Bearbeitungszone sind messtechnisch schwer zu erfassen. Eine Wärmekamera oder die Finite - Elemente - Methode wäre aufschlussreicher, jedoch auch aufwendiger. Da das Polieren ein instationärer Prozess ist (Wärme wird zu unterschiedlichen Zeiten eingebracht, der ausgeübte Druck ist nicht gleichmäßig und variiert unter den Polierzonen aufgrund der unterschiedlichen Geometrien des Werkstücks, auch variierende Andruckkraft bei unterschiedlichen Personen um nur einige Parameter zu erwähnen) sind auch mathematische Herleitungen sehr theoretisch . Deshalb wird, um eine gute Annäherung der Oberflächentemperatur zu erhalten, vereinfachend von einem stationären Prozess bei der \emph{Wärmeleitung} durch eine ebene Wand ausgegangen.
+
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{warmleittip}
+\caption{Stationäre Wärmeleitung durch ebene Wand\protect\footnotemark}
+\label{tipler}
+\end{figure}  
+\footnotetext{\cite[Vgl.][675]{phtip}}
+Die unten vollzogene Näherungsrechnung ergab eine Oberflächentemperatur von \SI{175.69}{\degreeCelsius}. Ein Resultat was in Vergleich mit den Messergebnissen (Bauteilinnenseite Durchschnittswert mit Temperaturmessstreifen ermittelt \SI{107.5}{\degreeCelsius}, Oberflächentemperatur $< \SI{205}{\degreeCelsius}$ mit Temperaturschmelzkreide erfasst) durchaus realistisch erscheint.
+An dieser Stelle sei noch hinzugefügt, dass  bei modernen Roboterpolierzellen wesentlich höhere Temperaturen in der Materialoberfläche auftreten.
+
+
+
+\newpage
+\begin{description}
+\item[ $\vartheta $] Temperatur  [\si{\degreeCelsius}]
+\item[$ \dot{Q} $ ] Wärmestrom [\si{\watt}]
+\item[$ \si{T}$] thermodynamische (auch absolute) Temperatur [\si{\kelvin
+}]
+\item[$\lambda $] Wärmeleitfähigkeit [\si{\watt\per\metre\per\kelvin}], ist in diesem speziellen Fall die Wärmeleitfähigkeit von Aluminium EN AW 6060 ($200-220 \, \si{\watt\per\meter\per\kelvin}$)\footnote{Vgl.\url{http://www.smh-metalle.de/internet/media/smh/pdf/datenblatt/datenblatt_en_aw_6060.pdf}[09.04.2014].}. In der Rechnung wird der Mittelwert (\SI{210}{\watt\per\meter\per\kelvin}) verwendet.
+\item[$ P_{zu} $] Leistung [\si{\watt}], hier Leistung des Antriebs der Poliermaschine (Drehstrommotor)  \SI{9}{\kilo\watt}
+\item[$P_{ab} $]  abgegebene Leistung [\si{\watt}] der Poliermaschine nach der Formel $ P_{ab} = P_{zu} \cdot \eta_{el.} \cdot \eta_{mech.}$.\footcite[Vgl.][R2]{g}
+\item[$\eta_{el.} $] Wirkungsgrad des Drehstrommotors (Richtwert 0,85)\footcite[Vgl.][40]{tm}
+\item[$\eta_{mech.} $]Wirkungsgrad des Breitkeilriemengetriebes der Poliermaschine (Richtwert 0,85)\footcite[Vgl.][40]{tm}
+\item[$A_{mess} $] effektive Fläche des Messstreifens (siehe  a) in \fref{fig:messstreifen}) $ A_{mess} = \SI{6.2e-3}{\meter} \cdot \SI{4.1e-2}{\meter} = \SI{2.54e-4}{\meter\squared}$
+\item[$x_a $]  Maß an Bauteil Außenwand (dort wo der Kontakt zum Polierring entsteht und die Wärme eintritt)[\si{\meter}]. 
+\item[$x_i$] Maß Bauteil Innenwand ( Wärmeaustritt)[\si{\meter}]
+\item[$\vartheta_a$] Temperatur Außenwand [\si{\degreeCelsius}] 
+\item[$\vartheta_i$] Temperatur Innenwand [\si{\degreeCelsius}] hier Mittelwert der Messungen \SI{107.5}{\degreeCelsius} 
+\item[$ \Delta x $] Blechdicke [\si{\meter}], hier \SI{2.8e-3}{\meter}
+
+\end{description}
+
+Herleitung der Formel\footcite[Vgl.][18-19]{wae} für die zu ermittelnde Oberflächentemperatur:
+
+\begin{gather}
+\dot{Q} = - \lambda \cdot A_{mess} \cdot \frac{d\vartheta}{dx}\\
+\int\limits_{x_a}^{x_i} \dot{Q}\,dx = \int\limits_{\vartheta_a}^{\vartheta_i} - \lambda \cdot A_{mess}\,d\vartheta\\
+\dot{Q} = \frac{\lambda}{x_i - x_a} \cdot A_{mess} \cdot (\vartheta_a - \vartheta_i) = \frac{\lambda}{\Delta x} \cdot A_{mess} \cdot (\vartheta_a - \vartheta_i)\\
+P_{zu} \cdot \eta_{el.} \cdot \eta_{mech.} = \frac{\lambda}{\Delta x} \cdot A_{mess} \cdot (\vartheta_a - \vartheta_i)\\
+\Rightarrow \quad  \vartheta_a = \frac{P \cdot \eta_{el.} \cdot \eta_{mech.} \cdot \Delta x}{\lambda \cdot A_{mess}} + \vartheta_i \\
+\vartheta_a = \left(\frac{\SI{9e3}{\watt} \cdot 0.85 \cdot 0.85 \cdot \SI{2.8e-3}{\meter}}{\SI{210}{\watt\per\meter\per\kelvin} \cdot \SI{2.54e-4}{\meter\squared}}- \SI{273.15}{\kelvin}\right) \cdot \SI{1}{\degreeCelsius\per\kelvin} + \SI{107.5}{\degreeCelsius} \notag\\
+\vartheta_a = \underline{\underline{\SI{175.69}{\degreeCelsius}}} \notag
+\end{gather}
+
+\subsubsection{Auswertung Schleifen und Polieren }
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=.8\textwidth]{diagrammpolier}
+\caption{Messwerte und Prozessschwankungen Polieren}
+\end{figure}
+
+
+\begin{table}[hbtp] % StandardMesswertTabelle
+\caption{Messwerte und Standardabweichungen Schleifen/Polieren  "`Kontur außen"'} 
+\label{tab:mwertstandfraes}
+\vskip\abovecaptionskip
+
+
+
+\footnotesize
+   \begin{tabular}{cccccc}
+   \toprule
+   & \multicolumn{5}{c}{Messwert $x =  (\bar{x} \pm \Delta\bar{x})  $ [mm]}\\
+   \cmidrule(ll){2-6}
+   Material    & MP1a & MP2a & MP3a & MP4a & MP5a \\  
+   
+   \midrule
+  
+   F13 Serie& $ 0,42\pm 0,13 $ & $0,51 \pm0,13 $ & $-0,05\pm 0,08  $ & $ -0,080\pm 0,014 $ & $ -0,257\pm0,012 $ \\
+    Fxx & $1,67 \pm 0,14 $ & $0,1 \pm0,4 $ & $0,13 \pm0,07  $ & $-0,097 \pm0,018 $ & $-0,385 \pm0,027$ \\
+   F17   & $2,59 \pm 0,07$ & $ 1,16\pm0,08  $ & $0,26 \pm0,19 $ & $ -0,114\pm0,028$&$-0,42 \pm0,06 $ \\
+   F18 &$3,44\pm0,25 $&$1,34\pm0,05 $&$0,352\pm0,030 $&$-0,066\pm0,017 $&$-0,30\pm0,06 $ \\
+     \midrule
+    
+  Material   & MP6a & MP7a & MP8a & MP9a & MP10a  \\
+  \midrule
+      F13 Serie &   $-0,293 \pm0,019 $&$-0,233 \pm0,017 $&$ -0,97\pm0,09 $&$-0,03 \pm0,15 $&$ 0,18\pm0,13$ \\
+Fxx &$-0,452 \pm 0,023$&$-0,269 \pm0,018$&$-0,66 \pm0,06$&$0,22 \pm0,11 $& $1,29 \pm 0,11 $ \\
+  F17  & $-0,44 \pm0,06 $&$ -0,23\pm0,04 $&$-0,42 \pm 0,09$&$0,70 \pm 0,10 $&$2,46\pm0,13$ \\
+  F18 &$-0,26\pm0,09 $&$-0,01\pm0,13$ &$-0,20\pm0,07 $&$1,21\pm0,12$ &$3,65\pm0,17$ \\
+     
+     \bottomrule
+      
+     &&&&&\\
+     &&&&&\\
+     &&&&&\\
+     &&&&&\\
+     &&&&&\\
+     
+     \toprule
+      & \multicolumn{5}{c}{Standardabweichung s [mm]}\\
+   \cmidrule(ll){2-6}
+   Material    & MP1a & MP2a & MP3a & MP4a & MP5a \\ 
+   \midrule
+    F13 Serie &0,257&0,277&0,166&0,029&0,026\\
+    Fxx &0,296&0,817&0,140&0,040&0,056\\
+    F17 &0,132&0,167&0,386&0,059&0,144\\
+    F18 &0,523&0,098&0,063&0,035&0,121 \\
+    
+     \midrule
+    
+  Material    & MP6a & MP7a & MP8a & MP9a & MP10a  \\
+  \midrule
+    F13 Serie &0,040&0,035&0,158&0,300&0,275\\
+ Fxx   &0,050&0,038&0,123&0,221&0,231\\
+F17 &0,120&0,075&0,182&0,209&0,270\\ 
+F18 &0,172&0,264&0,147&0,239&0,364\\
+   \bottomrule 
+         
+   \end{tabular} 
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+\begin{sidewaystable}[H] % Verzugztabelle
+\caption{Materialverzug im Vergleich zum Vorprozess (Fräsen/Polieren)}
+\label{tab:fraespol}
+\vskip\abovecaptionskip
+
+
+\begin{tabular}{cccccccccccc}
+\toprule
+&& \multicolumn{10}{c}{Mittelwerte (bezüglich Messpunkt) und Verzug [\si{\milli\meter}]} \\
+\cmidrule(2){3-12}
+Prozess/Diff. & Material & MP1 & MP2 & MP3 & MP4 & MP5 & MP6 & MP7 & MP8 & MP9 & MP10 \\
+\midrule
+ Fräsen& \textbf{F13} &0,13  &0,38 &-0,12 &-0,074 & -0,231 &-0,274 & -0,232 & -1,06 & -0,38 & -0,43 \\
+ Schleifen/Polieren&&0,42  &0,51 & -0,05 & -0,08 & -0,257&-0,293  &-0,233  & -0,97 & -0,03 &0,18  \\
+Verzug &&0,29  &0,13  & 0,07 &0,006  & 0,026 &0,019  &0,001  &0,09  & 0,35 &0,61 \\
+Orientierung && aussen & aussen & aussen &innen  & innen &innen  & innen &aussen  & aussen &aussen  \\
+\textbf{Durchschnittlicher Verzug} &&\textbf{0,1592}&&&&&&&&&\\
+\midrule
+Fräsen & \textbf{Fxx} & 1,27& 0,62 &0,03  &-0,101  &-0,34  &-0,396  & -0,251 &-0,84  & -0,01 &0,7 \\
+Schleifen/Polieren &&1,67  &0,1  & 0,13 &-0,097  & -0,385 &-0,452  &-0,269  &-0,66  & 0,22 &1,29 \\
+Verzug &&0,4  &0,52  & 0,1 &0,004  & 0,045 &0,056  &0,018  &0,18  &0,23  &0,59  \\
+Orientierung &&aussen  &innen &aussen  & aussen& innen &innen & innen &aussen &aussen  & aussen \\
+\textbf{Duchschnittlicher Verzug} && \textbf{\textcolor{red}{0,2143}}&&&&&&&&&\\
+\midrule
+Fräsen& \textbf{F17} &2,54  & 1,11 &0,31  &-0,116  &-0,439  & -0,481 &-0,234  &-0,56  & 0,46 &1,98  \\
+Schleifen/Polieren &&2,59 &1,16  &0,26 & -0,114 & -0,42 & -0,44  & -0,23 &-0,42  &0,7  & 2,46  \\
+Verzug &&0,05  & 0,05 &0,05 &0,002  & 0,019 & 0,041 &0,004   &0,14  & 0,24 & 0,48 \\
+Orientierung && aussen & aussen &innen  &aussen  &aussen &aussen  &aussen &aussen  &aussen  & aussen \\
+\textbf{Durchschnittlicher Verzug} && \textbf{\textcolor{green}{0,1076}} &&&&&&&&&\\
+\midrule
+ Fräsen& \textbf{F18} &4,33  & 1,49 &0,45  & -0,071 &-0,37  &-0,35  &-0,151  & -0,31 &1,08 &3,76  \\
+Schleifen/Polieren &&3,44 &1,34 &0,352  &-0,066  & -0,3 &-0,26  &-0,01  &-0,2 &1,21 &3,65  \\
+Verzug && 0,89 &0,15  &0,098  & 0,005 &0,07 &0,09  &0,141 &0,11  &0,13 & 0,11 \\
+Orientierung &&innen  &innen  &innen &aussen  &aussen  &aussen  & aussen &aussen  & aussen &innen \\
+\textbf{Durchschnittlicher Verzug} && \textbf{0,1794} &&&&&&&&&\\
+\bottomrule
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{tabular}
+\end{sidewaystable}
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+
+
+
+
+  
+ 
+\subsection{Eloxieren}
+\subsection{DURApro  Beschichten}
+
+
+
+\newpage
+\subsection{Versuchsdurchführung Kröpfen}
+Bei den Untersuchungen des Einflusses des Materials verschiedener Wirkteile (Kröpfstein, Ziehstempel, Niederhalter) in Interaktion  auf den Kröpfprozess, stehen vor allen Dingen die Qualität der Ziehfläche, optischer Eindruck des Radius  sowie das tribologische Verhalten der Wirkmedien in Hinblick auf Verschleiß und Kontinuität des Umformprozesses im Zentrum der Betrachtungen.
+
+Ein wichtiger Begriff ist hier die \emph{tribologische} Beanspruchung welche sich aus den kinematischen Verhältnissen und der Wechselwirkung verschiedener Stoffe (Werkstoffpaarung, Bauteil im Kontakt mit Abrasivstoffen) ergibt. Dieses hat zur Folge, dass Verschleiß und Reibung keine stoffgebundenen, sondern systemgebundene Größen sind. Die \emph{Tribokunde} vermittelt Kenntnisse über die Entstehung von Reibung und Verschleiß um Korrelationen bezüglich Werkstoffeigenschaften und Beanspruchungsparametern ersichtlich zu machen wodurch Hinweise zur Optimierung, Zustandsbeschreibung (zur Prävention und Schadensfrüherkennung) und Lebensdauerermittlung sowie Schadensanalyse von Systemen zu deduzieren sind.\footcite[Vgl.][388-390]{wki}
+
+Die tribologischen Verhältnisse in den Kontaktzonen zwischen Bauteil und Werkzeugen spielen eine entscheidende Rolle für die Verfahrensgrenzen in dem Gebiet der Umformtechnik. Das Fließen des Werkstoffes im Werkzeug wird durch die Reibung in den verschiedenen Kontaktzonen (z.B. Kröpfsteinoberfläche und Bauteil) beeinflusst und kann zur Regulierung des Umformprozesses ausgenutzt werden. Das Tribosystem setzt sich zusammen aus Werkstückoberfläche, Werkzeugoberfläche (oder auch Wirkmedienoberfläche) und Schmierstoff (bei dem Kröpfprozess das \emph{Ziehöl}). Verschleiß und Abrieb  an den kritischen Kontaktzonen zwischen Werkstückmaterial und Wirkteilen soll durch das Schmiermittel verringert werden. Adhäsion (im Werksjargon auch "`Aluminiumaufbau"') und Riefen  an Werkzeug- und Werkstückoberfläche sollen auf ein Minimum beschränkt oder gänzlich eliminiert werden.\footcite[Vgl.][516]{aa}
+
+\newpage
+
+
+Zur Durchführung der Versuche wurden verschiedene Materialien für Kröpfstein, Ziehstempel sowie Niederhalter verwendet. Für den Niederhalter ist zum einem der in der Serienfertigung benutzte Stahl (Werkstoffnummer 1.2312) sowie der Kunststoff POM-C in der Versuchsreihe eingesetzt worden. Für Kröpfstein und Ziehstempel wurden jeweils die Materialien Stahl (Werkstoffnummer 1.2379), Bronze (Werkstoffnummer 2.0966) sowie Kunststoff (\emph{Murlubric\textsuperscript{\textregistered} schwarz}) zum Vergleich herangezogen. Eine nähere Betrachtung der einzelnen Materialien folgt hier:
+
+\begin{itemize*}
+\item \textbf{Kunststoff} \emph{Murlubric\textsuperscript{\textregistered} schwarz} (Herstellerbezeichnung), modifiziertes Gusspolyamid in das während der Polymerisation ein mineralisches Öl eingebunden wird, selbstschmierend, Eigenschaften bleiben erhalten während gesamter Lebensdauer, gute Gleiteigenschaften, ausgezeichnete Verschleißeigenschaften, Verschleißfest bei abrasiven Einsätzen, hohe mechanische Festigkeit, Kurzzeichen ISO 1043-1, Farbe: schwarz, Dichte \SI{1,135}{\gram\per\centi\meter\cubed}, Bruchdehnung \SI{25}{\percent}, Streckspannung/Bruchspannung \SI{72}{\mega\pascal}, Zug-Elastizitätsmodul \SI{3000}{\mega\pascal}, Kugeldruckhärte \SI{145}{\newton\per\milli\meter\squared},  Charpy Kerbschlagzähigkeit
+ \SI{4}{\kilo\joule\per\meter\squared}, Gleitverschleiß \SI{0,05}{\micro\meter\per\kilo\meter})
+\footnote{Vgl.\url{http://www.murtfeldt.de/produkte/kunststoffe/technische-kunststoffe/murlubric/}[30.03.2014].}
+\item \textbf{Bronze} (Werkstoffnummer 2.0966, DIN 17665, gepresst/gezogen, spezifisches Gewicht \SI{7.50}{\kilo\gram\per\deci\meter\cubed})\footnote{Vgl.\url{http://www.bikar.de/bronze/bz_werkstoff_nr.htm}[30.03.2014].}
+\item \textbf{Stahl} (Werkstoffnummer 1.2379, Zusammensetzung C 1,55 / Si 0,4 / Mn 0,3 / Cr 11,8 / Mo 0,75 / V 0,82, ledeburitischer Hochleistungsschnittstahl,  weichgeglüht, 250 HB (Brinellhärte \SI{830}{\newton\per\milli\meter\squared}), Elastizitätsmodul  \SI{210}{\kilo\newton\per\milli\meter\squared}, äußerst Verschleißfest, zum Schneiden von dicken und harten Werkstoffen)\footnote{Vgl.\url{http://www.stauberstahl.com/werkstoff-lexikon/12379/}[30.03.2014].}
+\item \textbf{Stahl} (Werkstoffnummer 1.2312, Präzisionsflachstahl DIN 59350, Zusammensetzung: C 0,4 / Si 0,4 / Mn 1,5 / Cr 1,9 / Mo 0,2 / S 0,1, vergütet 33 HRC (Rockwellhärte 950-110 \si{\newton\per\milli\meter\squared}), Elastizitätsmodul \SI{210}{\kilo\newton\per\milli\meter\squared}, Werkstoff für hochfeste Formenrahmen und Werkzeugaufbauten)\footnote{Vgl.\url{http://www.stauberstahl.com/werkstoff-lexikon/12312/}[30.03.2014].}
+\item \textbf{POM-C} (Polyoxymethylen, thermoplastischer Kunststoff (Thermoplaste auch Plastomere lassen sich bei bestimmten Temperaturen beliebig oft (reversibel) in den schmelzflüssigen Zustand gebracht und verformt werden)\footnote{Vgl.\url{http://de.wikipedia.org/wiki/Thermoplast}[30.03.2014].},  hohe Festigkeit,  Härte und Steifigkeit in einem weiten Temperaturbereich, Dichte 1,39-1,42 \si{\gram\per\centi\meter\cubed}, Elastizitätsmodul 2600-3100 \si{\mega\pascal}, Bruchdehnung  speziell bei dem in den Versuchen verwendeten POM-C 27-31 \si{\percent}(Reißdehnung), weißer Festkunststoff, Verwendung im Maschinenbau z.B. Gleit- und Führungselemente, Zahnräder. \emph{POM-C} ist ein Copolymer (wird durch Copolymerisation von Trioxan mit 1,4 Dioxan gewonnen) zur Stabilisierung gegenüber Säureeinfluss und thermischer Belastung, Schmelzpunkt 
+\SI{166}{\degreeCelsius})\footnote{Vgl.\url{http://de.wikipedia.org/wiki/Polyoxymethylen}[30.03.2014].}
+\end{itemize*}
+\newpage
+
+Die Proben des Werkstoffmaterials bestanden aus streckgebogenen Aluminium Strangpressprofilen des Serienmaterials F13 welches zur Fertigung des Verdeckkastendeckels des Audi A3 Cabriolets verwendet wird  (siehe \fref{sec:versuchsreihe1}). Eine Aneinanderreihung der speziellen Kröpfsteine ist in \fref{fig:dievar} zu sehen.
+  
+
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}[t]{0.3\textwidth}
+\includegraphics[width=.9\textwidth]{diebronze}
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+\includegraphics[width=.9\textwidth]{diestahl}
+\end{minipage}
+\begin{minipage} [t]{0.3115\textwidth}
+\includegraphics[width=.9\textwidth]{diekunst}
+
+\end{minipage}
+\caption{Kröpfsteinvarianten von links nach rechts: Bronze, Stahl und Kunststoff}
+\label{fig:dievar}
+\end{figure}
+
+
+Eine Nebeneinanderstellung der unterschiedlichen Ziehstempel folgt hier (\fref{fig:punchvar}): 
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}[t]{0.3\textwidth}
+\includegraphics[width=.9\textwidth]{punchbronze}
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+\includegraphics[width=.9\textwidth]{punchstahl}
+\end{minipage}
+\begin{minipage} [t]{0.329\textwidth}
+\includegraphics[width=.9\textwidth]{punchkunst}
+
+\end{minipage}
+\caption{Ziehstempelvarianten von links nach rechts: Bronze, Stahl und Kunststoff}
+\label{fig:punchvar}
+\end{figure}
+
+Die beiden Niederhalter sind in aufgeführt.
+
+
+
+
+
+\begin{figure}[H]
+\centering
+\begin{minipage}[t]{0.45\textwidth}
+\includegraphics[width=.93\textwidth]{niederhalterkunst}
+\end{minipage}
+\begin{minipage}[t]{0.45\textwidth}
+\includegraphics[width=.95\textwidth]{niederhalterS}
+\end{minipage}
+\caption{ Links Niederhalter aus Kunststoff und rechts Niederhalter aus Stahl}
+\label{fig:nied}
+\end{figure}
+\newpage
+\subsubsection{Protokoll Kröpfversuche}
+Innerhalb der Versuchsserie wurden die verschiedenen Materialien miteinander kombiniert und nach jedem Versuch eine Sichtprüfung durchgeführt. Je nach Qualität des Ergebnisses (z.B. gute Oberflächenqualität, geringer Verzug des Materials) wurden weitere Durchgänge derselben Paarung mit teilweise modifizierten Einstellungen (z.B. Manipulation des Ziehspaltes) gefahren. Folgende Konventionen und Abkürzungen sind zur Beschreibung benutzt worden: S = Stahl, K = Kunststoff, B = Bronze, großer Buchstabe = Kröpfstein, kleiner Buchstabe = Ziehstempel, kursiver kleiner Buchstabe = Niederhalter aus Kunststoff, Zahl = Nummer Paarungswiederholung. Bei der Sichtprüfung der Radien sind bei allen Paarungen keine Unterschiede aufgefallen. Die Orangenhaut im Radienbereich war bei allen Paarungen nicht signifikant verschieden und wird deshalb nicht weiter betrachtet.
+
+\begin{description}
+\item[Stahl/Stahl 1] optimales Ergebnis, kleine Rauigkeit (kleine kreisförmige Fläche rechts)
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{Ss1a}
+\caption{S/s 1}
+\label{fig:ss1a}
+\end{figure}
+
+\item[Stahl/Stahl 2]gleiches Resultat
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{Ss2}
+\caption{S/s2}
+\label{fig:ss2}
+\end{figure}
+\item[Stahl/Stahl 3] gleiches Resultat
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{Ss3}
+\caption{S/s3}
+\label{fig:ss3}
+\end{figure}
+\item[Stahl/Kunststoff 1] Ziehstempel beschädigt, eingedrückte Stelle (ungefähr \SI{0.2}{\milli\meter} tief)
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{Sk1}
+\caption{S/k 1: Eingedrückte Stelle auf Ziehfläche}
+\label{fig:sk1}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{PunchDefektGut}
+\caption{Deformation an Ziehstempel}
+\label{fig:punchdefect}
+\end{figure}
+\item[Stahl/Bronze 1] Oberfläche leichte Riefen, im nächsten Durchgang wurde versucht den Ziehspalt,  durch Hinterlegung des Kröpfsteins mit "`Chimpsen"' (kleine flache Metallplättchen  \SI{0.05}{\milli\meter} Dick), zu verringern
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{Sb1a}
+\caption{S/b 1}
+\label{fig:sb1}
+\end{figure}
+\item[Stahl/Bronze 2] Ziehspalt um \SI{0.15}{\milli\meter} verringert, immer noch leichte Riefen
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{Sb2}
+\caption{S/b 2 }
+\label{sb2}
+\end{figure}
+\item[Stahl/Bronze 3] gleiches Resultat
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{Sb3}
+\caption{S/b 3}
+\label{fig:sb3}
+\end{figure}
+
+\item[Kunststoff/Bronze 1] schlechtere Oberflächenqualität als die Paarung S/s
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{Kb1a}
+\caption{K/b 1}
+\label{fig:Kb1a}
+\end{figure}
+
+\item[Kunststoff/Bronze 2] Ziehspalt \SI{0.2}{\milli\meter} verkleinert, immer noch schlechtere Oberfläche als S/s
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{Kb2}
+\caption{K/b 2}
+\label{fig:Kb2}
+\end{figure}
+
+\item[Bronze/Bronze 1] Akzeptable Oberflächengüte
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{Bb1}
+\caption{B/b 1}
+\label{fig:Bb1}
+\end{figure}
+
+\item[Bronze/Bronze 2] Ziehspalt \SI{0.15}{\milli\meter} verringert,  dennoch schlechtere Oberflächenqualität als S/s
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{Bb2}
+\caption{B/b 2}
+\label{fig:Bb2}
+\end{figure}
+
+\item[Bronze/Bronze 3] Ziehspalt noch einmal um \SI{0.15}{\milli\meter}  reduziert, doch Oberflächengüte immer noch schlechter als S/s
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{Bb3a}
+\caption{B/b 3}
+\label{fig:Bb3a}
+\end{figure}
+
+\item[Bronze/Bronze 4] Ziehspalt \SI{0.2}{\milli\meter} reduziert, Oberfläche nicht besser als S/s, auf Kröpfstein und Ziehstempel schon nach 4 Durchgängen signifikanter Aluminiumaufbau
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{Bb4}
+\caption{B/b 4}
+\label{fig:Bb4}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{PunchBAlubau}
+\caption{Aluminiumaufbau an Bronzestempel nach vier Durchgängen}
+\label{fig:PunchBAlubau}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{DieBAlubau}
+\caption{Aluminiumaufbau an Kröpfstein aus Bronze}
+\label{fig:DieBAlubauMark}
+\end{figure}
+
+\item[Bronze/Stahl 1] Ziehspalt \SI{0.2}{\milli\meter} reduziert, sehr gute Oberflächenqualität, besseres Resultat als die Paarung  S/s aber Kröpfung mit \SI{1.05}{\milli\meter} Blechdicke zu dünn (bedingt durch die extreme Ziehspaltreduzierung),  möglicherweise können sich Risse bilden. Gleiches Ziehspaltmaß würde bei S/s auch die Oberfläche optimieren, ist  jedoch in der Serienfertigung aufgrund von Rissbildung nicht praktizierbar.
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{Bs1a}
+\caption{B/s 1}
+\label{fig:Bs1a}
+\end{figure}
+
+\item[Bronze/Stahl 2] Ziehspalt \SI{0.1}{\milli\meter} vergrößert (zurückgestellt), gute Oberflächengüte aber Aluminiumaufbau an Kröpfstein (siehe \fref{fig:DieBAlubau})
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{Bs2}
+\caption{B/s 2}
+\label{fig:Bs2}
+\end{figure}
+
+\item[Kunststoff/Stahl] Oberfläche eingedrückt weil kein Gegenhalt von Kröpfstein, plus sofortiger Aluminiumaufbau an Kröpfstein
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{Ks1}
+\caption{K/s 1}
+\label{fig:Ks1}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{SteinKAlubau}
+\caption{Aluminiumaufbau an Kunststoffkröpfstein}
+\label{fig:SteinKAlubau}
+\end{figure}
+
+\item[Kunststoff/Kunststoff 1] Material wird eingedrückt, kein Gegenhalt von Kröpfstein
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{Kk1a}
+\caption{K/k eingedrückter Bereich}
+\label{fig:Kk}
+\end{figure}
+
+\item[Kunststoff/Kunststoff 2] gleiches Resultat
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{Kk2}
+\caption{K/k 2}
+\label{fig:Kb1a}
+\end{figure}
+
+\item[Kunststoff/Kunststoff/Kunststoff (Niederhalter)] Oberfläche Bauteil leichte Wölbung vor der Kröpfung
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{Kkk1}
+\caption{K/k/\emph{k}}
+\label{fig:Kkk1}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{BauteilAbsenkSk3}
+\caption{K/k/\emph{k} leichte Absenkung nach roter geschwungener Markierung, nur mit H-Lineal sichtbar}
+\label{fig:sKs3}
+\end{figure}
+
+\item[Stahl/Stahl/\emph{Kunststoff}] bessere Oberflächengüte aber Oberfläche des Bauteils sackt im Kröpfbereich ab (siehe \fref{fig:sKs3})
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{Ssk1}
+\caption{S/s/\emph{k}}
+\label{fig:Ssk1}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+\end{description}
+
+
+
+
+
+
+
+
+
+
+\newpage
+
+\subsection{Ausblick}
+In Folge der Überlagerung der Standardabweichungen (Streckbiegen "`Kontur aussen"') der untersuchten Chargen unter dem Gesichtspunkt der Mindestzugfestigkeiten (siehe \fref{fig:standzugrel}) ist einzusehen, dass das Material F17 (Charge 1) bei einer Mindestzugfestigkeit von Rm = 160  \si{\newton\per\milli\meter\squared}  die geringste Standardabweichung hat. Bei Werten von s = (0,025  bis 0,270) \si{\milli\meter}  ist davon auszugehen das auch größere Stückzahlen mit relativ geringen Prozessschwankungen zu fertigen sind. Hier müssen jedoch eventuelle Montageprobleme des Verdeckkastendeckels aufgrund der höheren Rückfederungswerte von {$x_{\text{Rückfeder}}$ = (-0,368  bis 2,96) \si{\milli\meter} berücksichtigt werden. Eine Tatsache die bei einer Spannweite von 3,328 \si{\milli\meter} schon einen beachtlichen Spielraum beim Einbau und bei der Passform bedarf.  % montage wegen der Toleranzen fragen
+Hier ist das Ausmaß von Wölbungen und Spannungen nach und während der Montage schon genau zu untersuchen.
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=0.8\textwidth]{standzugrel}
+\caption{Übersicht Mindestzugfestigkeit/Standardabweichung "`Kontur aussen"'}
+\label{fig:standzugrel}
+\end{figure} 
+
+
+Unter der Voraussetzung geringer Prozessschwankungen im Streckbiegeverfahren welche bei geringer Standardabweichung unter sorgfältiger und präziser Auswahl des Vormaterials durchaus zu realisieren sind, können die Ausschussrate sowie Kosten und Zeitverluste die durch ständiges Justieren der Streckbiegemaschine durch geschultes Personal entstehen, erheblich reduziert werden.
+
+In Anbetracht der vorangegangenen Auswertung wurden noch einmal zwei Chargen (F19 und F18) bei dem Zulieferer, zu Versuchszwecken, bestellt. Möglicherweise ist hier ein Material herauszukristallisieren welches noch geringere Prozessschwankungen ermöglicht. Wir sind dabei von einer steigenden Zugfestigkeit ausgegangen da sich nach den Diagrammen in \fref{fig:standzugrel} und \fref{fig:standstreckrel} die Standardabweichung sowie Mindestzugfestigkeit und Streckgrenze gegenläufig verhalten.
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+\section{Anhang}
+\subsection{Exkurs Umformtechnik}
+
+
+Da die Gegenstände und Verfahren dieser Untersuchung in das Gebiet der Umformtechnik fallen, werden die ausschlaggebendsten Begriffe und Sachverhalte dieses komplexen Gebietes noch einmal vereinfacht und komprimiert umrissen. So ist es möglich über ein theoretisches Gerüst zu verfügen welches später behilflich sein wird   Analogien zu den durchzuführenden Prozessen zu erkennen.
+\subsubsection{Systematisierung Formgebungsverfahren}
+Umformverfahren können
+auf Grund der unterschiedlichen Spannungsverhältnisse in fünf verschiedene Gruppen unterteilt werden. Einfache Beschreibungen der Spannungsverhältnisse sind kaum möglich denn,  abhängig von der Art der Operation, können  unterschiedliche Spannungen gleichzeitig auftreten oder sich sogar  während des Formgebungsvorgangs verändern. Deshalb werden die überwiegenden Spannungen als Klassifikationskriterium ausgewählt. Folgende fünf Gruppen der Umformprozesse werden definiert:
+\begin{enumerate*}
+\item \emph{Druckumformen} nach DIN 8583 behandelt die Formgebung eines festen Körpers  welche den  plastifizierten  Zustand hauptsächlich durch uni- oder multiaxiale Druckbelastungen herbeiführt.
+\item \emph{Zugdruckumformen} nach DIN 8584 behandelt die Formgebung eines festen Körpers  welche den plastifizierten Zustand  hauptsächlich durch kombinierte uni- oder multiaxiale Zug- und Druckbelastungen herbeiführt.
+\item \emph{Zugumformen} nach DIN 8585 behandelt die Formgebung eines festen Körpers welche den plastifizierten Zustand überwiegend durch uni- oder multiaxiale Zugbelastungen verursacht.
+\item \emph{Biegeumformen} nach DIN 8586 behandelt die Formgebung eines festen Körpers welche den plastifizierten Zustand hauptsächlich durch eine Biegebelastung herbeiführt.
+\item \emph{Schubumformen} nach DIN 8587 behandelt die Formgebung eines festen Körpers welche den plastifizierten Zustand überwiegend durch eine Schubbelastung herbeiführt.
+
+\end{enumerate*}
+
+Von untergeordneter Bedeutung sind innerhalb dieser Gruppen  weitere Unterteilungen auf der Grundlage von kinematischen Überlegungen (z.B. Relativbewegung zwischen Werkzeug und Werkstück), Werkzeug- und Werkstück Geometrien sowie Beziehungen zwischen den beiden möglich. Die Klassifizierung formgebender Methoden unterlässt bewusst die Frage ob ein Prozess durch Erwärmung, bei Raumtemperatur oder weiterer Wärmebehandlung stattfindet. Früher  wurde zur Abgrenzung zwischen Kalt- und Warmformen die Rekristallisationstemperatur gewählt. Obwohl diese sicherlich das Verhalten  von Werkstückmaterialien während der Formgebung beeinflusst, zählt heutzutage zur Allgemeinerkenntnis das die spontane Erholung  eine weitaus größere Rolle in schnellen Umformprozessen spielt. Außerdem führt die herkömmliche Terminologie angesichts der großen Vielfalt  an Materialien die verwendet werden leicht zu Missverständnissen. So würde zum Beispiel die Formgebung von Blei bei Raumtemperatur als \emph{Warmumformen} deklariert während Molybdän bei einer Temperatur von 800 Grad Celsius noch als \emph{Kaltumformen} eingestuft wäre. Aus diesem Grunde unterscheidet DIN 8582 zwischen Formgebung bei Raumtemperatur und Formgebung bei einem auf über Raumtemperatur erwärmten Werkstücks. Überdies ist zu berücksichtigen ob ein permanenter Temperaturwechsel während des Umformvorgangs stattfindet. Mit Hilfe dieser beiden Kriterien ist eine weiter Unterteilung von den Metall Umformverfahren möglich:
+
+\begin{enumerate*}
+\item Formgebung nach Erwärmung (Warmumformen)
+\item Formgebung ohne Erwärmung (Kaltumformen)
+\end{enumerate*}
+
+Beide Punkte können weiter eingestuft werden in:
+
+\begin{itemize*}
+\item Formgebung ohne Veränderung der mechanischen Eigenschaften
+\item Formgebung mit temporärer Veränderung der mechanischen Eigenschaften
+\item Formgebung mit permanenter Veränderung der mechanischen Eigenschaften
+\end{itemize*}
+
+In der Industriepraxis kommen letztendlich unzählige Kombinationen der oben aufgeführten Unterteilungen vor.\footcite[Vgl.][2.1ff]{kl}
+\subsubsection{Metallurgische Zusammenhänge}
+In diesem Abschnitt wird erörtert was auf makroskopischer und mikroskopischer Ebene in metallischen Werkstoffen bei Formänderungsprozessen vor sich geht. Überdies soll ein Einblick gewonnen werden wie sich die verschiedenen Einflussgrößen während eines Umformvorgangs gegenseitig beeinflussen.
+
+
+In der Umformtechnik werden zum Großteil metallische Bauteile erzeugt. Eisen- wie Nichteisenmetalle bestehen aus metallisch gebundenen Atomen. Sie bekommen ihren Zusammenhalt aus einer sie gleichmäßig umgebenden frei beweglichen Elektronengaswolke, die aus abgegebenen Valenzelektronen besteht und so die positiven Metallionen  durch die sogenannte \emph{Metallbindung} bindet.\footcite[Vgl.][12]{wki} Ihr wichtigstes Merkmal ist der kristalline Aufbau. Darunter versteht man die feste, regelmäßige Struktur der Atome. In der Physik sowie in der Chemie existieren verschiedene Modelle über den Aufbau und das Aussehen solcher Kristallgebilde. In \fref{fig:makromikro} wird eine Elementarzelle des $\alpha $-Eisen unter mikroskopischen (atomistischen) und makroskopischen Gesichtspunkten dargestellt. Oben rechts im Bild sind die drei Elementarzellen abgebildet aus denen Metalle zusammengesetzt sind. Es handelt sich um die  kubisch-raumzentrierte , kubisch-flächenzentrierte und hexagonale (das hdP steht für hexagonal dichteste Packung) Elementarzellen.\footcite[Vgl.][3-5]{fu}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{makromikro}
+\caption[Aufbau Kristallgitter]{Aufbau eines Kristallgitters mikroskopisch (atomistisch) und makroskopisch\protect\footnotemark}
+\label{fig:makromikro}
+\end{figure}
+
+
+Das kleinste Kristall im Metallgitterverband ist das sogenannte \emph{Einkristall} (siehe \fref{fig:elementarzellen}) es besitzt folgende Merkmale
+
+
+
+
+\begin{itemize*}
+\item allseitig freie Oberfläche
+\item keine Korngrenzen\footnotetext[42]{\cite[Vgl.][4.]{fu}}
+\item Fehlstellen wie z.B. Leerstellen, Versetzungen
+\item anisotropisches Verhalten wegen bevorzugter Gleitrichtungen. Unter \emph{Anisotropie} wird das Auftreten von unterschiedlichen mechanischen und physikalischen Eigenschaften in die verschiedenen Raumrichtungen verstanden (z.B. Sperrholz). Im Gegensatz dazu weist \emph{isotropisches} Verhalten gleiche mechanische und physikalische Eigenschaften in die verschiedenen Raumrichtungen auf (z.B. Sonnenlicht)\footcite[Vgl.][37]{hu})
+
+
+\end{itemize*}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{elementarzellen}
+\caption[Elementarzellen]{Elementarzellen (Einkristalle)\protect\footnotemark}
+\label{fig:elementarzellen}
+\end{figure}
+\footnotetext[44]{\cite[Vgl.][37.]{hu}}
+
+
+
+
+Die kleinste geometrisch zusammenhängende Einheit eines Kristallgitters ist die Elementarzelle. Knüpft man hypothetisch, in Richtung aller drei Koordinatenrichtungen, Elementarzellen aneinander entsteht ein Kristallgitter (siehe \fref{fig:makromikro} oben links). Das geometrische Aneinanderreihen von Elementarzellen erzeugt \emph{Idealkristalle} (fehlerfreie Kristalle) die so in der Realität nicht vorhanden sind. In der Realität sind in einem Raumgitter der Metalle zahlreiche Gitterfehler vorhanden. Hier wird unterschieden in folgende signifikante Gitterfehler:
+\begin{enumerate*}
+\item  \emph{Nulldimensionale Gitterfehler} (punktförmig):
+\begin{itemize*}
+\item \emph{Zwischengitteratome} liegen vor wenn Atome auf Zwischengitterplätzen angeordnet sind. 
+\item \emph{Austausch- oder Substitutionsatome}. Die Atomplätze werden von Fremdatomen beansprucht.
+\item \emph{Einlagerungsatome} entstehen wenn die Zwischengitterplätze von Fremdatomen vereinnahmt werden.
+\item \emph{Leerstellen} treten auf  wenn einzelne Gitterplätze nicht von Atomen besetzt werden. Sie sind bedeutend bei thermisch aktivierten Diffusionsvorgängen.
+\end{itemize*}
+\item \emph{Eindimensionale Gitterfehler} sind linienförmige Strukturfehler (Versetzungen)(siehe \fref{fig:versetzung}).
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{versetzung}
+\caption[Stufenversetzung]{Stufenversetzung\protect\footnotemark}
+\label{fig:versetzung}
+\end{figure}
+\footnotetext{\cite[Vgl.][50]{wk}}
+ Diese sind für Umformprozesse von übergeordneter Bedeutung weil sie die plastische Formgebung besonders beeinflussen.
+\item \emph{Zweidimensionale Gitterfehler} entstehen bei Oberflächendefekten. Die wichtigsten sind Korngrenzen und Phasengrenzflächen. Wenn ein Metall aus dem flüssigen Zustand kristallisiert wachsen die Keime zuerst an verschiedenen Stellen unabhängig voneinander. Im Laufe des Abkühlungsprozesses wachsen die Keim aufeinander zu und bilden Korngrenzen.
+\end{enumerate*}
+
+Der Unterschied zwischen Real- und Idealkristallen ist in diesen Gitterfehlern begründet. Die Zugfestigkeit des Eisens liegt  z.B. mehr als zwei Zehnerpotenzen unter der theoretisch Möglichen im Fall des Vorhandenseins eines Idealkristalls. Die Abstände der Atome sind in den Elementarzellen in verschiedene Richtungen unterschiedlich ausgeprägt. Das ist die Ursache für die Richtungsabhängigkeit bestimmter Eigenschaften der Metalle. Bestimmte Herstellungsverfahren (z.B. einige Walzverfahren, gerichtete Erstarrung) zielen darauf ab die Orientierung der Kristallite in eine bestimmte Richtung zu beeinflussen. Dieses Vorgehen bezeichnet man als Textur. Sie ermöglicht, dass die Werkstoffeigenschaften richtungsabhängig werden.  Die Richtungsabhängigkeit wird wie schon oben erwähnt mit dem Begriff der \emph{Anisotropie}. 
+Während des Erstarrungsprozesses technischer Schmelzen werden Verunreinigungen überwiegend vor der Erstarrungsfront hergeschoben. Es bilden sich Ansammlungen von Verunreinigungen an den Korngrenzen. Ein reales Gefüge ist durch einen metallografischen Schliff im Lichtmikroskop zu erkennen und mit einem schematischem Gefüge verglichen (siehe \fref{fig:makromikro}). Es sind lediglich Größe, Anordnung und Form der Kristalle erkennbar zu machen. Die innere Struktur ist nicht sichtbar zu machen.\footcite[Vgl.][3-6]{fu}
+
+\subsubsection{Verformung Prinzipiell}
+Die Duktilität (plastische Verformbarkeit) der Metalle ist eine Eigenschaft welche in der Umformtechnik die größte Bedeutung hat. Hier ist es sinnvoll die Vorgänge wieder an einem Idealkristall (besitzt keine Gitterfehler) darzustellen. Bei geringen Belastungen tritt im Bauteil keine bleibende Verformung ein, es geht nach  der Entlastung wieder in seinen Ausgangzustand zurück. Man nennt dies \emph{elastische} Verformung. Bei der \emph{plastischen} Verformung gleiten Kugelschichten im Gitterverband aneinander vorbei,  nach Entlastung kehrt das Bauteil nicht mehr in seine ursprüngliche geometrische Form zurück (siehe \fref{fig:eloplastkristall}).
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{eloplastkristall}
+\caption[Verformung elastisch und plastisch]{Verformung elastisch und plastisch\protect\footnotemark}
+\label{fig:eloplastkristall} 
+\end{figure}
+\footnotetext{\cite[Vgl.][45]{wk}}
+Das die plastische Verformung begünstigende Gleiten findet in den sogenannten \emph{Gleitebenen} statt. Diese befinden sich zwischen den Atomschichten mit der größten \emph{Packungsdichte}. Aufgrund dieser höheren Packungsdichte ist der Abstand der einzelnen Schichten nicht so groß und dem Verschieben der Schicht wird dort der  geringste Widerstand entgegengesetzt. Im Gegensatz zum Idealkristall sind aufgrund von Versetzungen die kritischen Schubspannungen, welche zur plastischen Verformung benötigt werden,  erheblich kleiner.\\ Bei dem Idealkristall stellen wir uns ein schrittweises Gleiten ganzer Atomschichten vor während bei Realkristallen ein schrittweises Wandern der Atomreihen entlang der Versetzungslinien stattfindet. Man kann dies auch mit dem Wandern einer Teppichfalte vergleichen (siehe \fref{fig:wandernstufenversetzung}). Wenn z.B. ein sehr langer schwerer Teppich eine Falte hat erfordert es hohe Kräfte um durch Zug an einem Teppichende die Falte zu glätten. Wesentlich geringer ist der Kraftaufwand wenn man die Falte direkt langsam aus dem Teppich kämmt.\footcite[Vgl.][45-53]{wk}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{wandernstufenversetzung}
+\caption[Wandern einer Stufenversetzung]{Wandern einer Stufenversetzung in Analogie zum Wandern einer Teppichfalte\protect\footnotemark}
+\label{fig:wandernstufenversetzung}
+\end{figure}
+\footnotetext{\cite[Vgl.][53.]{wk}}
+
+\subsubsection{Rekristallisation, Erholung und Kaltverfestigung}
+Ein wichtiger Faktor bei der Formänderung in metallischen Werkstoffen ist die Umformtemperatur und die thermisch aktivierten Vorgänge die diese eventuell im atomaren Gitterverband des Werkstoffes auslösen. Während eines Umformvorgangs erhöht sich stufenweise der Energiegehalt des Werkstoffmaterials. Dies ist größtenteils durch Versetzungen und plastische Verzerrungen im Gitterverband bedingt. Die Versetzungsdichte steigert sich direkt proportional zu dem Umformgrad. Man nennt dies \emph{Kaltverfestigung}. Bei fortgeschrittenem Umformgrad gerät durch den erhöhten Energieaufwand Wärme in das Material was bewirkt, dass sich die Atome wieder dem Gleichgewichtszustand annähern wollen. Ab einem bestimmten Überschreiten des kritischen Umformgrades speichert sich innere Energie im Gitterverband und kann so eine \emph{Erholung} der Gitterfehler und Rückbildung der Versetzungen bewirken. Bei noch höherer Energiezufuhr kann es sogar zur \emph{Rekristallisation} (Bildung von Subkorngrenzen und erneutem Kornwachstum kommen, was ein neues entspanntes und duktiles Gefüge mit sich bringt (siehe \fref{fig:rekristall}).\footcite[Vgl.][11-13]{fu}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{rekristall}
+\caption[Zusammenhang Umformparameter und Rekristallisation]{Zusammenhang Umformparameter und Rekristallisation\protect\footnotemark}
+\label{fig:rekristall}
+\end{figure}
+
+
+
+
+
+
+\subsubsection{Eigenspannungen}
+Das Thema Eigenspannungen im Zusammenhang mit der Verarbeitung von Blechen an die hohe Qualitätsanforderungen gestellt werden ist natürlich von besonderem Interesse bei der Analyse von Problemstellungen die auf den einzelnen Fertigungsstufen entstehen können. Es handelt sich dabei um Spannungen in einem sich im Temperaturgleichgewicht befindenden Bauteil, auf das keine mechanischen Beanspruchungen wirken. Die mit den Eigenspannungen involvierten  Beanspruchungen stehen im mechanischem Gleichgewicht zueinander. Bei Bauteilen und Werkstücken die unter Eigenspannung stehen kann ein Materialversagen wesentlich schneller eintreten da sich die tatsächlich wirkende Spannung aus Eigenspannungen und Spannungen von außen einwirkenden Kräften zusammensetzt. Durch die Eigenspannungen kann auf Grund des daraus resultierenden gestörten Gleichgewichtszustands plastische Formänderung in Form von Verzug auftreten.
+Dabei wirken sich Druckeigenspannungen in der Bauteilrandzone meist vorteilhaft aus da sie einer möglichen Rissbildung und Rissausbreitung entgegenwirken.
+\footnotetext{\cite[Vgl.][13.]{fu}}
+
+Es wird im Hinblick auf Auswirkungen auf das Bauteilvolumen eine Unterteilung der Eigenspannungen in drei Gruppen unternommen:
+\begin{enumerate*}
+\item \emph{Makroskopische Eigenspannungen}, welche sich homogen über mehrere Kristallite erstrecken. Bei Störung des Gleichgewichts führen sie zu makroskopischen Formänderungen.
+\item \emph{Eigenspannungen}, die in kleinen Abschnitten homogen sind und bei Störungen des Gleichgewichts zu makroskopischen Formänderungen führen.
+\item \emph{Mikroskopische Eigenspannungen}, welche durch inhomogene Versetzungsreihen ausgelöst werden und über wenige Atombereiche variieren. Sie tragen nicht zu makroskopischen Formänderungen bei. 
+
+
+\end{enumerate*}
+
+Eigenspannungen werden verursacht durch inhomogene Deformationen im Bauteil, was zu einer weiteren Einteilung führt.
+
+Entstehungsursachen sind:
+\begin{itemize*}
+\item \emph{Thermische Eigenspannungen} (siehe \fref{fig:eigenspanabk}) die bei Abkühlung eines Bauteils entstehen.\begin{figure}
+  \centering
+  \includegraphics[width=0.8\textwidth] {eigenspanabk}
+  \caption[Spannungsverteilung eines Zylinders]{Zeitliche Änderung der Längsspannungsverteilung im Querschnitt eines Zylinders bei schneller Abkühlung\protect\footnotemark}
+  \label{fig:eigenspanabk}
+  \end{figure}
+  \footnotetext{\cite[Vgl.][34.]{hu}}
+
+\item \emph{Verformungseigenspannungen} (siehe \fref{fig:eigenspanfaser} und \fref{fig:eigenspandrahtzieh}) welche durch inhomogene Verformung auf Grund äußerer Beanspruchung verursacht werden.\begin{figure}
+  \centering
+  \includegraphics[width=0.8\textwidth]{eigenspanfaser}
+  \caption[Längseigenspannungsverteilung eines Stabquerschnittes]{Schematische Längseigenspannungsverteilung im Querschnitt eines Stabs nach plastischer Biegebeanspruchung\protect\footnotemark}
+  \label{fig:eigenspanfaser}
+  \end{figure}
+  \footnotetext{\cite[Vgl.][34.]{hu}}
+  \begin{figure}
+  \centering
+  \includegraphics[width=0.8\textwidth]{eigenspandrahtzieh}
+  \caption[Eigenspannungsverteilung Drahtziehen]{Schematische Tangentialeigenspannungsverteilung beim Drahtziehen in Abhängigkeit von der Ziehdüsenentfernung\protect\footnotemark}
+  \label{fig:eigenspandrahtzieh}
+  \end{figure}
+  \footnotetext{\cite[Vgl.][34.]{hu}}
+\item \emph{Umwandlungseigenspannungen} (siehe \fref{fig:eigenspanmol}) die durch inhomogene Gefügeumwandlungen  
+mit einer einhergehenden Volumenänderung ausgelöst werden.\begin{figure}
+  \centering
+  \includegraphics[width=0.8\textwidth]{eigenspanmol}
+  \caption[Volumenänderung durch Veränderung der Gitterstruktur]{Volumenänderung durch Veränderung der Gitterstruktur\protect\footnotemark}
+  \label{fig:eigenspanmol}
+  \end{figure}
+  \footnotetext{\cite[Vgl.][35.]{hu}}
+\end{itemize*}
+
+Bei dem Messen von Eigenspannungen wird in zerstörende sowie zerstörungsfreie Erfassungsmethoden unterschieden. Hier wird hauptsächlich auf die zerstörenden Verfahren eingegangen und unter den zerstörungsfreien nur die Finite-Elemente-Methode kurz erläutert. Für zylindrische Bauteile werden Ausbohr- und Abdrehverfahren verwendet um die Eigenspannungen in radialer, tangentialer sowie axialer Richtung zu erfassen. Die Eigenspannungen in Platten und Stäben werden mit schichtweisem Abtragen, Einschneiden und Aufschlitzen ermittelt.\begin{figure}
+  \centering
+  \includegraphics[width=0.8\textwidth]{eigenspanschnitt}
+  \caption[Ermittlung von Eigenspannungen]{Ermittlung von Eigenspannungen a) in zylindrischen Bauteilen und b) in Platten und Stäben\protect\footnotemark}
+  \label{fig:eigenspanschnitt}
+  \end{figure}
+  \footnotetext{\cite[Vgl.][36.]{hu}}
+  Nach der jeweiligen Entfernung des Materials lassen sich Bauteilgeometrieänderungen sehr gut erkennen oder auch mit Messgeräten erfassen und daraus  sind Schlüsse auf die Art und Lage der spezifischen Eigenspannungen abzuleiten (siehe \fref{fig:eigenspanschnitt}). Zur ganz präzisen Analyse  und Visualisierung von Bauteilspannungen kommt heutzutage in der Industrie  die FEM (Finite-Elemente-Methode zum Einsatz).\footcite[Vgl.][32-37]{hu} Mit ihr lassen sich Umformprozesse sehr gut simulieren. Die FEM ist ein numerisches Verfahren zur näherungsweisen Lösung kontinuierlicher Feldprobleme. Darunter versteht man Probleme, in denen das Verhalten des Kontinuums durch partielle, orts- und zeitabhängige Differentialgleichungen umschrieben wird. Für jede Zustandsgröße eines Kontinuums gehören unendlich viele Werte, weil sie eine Funktion jedes Punktes des Kontinuums beschreibt. Die FEM zerlegt das Kontinuum in \emph{endlich} viele Teile, die sogenannten \emph{finiten Elemente}. Ein komplexes, kontinuierliches Problem wird dabei in eine endliche Zahl einfacher, voneinander abhängiger Probleme unterteilt.\footcite[Vgl.][48]{fu}
+\subsubsection{Umformgrad}
+In der Umformtechnik wird zwischen elastischer und plastischer Formänderung unterschieden. Bildet sich ein Körper nach einer Deformation vollständig zu seiner ursprünglichen Geometrie zurück so ist er in dem elastischen Bereich gedehnt worden. Wird ein Bauteil über diesen Bereich hinaus gedehnt so tritt eine bleibende Verformung ein, was man unter plastifizierten Zustand versteht.  Bei herkömmlichen einachsigen Zug- oder Druckversuchen werden Spannung und Dehnung auf Ihre Ausgangsgrößen bezogen z.B. \begin{equation}\sigma=\frac{F}{A_o}\end{equation} oder für die Dehnung \begin{equation}\varepsilon = \frac{\Delta l}{l_0}\end{equation} Diese Methode der Festigkeitsberechnung ist für Bauteile die konstruktionsbedingt für den elastischen Bereich dimensioniert werden   durchaus ausreichend. In der Umformtechnik sind aber die \emph{wahren Spannungs- und Dehnungsverhältnisse} von großer Bedeutung. Die wahre Spannung, die die momentan einwirkende Kraft auf die momentane Fläche bezieht ist die \emph{Fließspannung} $ k_f $. Für die \emph{wahre Dehnung} die den eigentlichen Umformgrad $ \varphi $ darstellt bezieht sich auf den sich mit der Verformung ändernden Bezugswert. Eine Herleitung die z.B. bei einem einachsigen zylindrischen Druckversuch in dem der Höhenunterschied \begin{equation}
+h=h_1-h_0 \end{equation}  den zurückgelegten Stempelweg darstellt ist:\begin{equation}
+\varphi=\int\limits_{h_0}^{h_1}\frac{dh}{h}=\ln h_1 - \ln h_0 = \ln\frac{h_1}{h_0}\end{equation} Im Falle des Druckversuchs ergibt sich dafür natürlich ein negativer Umformgrad. Erwähnt werden sollte in diesem Zusammenhang noch das Gesetz der \emph{Volumenkonstanz} welches aussagt das  bei plastischen Fließvorgängen das Volumen des Kontinuums unverändert bleibt. So kann man den Stauchvorgang eines Vierkantstabes so beschreiben: 
+
+
+
+
+
+
+ \begin{equation}h_1 \cdot  b_1 \cdot l_1 = h_0 \cdot b_0 \cdot l_0\end{equation} 
+Nach Transformation und Logarithmieren der Gleichung erhält man
+das Gesetz der Volumenkonstanz. 
+ 
+ 
+ \begin{equation}\ln (\frac{h_1}{h_0} \cdot \frac{b_1}{b_0} \cdot \frac{l_1}{l_0}) = \ln 1 = 0\end{equation} 
+ 
+daraus folgt \begin{equation}
+\ln\frac{h_1}{h_0}+\ln\frac{b_1}{b_0}+\ln\frac{l_1}{l_0}=\varphi_1+\varphi_2+\varphi_3=0
+\end{equation}
+Analog dazu gilt für die Umformgeschwindigkeiten
+\begin{equation}
+\dot{\varphi_1}+\dot{\varphi_2}+\dot{\varphi_3}=0
+\end{equation}
+
+Durch den hydrostatischen Spannungsanteil beschriebene Dehnungen und Dehngeschwindigkeiten werden bei plastischen Fließvorgängen gleich null.\footcite[Vgl.][24-28]{fu}
+\subsubsection{Umformgeschwindigkeit}
+An dieser Stelle soll die bei Umformprozessen auftretende Geschwindigkeit hergeleitet werden. Man erhält sie aus der zeitlichen Ableitung des Umformgrades
+\begin{equation}
+\dot{\varphi} = \frac{\text{d}\varphi}{\text{d}t}
+\end{equation}
+Man nehme zum Beispiel den klassischen Stauchversuch und geht davon aus, dass der Umformgrad $ \varphi $ eine Funktion der Probenhöhe (Probe ist meist ein zylindrischer Körper) $ h $ ist während die Höhe $ h $ auch eine Funktion der Zeit $ t $ darstellt. Daraus kann folgender Term geformt werden 
+\begin{equation}
+\frac{\text{d}\varphi}{\text{d}t} = \frac{\text{d} \varphi (h(t))}{\text{d}t}= \frac{\text{d}\varphi}{\text{d}h} \cdot \frac{\text{d}h}{\text{d}t}
+\end{equation}
+Hieraus folgt für den einachsigen Spannungszustand mit der jeweiligen Werkzeuggeschwindigkeit (hier der Stempel) $ v $ sowie der Probenhöhe $ h $
+\begin{equation}
+\dot{\varphi}=\frac{\text{d}\varphi}{\text{d}t}= \frac{\text{d}(\ln h - ln  \, h_0)}{\text{d}h}\cdot \frac{\text{d}h}{\text{d}t} = \frac{v}{h}
+\end{equation}
+Wobei $ h_0 $ natürlich die Ausgangshöhe der Probe ist.\footcite[Vgl.][65]{hu}
+Aus diesen Ausführungen lässt sich schließen,  dass die Umformgeschwindigkeit immer aus der im Augenblick aufgenommenen Werkzeuggeschwindigkeit und der zum gleichen Zeitpunkt erfassten Bauteilhöhe (oder auch dem jeweiligen Umformvorgang spezifischem   Maß) gebildet wird.
+\subsubsection{Einachsiger Spannungszustand}
+Zum Grundlagenverständnis soll nun das Spannungsverhältnis des einachsigen Spannungszustandes an einem einfachen Zugstab erläutert werden (siehe \fref{fig:einachsspann}).
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{einachsspann}
+\caption[Einachsiger Spannungszustand ]{Einachsiger Spannungszustand am Zugstab\protect\footnotemark}
+\label{fig:einachsspann} 
+\end{figure}
+\footnotetext{\cite[Vgl.][388.]{dd}}
+Bei Belastung eines Bauteils in nur einer Richtung liegt der sogenannte einachsige Spannungszustand vor. Wenn man an dem Zugstab \fref{fig:einachsspann} einen Schnitt nicht senkrecht zur Richtung von $ \sigma_0 $ betrachtet erkennt man, dass dort auch Schubspannungen im Bauteil vorhanden sind. Um einen Gleichgewichtszustand in horizontaler Richtung an dem herausgeschnittenen Keil herzustellen ist es nötig das in der schrägen Schnittfläche $ A_{\varphi} $ außer der Nomalspannung $ \sigma_{\varphi} $ zusätzlich die Schubspannung $ \tau_{\varphi} $ vorhanden ist. Durch Multiplikation der Spannungen in den Schnittflächen $ A_0 $ und $ A_{\varphi} $ mit den entsprechenden Flächen erhält man die Kräfte $ \sigma_0 \A_0 $ und $ \sigma_{\varphi} A_{\varphi} $. Es können nun folgende Gleichgewichtsbedingungen aufgestellt werden \begin{equation}
+\sigma_{\varphi}A_{\varphi} - \sigma_0 A_0\cos{\varphi} = 0  
+\end{equation}
+\begin{equation}
+\tau_{\varphi}A_{\varphi} - \sigma_0A_0\sin{\varphi} = 0
+\end{equation} Durch Einsetzten von $ A_0 = A_{\varphi}\cos{\varphi}$ erhält man die Gleichungen für die Spannungen in einem beliebigen Schnitt bei dem einachsigen Spannungszustand
+\begin{equation}
+\sigma_{\varphi} = \sigma_0\cos^2{\varphi}
+\end{equation}
+\begin{equation}
+\tau_{\varphi} = \frac{1}{2} \sigma_0\sin{2\varphi}
+\end{equation}
+Aus diesen Gleichungen ist zuerkennen das die Normalspannung am größten bei $ \varphi = 0 $ ist, weil in dem Schnitt keine Schubspannung vorhanden ist. Deshalb wird $ \sigma_0 $ in diesem Fall als \emph{Hauptspannung} bezeichnet. Die maximale Schubspannung ergibt sich bei $ \varphi = 45^{\circ} $ sie wird als \emph{Hauptschubspannung} ($ \tau_{\text{max}} = \frac{1}{2}\sigma_0 $ ) bezeichnet.\footcite[Vgl.][388]{dd}
+
+
+
+  
+\subsubsection{Spannungsvektor und Spannungstensor}
+Zum besseren Verständnis was für Kräfte und Spannungsverhältnisse bei Umformvorgängen im Material vorherrschen ist es sinnvoll sie an infinitesimal kleinen Volumenelementen zu modellieren. Dazu stellt man sich einen Körper unter Belastung der Einzelkräfte $ F_i $ und der Flächenlasten $ p $  vor ( siehe \fref{fig:normalvektor}). Äußere Belastungen verursachen grundsätzlich auch innere Kräfte in einem Bauteil. Betrachtet man den Schnitt s--s \begin{figure}
+  \centering
+  \includegraphics[width=0.8\textwidth]{normalvektor}
+  \caption[Spannungsvektor am Körper]{Spannungsvektor an beliebigen Körper\protect\footnotemark}
+  \label{fig:normalvektor}
+  \end{figure}
+  \footnotetext{\cite[Vgl.][43.]{tmr}}
+  
+   erkennt man das die inneren Kräfte sowie Spannungen über die ganze Schnittfläche $ A $ verteilt sind. Spannung sind über die Schnittfläche veränderlich deshalb  wird ein beliebiger Punkt $ P $ der Schnittfläche definiert. Die Schnittkraft $ \Delta F $  wirkt auf ein Flächenelement $ \Delta A $ (in dem $ P $ enthalten ist). Es wirkt eine gleich große entgegengesetzte Kraft auf die gegenüberliegende Schnittfläche (actio gleich reactio). Der Quotient $ \frac{\Delta F}{\Delta A} $ (Kraft auf die Fläche bezogen) definiert die mittlere Spannung für das Flächenelement. Wenn man nun bei der Beziehung $ \frac{\Delta F}{\Delta A} $ den Differentialquotienten bildet in dem $ \Delt A \rightarrow 0 $ gegen Null läuft  resultiert daraus die Formel für den \emph{Spannungsvektor }$ t $ \begin{equation}
+   t = \lim \limits_{\Delta A \to 0} \frac{\Delta F}{\Delta A} = \frac{\text{d}F}{\text{d}A}  
+   \end{equation}
+Der Spannungsvektor lässt sich in eine Komponente normal zur Schnittfläche (\emph{Normalspannung} $ \sigma $) und eine Komponente in der Schnittfläche (tangentiale \emph{Schubspannung} $ \tau $) zerlegen. Es existiert eine Abhängigkeit des Spannungsvektors $ t $ von der Lage des Punktes $ P $ in der Schnittfläche. Also eine Ortsabhängigkeit. Kann der Spannungsvektor $ t $ für alle Punkt von A angegeben werden, so ist die Spannungsverteilung in der Schnittfläche bekannt. Dennoch wird durch $ t $ der Spannungszustand in einem Punkt $ P $ nicht vollständig definiert. Werden durch $ P $ Schnitte in verschiedene Richtungen gelegt, so wirken entsprechend der unterschiedlichen Orientierung der Flächenelemente auch unterschiedliche Schnittkräfte. Es liegt demzufolge auch eine Schnittrichtungsabhängigkeit der Spannungen vor. Die Schnittrichtung wird von dem Normalenvektor $ n $ charakterisiert. Der Spannungszustand in einem Punkt $ P $ wird durch drei Spannungsvektoren in drei senkrecht aufeinander stehenden Schnittflächen festgelegt. Zu Darstellungszwecken fallen die drei Schnittflächen in dieser Modellierung mit den Koordinatenebenen eines kartesischen Koordinatensystems zusammen.
+
+Um sie prägnant darzustellen, visualisiert man sie als Seitenflächen eines infinitesimalen Quaders mit den Kantenlängen d$ x $, d$ y $ und d$ z $ in der Umgebung von $ P $
+\begin{figure}
+  \centering
+  \includegraphics[width=0.8\textwidth]{tensor}
+  \caption[Spannungen und Kräfte am Infinitesimalelement]{Spannungen und Kräfte am Infinitesimalelement\protect\footnotemark}
+  \label{fig:tensor}
+  \end{figure}
+  \footnotetext{\cite[Vgl.][44.]{tmr}}
+  
+  (siehe \fref{fig:tensor}). Ein Spannungsvektor wirkt hier je Fläche, der in seine Komponenten senkrecht zur Schnittfläche (daraus folgt Normalspannung) und in der Schnittfläche (daraus folgt Schubspannung) zerlegt wird. Zusätzlich werden die Schubspannungen noch in die Komponenten der Richtung der Koordinatenachsen zerlegt. Es werden Doppelindizes zur Kennzeichnung der jeweiligen Komponenten benutzt(siehe \fref{fig:tensor}). 
+Der erste Index kennzeichnet die Richtung der Flächennormalen, wohingegen der zweite Index die Richtung der Spannungskomponenten bezeichnet. Zum Beispiel deklariert $ \tau_{yx} $ die Schubspannung einer Ebene, deren Normale in $y$ - Richtung weist. Die Spannung zeigt hier in die $ x $ - Richtung (siehe \fref{fig:tensor}). Es ist sinnvoll und vermeidet Verwechselungen bei den Normalspannungen die Schreibweise zu simplifizieren. Spannung und Flächennormale besitzen in diesem Fall die gleiche Richtung. Daraus ergibt sich eine Übereinstimmung der beiden Indizes und es ist hinreichend nur einen Index anzugeben. Es ist also völlig ausreichend  folgende Angaben zu machen: $ \sigma_{xx} = \sigma_{x} $, $ \sigma_{yy} = \sigma_y $, $ \sigma_{zz} = \sigma_z $.
+
+Der Spannungsvektor für die Schnittfläche, deren Normale in $ y $ - Richtung zeigt wir mit den oben angeführten Konventionen zu folgender Formel:
+\begin{equation}
+t = \tau_{yx}e_x + \sigma_ye_y + \tau_{yz}e_z
+\end{equation}
+
+Analog zu den Schnittgrößen existiert für die Spannungen eine \emph{Vorzeichenkonvention}:
+
+"`\emph{Positive} Spannungen zeigen an einem positiven (negativen) Schnittufer in die positive (negative) Koordinatenrichtung."'\footcite[Vgl.][45]{tmr}
+
+Infolgedessen beanspruchen positive (negative) Normalspannungen den infinitesimalen Quader auf Zug (Druck). Nach Zerlegung der Spannungsvektoren in ihre Komponenten erhält man drei Normalspannungen ($ \sigma_x$, $ \sigma_y $, $ \sigma_z $) und sechs Schubspannungen ( $ \tau_{xy}, \tau_{xz}, \tau_{yx}, \tau_{yz}, \tau_{zx}, \tau_{zy} $), die jedoch nicht alle unabhängig voneinander sind. Um das zu beweisen wird das Momentengleichgewicht um eine zur $x$- Achse parallele Achse durch den Mittelpunkt des Quaders (siehe \fref{fig:tensor})aufgestellt. Unter der Berücksichtigung das Gleichgewichtsaussagen nur für Kräfte gelten, werden die Spannungen mit den zugeordneten Flächenelementen multipliziert.
+\begin{equation}
+\overset{\curvearrowleft}{M}: 2\,\frac{\text{d}y}{2}\,(\tau_{yz}\,\text{d}x\,\text{d}z) - 2\,\frac{\text{d}z}{2}\,(\tau_{zy}\, \text{d}x\,\text{d}y)\,= 0 \Rightarrow\,\tau_{yz} = \tau_{zy}
+\end{equation} Analog dazu gilt für die anderen Achsen: \begin{equation}
+\tau_{xy}=\tau_{yx},\quad\tau_{xz}=\tau_{zx},\quad\tau_{yz}=\tau_{xy}
+\end{equation}
+
+Aus dem folgt:
+
+"`Schubspannungen in zwei senkrecht aufeinander stehenden Schnitten (z.B. $\tau_{xy}$ und $\tau_{zy}$) sind gleich."'\footcite[Vgl.][46]{tmr}
+
+Sie werden als einander \emph{zugeordnete Schubspannungen} bezeichnet. Aufgrund der Tatsache das sie gleiche Vorzeichen besitzen, deuten sie entweder auf die gemeinsame Quaderkante oder sie sind beide von ihr abgewandt. Wie aus den oben angeführten Identitäten zu erkennen ist, existieren lediglich sechs unabhängige Spannungen. Die Komponenten der jeweiligen Spannungsvektoren lassen sich in einer Matrix anordnen:
+\begin{equation}
+\sigma = \begin{pmatrix}
+\sigma_x & \tau_{xy} & \tau_{xz}\\
+\tau_{yx} & \sigma_y & \tau_{yz}\\
+\tau_{zx} & \tau_{zy} & \sigma_z
+\end{pmatrix} = \begin{pmatrix}
+\sigma_x & \tau_{xy} & \tau_{xz}\\
+\tau_{xy} & \sigma_y & \tau_{yz}\\
+\tau_{xz} & \tau_{yz} & \sigma_z
+\end{pmatrix}
+\end{equation}
+
+Die Normalspannungen bilden die Hauptdiagonale. Alle anderen Elemente sind Schubspannungen. Die Matrix ist symmetrisch und stellt den \emph{Spannungstensor} dar. Er wird mit der Größe $ \sigma $ bezeichnet. Der \emph{Spannungszustand} wird durch den \emph{Spannungstensor} (Spannungsvektoren für drei aufeinander stehende Schnitte) eindeutig in einem Punkt festgelegt.\footcite[Vgl.][43-46]{tmr}
+\subsubsection{Festigkeitshypothesen}
+In der Praxis unterliegen Bauteile nahezu immer einem mehrachsigen Spannungszustand. Zulässige Spannungen $ \sigma_{zul} $ für Bauteile und Werkstoffe werden aber meistens mit dem einachsigen Zugversuch in Laboren festgelegt. Um nun die realen Spannungsverhältnisse im Bauteil mit den Laborwerten vergleichbar zu machen bedient man sich bestimmter Festigkeitshypothesen, die die Hauptspannungen berücksichtigen um sie mit den theoretischen Mindestzugfestigkeiten gegenüberzustellen. Es wird also zuerst unter zu Hilfenahme einer Spannungshypothese eine Vergleichsspannung $ \sigma_V $ errechnet  und diese dann mit $ \sigma_{zul} $ verglichen. Idealisiert würde solch eine Vergleichsspannung alle wirkenden Veränderungen und Spannungen sowie Veränderungen des Materialverhaltens (z.B. Fließen, Bruch) bei gleichen Werten auslösen wie im einachsigen Spannungszustand bei dem modellierten Zugversuch. Bei der Gegenüberstellung der beiden Spannungen gilt dann $ \sigma_V \leq \sigma_{zul} $. Es wurden im laufe der Jahre zahlreiche solcher Spannungshypothesen hergeleitet.\footcite[Vgl.][399]{dd} Hier sollen nur die geläufigsten, nämlich die Spannungshypothesen von  \emph{Tresca} und \emph{von Mises} kurz vorgestellt werden.
+
+Die \emph{Schubspannungshypothese} nach Tresca geht davon aus, dass die Materialbeanspruchung durch die maximale Schubspannung zu charakterisieren ist. Für den dreidimensionalen Spannungszustand gilt die Formel \begin{equation} \sigma_V = \sqrt{(\sigma_x - \sigma_y )^2 + 4\tau^2_{xy}} \end{equation}. Bei der \emph{Hypothese der Gestaltänderungsenergie} nach von Mieses wird davon ausgegangen, dass die zur Änderung der Gestalt benötigte Energie zu Vergleichszwecken herangezogen wird. Für den räumlichen Spannungszustand wird folgender Term gegeben: \begin{equation} \sigma_V = \sqrt{\sigma^2_x + \sigma^2_y - \sigma_x\sigma_y + 3\tau^2_{xy}} \end{equation} 
+Die Hypothese der Gestaltänderungsenergie ist besonders bei zähen Werkstoffen aussagekräftiger und präziser als die Schubspannungshypothese.\footcite[Vgl.][84]{tmr}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+
+\printbibliography
+
+\end{document}  
