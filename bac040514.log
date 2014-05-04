@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  4 MAY 2014 07:18
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  4 MAY 2014 16:50
 entering extended mode
 **bac040514.tex
 (C:\Users\B\Documents\Bac\bac040514.tex
@@ -1851,6 +1851,12 @@ kte / kunststoffe / technische-[]kunststoffe /$
  []
 
 
+Overfull \hbox (1.31528pt too wide) in paragraph at lines 1077--1080
+[]\T1/lmr/bx/n/12 Kunststoff \T1/lmr/m/n/12 (\T1/lmr/m/it/12 Murlubric$[]$ schw
+arz \T1/lmr/m/n/12 (Her-stel-ler-be-zeich-nung), mo-di-fi-zier-tes Guss-
+ []
+
+
 Overfull \hbox (6.57358pt too wide) in paragraph at lines 1077--1080
 \T1/lmr/m/n/12 Streck-span-nung/Bruchspannung [][], Zug-Elastizitätsmodul [][],
  Ku-
@@ -2276,7 +2282,7 @@ Package logreq Info: Writing requests to 'bac040514.run.xml'.
 Here is how much of TeX's memory you used:
  20736 strings out of 493921
  382518 string characters out of 3144887
- 533980 words of memory out of 3000000
+ 534980 words of memory out of 3000000
  23578 multiletter control sequences out of 15000+200000
  123721 words of font info for 90 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
@@ -2305,7 +2311,7 @@ ic/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
 y10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on bac040514.pdf (72 pages, 14842408 bytes).
+Output written on bac040514.pdf (72 pages, 14842666 bytes).
 PDF statistics:
  442 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
