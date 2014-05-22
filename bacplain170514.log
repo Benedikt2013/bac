@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  18 MAY 2014 14:52
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  22 MAY 2014 19:55
 entering extended mode
 **bacplain170514.tex
 (C:\Users\B\Documents\Bac\bacplain170514.tex
@@ -1519,14 +1519,14 @@ hre / praktikum / zusatzinformationen / download4 / at _$
 File: klip.jpg Graphic file (type jpg)
  <use klip.jpg>
 Package pdftex.def Info: klip.jpg used on input line 298.
-(pdftex.def)             Requested size: 349.97028pt x 237.8022pt.
+(pdftex.def)             Requested size: 306.22148pt x 208.07292pt.
  [13 <C:/Users/B/Documents/Bac/klip.jpg>]
 <messpunktevdkda3.png, id=97, 387.69844pt x 172.39406pt>
 File: messpunktevdkda3.png Graphic file (type png)
 
 <use messpunktevdkda3.png>
 Package pdftex.def Info: messpunktevdkda3.png used on input line 314.
-(pdftex.def)             Requested size: 349.97028pt x 155.62144pt.
+(pdftex.def)             Requested size: 306.22148pt x 136.16612pt.
  <Messlehre.jpg, id=98, 3150.77126pt x 1191.45125pt>
 File: Messlehre.jpg Graphic file (type jpg)
 
@@ -1554,25 +1554,18 @@ Overfull \hbox (190.33063pt too wide) in paragraph at lines 331--331
  []
 
 [14 <C:/Users/B/Documents/Bac/messpunktevdkda3.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15 <C:/Users/B/Documents/Bac/Messlehre.jpg> <C:/Users/B/Documents/Bac/messvdk
-d.jpg>]
 Overfull \hbox (2.20508pt too wide) in paragraph at lines 357--402
 [][] 
  []
 
-<mitkontausstrckb.png, id=108, 501.37312pt x 744.53156pt>
-File: mitkontausstrckb.png Graphic file (type png)
+<mitkontausstrckb.jpg, id=104, 508.14844pt x 414.79968pt>
+File: mitkontausstrckb.jpg Graphic file (type jpg)
 
-<use mitkontausstrckb.png>
-Package pdftex.def Info: mitkontausstrckb.png used on input line 406.
-(pdftex.def)             Requested size: 349.97028pt x 519.72574pt.
-
-
-LaTeX Warning: Float too large for page by 4.82576pt on input line 409.
-
-[16] [17 <C:/Users/B/Documents/Bac/mitkontausstrckb.png>]
+<use mitkontausstrckb.jpg>
+Package pdftex.def Info: mitkontausstrckb.jpg used on input line 406.
+(pdftex.def)             Requested size: 349.97028pt x 285.68675pt.
+ [15 <C:/Users/B/Documents/Bac/Messlehre.jpg> <C:/Users/B/Documents/Bac/messvdk
+d.jpg>] [16] [17 <C:/Users/B/Documents/Bac/mitkontausstrckb.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 413--413
 [][]\T1/lmr/m/n/10 Vgl.$\T1/lmtt/m/n/10 http : / / www . alumeco . de / Technis
 che _ Informationen / Zustandsbezeichnungen .$
@@ -1583,19 +1576,19 @@ Overfull \hbox (25.53838pt too wide) in paragraph at lines 448--501
 [][] 
  []
 
-[18] [19] <messwerte2.jpg, id=122, 396.7322pt x 435.87843pt>
+[18] [19] <messwerte2.jpg, id=121, 531.48563pt x 567.62062pt>
 File: messwerte2.jpg Graphic file (type jpg)
 
 <use messwerte2.jpg>
 Package pdftex.def Info: messwerte2.jpg used on input line 507.
-(pdftex.def)             Requested size: 349.97028pt x 384.512pt.
+(pdftex.def)             Requested size: 349.97028pt x 373.7733pt.
  [20] [21 <C:/Users/B/Documents/Bac/messwerte2.jpg>]
-[22] <fraesneumess.jpg, id=134, 510.40688pt x 638.385pt>
+[22] <fraesneumess.jpg, id=133, 512.66531pt x 561.59813pt>
 File: fraesneumess.jpg Graphic file (type jpg)
 
 <use fraesneumess.jpg>
 Package pdftex.def Info: fraesneumess.jpg used on input line 549.
-(pdftex.def)             Requested size: 349.97028pt x 437.73917pt.
+(pdftex.def)             Requested size: 349.97028pt x 383.37273pt.
 
 Overfull \hbox (9.98288pt too wide) in paragraph at lines 564--614
 [][] 
@@ -1650,13 +1643,13 @@ Things are pretty mixed up, but I think the worst is over.
 Underfull \vbox (badness 2005) has occurred while \output is active []
 
  [27]
-<messstreifen.jpg, id=151, 2346.7675pt x 1583.9175pt>
+<messstreifen.jpg, id=150, 2346.7675pt x 1583.9175pt>
 File: messstreifen.jpg Graphic file (type jpg)
  <use messstreifen.jpg>
 Package pdftex.def Info: messstreifen.jpg used on input line 683.
 (pdftex.def)             Requested size: 349.97028pt x 236.19977pt.
 
-<messaction.jpg, id=152, 2258.4375pt x 1090.0725pt>
+<messaction.jpg, id=151, 2258.4375pt x 1090.0725pt>
 File: messaction.jpg Graphic file (type jpg)
  <use messaction.jpg>
 Package pdftex.def Info: messaction.jpg used on input line 689.
@@ -1665,7 +1658,7 @@ Package pdftex.def Info: messaction.jpg used on input line 689.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28 <C:/Users/B/Documents/Bac/messstreifen.jpg>]
-<messbereicheVDKDunterseite.jpg, id=156, 886.06032pt x 286.82156pt>
+<messbereicheVDKDunterseite.jpg, id=155, 886.06032pt x 286.82156pt>
 File: messbereicheVDKDunterseite.jpg Graphic file (type jpg)
 
 <use messbereicheVDKDunterseite.jpg>
@@ -1676,7 +1669,7 @@ Package pdftex.def Info: messbereicheVDKDunterseite.jpg used on input line 716.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29 <C:/Users/B/Documents/Bac/messaction.jpg>]
-<Kreide.jpg, id=160, 1770.615pt x 835.12pt>
+<Kreide.jpg, id=159, 1770.615pt x 835.12pt>
 File: Kreide.jpg Graphic file (type jpg)
  <use Kreide.jpg>
 Package pdftex.def Info: Kreide.jpg used on input line 749.
@@ -1685,7 +1678,7 @@ Package pdftex.def Info: Kreide.jpg used on input line 749.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30 <C:/Users/B/Documents/Bac/messbereicheVDKDunterseite.jpg>]
-<warmleittip.png, id=164, 105.39375pt x 119.69719pt>
+<warmleittip.png, id=163, 105.39375pt x 119.69719pt>
 File: warmleittip.png Graphic file (type png)
  <use warmleittip.png>
 Package pdftex.def Info: warmleittip.png used on input line 770.
@@ -1729,12 +1722,12 @@ or  <return>  to continue without it.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
-<diagrammpolier.jpg, id=178, 472.01344pt x 515.67656pt>
+<diagrammpolier.jpg, id=177, 468.24937pt x 515.67656pt>
 File: diagrammpolier.jpg Graphic file (type jpg)
 
 <use diagrammpolier.jpg>
 Package pdftex.def Info: diagrammpolier.jpg used on input line 816.
-(pdftex.def)             Requested size: 349.97028pt x 382.35005pt.
+(pdftex.def)             Requested size: 349.97028pt x 385.43454pt.
 
 Overfull \hbox (12.20508pt too wide) in paragraph at lines 829--879
 [][] 
@@ -1791,7 +1784,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1009--1009
  ?sigle = DWB&mode = Gliederung&lemid =$
  []
 
-<kropfeinhzeich.jpg, id=195, 830.39647pt x 1394.38588pt>
+<kropfeinhzeich.jpg, id=194, 830.39647pt x 1394.38588pt>
 File: kropfeinhzeich.jpg Graphic file (type jpg)
 
 <use kropfeinhzeich.jpg>
@@ -1802,7 +1795,7 @@ Overfull \hbox (78.93176pt too wide) in paragraph at lines 1014--1014
 [] [] 
  []
 
-<kropfeinheit.png, id=196, 250.68657pt x 329.73187pt>
+<kropfeinheit.png, id=195, 250.68657pt x 329.73187pt>
 File: kropfeinheit.png Graphic file (type png)
  <use kropfeinheit.png>
 Package pdftex.def Info: kropfeinheit.png used on input line 1016.
@@ -1812,7 +1805,7 @@ Overfull \hbox (55.25073pt too wide) in paragraph at lines 1016--1016
 [] [] 
  []
 
-<kropffrasbereich.png, id=197, 183.68625pt x 193.47281pt>
+<kropffrasbereich.png, id=196, 183.68625pt x 193.47281pt>
 File: kropffrasbereich.png Graphic file (type png)
 
 <use kropffrasbereich.png>
@@ -1852,7 +1845,7 @@ Overfull \hbox (177.10504pt too wide) in paragraph at lines 1025--1025
 [] 
  []
 
-<kropfung.jpg, id=198, 1463.4675pt x 1000.73875pt>
+<kropfung.jpg, id=197, 1463.4675pt x 1000.73875pt>
 File: kropfung.jpg Graphic file (type jpg)
  <use kropfung.jpg>
 Package pdftex.def Info: kropfung.jpg used on input line 1027.
@@ -1862,20 +1855,20 @@ Overfull \hbox (46.96815pt too wide) in paragraph at lines 1027--1027
 [] [] 
  []
 
-<kropfeinpic.jpg, id=199, 300.3722pt x 383.18156pt>
+<kropfeinpic.jpg, id=198, 300.3722pt x 383.18156pt>
 File: kropfeinpic.jpg Graphic file (type jpg)
  <use kropfeinpic.jpg>
 Package pdftex.def Info: kropfeinpic.jpg used on input line 1038.
 (pdftex.def)             Requested size: 349.97028pt x 446.49054pt.
 
 [39 <C:/Users/B/Documents/Bac/kropfeinhzeich.jpg> <C:/Users/B/Documents/Bac/kro
-pfeinheit.png>] <krpfsequenz.png, id=205, 584.1825pt x 220.57407pt>
+pfeinheit.png>] <krpfsequenz.png, id=204, 584.1825pt x 220.57407pt>
 File: krpfsequenz.png Graphic file (type png)
 
 <use krpfsequenz.png>
 Package pdftex.def Info: krpfsequenz.png used on input line 1059.
 (pdftex.def)             Requested size: 349.97028pt x 132.14351pt.
- <krpfgesamt.png, id=206, 441.90094pt x 362.10281pt>
+ <krpfgesamt.png, id=205, 441.90094pt x 362.10281pt>
 File: krpfgesamt.png Graphic file (type png)
 
 <use krpfgesamt.png>
@@ -1886,7 +1879,7 @@ kropfung.jpg>] [41 <C:/Users/B/Documents/Bac/kropfeinpic.jpg>]
 Underfull \vbox (badness 5050) has occurred while \output is active []
 
  [42 <C:/Users/B/Documents/Bac/krpfsequenz.png>] [43 <C:/Users/B/Documents/Bac/
-krpfgesamt.png>] <materialflussvergleich.png, id=222, 508.90125pt x 256.70906pt
+krpfgesamt.png>] <materialflussvergleich.png, id=221, 508.90125pt x 256.70906pt
 >
 File: materialflussvergleich.png Graphic file (type png)
 
@@ -1921,19 +1914,19 @@ Overfull \hbox (33.37329pt too wide) in paragraph at lines 1106--1109
 leiÿ [][])
  []
 
-[46] [47] <diebronze.jpg, id=238, 505.89pt x 361.35pt>
+[46] [47] <diebronze.jpg, id=237, 505.89pt x 361.35pt>
 File: diebronze.jpg Graphic file (type jpg)
  <use diebronze.jpg>
 Package pdftex.def Info: diebronze.jpg used on input line 1125.
 (pdftex.def)             Requested size: 118.11491pt x 84.36588pt.
 
-<diestahl.jpg, id=239, 2122.93124pt x 1505.625pt>
+<diestahl.jpg, id=238, 2122.93124pt x 1505.625pt>
 File: diestahl.jpg Graphic file (type jpg)
  <use diestahl.jpg>
 Package pdftex.def Info: diestahl.jpg used on input line 1128.
 (pdftex.def)             Requested size: 118.11491pt x 83.76305pt.
 
-<diekunst.jpg, id=240, 554.5518pt x 384.9582pt>
+<diekunst.jpg, id=239, 554.5518pt x 384.9582pt>
 File: diekunst.jpg Graphic file (type jpg)
  <use diekunst.jpg>
 Package pdftex.def Info: diekunst.jpg used on input line 1131.
@@ -1944,32 +1937,32 @@ Overfull \hbox (21.13487pt too wide) in paragraph at lines 1139--1140
 h-stem-pel folgt hier (Ab-bil-dung 29[][][]): 
  []
 
-<punchbronze.jpg, id=241, 537.6888pt x 367.3725pt>
+<punchbronze.jpg, id=240, 537.6888pt x 367.3725pt>
 File: punchbronze.jpg Graphic file (type jpg)
  <use punchbronze.jpg>
 Package pdftex.def Info: punchbronze.jpg used on input line 1145.
 (pdftex.def)             Requested size: 118.11491pt x 80.69887pt.
 
-<punchstahl.jpg, id=242, 2250.4075pt x 1561.835pt>
+<punchstahl.jpg, id=241, 2250.4075pt x 1561.835pt>
 File: punchstahl.jpg Graphic file (type jpg)
  <use punchstahl.jpg>
 Package pdftex.def Info: punchstahl.jpg used on input line 1148.
 (pdftex.def)             Requested size: 118.11491pt x 81.95705pt.
 
-<punchkunst.jpg, id=243, 4835.06375pt x 3011.25pt>
+<punchkunst.jpg, id=242, 4835.06375pt x 3011.25pt>
 File: punchkunst.jpg Graphic file (type jpg)
  <use punchkunst.jpg>
 Package pdftex.def Info: punchkunst.jpg used on input line 1151.
 (pdftex.def)             Requested size: 129.5293pt x 80.63858pt.
 
-<niederhalterkunst.jpg, id=244, 287.1528pt x 212.4738pt>
+<niederhalterkunst.jpg, id=243, 287.1528pt x 212.4738pt>
 File: niederhalterkunst.jpg Graphic file (type jpg)
 
 <use niederhalterkunst.jpg>
 Package pdftex.def Info: niederhalterkunst.jpg used on input line 1167.
 (pdftex.def)             Requested size: 183.0748pt x 135.46725pt.
 
-<niederhalterS.jpg, id=245, 2017.5375pt x 1455.4375pt>
+<niederhalterS.jpg, id=244, 2017.5375pt x 1455.4375pt>
 File: niederhalterS.jpg Graphic file (type jpg)
  <use niederhalterS.jpg>
 Package pdftex.def Info: niederhalterS.jpg used on input line 1170.
@@ -1985,31 +1978,31 @@ Overfull \hbox (1.04681pt too wide) in paragraph at lines 1180--1181
 i-ge Flä-che rechts) 
  []
 
-<Ss1a.jpg, id=249, 324.0105pt x 115.8729pt>
+<Ss1a.jpg, id=248, 324.0105pt x 115.8729pt>
 File: Ss1a.jpg Graphic file (type jpg)
  <use Ss1a.jpg>
 Package pdftex.def Info: Ss1a.jpg used on input line 1183.
 (pdftex.def)             Requested size: 349.97028pt x 125.1603pt.
 
-<Ss2.jpg, id=250, 316.7835pt x 112.0185pt>
+<Ss2.jpg, id=249, 316.7835pt x 112.0185pt>
 File: Ss2.jpg Graphic file (type jpg)
  <use Ss2.jpg>
 Package pdftex.def Info: Ss2.jpg used on input line 1191.
 (pdftex.def)             Requested size: 349.97028pt x 123.75398pt.
 
-<Ss3.jpg, id=251, 363.9999pt x 118.2819pt>
+<Ss3.jpg, id=250, 363.9999pt x 118.2819pt>
 File: Ss3.jpg Graphic file (type jpg)
  <use Ss3.jpg>
 Package pdftex.def Info: Ss3.jpg used on input line 1198.
 (pdftex.def)             Requested size: 349.97028pt x 113.73161pt.
  [49 <C:/Users/B/Documents/Bac/Ss1a.jpg> <C:/Users/B/Documents/Bac/Ss2.jpg>]
-<Sk1.jpg, id=255, 443.0151pt x 152.9715pt>
+<Sk1.jpg, id=254, 443.0151pt x 152.9715pt>
 File: Sk1.jpg Graphic file (type jpg)
  <use Sk1.jpg>
 Package pdftex.def Info: Sk1.jpg used on input line 1205.
 (pdftex.def)             Requested size: 349.97028pt x 120.84613pt.
 
-<PunchDefektGut.jpg, id=256, 631.6398pt x 246.1998pt>
+<PunchDefektGut.jpg, id=255, 631.6398pt x 246.1998pt>
 File: PunchDefektGut.jpg Graphic file (type jpg)
  <use PunchDefektGut.jpg>
 Package pdftex.def Info: PunchDefektGut.jpg used on input line 1211.
@@ -2017,61 +2010,61 @@ Package pdftex.def Info: PunchDefektGut.jpg used on input line 1211.
 
 [50 <C:/Users/B/Documents/Bac/Ss3.jpg> <C:/Users/B/Documents/Bac/Sk1.jpg> <C:/U
 sers/B/Documents/Bac/PunchDefektGut.jpg>]
-<Sb1a.jpg, id=260, 346.6551pt x 113.4639pt>
+<Sb1a.jpg, id=259, 346.6551pt x 113.4639pt>
 File: Sb1a.jpg Graphic file (type jpg)
  <use Sb1a.jpg>
 Package pdftex.def Info: Sb1a.jpg used on input line 1218.
 (pdftex.def)             Requested size: 349.97028pt x 114.5578pt.
 
-<Sb2.jpg, id=261, 358.7001pt x 129.8451pt>
+<Sb2.jpg, id=260, 358.7001pt x 129.8451pt>
 File: Sb2.jpg Graphic file (type jpg)
  <use Sb2.jpg>
 Package pdftex.def Info: Sb2.jpg used on input line 1225.
 (pdftex.def)             Requested size: 349.97028pt x 126.68858pt.
 
-<Sb3.jpg, id=262, 304.2567pt x 112.0185pt>
+<Sb3.jpg, id=261, 304.2567pt x 112.0185pt>
 File: Sb3.jpg Graphic file (type jpg)
  <use Sb3.jpg>
 Package pdftex.def Info: Sb3.jpg used on input line 1232.
 (pdftex.def)             Requested size: 349.97028pt x 128.85101pt.
 
-<Kb1a.jpg, id=263, 297.9933pt x 90.3375pt>
+<Kb1a.jpg, id=262, 297.9933pt x 90.3375pt>
 File: Kb1a.jpg Graphic file (type jpg)
  <use Kb1a.jpg>
 Package pdftex.def Info: Kb1a.jpg used on input line 1240.
 (pdftex.def)             Requested size: 349.97028pt x 106.10245pt.
  [51 <C:/Users/B/Documents/Bac/Sb1a.jpg> <C:/Users/B/Documents/Bac/Sb2.jpg> <C:
-/Users/B/Documents/Bac/Sb3.jpg>] <Kb2.jpg, id=268, 334.1283pt x 117.3183pt>
+/Users/B/Documents/Bac/Sb3.jpg>] <Kb2.jpg, id=267, 334.1283pt x 117.3183pt>
 File: Kb2.jpg Graphic file (type jpg)
  <use Kb2.jpg>
 Package pdftex.def Info: Kb2.jpg used on input line 1248.
 (pdftex.def)             Requested size: 349.97028pt x 122.87994pt.
 
-<Bb1.jpg, id=269, 345.6915pt x 133.6995pt>
+<Bb1.jpg, id=268, 345.6915pt x 133.6995pt>
 File: Bb1.jpg Graphic file (type jpg)
  <use Bb1.jpg>
 Package pdftex.def Info: Bb1.jpg used on input line 1256.
 (pdftex.def)             Requested size: 349.97028pt x 135.35367pt.
  [52 <C:/Users/B/Documents/Bac/Kb1a.jpg> <C:/Users/B/Documents/Bac/Kb2.jpg> <C:
-/Users/B/Documents/Bac/Bb1.jpg>] <Bb2.jpg, id=273, 347.6187pt x 140.4447pt>
+/Users/B/Documents/Bac/Bb1.jpg>] <Bb2.jpg, id=272, 347.6187pt x 140.4447pt>
 File: Bb2.jpg Graphic file (type jpg)
  <use Bb2.jpg>
 Package pdftex.def Info: Bb2.jpg used on input line 1264.
 (pdftex.def)             Requested size: 349.97028pt x 141.40442pt.
 
-<Bb3a.jpg, id=274, 340.3917pt x 119.7273pt>
+<Bb3a.jpg, id=273, 340.3917pt x 119.7273pt>
 File: Bb3a.jpg Graphic file (type jpg)
  <use Bb3a.jpg>
 Package pdftex.def Info: Bb3a.jpg used on input line 1272.
 (pdftex.def)             Requested size: 349.97028pt x 123.10124pt.
 
-<Bb4.jpg, id=275, 333.1647pt x 127.4361pt>
+<Bb4.jpg, id=274, 333.1647pt x 127.4361pt>
 File: Bb4.jpg Graphic file (type jpg)
  <use Bb4.jpg>
 Package pdftex.def Info: Bb4.jpg used on input line 1280.
 (pdftex.def)             Requested size: 349.97028pt x 133.86629pt.
 
-<PunchBAlubau.jpg, id=276, 730.8906pt x 361.8318pt>
+<PunchBAlubau.jpg, id=275, 730.8906pt x 361.8318pt>
 File: PunchBAlubau.jpg Graphic file (type jpg)
  <use PunchBAlubau.jpg>
 Package pdftex.def Info: PunchBAlubau.jpg used on input line 1286.
@@ -2080,32 +2073,32 @@ Package pdftex.def Info: PunchBAlubau.jpg used on input line 1286.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53 <C:/Users/B/Documents/Bac/Bb2.jpg> <C:/Users/B/Documents/Bac/Bb3a.jpg>]
-<DieBAlubau.jpg, id=280, 372.6723pt x 140.6856pt>
+<DieBAlubau.jpg, id=279, 372.6723pt x 140.6856pt>
 File: DieBAlubau.jpg Graphic file (type jpg)
  <use DieBAlubau.jpg>
 Package pdftex.def Info: DieBAlubau.jpg used on input line 1292.
 (pdftex.def)             Requested size: 349.97028pt x 132.11995pt.
  [54 <C:/Users/B/Documents/Bac/Bb4.jpg> <C:/Users/B/Documents/Bac/PunchBAlubau.
 jpg> <C:/Users/B/Documents/Bac/DieBAlubau.jpg>]
-<Bs1a.jpg, id=284, 389.5353pt x 145.2627pt>
+<Bs1a.jpg, id=283, 389.5353pt x 145.2627pt>
 File: Bs1a.jpg Graphic file (type jpg)
  <use Bs1a.jpg>
 Package pdftex.def Info: Bs1a.jpg used on input line 1300.
 (pdftex.def)             Requested size: 349.97028pt x 130.50911pt.
 
-<Bs2.jpg, id=285, 321.1197pt x 116.3547pt>
+<Bs2.jpg, id=284, 321.1197pt x 116.3547pt>
 File: Bs2.jpg Graphic file (type jpg)
  <use Bs2.jpg>
 Package pdftex.def Info: Bs2.jpg used on input line 1308.
 (pdftex.def)             Requested size: 349.97028pt x 126.817pt.
 
-<Ks1.jpg, id=286, 338.9463pt x 108.1641pt>
+<Ks1.jpg, id=285, 338.9463pt x 108.1641pt>
 File: Ks1.jpg Graphic file (type jpg)
  <use Ks1.jpg>
 Package pdftex.def Info: Ks1.jpg used on input line 1316.
 (pdftex.def)             Requested size: 349.97028pt x 111.68422pt.
 
-<SteinKAlubau.jpg, id=287, 336.5373pt x 206.9331pt>
+<SteinKAlubau.jpg, id=286, 336.5373pt x 206.9331pt>
 File: SteinKAlubau.jpg Graphic file (type jpg)
  <use SteinKAlubau.jpg>
 Package pdftex.def Info: SteinKAlubau.jpg used on input line 1322.
@@ -2114,7 +2107,7 @@ Package pdftex.def Info: SteinKAlubau.jpg used on input line 1322.
 Underfull \vbox (badness 8038) has occurred while \output is active []
 
  [55 <C:/Users/B/Documents/Bac/Bs1a.jpg> <C:/Users/B/Documents/Bac/Bs2.jpg>]
-<Kk1a.jpg, id=291, 385.1991pt x 154.4169pt>
+<Kk1a.jpg, id=290, 385.1991pt x 154.4169pt>
 File: Kk1a.jpg Graphic file (type jpg)
  <use Kk1a.jpg>
 Package pdftex.def Info: Kk1a.jpg used on input line 1330.
@@ -2124,19 +2117,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [56 <C:/Users/B/Documents/Bac/Ks1.jpg> <C:/Users/B/Documents/Bac/SteinKAlubau.
 jpg>]
-<Kk2.jpg, id=295, 365.9271pt x 153.4533pt>
+<Kk2.jpg, id=294, 365.9271pt x 153.4533pt>
 File: Kk2.jpg Graphic file (type jpg)
  <use Kk2.jpg>
 Package pdftex.def Info: Kk2.jpg used on input line 1338.
 (pdftex.def)             Requested size: 349.97028pt x 146.76788pt.
 
-<Kkk1.jpg, id=296, 413.1435pt x 215.6055pt>
+<Kkk1.jpg, id=295, 413.1435pt x 215.6055pt>
 File: Kkk1.jpg Graphic file (type jpg)
  <use Kkk1.jpg>
 Package pdftex.def Info: Kkk1.jpg used on input line 1346.
 (pdftex.def)             Requested size: 349.97028pt x 182.64374pt.
 
-<BauteilAbsenkSk3.jpg, id=297, 2036.60875pt x 771.88374pt>
+<BauteilAbsenkSk3.jpg, id=296, 2036.60875pt x 771.88374pt>
 File: BauteilAbsenkSk3.jpg Graphic file (type jpg)
 
 <use BauteilAbsenkSk3.jpg>
@@ -2150,7 +2143,7 @@ LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
 (Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 1357
 .
 
-<Ssk1.jpg, id=302, 315.8199pt x 176.5797pt>
+<Ssk1.jpg, id=301, 315.8199pt x 176.5797pt>
 File: Ssk1.jpg Graphic file (type jpg)
  <use Ssk1.jpg>
 Package pdftex.def Info: Ssk1.jpg used on input line 1360.
@@ -2168,7 +2161,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1394 ...aphics[width=0.8\textwidth]{standzugrel}
+l.1394 ...raphics[width=.8\textwidth]{standzugrel}
                                                   
 I could not locate the file with any of these extensions:
 .png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2
@@ -2189,14 +2182,14 @@ e 1402.
 LaTeX Warning: Reference `fig:standstreckrel' on page 60 undefined on input lin
 e 1402.
 
-[60] [61] <makromikro.png, id=316, 770.88pt x 432.11438pt>
+[60] [61] <makromikro.png, id=315, 770.88pt x 432.11438pt>
 File: makromikro.png Graphic file (type png)
 
 <use makromikro.png>
 Package pdftex.def Info: makromikro.png used on input line 1458.
 (pdftex.def)             Requested size: 349.97028pt x 196.17058pt.
  [62]
-<elementarzellen.png, id=320, 419.31656pt x 140.77594pt>
+<elementarzellen.png, id=319, 419.31656pt x 140.77594pt>
 File: elementarzellen.png Graphic file (type png)
 
 <use elementarzellen.png>
@@ -2208,28 +2201,28 @@ Overfull \hbox (6.97215pt too wide) in paragraph at lines 1493--1494
 Atom-plät-ze wer-den von Frem-
  []
 
-<versetzung.png, id=326, 257.46187pt x 135.50626pt>
+<versetzung.png, id=325, 257.46187pt x 135.50626pt>
 File: versetzung.png Graphic file (type png)
  <use versetzung.png>
 Package pdftex.def Info: versetzung.png used on input line 1501.
 (pdftex.def)             Requested size: 349.97028pt x 184.21161pt.
 
 [64 <C:/Users/B/Documents/Bac/elementarzellen.png>]
-<eloplastkristall.png, id=331, 305.64188pt x 199.49532pt>
+<eloplastkristall.png, id=330, 305.64188pt x 199.49532pt>
 File: eloplastkristall.png Graphic file (type png)
 
 <use eloplastkristall.png>
 Package pdftex.def Info: eloplastkristall.png used on input line 1517.
 (pdftex.def)             Requested size: 349.97028pt x 228.44067pt.
  [65 <C:/Users/B/Documents/Bac/versetzung.png>]
-<wandernstufenversetzung.png, id=336, 305.64188pt x 191.21437pt>
+<wandernstufenversetzung.png, id=335, 305.64188pt x 191.21437pt>
 File: wandernstufenversetzung.png Graphic file (type png)
 
 <use wandernstufenversetzung.png>
 Package pdftex.def Info: wandernstufenversetzung.png used on input line 1525.
 (pdftex.def)             Requested size: 349.97028pt x 218.95822pt.
 
-<rekristall.png, id=337, 637.63219pt x 326.72063pt>
+<rekristall.png, id=336, 637.63219pt x 326.72063pt>
 File: rekristall.png Graphic file (type png)
  <use rekristall.png>
 Package pdftex.def Info: rekristall.png used on input line 1535.
@@ -2237,27 +2230,27 @@ Package pdftex.def Info: rekristall.png used on input line 1535.
 
 [66 <C:/Users/B/Documents/Bac/eloplastkristall.png>] [67 <C:/Users/B/Documents/
 Bac/wandernstufenversetzung.png>]
-<eigenspanabk.png, id=346, 264.23718pt x 246.9225pt>
+<eigenspanabk.png, id=345, 264.23718pt x 246.9225pt>
 File: eigenspanabk.png Graphic file (type png)
  <use eigenspanabk.png>
 Package pdftex.def Info: eigenspanabk.png used on input line 1565.
 (pdftex.def)             Requested size: 349.97028pt x 327.0577pt.
 
 [68 <C:/Users/B/Documents/Bac/rekristall.png>]
-<eigenspanfaser.png, id=351, 313.17pt x 143.78719pt>
+<eigenspanfaser.png, id=350, 313.17pt x 143.78719pt>
 File: eigenspanfaser.png Graphic file (type png)
  <use eigenspanfaser.png>
 Package pdftex.def Info: eigenspanfaser.png used on input line 1573.
 (pdftex.def)             Requested size: 349.97028pt x 160.6895pt.
 
-<eigenspandrahtzieh.png, id=352, 299.61937pt x 137.01187pt>
+<eigenspandrahtzieh.png, id=351, 299.61937pt x 137.01187pt>
 File: eigenspandrahtzieh.png Graphic file (type png)
 
 <use eigenspandrahtzieh.png>
 Package pdftex.def Info: eigenspandrahtzieh.png used on input line 1580.
 (pdftex.def)             Requested size: 349.97028pt x 160.04819pt.
 
-<eigenspanmol.png, id=353, 211.54031pt x 176.91093pt>
+<eigenspanmol.png, id=352, 211.54031pt x 176.91093pt>
 File: eigenspanmol.png Graphic file (type png)
  <use eigenspanmol.png>
 Package pdftex.def Info: eigenspanmol.png used on input line 1588.
@@ -2272,7 +2265,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<eigenspanschnitt.png, id=354, 347.04657pt x 185.19188pt>
+<eigenspanschnitt.png, id=353, 347.04657pt x 185.19188pt>
 File: eigenspanschnitt.png Graphic file (type png)
 
 <use eigenspanschnitt.png>
@@ -2282,7 +2275,7 @@ Package pdftex.def Info: eigenspanschnitt.png used on input line 1597.
 [70 <C:/Users/B/Documents/Bac/eigenspanfaser.png> <C:/Users/B/Documents/Bac/eig
 enspandrahtzieh.png>] [71 <C:/Users/B/Documents/Bac/eigenspanmol.png>] [72 <C:/
 Users/B/Documents/Bac/eigenspanschnitt.png>] [73]
-<einachsspann.png, id=377, 353.82187pt x 203.25937pt>
+<einachsspann.png, id=376, 353.82187pt x 203.25937pt>
 File: einachsspann.png Graphic file (type png)
  <use einachsspann.png>
 Package pdftex.def Info: einachsspann.png used on input line 1648.
@@ -2304,7 +2297,7 @@ l.1653 ...n erhÃ¤lt man die KrÃ¤fte $ \sigma_0 \A_
                                                   0 $ und $ \sigma_{\varphi}...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-[74] <normalvektor.png, id=381, 504.38437pt x 221.32687pt>
+[74] <normalvektor.png, id=380, 504.38437pt x 221.32687pt>
 File: normalvektor.png Graphic file (type png)
 
 <use normalvektor.png>
@@ -2321,7 +2314,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [76 <C:/Users/B/Documents/Bac/normalvektor.png>]
-<tensor.png, id=391, 572.89032pt x 228.10219pt>
+<tensor.png, id=390, 572.89032pt x 228.10219pt>
 File: tensor.png Graphic file (type png)
  <use tensor.png>
 Package pdftex.def Info: tensor.png used on input line 1687.
@@ -2383,9 +2376,9 @@ Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Program Files (x86)
 /fonts/type1/public/lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /public/lm/lmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
 fonts/symbols/msbm10.pfb>
-Output written on bacplain170514.pdf (85 pages, 14838929 bytes).
+Output written on bacplain170514.pdf (85 pages, 14926546 bytes).
 PDF statistics:
- 502 PDF objects out of 1000 (max. 8388607)
+ 501 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  391 words of extra memory for PDF output out of 10000 (max. 10000000)
 
