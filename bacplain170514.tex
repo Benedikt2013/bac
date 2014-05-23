@@ -652,23 +652,6 @@ Verzug && 1,806 & 0,634 & 0,313 & 0,01 & 0,09 & 0,019 & 0,1 & 0,2 & 0,22 & 0,04 
 Orientierung && aussen & aussen & aussen & innen & innen & innen & aussen & innen & innen & innen \\
 \textbf{Durchschnittlicher Verzug} && \textbf{\textcolor{red}{0,3432}} &&&&&&&&&\\
 \bottomrule
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 \end{tabular}
 \end{sidewaystable}
 \newpage
@@ -815,6 +798,7 @@ P_{zu} \cdot \eta_{el.} \cdot \eta_{mech.} = \frac{\lambda}{\Delta x} \cdot A_{m
 \centering
 \includegraphics[width=.8\textwidth]{diagrammpolier}
 \caption{Messwerte und Prozessschwankungen Polieren}
+\label{fig:polier}
 \end{figure}
 
 
@@ -996,12 +980,249 @@ Orientierung &&innen  &innen  &innen &aussen  &aussen  &aussen  & aussen &aussen
   
  
 \subsection{Eloxieren}
+
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=.8\textwidth]{elox}
+\caption{Messwerte und Prozessschwankungen Polieren}
+\label{fig:elox}
+\end{figure}
+
+\begin{table}[hbtp] % StandardMesswertTabelle
+\caption{Messwerte und Standardabweichungen Fräsen  "`Kontur außen"'} 
+\label{tab:mwertstandfraes}
+\vskip\abovecaptionskip
+
+
+
+\footnotesize
+   \begin{tabular}{cccccc}
+   \toprule
+   & \multicolumn{5}{c}{Messwert $x =  (\bar{x} \pm \Delta\bar{x})  $ [mm]}\\
+   \cmidrule(ll){2-6}
+   Material    & MP1a & MP2a & MP3a & MP4a & MP5a \\  
+   
+   \midrule
+  
+   F13 Serie& $ \pm  $ & $ \pm $ & $\pm  $ & $ \pm  $ & $ \pm $ \\
+    Fxx & $ \pm  $ & $ \pm $ & $ \pm  $ & $ \pm $ & $ \pm$ \\
+   F17   & $ \pm $ & $ \pm  $ & $ \pm $ & $ \pm$&$ \pm $ \\
+   F18 &$\pm $&$\pm $&$\pm $&$\pm $&$\pm $ \\
+     \bottomrule
+     \toprule
+  Material   & MP6a & MP7a & MP8a & MP9a & MP10a  \\
+  \midrule
+      F13 Serie &   $ \pm $&$ \pm $&$ \pm $&$ \pm $&$ \pm$ \\
+Fxx &$ \pm $&$ \pm$&$ \pm $&$ \pm $& \pm $ \\
+  F17  & $ \pm $&$ \pm $&$ \pm $&$ \pm  $&$\pm$ \\
+  F18 &$\pm $&$\pm$ &$\pm $&$\pm$ &$\pm$ \\
+     
+     \bottomrule
+      
+     &&&&&\\
+     &&&&&\\
+     &&&&&\\
+     &&&&&\\
+     &&&&&\\
+     
+     \toprule
+      & \multicolumn{5}{c}{Standardabweichung s [mm]}\\
+   \cmidrule(ll){2-6}
+   Material    & MP1a & MP2a & MP3a & MP4a & MP5a \\ 
+   \midrule
+    F13 Serie &&&&&\\
+    Fxx &&&&&\\
+    F17 &&&&&\\
+    F18 &&&&& \\
+    
+     \bottomrule
+     \toprule
+  Material    & MP6a & MP7a & MP8a & MP9a & MP10a  \\
+  \midrule
+    F13 Serie &&&&&\\
+ Fxx   &&&&&\\
+F17 &&&&&\\ 
+F18 &&&&&\\
+   \bottomrule 
+         
+   \end{tabular} 
+\end{table}
+
+\newpage
+\begin{sidewaystable}[H]
+\caption{Materialverzug im Vergleich zum Vorprozess (Biegen/Fräsen). Mit einem durchschnittlichen Verzug von \SI{0.3432}{\milli\meter} weichen die Maße der Aussenkontur des F18er Materials am höchsten vom Vorprozess Streckbiegen ab. F17 weist mit einem durchschnittlichen Verzug von \SI{0.2537}{\milli\meter} die kleinste Diskrepanz zum vorherigen Bearbeitungsschritt auf.}
+\label{tab:biegfraes}
+\vskip\abovecaptionskip
+\footnotesize
+
+
+\begin{tabular}{cccccccccccc}
+\toprule
+&& \multicolumn{10}{c}{Mittelwerte (bezüglich Messpunkt) und Verzug [\si{\milli\meter}]} \\
+\cmidrule(2){3-12}
+Prozess/Diff. & Material & MP1 & MP2 & MP3 & MP4 & MP5 & MP6 & MP7 & MP8 & MP9 & MP10 \\
+\midrule
+Biegen & \textbf{F13} & &  &  &  &  &  &  &  &  &  \\
+Fräsen &&  &  &  &  &  &  &  &  &  &  \\
+Verzug &&  &  &  &  &  &  &  &  &  &  \\
+Orientierung && aussen & aussen & aussen & innen & innen & innen & aussen & innen & innen & innen \\
+\textbf{Durchschnittlicher Verzug} &&\textbf{0,2835}&&&&&&&&&\\
+\midrule
+Biegen & \textbf{Fxx} &  &  &  &  &  &  &  &  &  & \\
+Fräsen &&  &  &  &  &  &  &  &  &  &  \\
+Verzug &&  &  &  &  &  &  &  &  &  &  \\
+Orientierung && aussen & aussen & aussen & innen & innen & innen & aussen & innen & innen & innen \\
+\textbf{Duchschnittlicher Verzug} && \textbf{0,267}&&&&&&&&&\\
+\midrule
+Biegen & \textbf{F17} &  &  &  &  &  &  &  &  &  &  \\
+Fräsen &&  &  &  &  &   &   &   &  &  &   \\
+Verzug &&  &  &  &  &  &  &   &  &  &  \\
+Orientierung && aussen & aussen & aussen & innen & innen & aussen & aussen & innen & innen & innen \\
+\textbf{Durchschnittlicher Verzug} && \textbf{\textcolor{green}{0,2537}} &&&&&&&&&\\
+\midrule
+Biegen & \textbf{F18} &  &  &  &  &  &  &  &  &  &  \\
+Fräsen &&  &  &  &  &  &  &  &  &  &  \\
+Verzug &&  &  &  &  &  &  &  &  &  &  \\
+Orientierung && aussen & aussen & aussen & innen & innen & innen & aussen & innen & innen & innen \\
+\textbf{Durchschnittlicher Verzug} && \textbf{\textcolor{red}{0,3432}} &&&&&&&&&\\
+\bottomrul
+
+\end{tabular}
+\end{sidewaystable}
+\newpage
+
+
+
+
 \subsection{DURApro  Beschichten}
 
 
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=.8\textwidth]{durapro}
+\caption{Messwerte und Prozessschwankungen Polieren}
+\label{fig:durapro}
+\end{figure}
 
+
+
+\begin{table}[hbtp] % StandardMesswertTabelle
+\caption{Messwerte und Standardabweichungen Fräsen  "`Kontur außen"'} 
+\label{tab:mwertstandfraes}
+\vskip\abovecaptionskip
+
+
+
+\footnotesize
+   \begin{tabular}{cccccc}
+   \toprule
+   & \multicolumn{5}{c}{Messwert $x =  (\bar{x} \pm \Delta\bar{x})  $ [mm]}\\
+   \cmidrule(ll){2-6}
+   Material    & MP1a & MP2a & MP3a & MP4a & MP5a \\  
+   
+   \midrule
+  
+   F13 Serie& $ \pm  $ & $ \pm $ & $\pm  $ & $ \pm  $ & $ \pm $ \\
+    Fxx & $ \pm  $ & $ \pm $ & $ \pm  $ & $ \pm $ & $ \pm$ \\
+   F17   & $ \pm $ & $ \pm  $ & $ \pm $ & $ \pm$&$ \pm $ \\
+   F18 &$\pm $&$\pm $&$\pm $&$\pm $&$\pm $ \\
+     \bottomrule
+     \toprule
+  Material   & MP6a & MP7a & MP8a & MP9a & MP10a  \\
+  \midrule
+      F13 Serie &   $ \pm $&$ \pm $&$ \pm $&$ \pm $&$ \pm$ \\
+Fxx &$ \pm $&$ \pm$&$ \pm $&$ \pm $& \pm $ \\
+  F17  & $ \pm $&$ \pm $&$ \pm $&$ \pm  $&$\pm$ \\
+  F18 &$\pm $&$\pm$ &$\pm $&$\pm$ &$\pm$ \\
+     
+     \bottomrule
+      
+     &&&&&\\
+     &&&&&\\
+     &&&&&\\
+     &&&&&\\
+     &&&&&\\
+     
+     \toprule
+      & \multicolumn{5}{c}{Standardabweichung s [mm]}\\
+   \cmidrule(ll){2-6}
+   Material    & MP1a & MP2a & MP3a & MP4a & MP5a \\ 
+   \midrule
+    F13 Serie &&&&&\\
+    Fxx &&&&&\\
+    F17 &&&&&\\
+    F18 &&&&& \\
+    
+     \bottomrule
+     \toprule
+  Material    & MP6a & MP7a & MP8a & MP9a & MP10a  \\
+  \midrule
+    F13 Serie &&&&&\\
+ Fxx   &&&&&\\
+F17 &&&&&\\ 
+F18 &&&&&\\
+   \bottomrule 
+         
+   \end{tabular} 
+\end{table}
 
 \newpage
+\begin{sidewaystable}[H]
+\caption{Materialverzug im Vergleich zum Vorprozess (Biegen/Fräsen). Mit einem durchschnittlichen Verzug von \SI{0.3432}{\milli\meter} weichen die Maße der Aussenkontur des F18er Materials am höchsten vom Vorprozess Streckbiegen ab. F17 weist mit einem durchschnittlichen Verzug von \SI{0.2537}{\milli\meter} die kleinste Diskrepanz zum vorherigen Bearbeitungsschritt auf.}
+\label{tab:biegfraes}
+\vskip\abovecaptionskip
+\footnotesize
+
+
+\begin{tabular}{cccccccccccc}
+\toprule
+&& \multicolumn{10}{c}{Mittelwerte (bezüglich Messpunkt) und Verzug [\si{\milli\meter}]} \\
+\cmidrule(2){3-12}
+Prozess/Diff. & Material & MP1 & MP2 & MP3 & MP4 & MP5 & MP6 & MP7 & MP8 & MP9 & MP10 \\
+\midrule
+Biegen & \textbf{F13} & &  &  &  &  &  &  &  &  &  \\
+Fräsen &&  &  &  &  &  &  &  &  &  &  \\
+Verzug &&  &  &  &  &  &  &  &  &  &  \\
+Orientierung && aussen & aussen & aussen & innen & innen & innen & aussen & innen & innen & innen \\
+\textbf{Durchschnittlicher Verzug} &&\textbf{0,2835}&&&&&&&&&\\
+\midrule
+Biegen & \textbf{Fxx} &  &  &  &  &  &  &  &  &  & \\
+Fräsen &&  &  &  &  &  &  &  &  &  &  \\
+Verzug &&  &  &  &  &  &  &  &  &  &  \\
+Orientierung && aussen & aussen & aussen & innen & innen & innen & aussen & innen & innen & innen \\
+\textbf{Duchschnittlicher Verzug} && \textbf{0,267}&&&&&&&&&\\
+\midrule
+Biegen & \textbf{F17} &  &  &  &  &  &  &  &  &  &  \\
+Fräsen &&  &  &  &  &   &   &   &  &  &   \\
+Verzug &&  &  &  &  &  &  &   &  &  &  \\
+Orientierung && aussen & aussen & aussen & innen & innen & aussen & aussen & innen & innen & innen \\
+\textbf{Durchschnittlicher Verzug} && \textbf{\textcolor{green}{0,2537}} &&&&&&&&&\\
+\midrule
+Biegen & \textbf{F18} &  &  &  &  &  &  &  &  &  &  \\
+Fräsen &&  &  &  &  &  &  &  &  &  &  \\
+Verzug &&  &  &  &  &  &  &  &  &  &  \\
+Orientierung && aussen & aussen & aussen & innen & innen & innen & aussen & innen & innen & innen \\
+\textbf{Durchschnittlicher Verzug} && \textbf{\textcolor{red}{0,3432}} &&&&&&&&&\\
+\bottomrul
+
+\end{tabular}
+\end{sidewaystable}
+\newpage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \section{Kröpfen \label{sec:kropf}}
 
 Der eigenartig anmutende Ausdruck \emph{Kröpfen} bedeutet eigentlich nur \emph{krumm biegen}.\footnote{Vgl.\url{

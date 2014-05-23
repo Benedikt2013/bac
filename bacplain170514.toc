@@ -15,20 +15,20 @@
 \contentsline {subsubsection}{\numberline {3.6.1}Herleitung der Formel und Berechnung der Oberfl\IeC {\"a}chentemperatur}{31}
 \contentsline {subsubsection}{\numberline {3.6.2}Auswertung Schleifen und Polieren}{34}
 \contentsline {subsection}{\numberline {3.7}Eloxieren}{38}
-\contentsline {subsection}{\numberline {3.8}DURApro Beschichten}{38}
-\contentsline {section}{\numberline {4}Kr\IeC {\"o}pfen }{39}
-\contentsline {subsection}{\numberline {4.1}Versuchsdurchf\IeC {\"u}hrung Kr\IeC {\"o}pfen}{45}
-\contentsline {subsubsection}{\numberline {4.1.1}Protokoll Kr\IeC {\"o}pfversuche}{49}
-\contentsline {subsection}{\numberline {4.2}Ausblick}{60}
-\contentsline {section}{\numberline {5}Anhang}{61}
-\contentsline {subsection}{\numberline {5.1}Exkurs Umformtechnik}{61}
-\contentsline {subsubsection}{\numberline {5.1.1}Systematisierung Formgebungsverfahren}{61}
-\contentsline {subsubsection}{\numberline {5.1.2}Metallurgische Zusammenh\IeC {\"a}nge}{62}
-\contentsline {subsubsection}{\numberline {5.1.3}Verformung Prinzipiell}{65}
-\contentsline {subsubsection}{\numberline {5.1.4}Rekristallisation, Erholung und Kaltverfestigung}{66}
-\contentsline {subsubsection}{\numberline {5.1.5}Eigenspannungen}{67}
-\contentsline {subsubsection}{\numberline {5.1.6}Umformgrad}{72}
-\contentsline {subsubsection}{\numberline {5.1.7}Umformgeschwindigkeit}{74}
-\contentsline {subsubsection}{\numberline {5.1.8}Einachsiger Spannungszustand}{74}
-\contentsline {subsubsection}{\numberline {5.1.9}Spannungsvektor und Spannungstensor}{76}
-\contentsline {subsubsection}{\numberline {5.1.10}Festigkeitshypothesen}{79}
+\contentsline {subsection}{\numberline {3.8}DURApro Beschichten}{41}
+\contentsline {section}{\numberline {4}Kr\IeC {\"o}pfen }{44}
+\contentsline {subsection}{\numberline {4.1}Versuchsdurchf\IeC {\"u}hrung Kr\IeC {\"o}pfen}{50}
+\contentsline {subsubsection}{\numberline {4.1.1}Protokoll Kr\IeC {\"o}pfversuche}{54}
+\contentsline {subsection}{\numberline {4.2}Ausblick}{65}
+\contentsline {section}{\numberline {5}Anhang}{66}
+\contentsline {subsection}{\numberline {5.1}Exkurs Umformtechnik}{66}
+\contentsline {subsubsection}{\numberline {5.1.1}Systematisierung Formgebungsverfahren}{66}
+\contentsline {subsubsection}{\numberline {5.1.2}Metallurgische Zusammenh\IeC {\"a}nge}{67}
+\contentsline {subsubsection}{\numberline {5.1.3}Verformung Prinzipiell}{70}
+\contentsline {subsubsection}{\numberline {5.1.4}Rekristallisation, Erholung und Kaltverfestigung}{71}
+\contentsline {subsubsection}{\numberline {5.1.5}Eigenspannungen}{72}
+\contentsline {subsubsection}{\numberline {5.1.6}Umformgrad}{77}
+\contentsline {subsubsection}{\numberline {5.1.7}Umformgeschwindigkeit}{79}
+\contentsline {subsubsection}{\numberline {5.1.8}Einachsiger Spannungszustand}{79}
+\contentsline {subsubsection}{\numberline {5.1.9}Spannungsvektor und Spannungstensor}{81}
+\contentsline {subsubsection}{\numberline {5.1.10}Festigkeitshypothesen}{84}
