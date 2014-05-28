@@ -11,25 +11,25 @@
 \contentsline {subsection}{\numberline {4.2}Versuchskonventionen Streckbiegen}{12}
 \contentsline {subsection}{\numberline {4.3}Versuchsreihe Nr.1 Streckbiegen}{13}
 \contentsline {subsection}{\numberline {4.4}Versuchsreihe Nr. 2 Streckbiegen}{19}
-\contentsline {subsection}{\numberline {4.5}Fr\IeC {\"a}sen}{24}
-\contentsline {subsection}{\numberline {4.6}Schleifen und Polieren}{28}
-\contentsline {subsubsection}{\numberline {4.6.1}Herleitung der Formel und Berechnung der Oberfl\IeC {\"a}chentemperatur}{32}
-\contentsline {subsubsection}{\numberline {4.6.2}Auswertung Schleifen und Polieren}{35}
-\contentsline {subsection}{\numberline {4.7}Eloxieren}{39}
-\contentsline {subsection}{\numberline {4.8}DURApro Beschichten}{43}
-\contentsline {section}{\numberline {5}Kr\IeC {\"o}pfen }{46}
-\contentsline {subsection}{\numberline {5.1}Versuchsdurchf\IeC {\"u}hrung Kr\IeC {\"o}pfen}{52}
-\contentsline {subsection}{\numberline {5.2}Protokoll Kr\IeC {\"o}pfversuche}{56}
-\contentsline {subsection}{\numberline {5.3}Ausblick}{68}
-\contentsline {section}{\numberline {6}Anhang}{69}
-\contentsline {subsection}{\numberline {6.1}Exkurs Umformtechnik}{69}
-\contentsline {subsubsection}{\numberline {6.1.1}Systematisierung Formgebungsverfahren}{69}
-\contentsline {subsubsection}{\numberline {6.1.2}Metallurgische Zusammenh\IeC {\"a}nge}{70}
-\contentsline {subsubsection}{\numberline {6.1.3}Verformung Prinzipiell}{73}
-\contentsline {subsubsection}{\numberline {6.1.4}Rekristallisation, Erholung und Kaltverfestigung}{74}
-\contentsline {subsubsection}{\numberline {6.1.5}Eigenspannungen}{75}
-\contentsline {subsubsection}{\numberline {6.1.6}Umformgrad}{80}
-\contentsline {subsubsection}{\numberline {6.1.7}Umformgeschwindigkeit}{82}
-\contentsline {subsubsection}{\numberline {6.1.8}Einachsiger Spannungszustand}{82}
-\contentsline {subsubsection}{\numberline {6.1.9}Spannungsvektor und Spannungstensor}{84}
-\contentsline {subsubsection}{\numberline {6.1.10}Festigkeitshypothesen}{87}
+\contentsline {subsection}{\numberline {4.5}Fr\IeC {\"a}sen}{23}
+\contentsline {subsection}{\numberline {4.6}Schleifen und Polieren}{27}
+\contentsline {subsubsection}{\numberline {4.6.1}Herleitung der Formel und Berechnung der Oberfl\IeC {\"a}chentemperatur}{31}
+\contentsline {subsubsection}{\numberline {4.6.2}Auswertung Schleifen und Polieren}{34}
+\contentsline {subsection}{\numberline {4.7}Eloxieren}{38}
+\contentsline {subsection}{\numberline {4.8}DURApro Beschichten}{42}
+\contentsline {section}{\numberline {5}Kr\IeC {\"o}pfen }{45}
+\contentsline {subsection}{\numberline {5.1}Versuchsdurchf\IeC {\"u}hrung Kr\IeC {\"o}pfen}{51}
+\contentsline {subsection}{\numberline {5.2}Protokoll Kr\IeC {\"o}pfversuche}{55}
+\contentsline {subsection}{\numberline {5.3}Ausblick}{67}
+\contentsline {section}{\numberline {6}Anhang}{68}
+\contentsline {subsection}{\numberline {6.1}Exkurs Umformtechnik}{68}
+\contentsline {subsubsection}{\numberline {6.1.1}Systematisierung Formgebungsverfahren}{68}
+\contentsline {subsubsection}{\numberline {6.1.2}Metallurgische Zusammenh\IeC {\"a}nge}{69}
+\contentsline {subsubsection}{\numberline {6.1.3}Verformung Prinzipiell}{72}
+\contentsline {subsubsection}{\numberline {6.1.4}Rekristallisation, Erholung und Kaltverfestigung}{73}
+\contentsline {subsubsection}{\numberline {6.1.5}Eigenspannungen}{74}
+\contentsline {subsubsection}{\numberline {6.1.6}Umformgrad}{79}
+\contentsline {subsubsection}{\numberline {6.1.7}Umformgeschwindigkeit}{81}
+\contentsline {subsubsection}{\numberline {6.1.8}Einachsiger Spannungszustand}{81}
+\contentsline {subsubsection}{\numberline {6.1.9}Spannungsvektor und Spannungstensor}{83}
+\contentsline {subsubsection}{\numberline {6.1.10}Festigkeitshypothesen}{86}
