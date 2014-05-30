@@ -33,3 +33,4 @@
 \contentsline {subsubsection}{\numberline {6.1.8}Einachsiger Spannungszustand}{84}
 \contentsline {subsubsection}{\numberline {6.1.9}Spannungsvektor und Spannungstensor}{86}
 \contentsline {subsubsection}{\numberline {6.1.10}Festigkeitshypothesen}{89}
+\contentsline {section}{\numberline {7}Erkl\IeC {\"a}rung}{92}

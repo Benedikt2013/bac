@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  29 MAY 2014 19:05
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  30 MAY 2014 16:29
 entering extended mode
 **bacplain290514.tex
 (C:\Users\B\Documents\Bac\bacplain290514.tex
@@ -2471,42 +2471,12 @@ File: tensor.png Graphic file (type png)
 Package pdftex.def Info: tensor.png used on input line 1988.
 (pdftex.def)             Requested size: 349.97028pt x 139.34746pt.
  [87 <C:/Users/B/Documents/Bac/tensor.png>] [88] [89]
-<F13Bieg.jpg, id=442, 708.39656pt x 320.69812pt>
-File: F13Bieg.jpg Graphic file (type jpg)
- <use F13Bieg.jpg>
-Package pdftex.def Info: F13Bieg.jpg used on input line 2039.
-(pdftex.def)             Requested size: 262.47937pt x 118.82771pt.
-LaTeX Font Info:    Try loading font information for OMS+lmss on input line 204
-0.
-LaTeX Font Info:    No file OMSlmss.fd. on input line 2040.
-
-
-LaTeX Font Warning: Font shape `OMS/lmss/m/it' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 2040.
-
-<FxxBieg.jpg, id=443, 666.99188pt x 286.82156pt>
-File: FxxBieg.jpg Graphic file (type jpg)
- <use FxxBieg.jpg>
-Package pdftex.def Info: FxxBieg.jpg used on input line 2044.
-(pdftex.def)             Requested size: 262.47937pt x 112.8753pt.
-
-<F17Bieg.jpg, id=444, 600.74437pt x 288.3272pt>
-File: F17Bieg.jpg Graphic file (type jpg)
- <use F17Bieg.jpg>
-Package pdftex.def Info: F17Bieg.jpg used on input line 2049.
-(pdftex.def)             Requested size: 262.47937pt x 125.98004pt.
- [90 <C:/Users/B/Documents/Bac/F13Bieg.jpg> <C:/Users/B/Documents/Bac/FxxBieg.j
-pg>] [91 <C:/Users/B/Documents/Bac/F17Bieg.jpg>]
-Overfull \hbox (11.73456pt too wide) in paragraph at lines 2089--2089
+Overfull \hbox (11.73456pt too wide) in paragraph at lines 2058--2058
 []\T1/lmr/m/n/12 Lothar Pa-pu-la. \T1/lmr/m/it/12 Ma-the-ma-ti-sche For-melsamm
 -lung\T1/lmr/m/n/12 . Zehn-te Auf-la-ge. Vieweg-Teubner,
  []
 
-[92] (C:\Users\B\Documents\Bac\bacplain290514.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
+[90] [91] [92] (C:\Users\B\Documents\Bac\bacplain290514.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -2524,11 +2494,11 @@ Package logreq Info: Writing requests to 'bacplain290514.run.xml'.
 (\end occurred when \ifx on line 937 was incomplete)
 (\end occurred when \ifx on line 661 was incomplete) 
 Here is how much of TeX's memory you used:
- 20228 strings out of 493921
- 374589 string characters out of 3144887
+ 20204 strings out of 493921
+ 374249 string characters out of 3144887
  519541 words of memory out of 3000000
- 23069 multiletter control sequences out of 15000+200000
- 163559 words of font info for 115 fonts, out of 3000000 for 9000
+ 23050 multiletter control sequences out of 15000+200000
+ 163302 words of font info for 114 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
  50i,21n,54p,2396b,1742s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiK
@@ -2537,33 +2507,32 @@ nc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-
 mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmbxi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
-ex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/lm/lmmib10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
-r12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-lm/lmro12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss10.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbo10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
-tt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols
-/msbm10.pfb>
-Output written on bacplain290514.pdf (96 pages, 15646888 bytes).
+iKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/lm/lmbxi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
+lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/lm/lmmib10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
+lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/lm/lmro12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss10
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbo10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
+lmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbo
+ls/msbm10.pfb>
+Output written on bacplain290514.pdf (96 pages, 15248777 bytes).
 PDF statistics:
- 553 PDF objects out of 1000 (max. 8388607)
+ 546 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 441 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 426 words of extra memory for PDF output out of 10000 (max. 10000000)
 
