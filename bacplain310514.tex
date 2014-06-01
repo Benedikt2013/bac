@@ -454,6 +454,7 @@ F13 Serie &0,164&0,219&0,235&0,211&0,432\\
 
 \newpage
 \subsection{Versuchsreihe Nr. 2 Streckbiegen}
+\label{sec:versuchsreihe2}
 Bei Versuchsserie 2 wurden 5 neue Chargen zu je 20 Teilen vom Zulieferer bestellt. Zusätzlich zu dem Material der vorherigen Versuchsreihe wurden die Materialien F19 und F18 untersucht. F19 hat den Zustand T5 (abgeschreckt aus der Warmumformwärme und warmausgelagert) während F18 den Zustand T64 (lösungsgeglüht und teilausgehärtet, biegefähig) besitzt.\footnote{Vgl.\url{http://www.alumeco.de/Technische_Informationen/Zustandsbezeichnungen.aspx}[22.03.2014].}  Die anderen drei Chargen F13, Fxx und F17 sind in \fref{sec:versuchsreihe1} erläutert. Da die verschiedenen Chargen aber mit einer Toleranz von \SI{20}{\newton\per\milli\meter\squared} vom Zulieferer geliefert werden und zusätzlich Umwelteinflüsse während Lagerung und Transport auf die mechanischen Eigenschaften des Aluminiums Einfluss haben,  sind die Laborwerte der signifikantesten Eigenschaften noch einmal tabellarisch angeführt (siehe \fref{tab:eigenschaften2}).\\
 \begin{table}[hbtp]
 \caption{Gegenüberstellung der mechanischen Eigenschaften (Laborwerte) der Chargen 2. Versuchsreihe}
@@ -850,11 +851,17 @@ Herleitung der Formel \autocite[18-19]{wae}  für die zu ermittelnde Oberfläche
 \end{align}
 
 \subsubsection{Auswertung Schleifen und Polieren }
+Für diese Auswertung und auch für die Beurteilung der Folgeprozesse,  Eloxieren und DURApro Beschichten,    
+wird hauptsächlich der Materialverzug (Offsetwerte) zum Vorprozess betrachtet. Dennoch sind alle  Messauswertungen angeführt (siehe \fref{fig:polier} und \fref{tab:polier}). Da bei der Bearbeitungsstufe Schleifen/Polieren aufgrund von Kapazitätsengpässen nur das Serienmaterial (F13) auf den für die Serienfertigung vorgesehenen Roboteranlagen bearbeitet werden konnte,  während Fxx, F17 und F18 in die Prototypenfertigung ausgelagert wurden, sind die Resultate nicht durchweg als homogen zu bewerten. Es sind daher bei den Materialien,  die in der Prototypenfertigung geschliffen und poliert wurden, Ausreißer in den Messergebnissen aufgetreten. Dennoch wurden hier alle Chargen in den Diagrammen und Tabellen miteinander verglichen. Die erwähnten "`Ausreißer"' die möglicherweise durch falsches Handling und diskontinuierliche Bearbeitungsparameter (Anpressdruck des Werkzeugs, sachgemäße Verwendung einer Schablone etc.) hervorgerufen wurden,  durchziehen demzufolge auch die weiteren Bearbeitungsschritte. \\
+Auch die Unterlassung des Fixierens der F18er Bauteile an den Messpunkten MP1, MP2, MP9 und MP10 (siehe auch \fref{sec:versuchsreihe2}) führt im Falle eines Materialverzugs in Richtung z-Achse zu verfälschten Messwerten der Aussenkontur. Dennoch lässt sich ein Überblick des Materialverhaltens auf den jeweiligen Prozessstufen gewinnen.
+Der geringste durchschnittliche Verzug ist mit \SI{0,1076}{\milli\meter} bei F17 emittelt worden. Den größten durchschnittliche Materialverzug hat bei dem Schleifen/Polieren das Material Fxx mit \SI{0,2143}{\milli\meter} (siehe \fref{tab:fraespol}). An den kritischen Punkten MP1 und MP2 ist Differenz der Messwerte der Aussenkontur bei F18 und Fxx am ausgeprägtesten. Die auffällige Steigerung der Prozessschwankungen bei F18 und Fxx an diesen Stellen ist möglicherweise auf Bearbeitungsfehler zurückzuführen. Daher sind diese Ergebnisse nicht repräsentativ.     \\
+Da F17er Material hat nach dieser Bearbeitungsstufe die besten Werte (siehe \fref{fig:verzugpolier}). 
+
 
 \begin{figure}[hbtp]
 \centering
 \includegraphics[width=.8\textwidth]{diagrammpolier}
-\caption{Messwerte und Prozessschwankungen Polieren. Hier liegen bei F17 die geringsten Prozessschwankungen vor. Das Serienmaterial F13 hat bezüglich der Standardabweichung einen konstanteren Verlauf über die jeweiligen Messpunkte, was auf die Bearbeitung in der Roboteranlage zurückzuführen ist. Fxx hat bei MP2 eine auffällig große Streuung. Diese Inhomogenität begründet sich auf der manuellen Bearbeitung der Fxx, F17 und F18 Chargen in einem Handwerksbetrieb.  }
+\caption{Messwerte und Prozessschwankungen Polieren. Hier liegen bei F17 die geringsten Prozessschwankungen vor. Das Serienmaterial F13 hat bezüglich der Standardabweichung einen konstanteren Verlauf über die jeweiligen Messpunkte, was auf die Bearbeitung in der Roboteranlage zurückzuführen ist. Fxx hat bei MP2 eine auffällig große Streuung. Diese Inhomogenität begründet sich auf der manuellen Bearbeitung der Fxx, F17 und F18 Chargen in der Prototypenfertigung.  }
 \label{fig:polier}
 \end{figure}
 
@@ -1047,7 +1054,11 @@ Orientierung &&innen  &innen  &innen &aussen  &aussen  &aussen  & aussen &aussen
 Der Begriff \textbf{Eloxieren} steht für \textsl{elektrolytisch oxidieren}. Man versteht darunter das Verfahren der anodischen Oxidation mit dem eine Verstärkung der natürlichen Passivschicht des Aluminiums auf elektrochemischem Weg erreicht wird. Durch die anodische Oxidation werden Schichtdicken von \SI{10}{\micro\meter} bis \SI{30}{\micro\meter} erzielt. Die Passivschicht wird so ungefähr 1000-mal dicker als die natürliche Oxidschicht und sorgt so für einen guten Korrosionsschutz, höhere Härte und verbessertes elektrisches  Isolationsvermögen.\\
  Bei dem Prozess der anodischen Oxidation werden die Bauteile manuell auf spezielle Vorrichtungen aufgesteckt und als Anode (Pluspol) in eine saure Lösung (Chrom-, Schwefel- oder Oxalsäure) getaucht. Das Einschalten des Stromes bewirkt einen Elektronenentzug bei den Aluminiumbauteilen. Dabei wandern $Al^{3_+}$-Ionen duch die vorhandene dünne Oxidschicht. Dies ermöglicht eine Reaktion der Aluminiumionen mit dem Sauerstoff zu Aluminiumoxid ($Al_2O_3$) an den Grenzflächen. Auf der Aluminiumoberfläche entsteht eine Sperrschicht welche in dem Elektrolyten gelöst wird. Anschließend wird die poröse Deckschicht wieder ausgefällt\footnote{Hierunter wird das Ausscheiden eines Stoffes aus einer Lösung verstanden. Meist haben diese Ausscheidungen eine flockenartige Form.}.
 Die Umwandlung des Aluminiums zu Alumiumoxid geht mit einer Gewichts- und Dickenzunahme einher. Es wir von einer 30 bis 50 prozentigen Zunahme der Schichtdicke ausgegangen. \autocite[127-128]{wm}\\
-Bei der Bearbeitungsstufe Exolieren werden Temperaturen von 30 bis \SI{100}{\degreeCelsius} erreicht was Verzug in den Bauteilen hervorrufen kann. Auch das manuelle Aufstecken und Abnehmen der Bauteile kann bei unsachgemäßer Ausführung zu Materialverzug führen.
+Bei der Bearbeitungsstufe Exolieren werden Temperaturen von 30 bis \SI{100}{\degreeCelsius} erreicht was Verzug in den Bauteilen hervorrufen kann. Auch das manuelle Aufstecken und Abnehmen der Bauteile kann bei unsachgemäßer Ausführung zu Materialverzug führen.\\
+Die Messergebnisse und Prozessschwankungen sind in \fref{fig:elox} sowie \fref{tab:messwertelox} festgehalten. Das Materialverhalten gegenüber der vorherigen Bearbeitungstufe ist in \fref{tab:verzugelox} und \fref{fig:verzugelox} veranschaulicht dargestellt.\\
+Geringster durchschnittlicher Materialverzug tritt bei F13 mit \SI{0,0345}{\milli\meter} auf. Der größte durchschnittliche Verzug zu dem Vorprozess liegt bei F18 mit \SI{0,2058}{\milli\meter}. Wie in der Bearbeitungsstufe Schleifen/Polieren fallen bei den Messpunkten MP1 und MP2 auffällige Abweichungen der F18 und Fxx Werte auf. Hier ist aber eine Verringerung der Prozessschwankungen gegenüber dem Vorprozess auffällig (MP1 und MP2). Wenn man diese vermutlichen Bearbeitungsungenauigkeiten und Ausreißer ignorierte würden Fxx und F13 in Bezug auf Materialverzug der Aussenkontur die optimalen Werte aufweisen.\\
+Auch bei dieser Bearbeitungsstufe würden Fxx und F13 die kleinsten Werte im gesamten Materialverzug aufweisen, falls man die Ausreißer vernachlässigte.
+
 
 \begin{figure}[hbtp]
 \centering
@@ -1058,7 +1069,7 @@ Bei der Bearbeitungsstufe Exolieren werden Temperaturen von 30 bis \SI{100}{\deg
 
 \begin{table}[hbtp] % StandardMesswertTabelle
 \caption{Messwerte und Standardabweichungen Eloxieren  "`Kontur außen"'} 
-\label{tab:mwertstandfraes}
+\label{tab:messwertelox}
 \vskip\abovecaptionskip
 
 
@@ -1119,7 +1130,7 @@ F18 &0,072&0,058&0,155&0,295&0,412\\
 \newpage
 \begin{sidewaystable}[H]
 \caption{Materialverzug im Vergleich zum Vorprozess (Polieren/Exolieren). Mit einem durchschnittlichen Verzug von \SI{0,0345}{\milli\meter} findet bei F13 der geringste Verzug zu dem Vorprozess Polieren statt. Bei F18 ist mit \SI{0,2058}{\milli\meter} der durchschnittliche Verzug am größten. Insbesondere an den Messpunkten MP1 und MP10 weichen die Schenkel der F18er Bauteile zwischen 0,36 und \SI{0,99}{\milli\meter}  nach aussen. }
-\label{tab:biegfraes}
+\label{tab:verzugelox}
 \vskip\abovecaptionskip
 \footnotesize
 
@@ -1162,7 +1173,7 @@ Orientierung && aussen&aussen  &aussen  & innen &innen  & innen &innen  & innen 
 \begin{figure}[hbtp]
 \centering
 \includegraphics[width=.8\textwidth]{verzugelox}
-\caption{Verzug Eloxieren gegenüber Vorprozess Schleifen/Polieren}
+\caption{Verzug Eloxieren gegenüber Vorprozess Schleifen/Polieren. F18 an MP1 mit \SI{1}{mm} deutlich nach aussen verzogen. Bei MP1 und MP2 ist bei jeweils F18 und Fxx ein Rückgang der Prozessschwankung in Vergleich zu dem Schleifen/Polieren zu erkennen (gelber und roter Balken weisen nach unten).}
 \label{fig:verzugelox}
 \end{figure}
 
