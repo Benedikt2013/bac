@@ -20,17 +20,18 @@
 \contentsline {section}{\numberline {5}Kr\IeC {\"o}pfen }{48}
 \contentsline {subsection}{\numberline {5.1}Versuchsdurchf\IeC {\"u}hrung Kr\IeC {\"o}pfen}{53}
 \contentsline {subsection}{\numberline {5.2}Protokoll Kr\IeC {\"o}pfversuche}{57}
-\contentsline {subsection}{\numberline {5.3}Ausblick}{69}
-\contentsline {section}{\numberline {6}Anhang}{70}
-\contentsline {subsection}{\numberline {6.1}Exkurs Umformtechnik}{70}
-\contentsline {subsubsection}{\numberline {6.1.1}Systematisierung Formgebungsverfahren}{70}
-\contentsline {subsubsection}{\numberline {6.1.2}Metallurgische Zusammenh\IeC {\"a}nge}{71}
-\contentsline {subsubsection}{\numberline {6.1.3}Verformung Prinzipiell}{74}
-\contentsline {subsubsection}{\numberline {6.1.4}Rekristallisation, Erholung und Kaltverfestigung}{75}
-\contentsline {subsubsection}{\numberline {6.1.5}Eigenspannungen}{76}
-\contentsline {subsubsection}{\numberline {6.1.6}Umformgrad}{81}
-\contentsline {subsubsection}{\numberline {6.1.7}Umformgeschwindigkeit}{83}
-\contentsline {subsubsection}{\numberline {6.1.8}Einachsiger Spannungszustand}{83}
-\contentsline {subsubsection}{\numberline {6.1.9}Spannungsvektor und Spannungstensor}{85}
-\contentsline {subsubsection}{\numberline {6.1.10}Festigkeitshypothesen}{88}
-\contentsline {section}{\numberline {7}Erkl\IeC {\"a}rung}{91}
+\contentsline {subsection}{\numberline {5.3}Fazit}{69}
+\contentsline {section}{\numberline {6}Ausblick}{72}
+\contentsline {section}{\numberline {7}Anhang}{73}
+\contentsline {subsection}{\numberline {7.1}Exkurs Umformtechnik}{73}
+\contentsline {subsubsection}{\numberline {7.1.1}Systematisierung Formgebungsverfahren}{73}
+\contentsline {subsubsection}{\numberline {7.1.2}Metallurgische Zusammenh\IeC {\"a}nge}{74}
+\contentsline {subsubsection}{\numberline {7.1.3}Verformung Prinzipiell}{77}
+\contentsline {subsubsection}{\numberline {7.1.4}Rekristallisation, Erholung und Kaltverfestigung}{78}
+\contentsline {subsubsection}{\numberline {7.1.5}Eigenspannungen}{79}
+\contentsline {subsubsection}{\numberline {7.1.6}Umformgrad}{84}
+\contentsline {subsubsection}{\numberline {7.1.7}Umformgeschwindigkeit}{86}
+\contentsline {subsubsection}{\numberline {7.1.8}Einachsiger Spannungszustand}{86}
+\contentsline {subsubsection}{\numberline {7.1.9}Spannungsvektor und Spannungstensor}{88}
+\contentsline {subsubsection}{\numberline {7.1.10}Festigkeitshypothesen}{91}
+\contentsline {section}{\numberline {8}Erkl\IeC {\"a}rung}{94}

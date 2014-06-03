@@ -1713,6 +1713,46 @@ Innerhalb der Versuchsserie wurden die verschiedenen Materialien miteinander kom
 \newpage
 
 \subsection{Fazit}
+Trotz einiger Komplikationen bei dem Verlauf der Versuchsreihen (defekte Teile, partielle Auslagerung der Bearbeitungsschritte Schleifen und Polieren, Manipulation des Messverfahrens bei den F18 Bauteilen) sind richtungsweisende Erkenntnisse und Rückschlüsse gewonnen worden. Dem Streckbiegen als erstes Glied in der Prozesskette sollte die höchste Aufmerksamkeit gewidmet werden,  da die dort entstandenen Asymmetrien und Prozessungenauigkeiten durch alle weiteren Folgeprozesse mitgetragen werden und der Umformgrad dort am höchsten ist (was Potential für Ungenauigkeiten birgt). Um bei dem Streckbiegen eine Optimierung der Prozesssicherheit zu erlangen  sind folgenden Punkte in Erwägung zu ziehen:
+\begin{itemize*}
+\item Bei defekten oder alten Hydraulikschläuchen ist darauf zu achten die Schläuche auf gegenüberliegenden Achsen gleichzeitig auszutauschen um zu vermeiden, dass wegen unterschiedlicher Strömungsgeschwindigkeiten (innere Reibung) verschiedene Drücke entstehen, welche ein symmetrisches Fertigungsresultat negativ beeinflussen.
+\item Die Hydraulikschläuche (auf gegenüberliegenden Achsen sowie allgemein) sollten die gleiche Länge und gleiche Innen- sowie Aussendurchmesser haben.
+\item Vorheriges gilt auch für defekte oder alte Ventile.
+\item Aufgrund tribochemischer Vorgänge zwischen Bauteil und Biegeknüppel (z.B. Aluminiumaufbau) muss häufig von Hand nachgeschliffen werden, was auch eine Beeinflussung der Symmetrie mit sich bringt.
+\item Der Biegeknüppel selbst wird aus Vierkantstahl gebogen und später auf speziellen Vorrichtungen von Hand angepasst (nachgebogen) sowie durch Schrauben justiert (wieder ist das Handling eine Problemquelle). 
+\item Auch bei den manuellen Vorgehensweisen der Maschinenbediener sollte auf  strikte Konformität geachtet werden (z.B. das Aufbringen von Schmiermitteln im gleichen Takt und an den gleichen Stellen).
+\item Es ist anzuraten für jede Charge einen gewissen Vorlauf zu fahren, welcher von einem QM- Beauftragten zu überwachen ist und dessen Ergebnisse genau schriftlich festgehalten werden. Erst wenn dann die entscheidenden Parameter in Ordnung sind sollte die eigentliche Fertigung freigegeben werden (Erststückfreigabe konsequent durchführen).
+\item Wie schon einmal erwähnt ist das Streckbiegen der wichtigste Schritt um symmetrische makellose Resultate zu erzielen da in den weiteren Verarbeitungsprozessen ein Nacharbeiten nicht mehr möglich ist und eventuelle Fehler immer weiter mitgenommen werden.
+\item Der Bestelltext für das Vormaterial ist genau zu präzisieren. Bisher wurden recht schwammige Vorgaben bezüglich der Festigkeitstoleranzen in den Anforderungen an Lieferanten gemacht wie z.B. $ R_m > \SI{120}{\newton\per\milli\meter\squared}$ oder $ R_{p0,2} >  \SI{60}{\newton\per\milli\meter\squared} $. Hier sollte zusätzlich zu der Untergrenze eine realistische Obergrenze definiert werden,  wie z.B. $\SI{120}{\newton\per\milli\meter\squared} < R_m  < \SI{140}{\newton\per\milli\meter\squared} $,  um eine gewisse Homogenität der Chargen des Vormaterials zu gewährleisten.
+\item Nur bei einem Lieferanten das Vormaterial beziehen.
+\end{itemize}
+
+Bei dem Fräsen als zweite Prozessstufe viel auf, dass die "`Doppelspannvorrichtung"' eine weitere entscheidende Quelle für Diskrepanzen in der Maßeinheitlichkeit der Bauteile darstellt. Entweder sollten  alle Chargen nur einseitig gespannt werden (was natürlich die Bearbeitungszeit verdoppelt) oder der Synchronisierung und Justierung der beiden Spannvorrichtungen wesentlich mehr Bedeutung  beigemessen  werden. 
+Da bei der Bearbeitungsstufe Schleifen/Polieren aufgrund von Kapazitätsengpässen die Fxx, F17 und F18 Teile in einer Prototypenfertigung bearbeitet wurden, welches keine zufriedenstellende, homogene Resultate brachte, sind dort nur die F13 Materialien repräsentativ. Diese wurden auf der für die Serienfertigung vorgesehenen Roboteranlage geschliffen und poliert. Die Ergebnisse der F13 Teile nach dem Schleifen/Polieren sind durchweg zufriedenstellend und homogen. Die weiteren Schritte Eloxieren und DURApro Beschichten bergen als Quelle für Ungenauigkeiten eigentlich nur den manuellen Vorgang beim Aufstecken und Abnehmen der Bauteile. Auch hier ist Überwachung und genaue Instruktion der Bediensteten eine entscheidende Phase. \\
+Bei den Vormaterialien haben in den Untersuchungen das F17 sowie das Fxx Material am besten abgeschnitten. Dennoch lassen die Versuchsauswertungen vermuten, dass die Fxx Strangpressprofile aufgrund ihrer besonderen Wärmebehandlung über einen längeren Bearbeitungszeitraum die homogeneren Qualitätsresultate bringt. Daher ist eine Umstellung auf Fxx als Serienmaterial zu empfehlen.\\
+Die Versuchserie "`Kröpfen"' brachte keine innovativen Erkenntnisse. Bei den Kröpfversuchen haben die neuen Materialkombinationen (Ziehstempel/Kröpfstein/Niederhalter) zu keiner Qualitätsoptimierung geführt. Hier sollte das bisherige Werkzeugmaterial beibehalten werden. Um Aluminiumaufbau zu minimieren und somit Werkzeugverschleiß und Güteminderung der Kröpfungen  zu vermindern sollte auf eine gleichmäßige Einbringung von Ziehöl an den entscheidenden Stellen geachtet werden (siehe \fref{fig:DueseGut}). Hier ist festgestellt worden, dass durch Vibrationen oder falsches Handling (z.B. Arbeiter stößt bei dem Einlegen des Bauteils gegen die Düse oder Halterung siehe \fref{fig:Ziehduese}) die Düsenausrichtung verstellt wird.
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{DueseMittelweit}
+\caption{Ziehdüse mit Halterung in Kröpfeinheit.}
+\label{fig:Ziehduese}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{DueseGut}
+\caption{Optimale Einbringung des Ziehöls.}
+\label{fig:DueseGut}
+\end{figure}
+
+
+\newpage
+
+\section{Ausblick}
+Da die in den Versuchsreihen gewonnen Erkenntnisse über die F17 und Fxx Chargen recht ähnlich ausfielen wäre es angebracht diesbezüglich weitere Untersuchungen durchzuführen. Es dürfte dabei völlig ausreichend sein sich auf das Streckbiegen zu beschränken. Allerdings sollten zur Erhöhung der Genauigkeit  und zum Zweck eines realitätsnahen Vergleichs die Parameter der Biegemaschine sowie des Biegewerkzeugs exakt auf das jeweilig zu prüfende Material angepasst werden.  Eine derartige Untersuchung kann für das spezifische Material durchaus über einen längeren Zeitraum gehen um auch den Einfluss verschiedener Witterungsverhältnisse (Winter, Sommer) sowie unterschiedliche Lagerungs- und Transportszenarien mit einzubeziehen. Es wäre möglich eine derartige Untersuchung während der Serienfertigung zu fahren da ja beide Vormaterialien aufgrund der vorangegangenen Untersuchungen Serientauglich sind.
+Bei den Kröpfeinheiten sollten die Halterungen der Düsen (zum präzisen Einbringen des Ziehöls) sowie die Düsen selbst stabiler und geschützter (z.b. gegen Stöße) konzipiert werden. Dem Prozess der Schmierung sollte  zukünftig beim Kröpfen generell ein höherer Stellenwert zugeordnet werden.
+
+
 
 
 \newpage
