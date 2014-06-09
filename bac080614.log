@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  8 JUN 2014 21:55
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  9 JUN 2014 09:26
 entering extended mode
 **bac080614.tex
 (C:\Users\B\Documents\Bac\bac080614.tex
@@ -2221,119 +2221,119 @@ File: Ssk1.jpg Graphic file (type jpg)
  <use Ssk1.jpg>
 Package pdftex.def Info: Ssk1.jpg used on input line 1687.
 (pdftex.def)             Requested size: 349.97028pt x 195.67703pt.
- [68 <C:/Users/B/Documents/Bac/Ssk1.jpg>] [69]
+ [68 <C:/Users/B/Documents/Bac/Ssk1.jpg>] [69] [70]
 
-! LaTeX Error: \begin{itemize*} on input line 1717 ended by \end{itemize}.
+! LaTeX Error: \begin{itemize*} on input line 1742 ended by \end{itemize}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1728 \end{itemize}
+l.1753 \end{itemize}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (4.97992pt too wide) in paragraph at lines 1730--1734
+Overfull \hbox (4.97992pt too wide) in paragraph at lines 1755--1759
 \T1/lmr/m/n/12 su-chen ha-ben die neu-en Ma-te-ri-al-kom-bi-na-tio-nen (Zieh-st
 em-pel/Kr�pfstein/Niederhalter)
  []
 
-<DueseMittelweit.jpg, id=349, 358.941pt x 279.2031pt>
+<DueseMittelweit.jpg, id=352, 358.941pt x 279.2031pt>
 File: DueseMittelweit.jpg Graphic file (type jpg)
 
 <use DueseMittelweit.jpg>
-Package pdftex.def Info: DueseMittelweit.jpg used on input line 1736.
+Package pdftex.def Info: DueseMittelweit.jpg used on input line 1761.
 (pdftex.def)             Requested size: 349.97028pt x 272.22404pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70]
-<DueseGut.jpg, id=353, 1963.335pt x 823.075pt>
+ [71]
+<DueseGut.jpg, id=356, 1963.335pt x 823.075pt>
 File: DueseGut.jpg Graphic file (type jpg)
  <use DueseGut.jpg>
-Package pdftex.def Info: DueseGut.jpg used on input line 1743.
+Package pdftex.def Info: DueseGut.jpg used on input line 1768.
 (pdftex.def)             Requested size: 349.97028pt x 146.71536pt.
- [71 <C:/Users/B/Documents/Bac/DueseMittelweit.jpg> <C:/Users/B/Documents/Bac/D
+ [72 <C:/Users/B/Documents/Bac/DueseMittelweit.jpg> <C:/Users/B/Documents/Bac/D
 ueseGut.jpg>]
-[72] [73] <makromikro.png, id=363, 770.88pt x 432.11438pt>
+[73] [74] <makromikro.png, id=366, 770.88pt x 432.11438pt>
 File: makromikro.png Graphic file (type png)
 
 <use makromikro.png>
-Package pdftex.def Info: makromikro.png used on input line 1799.
+Package pdftex.def Info: makromikro.png used on input line 1824.
 (pdftex.def)             Requested size: 349.97028pt x 196.17058pt.
- [74]
-<elementarzellen.png, id=367, 419.31656pt x 140.77594pt>
+ [75]
+<elementarzellen.png, id=371, 419.31656pt x 140.77594pt>
 File: elementarzellen.png Graphic file (type png)
 
 <use elementarzellen.png>
-Package pdftex.def Info: elementarzellen.png used on input line 1820.
+Package pdftex.def Info: elementarzellen.png used on input line 1845.
 (pdftex.def)             Requested size: 349.97028pt x 117.49484pt.
- [75 <C:/Users/B/Documents/Bac/makromikro.png>]
-Overfull \hbox (6.97215pt too wide) in paragraph at lines 1834--1835
+ [76 <C:/Users/B/Documents/Bac/makromikro.png>]
+Overfull \hbox (6.97215pt too wide) in paragraph at lines 1859--1860
 []\T1/lmr/bx/n/12 Austausch- oder Sub-sti-tu-ti-ons-ato-me\T1/lmr/m/n/12 . Die 
 Atom-pl�t-ze wer-den von Frem-
  []
 
-<versetzung.png, id=373, 257.46187pt x 135.50626pt>
+<versetzung.png, id=376, 257.46187pt x 135.50626pt>
 File: versetzung.png Graphic file (type png)
  <use versetzung.png>
-Package pdftex.def Info: versetzung.png used on input line 1842.
+Package pdftex.def Info: versetzung.png used on input line 1867.
 (pdftex.def)             Requested size: 349.97028pt x 184.21161pt.
 
-[76 <C:/Users/B/Documents/Bac/elementarzellen.png>]
-<eloplastkristall.png, id=378, 305.64188pt x 199.49532pt>
+[77 <C:/Users/B/Documents/Bac/elementarzellen.png>]
+<eloplastkristall.png, id=381, 305.64188pt x 199.49532pt>
 File: eloplastkristall.png Graphic file (type png)
 
 <use eloplastkristall.png>
-Package pdftex.def Info: eloplastkristall.png used on input line 1858.
+Package pdftex.def Info: eloplastkristall.png used on input line 1883.
 (pdftex.def)             Requested size: 349.97028pt x 228.44067pt.
- [77 <C:/Users/B/Documents/Bac/versetzung.png>]
-<wandernstufenversetzung.png, id=383, 305.64188pt x 191.21437pt>
+ [78 <C:/Users/B/Documents/Bac/versetzung.png>]
+<wandernstufenversetzung.png, id=386, 305.64188pt x 191.21437pt>
 File: wandernstufenversetzung.png Graphic file (type png)
 
 <use wandernstufenversetzung.png>
-Package pdftex.def Info: wandernstufenversetzung.png used on input line 1866.
+Package pdftex.def Info: wandernstufenversetzung.png used on input line 1891.
 (pdftex.def)             Requested size: 349.97028pt x 218.95822pt.
 
-<rekristall.png, id=384, 637.63219pt x 326.72063pt>
+<rekristall.png, id=387, 637.63219pt x 326.72063pt>
 File: rekristall.png Graphic file (type png)
  <use rekristall.png>
-Package pdftex.def Info: rekristall.png used on input line 1877.
+Package pdftex.def Info: rekristall.png used on input line 1902.
 (pdftex.def)             Requested size: 349.97028pt x 179.32298pt.
 
-[78 <C:/Users/B/Documents/Bac/eloplastkristall.png>] [79 <C:/Users/B/Documents/
+[79 <C:/Users/B/Documents/Bac/eloplastkristall.png>] [80 <C:/Users/B/Documents/
 Bac/wandernstufenversetzung.png>]
-<eigenspanabk.png, id=393, 264.23718pt x 246.9225pt>
+<eigenspanabk.png, id=396, 264.23718pt x 246.9225pt>
 File: eigenspanabk.png Graphic file (type png)
  <use eigenspanabk.png>
-Package pdftex.def Info: eigenspanabk.png used on input line 1907.
+Package pdftex.def Info: eigenspanabk.png used on input line 1932.
 (pdftex.def)             Requested size: 349.97028pt x 327.0577pt.
 
-[80 <C:/Users/B/Documents/Bac/rekristall.png>]
-<eigenspanfaser.png, id=398, 313.17pt x 143.78719pt>
+[81 <C:/Users/B/Documents/Bac/rekristall.png>]
+<eigenspanfaser.png, id=402, 313.17pt x 143.78719pt>
 File: eigenspanfaser.png Graphic file (type png)
  <use eigenspanfaser.png>
-Package pdftex.def Info: eigenspanfaser.png used on input line 1915.
+Package pdftex.def Info: eigenspanfaser.png used on input line 1940.
 (pdftex.def)             Requested size: 349.97028pt x 160.6895pt.
 
-<eigenspandrahtzieh.png, id=399, 299.61937pt x 137.01187pt>
+<eigenspandrahtzieh.png, id=403, 299.61937pt x 137.01187pt>
 File: eigenspandrahtzieh.png Graphic file (type png)
 
 <use eigenspandrahtzieh.png>
-Package pdftex.def Info: eigenspandrahtzieh.png used on input line 1922.
+Package pdftex.def Info: eigenspandrahtzieh.png used on input line 1947.
 (pdftex.def)             Requested size: 349.97028pt x 160.04819pt.
 
-<eigenspanmol.png, id=400, 211.54031pt x 176.91093pt>
+<eigenspanmol.png, id=404, 211.54031pt x 176.91093pt>
 File: eigenspanmol.png Graphic file (type png)
  <use eigenspanmol.png>
-Package pdftex.def Info: eigenspanmol.png used on input line 1930.
+Package pdftex.def Info: eigenspanmol.png used on input line 1955.
 (pdftex.def)             Requested size: 349.97028pt x 292.68945pt.
 
 ! Extra }, or forgotten \endgroup.
-l.1934  }
+l.1959  }
          
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2341,26 +2341,26 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<eigenspanschnitt.png, id=401, 347.04657pt x 185.19188pt>
+<eigenspanschnitt.png, id=405, 347.04657pt x 185.19188pt>
 File: eigenspanschnitt.png Graphic file (type png)
 
 <use eigenspanschnitt.png>
-Package pdftex.def Info: eigenspanschnitt.png used on input line 1939.
+Package pdftex.def Info: eigenspanschnitt.png used on input line 1964.
 (pdftex.def)             Requested size: 349.97028pt x 186.75972pt.
- [81 <C:/Users/B/Documents/Bac/eigenspanabk.png>]
-[82 <C:/Users/B/Documents/Bac/eigenspanfaser.png> <C:/Users/B/Documents/Bac/eig
-enspandrahtzieh.png>] [83 <C:/Users/B/Documents/Bac/eigenspanmol.png>] [84 <C:/
-Users/B/Documents/Bac/eigenspanschnitt.png>] [85]
-<einachsspann.png, id=423, 353.82187pt x 203.25937pt>
+ [82 <C:/Users/B/Documents/Bac/eigenspanabk.png>]
+[83 <C:/Users/B/Documents/Bac/eigenspanfaser.png> <C:/Users/B/Documents/Bac/eig
+enspandrahtzieh.png>] [84 <C:/Users/B/Documents/Bac/eigenspanmol.png>] [85 <C:/
+Users/B/Documents/Bac/eigenspanschnitt.png>] [86]
+<einachsspann.png, id=426, 353.82187pt x 203.25937pt>
 File: einachsspann.png Graphic file (type png)
  <use einachsspann.png>
-Package pdftex.def Info: einachsspann.png used on input line 1990.
+Package pdftex.def Info: einachsspann.png used on input line 2015.
 (pdftex.def)             Requested size: 349.97028pt x 201.0506pt.
 
 ! Undefined control sequence.
 \A ->\ERROR 
             
-l.1995 ...en erhält man die Kräfte $ \sigma_0 \A
+l.2020 ...en erhält man die Kräfte $ \sigma_0 \A
                                                   _0 $ und $ \sigma_{\varphi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2369,19 +2369,19 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Double subscript.
-l.1995 ...n erhält man die Kräfte $ \sigma_0 \A_
+l.2020 ...n erhält man die Kräfte $ \sigma_0 \A_
                                                   0 $ und $ \sigma_{\varphi}...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-[86] <normalvektor.png, id=427, 504.38437pt x 221.32687pt>
+[87] <normalvektor.png, id=431, 504.38437pt x 221.32687pt>
 File: normalvektor.png Graphic file (type png)
 
 <use normalvektor.png>
-Package pdftex.def Info: normalvektor.png used on input line 2015.
+Package pdftex.def Info: normalvektor.png used on input line 2040.
 (pdftex.def)             Requested size: 349.97028pt x 153.57011pt.
 
 ! Undefined control sequence.
-l.2019 ...entialquotienten bildet,  in dem $ \Delt
+l.2044 ...entialquotienten bildet,  in dem $ \Delt
                                                    A \rightarrow 0 $ gegen N...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2389,24 +2389,24 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[87 <C:/Users/B/Documents/Bac/einachsspann.png>]
-<tensor.png, id=433, 572.89032pt x 228.10219pt>
+[88 <C:/Users/B/Documents/Bac/einachsspann.png>]
+<tensor.png, id=436, 572.89032pt x 228.10219pt>
 File: tensor.png Graphic file (type png)
  <use tensor.png>
-Package pdftex.def Info: tensor.png used on input line 2026.
+Package pdftex.def Info: tensor.png used on input line 2051.
 (pdftex.def)             Requested size: 349.97028pt x 139.34746pt.
- [88 <C:/Users/B/Documents/Bac/normalvektor.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2036--2040
+ [89 <C:/Users/B/Documents/Bac/normalvektor.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2061--2065
 
  []
 
-[89 <C:/Users/B/Documents/Bac/tensor.png>] [90] [91]
-Overfull \hbox (11.73456pt too wide) in paragraph at lines 2091--2091
+[90 <C:/Users/B/Documents/Bac/tensor.png>] [91] [92]
+Overfull \hbox (11.73456pt too wide) in paragraph at lines 2116--2116
 []\T1/lmr/m/n/12 Lothar Pa-pu-la. \T1/lmr/m/it/12 Ma-the-ma-ti-sche For-melsamm
 -lung\T1/lmr/m/n/12 . Zehn-te Auf-la-ge. Vieweg-Teubner,
  []
 
-[92] [93] [94] (C:\Users\B\Documents\Bac\bac080614.aux)
+[93] [94] [95] (C:\Users\B\Documents\Bac\bac080614.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2417,10 +2417,10 @@ Package logreq Info: Writing requests to 'bac080614.run.xml'.
 (\end occurred when \ifx on line 963 was incomplete)
 (\end occurred when \ifx on line 680 was incomplete) 
 Here is how much of TeX's memory you used:
- 20201 strings out of 493921
- 374017 string characters out of 3144887
+ 20206 strings out of 493921
+ 374066 string characters out of 3144887
  520521 words of memory out of 3000000
- 23060 multiletter control sequences out of 15000+200000
+ 23065 multiletter control sequences out of 15000+200000
  168976 words of font info for 115 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
  50i,21n,54p,2385b,1669s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2452,9 +2452,9 @@ iles (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files (x86)
 /fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
 fonts/symbols/msbm10.pfb>
-Output written on bac080614.pdf (98 pages, 15900081 bytes).
+Output written on bac080614.pdf (99 pages, 15902157 bytes).
 PDF statistics:
- 551 PDF objects out of 1000 (max. 8388607)
+ 554 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  436 words of extra memory for PDF output out of 10000 (max. 10000000)
 
