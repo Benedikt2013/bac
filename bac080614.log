@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  9 JUN 2014 09:26
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.19)  9 JUN 2014 16:20
 entering extended mode
 **bac080614.tex
 (C:\Users\B\Documents\Bac\bac080614.tex
@@ -678,6 +678,306 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathabx\mathabx.sty"
+Package: mathabx 2003/07/29 v0.0 Non-standard LaTeX package mathabx
+\symmatha=\mathgroup6
+\symmathb=\mathgroup7
+\symmathx=\mathgroup8
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\mathabx\mathabx.dcl"
+LaTeX Font Info:    Redeclaring math symbol \cdotp on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \times on input line 33.
+LaTeX Font Info:    Redeclaring math symbol \div on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \cdot on input line 35.
+LaTeX Font Info:    Redeclaring math symbol \circ on input line 36.
+LaTeX Font Info:    Redeclaring math symbol \ast on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \pm on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \mp on input line 42.
+LaTeX Font Info:    Redeclaring math symbol \ltimes on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \rtimes on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \diamond on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \bullet on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \star on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \amalg on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \dotplus on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 63.
+LaTeX Font Info:    Redeclaring math symbol \divideontimes on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \bigstar on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \equiv on input line 83.
+LaTeX Font Info:    Redeclaring math symbol \sim on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \approx on input line 85.
+LaTeX Font Info:    Redeclaring math symbol \simeq on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \asymp on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \nsim on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \ncong on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \risingdotseq on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \fallingdotseq on input line 119.
+LaTeX Font Info:    Redeclaring math symbol \circeq on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \eqcirc on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \triangleq on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \neg on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \ll on input line 136.
+LaTeX Font Info:    Redeclaring math symbol \gg on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \vdash on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \dashv on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \nvdash on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \vDash on input line 143.
+LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Vdash on input line 147.
+LaTeX Font Info:    Redeclaring math symbol \nVdash on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \flat on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \natural on input line 159.
+LaTeX Font Info:    Redeclaring math symbol \sharp on input line 160.
+LaTeX Font Info:    Redeclaring math symbol \infty on input line 161.
+LaTeX Font Info:    Redeclaring math symbol \propto on input line 162.
+LaTeX Font Info:    Redeclaring math symbol \dagger on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \ddagger on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \between on input line 170.
+LaTeX Font Info:    Redeclaring math symbol \smile on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \frown on input line 172.
+LaTeX Font Info:    Redeclaring math symbol \leftthreetimes on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \rightthreetimes on input line 175.
+
+LaTeX Font Info:    Redeclaring math symbol \pitchfork on input line 176.
+LaTeX Font Info:    Redeclaring math symbol \nVDash on input line 182.
+LaTeX Font Info:    Redeclaring math symbol \Vvdash on input line 184.
+LaTeX Font Info:    Redeclaring math symbol \therefore on input line 189.
+LaTeX Font Info:    Redeclaring math symbol \because on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \measuredangle on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \sphericalangle on input line 203.
+LaTeX Font Info:    Redeclaring math symbol \setminus on input line 218.
+LaTeX Font Info:    Redeclaring math symbol \mid on input line 222.
+LaTeX Font Info:    Redeclaring math symbol \forall on input line 279.
+LaTeX Font Info:    Redeclaring math symbol \complement on input line 280.
+LaTeX Font Info:    Redeclaring math symbol \partial on input line 281.
+LaTeX Font Info:    Redeclaring math symbol \exists on input line 284.
+LaTeX Font Info:    Redeclaring math symbol \nexists on input line 285.
+LaTeX Font Info:    Redeclaring math symbol \Finv on input line 286.
+LaTeX Font Info:    Redeclaring math symbol \Game on input line 287.
+LaTeX Font Info:    Redeclaring math symbol \emptyset on input line 288.
+LaTeX Font Info:    Redeclaring math symbol \top on input line 290.
+LaTeX Font Info:    Redeclaring math symbol \bot on input line 291.
+LaTeX Font Info:    Redeclaring math symbol \perp on input line 292.
+LaTeX Font Info:    Redeclaring math symbol \curlywedge on input line 296.
+LaTeX Font Info:    Redeclaring math symbol \curlyvee on input line 297.
+LaTeX Font Info:    Redeclaring math symbol \in on input line 299.
+LaTeX Font Info:    Redeclaring math symbol \owns on input line 300.
+LaTeX Font Info:    Redeclaring math symbol \cap on input line 312.
+LaTeX Font Info:    Redeclaring math symbol \cup on input line 313.
+LaTeX Font Info:    Redeclaring math symbol \uplus on input line 314.
+LaTeX Font Info:    Redeclaring math symbol \sqcap on input line 315.
+LaTeX Font Info:    Redeclaring math symbol \sqcup on input line 316.
+LaTeX Font Info:    Redeclaring math symbol \wedge on input line 318.
+LaTeX Font Info:    Redeclaring math symbol \vee on input line 320.
+LaTeX Font Info:    Redeclaring math symbol \barwedge on input line 327.
+LaTeX Font Info:    Redeclaring math symbol \veebar on input line 328.
+LaTeX Font Info:    Redeclaring math symbol \doublebarwedge on input line 329.
+LaTeX Font Info:    Redeclaring math symbol \doublecap on input line 331.
+LaTeX Font Info:    Redeclaring math symbol \doublecup on input line 333.
+LaTeX Font Info:    Redeclaring math symbol \subset on input line 344.
+LaTeX Font Info:    Redeclaring math symbol \supset on input line 345.
+LaTeX Font Info:    Redeclaring math symbol \subseteq on input line 348.
+LaTeX Font Info:    Redeclaring math symbol \supseteq on input line 349.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteq on input line 350.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteq on input line 351.
+LaTeX Font Info:    Redeclaring math symbol \subsetneq on input line 352.
+LaTeX Font Info:    Redeclaring math symbol \supsetneq on input line 353.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 354.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneq on input line 355.
+LaTeX Font Info:    Redeclaring math symbol \subseteqq on input line 357.
+LaTeX Font Info:    Redeclaring math symbol \supseteqq on input line 358.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteqq on input line 359.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteqq on input line 360.
+LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 361.
+LaTeX Font Info:    Redeclaring math symbol \supsetneqq on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneqq on input line 363.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneqq on input line 364.
+LaTeX Font Info:    Redeclaring math symbol \Subset on input line 366.
+LaTeX Font Info:    Redeclaring math symbol \Supset on input line 367.
+LaTeX Font Info:    Redeclaring math symbol \sqsubseteq on input line 380.
+LaTeX Font Info:    Redeclaring math symbol \sqsupseteq on input line 381.
+LaTeX Font Info:    Redeclaring math symbol \triangleleft on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \vartriangleleft on input line 408.
+
+LaTeX Font Info:    Redeclaring math symbol \triangleright on input line 409.
+LaTeX Font Info:    Redeclaring math symbol \vartriangleright on input line 410
+.
+LaTeX Font Info:    Redeclaring math symbol \ntriangleleft on input line 411.
+LaTeX Font Info:    Redeclaring math symbol \ntriangleright on input line 412.
+LaTeX Font Info:    Redeclaring math symbol \trianglelefteq on input line 413.
+LaTeX Font Info:    Redeclaring math symbol \trianglerighteq on input line 414.
+
+LaTeX Font Info:    Redeclaring math symbol \ntrianglelefteq on input line 415.
+
+LaTeX Font Info:    Redeclaring math symbol \ntrianglerighteq on input line 416
+.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangledown on input line 42
+7.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 42
+8.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 4
+29.
+LaTeX Font Info:    Redeclaring math symbol \nless on input line 437.
+LaTeX Font Info:    Redeclaring math symbol \ngtr on input line 438.
+LaTeX Font Info:    Redeclaring math symbol \leq on input line 439.
+LaTeX Font Info:    Redeclaring math symbol \geq on input line 441.
+LaTeX Font Info:    Redeclaring math symbol \nleq on input line 443.
+LaTeX Font Info:    Redeclaring math symbol \ngeq on input line 445.
+LaTeX Font Info:    Redeclaring math symbol \lneq on input line 451.
+LaTeX Font Info:    Redeclaring math symbol \gneq on input line 452.
+LaTeX Font Info:    Redeclaring math symbol \leqq on input line 453.
+LaTeX Font Info:    Redeclaring math symbol \geqq on input line 454.
+LaTeX Font Info:    Redeclaring math symbol \nleqq on input line 455.
+LaTeX Font Info:    Redeclaring math symbol \ngeqq on input line 456.
+LaTeX Font Info:    Redeclaring math symbol \lneqq on input line 457.
+LaTeX Font Info:    Redeclaring math symbol \gneqq on input line 458.
+LaTeX Font Info:    Redeclaring math symbol \lvertneqq on input line 459.
+LaTeX Font Info:    Redeclaring math symbol \gvertneqq on input line 460.
+LaTeX Font Info:    Redeclaring math symbol \eqslantless on input line 461.
+LaTeX Font Info:    Redeclaring math symbol \eqslantgtr on input line 462.
+LaTeX Font Info:    Redeclaring math symbol \lessgtr on input line 465.
+LaTeX Font Info:    Redeclaring math symbol \gtrless on input line 466.
+LaTeX Font Info:    Redeclaring math symbol \lesseqgtr on input line 467.
+LaTeX Font Info:    Redeclaring math symbol \gtreqless on input line 468.
+LaTeX Font Info:    Redeclaring math symbol \lesseqqgtr on input line 469.
+LaTeX Font Info:    Redeclaring math symbol \gtreqqless on input line 470.
+LaTeX Font Info:    Redeclaring math symbol \lesssim on input line 472.
+LaTeX Font Info:    Redeclaring math symbol \gtrsim on input line 473.
+LaTeX Font Info:    Redeclaring math symbol \lnsim on input line 476.
+LaTeX Font Info:    Redeclaring math symbol \gnsim on input line 477.
+LaTeX Font Info:    Redeclaring math symbol \lessapprox on input line 478.
+LaTeX Font Info:    Redeclaring math symbol \gtrapprox on input line 479.
+LaTeX Font Info:    Redeclaring math symbol \lnapprox on input line 482.
+LaTeX Font Info:    Redeclaring math symbol \gnapprox on input line 483.
+LaTeX Font Info:    Redeclaring math symbol \lessdot on input line 485.
+LaTeX Font Info:    Redeclaring math symbol \gtrdot on input line 486.
+LaTeX Font Info:    Redeclaring math symbol \lll on input line 488.
+LaTeX Font Info:    Redeclaring math symbol \ggg on input line 489.
+LaTeX Font Info:    Redeclaring math symbol \prec on input line 498.
+LaTeX Font Info:    Redeclaring math symbol \succ on input line 499.
+LaTeX Font Info:    Redeclaring math symbol \nprec on input line 500.
+LaTeX Font Info:    Redeclaring math symbol \nsucc on input line 501.
+LaTeX Font Info:    Redeclaring math symbol \preccurlyeq on input line 502.
+LaTeX Font Info:    Redeclaring math symbol \succcurlyeq on input line 503.
+LaTeX Font Info:    Redeclaring math symbol \preceq on input line 506.
+LaTeX Font Info:    Redeclaring math symbol \succeq on input line 507.
+LaTeX Font Info:    Redeclaring math symbol \npreceq on input line 508.
+LaTeX Font Info:    Redeclaring math symbol \nsucceq on input line 509.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqprec on input line 512.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqsucc on input line 513.
+LaTeX Font Info:    Redeclaring math symbol \precsim on input line 517.
+LaTeX Font Info:    Redeclaring math symbol \succsim on input line 518.
+LaTeX Font Info:    Redeclaring math symbol \precnsim on input line 521.
+LaTeX Font Info:    Redeclaring math symbol \succnsim on input line 522.
+LaTeX Font Info:    Redeclaring math symbol \precapprox on input line 523.
+LaTeX Font Info:    Redeclaring math symbol \succapprox on input line 524.
+LaTeX Font Info:    Redeclaring math symbol \precnapprox on input line 527.
+LaTeX Font Info:    Redeclaring math symbol \succnapprox on input line 528.
+LaTeX Font Info:    Redeclaring math symbol \leftarrow on input line 540.
+LaTeX Font Info:    Redeclaring math symbol \rightarrow on input line 542.
+LaTeX Font Info:    Redeclaring math symbol \nwarrow on input line 546.
+LaTeX Font Info:    Redeclaring math symbol \nearrow on input line 547.
+LaTeX Font Info:    Redeclaring math symbol \swarrow on input line 548.
+LaTeX Font Info:    Redeclaring math symbol \searrow on input line 549.
+LaTeX Font Info:    Redeclaring math symbol \leftrightarrow on input line 550.
+LaTeX Font Info:    Redeclaring math symbol \nleftarrow on input line 552.
+LaTeX Font Info:    Redeclaring math symbol \nrightarrow on input line 553.
+LaTeX Font Info:    Redeclaring math symbol \nleftrightarrow on input line 554.
+
+LaTeX Font Info:    Redeclaring math symbol \mapstochar on input line 557.
+LaTeX Font Info:    Redeclaring math symbol \leftharpoonup on input line 560.
+LaTeX Font Info:    Redeclaring math symbol \rightharpoonup on input line 561.
+LaTeX Font Info:    Redeclaring math symbol \leftharpoondown on input line 562.
+
+LaTeX Font Info:    Redeclaring math symbol \rightharpoondown on input line 563
+.
+LaTeX Font Info:    Redeclaring math symbol \upharpoonleft on input line 564.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonleft on input line 565.
+
+LaTeX Font Info:    Redeclaring math symbol \upharpoonright on input line 566.
+LaTeX Font Info:    Redeclaring math symbol \restriction on input line 567.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonright on input line 568
+.
+LaTeX Font Info:    Redeclaring math symbol \leftrightharpoons on input line 56
+9.
+LaTeX Font Info:    Redeclaring math symbol \Leftarrow on input line 575.
+LaTeX Font Info:    Redeclaring math symbol \Rightarrow on input line 576.
+LaTeX Font Info:    Redeclaring math symbol \Leftrightarrow on input line 579.
+LaTeX Font Info:    Redeclaring math symbol \nLeftarrow on input line 581.
+LaTeX Font Info:    Redeclaring math symbol \nRightarrow on input line 582.
+LaTeX Font Info:    Redeclaring math symbol \nLeftrightarrow on input line 583.
+
+LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 593.
+LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 594
+.
+LaTeX Font Info:    Redeclaring math symbol \upuparrows on input line 595.
+LaTeX Font Info:    Redeclaring math symbol \downdownarrows on input line 596.
+LaTeX Font Info:    Redeclaring math symbol \leftrightarrows on input line 597.
+
+LaTeX Font Info:    Redeclaring math symbol \rightleftarrows on input line 598.
+
+LaTeX Font Info:    Redeclaring math symbol \rhook on input line 612.
+LaTeX Font Info:    Redeclaring math symbol \lhook on input line 613.
+LaTeX Font Info:    Redeclaring math symbol \diagup on input line 614.
+LaTeX Font Info:    Redeclaring math symbol \diagdown on input line 615.
+LaTeX Font Info:    Redeclaring math symbol \Lsh on input line 617.
+LaTeX Font Info:    Redeclaring math symbol \Rsh on input line 619.
+LaTeX Font Info:    Redeclaring math symbol \looparrowleft on input line 624.
+LaTeX Font Info:    Redeclaring math symbol \looparrowright on input line 626.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 631.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 633.
+
+LaTeX Font Info:    Redeclaring math symbol \circlearrowleft on input line 641.
+
+LaTeX Font Info:    Redeclaring math symbol \circlearrowright on input line 642
+.
+LaTeX Font Info:    Redeclaring math symbol \rightsquigarrow on input line 645.
+
+LaTeX Font Info:    Redeclaring math symbol \leftrightsquigarrow on input line 
+646.
+LaTeX Font Info:    Redeclaring math symbol \oplus on input line 658.
+LaTeX Font Info:    Redeclaring math symbol \ominus on input line 659.
+LaTeX Font Info:    Redeclaring math symbol \otimes on input line 661.
+LaTeX Font Info:    Redeclaring math symbol \odot on input line 663.
+LaTeX Font Info:    Redeclaring math symbol \oslash on input line 675.
+LaTeX Font Info:    Redeclaring math symbol \boxplus on input line 683.
+LaTeX Font Info:    Redeclaring math symbol \boxminus on input line 684.
+LaTeX Font Info:    Redeclaring math symbol \boxtimes on input line 686.
+LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 688.
+\mayacnter=\count223
+\mayacnta=\count224
+\mayacntb=\count225
+\mayacntc=\count226
+\mayawidth=\dimen113
+LaTeX Font Info:    Redeclaring math symbol \intop on input line 753.
+LaTeX Font Info:    Redeclaring math symbol \ointop on input line 760.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 842.
+LaTeX Info: Redefining \{ on input line 846.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 848.
+LaTeX Info: Redefining \} on input line 852.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 858.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 859.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 863.
+LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 865.
+LaTeX Font Info:    Redeclaring math delimiter \uparrow on input line 868.
+LaTeX Font Info:    Redeclaring math delimiter \downarrow on input line 869.
+LaTeX Font Info:    Redeclaring math delimiter \updownarrow on input line 870.
+LaTeX Font Info:    Redeclaring math delimiter \Uparrow on input line 871.
+LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 872.
+LaTeX Font Info:    Redeclaring math delimiter \Updownarrow on input line 873.
+LaTeX Font Info:    Redeclaring math delimiter \lgroup on input line 880.
+LaTeX Font Info:    Redeclaring math delimiter \rgroup on input line 881.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 882.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 883.
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 884.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 885.
+LaTeX Font Info:    Redeclaring math symbol \braceld on input line 903.
+LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 905.
+LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 907.
+LaTeX Font Info:    Redeclaring math symbol \braceru on input line 909.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 944.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 946.
+))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\makeidx.sty"
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
 )
@@ -704,10 +1004,10 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count223
+\Gread@gobject=\count227
 ))
-\Gin@req@height=\dimen113
-\Gin@req@width=\dimen114
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\siunitx\siunitx.sty"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
@@ -769,12 +1069,12 @@ Package: l3file 2013/08/29 v4591 L3 File and I/O operations
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3skip.sty"
 Package: l3skip 2013/07/28 v4581 L3 Dimensions and skips
-\c_zero_dim=\dimen115
-\c_max_dim=\dimen116
-\l_tmpa_dim=\dimen117
-\l_tmpb_dim=\dimen118
-\g_tmpa_dim=\dimen119
-\g_tmpb_dim=\dimen120
+\c_zero_dim=\dimen116
+\c_max_dim=\dimen117
+\l_tmpa_dim=\dimen118
+\l_tmpb_dim=\dimen119
+\g_tmpa_dim=\dimen120
+\g_tmpb_dim=\dimen121
 \c_zero_skip=\skip59
 \c_max_skip=\skip60
 \l_tmpa_skip=\skip61
@@ -816,13 +1116,13 @@ Package: l3box 2013/07/28 v4581 L3 Experimental boxes
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3coffins.sty"
 Package: l3coffins 2012/09/09 v4212 L3 Coffin code layer
 \l__coffin_internal_box=\box34
-\l__coffin_internal_dim=\dimen121
-\l__coffin_offset_x_dim=\dimen122
-\l__coffin_offset_y_dim=\dimen123
-\l__coffin_x_dim=\dimen124
-\l__coffin_y_dim=\dimen125
-\l__coffin_x_prime_dim=\dimen126
-\l__coffin_y_prime_dim=\dimen127
+\l__coffin_internal_dim=\dimen122
+\l__coffin_offset_x_dim=\dimen123
+\l__coffin_offset_y_dim=\dimen124
+\l__coffin_x_dim=\dimen125
+\l__coffin_y_dim=\dimen126
+\l__coffin_x_prime_dim=\dimen127
+\l__coffin_y_prime_dim=\dimen128
 \c_empty_coffin=\box35
 \l__coffin_aligned_coffin=\box36
 \l__coffin_aligned_internal_coffin=\box37
@@ -831,9 +1131,9 @@ Package: l3coffins 2012/09/09 v4212 L3 Coffin code layer
 \l__coffin_display_coffin=\box40
 \l__coffin_display_coord_coffin=\box41
 \l__coffin_display_pole_coffin=\box42
-\l__coffin_display_offset_dim=\dimen128
-\l__coffin_display_x_dim=\dimen129
-\l__coffin_display_y_dim=\dimen130
+\l__coffin_display_offset_dim=\dimen129
+\l__coffin_display_x_dim=\dimen130
+\l__coffin_display_y_dim=\dimen131
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3color.sty"
 Package: l3color 2012/08/29 v4156 L3 Experimental color support
@@ -845,22 +1145,22 @@ Package: l3luatex 2013/07/28 v4581 L3 Experimental LuaTeX-specific functions
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3candidates.sty"
 Package: l3candidates 2013/07/24 v4576 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen131
-\l__box_bottom_dim=\dimen132
-\l__box_left_dim=\dimen133
-\l__box_right_dim=\dimen134
-\l__box_top_new_dim=\dimen135
-\l__box_bottom_new_dim=\dimen136
-\l__box_left_new_dim=\dimen137
-\l__box_right_new_dim=\dimen138
+\l__box_top_dim=\dimen132
+\l__box_bottom_dim=\dimen133
+\l__box_left_dim=\dimen134
+\l__box_right_dim=\dimen135
+\l__box_top_new_dim=\dimen136
+\l__box_bottom_new_dim=\dimen137
+\l__box_left_new_dim=\dimen138
+\l__box_right_new_dim=\dimen139
 \l__box_internal_box=\box43
-\l__coffin_bounding_shift_dim=\dimen139
-\l__coffin_left_corner_dim=\dimen140
-\l__coffin_right_corner_dim=\dimen141
-\l__coffin_bottom_corner_dim=\dimen142
-\l__coffin_top_corner_dim=\dimen143
-\l__coffin_scaled_total_height_dim=\dimen144
-\l__coffin_scaled_width_dim=\dimen145
+\l__coffin_bounding_shift_dim=\dimen140
+\l__coffin_left_corner_dim=\dimen141
+\l__coffin_right_corner_dim=\dimen142
+\l__coffin_bottom_corner_dim=\dimen143
+\l__coffin_top_corner_dim=\dimen144
+\l__coffin_scaled_total_height_dim=\dimen145
+\l__coffin_scaled_width_dim=\dimen146
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
@@ -878,8 +1178,8 @@ Package: siunitx 2013/07/31 v2.5s A comprehensive (SI) units package
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen146
-\extrarowheight=\dimen147
+\col@sep=\dimen147
+\extrarowheight=\dimen148
 \NC@list=\toks23
 \extratabsurround=\skip65
 \backup@length=\skip66
@@ -889,7 +1189,7 @@ Package: l3keys2e 2013/10/08 v4595 LaTeX2e option processing using LaTeX3 keys
 )
 Variant \tl_if_blank:VTF already defined; not changing it on line 50
 \l__siunitx_tmp_box=\box44
-\l__siunitx_tmp_dim=\dimen148
+\l__siunitx_tmp_dim=\dimen149
 \l__siunitx_tmp_int=\count306
 Variant \prop_get:NVNT already defined; not changing it on line 371
 Variant \prop_get:NVNF already defined; not changing it on line 372
@@ -905,8 +1205,8 @@ Variant \prop_get:NVNTF already defined; not changing it on line 373
 \l__siunitx_group_min_int=\count315
 \l__siunitx_angle_marker_box=\box45
 \l__siunitx_angle_unit_box=\box46
-\l__siunitx_angle_marker_dim=\dimen149
-\l__siunitx_angle_unit_dim=\dimen150
+\l__siunitx_angle_marker_dim=\dimen150
+\l__siunitx_angle_unit_dim=\dimen151
 \l__siunitx_unit_int=\count316
 \l__siunitx_unit_denominator_int=\count317
 \l__siunitx_unit_numerator_int=\count318
@@ -916,15 +1216,15 @@ Variant \prop_get:NVNTF already defined; not changing it on line 373
 \l__siunitx_number_product_int=\count322
 \c__siunitx_one_fill_skip=\skip67
 \l__siunitx_table_unit_align_skip=\skip68
-\l__siunitx_table_exponent_dim=\dimen151
-\l__siunitx_table_integer_dim=\dimen152
-\l__siunitx_table_mantissa_dim=\dimen153
-\l__siunitx_table_marker_dim=\dimen154
-\l__siunitx_table_result_dim=\dimen155
-\l__siunitx_table_uncert_dim=\dimen156
-\l__siunitx_table_fill_pre_dim=\dimen157
-\l__siunitx_table_fill_post_dim=\dimen158
-\l__siunitx_table_fill_mid_dim=\dimen159
+\l__siunitx_table_exponent_dim=\dimen152
+\l__siunitx_table_integer_dim=\dimen153
+\l__siunitx_table_mantissa_dim=\dimen154
+\l__siunitx_table_marker_dim=\dimen155
+\l__siunitx_table_result_dim=\dimen156
+\l__siunitx_table_uncert_dim=\dimen157
+\l__siunitx_table_fill_pre_dim=\dimen158
+\l__siunitx_table_fill_post_dim=\dimen159
+\l__siunitx_table_fill_mid_dim=\dimen160
 \l__siunitx_table_pre_box=\box47
 \l__siunitx_table_post_box=\box48
 \l__siunitx_table_mantissa_box=\box49
@@ -1079,23 +1379,23 @@ Package: varioref 2011/10/02 v1.4z package for extended references (FMi)
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen160
-\lightrulewidth=\dimen161
-\cmidrulewidth=\dimen162
-\belowrulesep=\dimen163
-\belowbottomsep=\dimen164
-\aboverulesep=\dimen165
-\abovetopsep=\dimen166
-\cmidrulesep=\dimen167
-\cmidrulekern=\dimen168
-\defaultaddspace=\dimen169
+\heavyrulewidth=\dimen161
+\lightrulewidth=\dimen162
+\cmidrulewidth=\dimen163
+\belowrulesep=\dimen164
+\belowbottomsep=\dimen165
+\aboverulesep=\dimen166
+\abovetopsep=\dimen167
+\cmidrulesep=\dimen168
+\cmidrulekern=\dimen169
+\defaultaddspace=\dimen170
 \@cmidla=\count324
 \@cmidlb=\count325
-\@aboverulesep=\dimen170
-\@belowrulesep=\dimen171
+\@aboverulesep=\dimen171
+\@belowrulesep=\dimen172
 \@thisruleclass=\count326
 \@lastruleclass=\count327
-\@thisrulewidth=\dimen172
+\@thisrulewidth=\dimen173
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
@@ -1117,13 +1417,13 @@ Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen173
-\captionmargin@=\dimen174
-\captionwidth=\dimen175
-\caption@tempdima=\dimen176
-\caption@indent=\dimen177
-\caption@parindent=\dimen178
-\caption@hangindent=\dimen179
+\captionmargin=\dimen174
+\captionmargin@=\dimen175
+\captionwidth=\dimen176
+\caption@tempdima=\dimen177
+\caption@indent=\dimen178
+\caption@parindent=\dimen179
+\caption@hangindent=\dimen180
 )
 Package caption Info: KOMA-Script document class.
 \c@ContinuedFloat=\count329
@@ -1131,7 +1431,7 @@ Package caption Info: rotating package is loaded.
 )
 \c@KVtest=\count330
 \sf@farskip=\skip73
-\sf@captopadj=\dimen180
+\sf@captopadj=\dimen181
 \sf@capskip=\skip74
 \sf@nearskip=\skip75
 \c@subfigure=\count331
@@ -1173,19 +1473,19 @@ File: german.lbx 2013/07/15 v2.7a biblatex localization (PK/JW/AB)
 LaTeX Warning: Label `fig:Kb1a' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 31.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1200,19 +1500,19 @@ Package biblatex Warning: Data encoding is 'utf8'.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'bac080614.bbl' found.
 (C:\Users\B\Documents\Bac\bac080614.bbl)
-Package biblatex Info: Reference section=0 on input line 30.
-Package biblatex Info: Reference segment=0 on input line 30.
+Package biblatex Info: Reference section=0 on input line 31.
+Package biblatex Info: Reference segment=0 on input line 31.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count337
-\scratchdimen=\dimen181
+\scratchdimen=\dimen182
 \scratchbox=\box52
 \nofMPsegments=\count338
 \nofMParguments=\count339
 \everyMPshowfont=\toks25
 \MPscratchCnt=\count340
-\MPscratchDim=\dimen182
+\MPscratchDim=\dimen183
 \MPnumerator=\count341
 \makeMPintoPDFobject=\count342
 \everyMPtoPDFconversion=\toks26
@@ -1303,51 +1603,51 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c__siunitx_mathsf_int=\count343
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 30.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 31.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 30.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 31.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 30.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 31.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 30.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 31.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 30.
+(Font)              <12> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 30.
+(Font)              <8> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 30.
-LaTeX Font Info:    Try loading font information for U+msa on input line 30.
+(Font)              <6> on input line 31.
+LaTeX Font Info:    Try loading font information for U+msa on input line 31.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 30.
+LaTeX Font Info:    Try loading font information for U+msb on input line 31.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 30.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 31.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \c__siunitx_mathtt_int=\count344
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 30.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 31.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
@@ -1360,20 +1660,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 
+l.48 
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 63.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 64.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 63.
+(Font)              <17.28> on input line 64.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 63.
+(Font)              <10> on input line 64.
  [1
 
 
@@ -1390,106 +1690,106 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 100.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 101.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 100.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 101.
  [2]
 <BauteilNeu.jpg, id=27, 552.56438pt x 286.06876pt>
 File: BauteilNeu.jpg Graphic file (type jpg)
  <use BauteilNeu.jpg>
-Package pdftex.def Info: BauteilNeu.jpg used on input line 114.
+Package pdftex.def Info: BauteilNeu.jpg used on input line 115.
 (pdftex.def)             Requested size: 349.97028pt x 181.1802pt.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 115.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 115.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 116.
 
 
 <vormaterial.jpg, id=28, 672.5928pt x 331.4784pt>
 File: vormaterial.jpg Graphic file (type jpg)
  <use vormaterial.jpg>
-Package pdftex.def Info: vormaterial.jpg used on input line 124.
+Package pdftex.def Info: vormaterial.jpg used on input line 125.
 (pdftex.def)             Requested size: 349.97028pt x 172.48102pt.
 
 [3 <C:/Users/B/Documents/Bac/BauteilNeu.jpg> <C:/Users/B/Documents/Bac/vormater
-ial.jpg>] <audia3blau.png, id=37, 551.81157pt x 264.23718pt>
+ial.jpg>] <audia3blau.png, id=38, 551.81157pt x 264.23718pt>
 File: audia3blau.png Graphic file (type png)
 
 <use audia3blau.png>
-Package pdftex.def Info: audia3blau.png used on input line 147.
+Package pdftex.def Info: audia3blau.png used on input line 148.
 (pdftex.def)             Requested size: 271.49304pt x 130.00552pt.
 
-Overfull \hbox (28.30142pt too wide) in paragraph at lines 147--147
+Overfull \hbox (28.30142pt too wide) in paragraph at lines 148--148
 [] [] 
  []
 
-<audivdkd.png, id=39, 590.205pt x 473.51906pt>
+<audivdkd.png, id=40, 590.205pt x 473.51906pt>
 File: audivdkd.png Graphic file (type png)
  <use audivdkd.png>
-Package pdftex.def Info: audivdkd.png used on input line 149.
+Package pdftex.def Info: audivdkd.png used on input line 150.
 (pdftex.def)             Requested size: 162.11325pt x 130.06279pt.
 
-Overfull \hbox (82.99132pt too wide) in paragraph at lines 149--149
+Overfull \hbox (82.99132pt too wide) in paragraph at lines 150--150
 [] [] 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 151.
+(Font)              <10.95> on input line 152.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 151.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 152.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 154.
+(Font)              <7> on input line 155.
 [4 <C:/Users/B/Documents/Bac/audia3blau.png> <C:/Users/B/Documents/Bac/audivdkd
-.png>] <vdkdtol.png, id=48, 445.665pt x 342.5297pt>
+.png>] <vdkdtol.png, id=49, 445.665pt x 342.5297pt>
 File: vdkdtol.png Graphic file (type png)
  <use vdkdtol.png>
-Package pdftex.def Info: vdkdtol.png used on input line 174.
+Package pdftex.def Info: vdkdtol.png used on input line 175.
 (pdftex.def)             Requested size: 349.97028pt x 268.98047pt.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 175.
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 188.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 176.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 189.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<spanndehn2.png, id=49, 377.91188pt x 236.38312pt>
+<spanndehn2.png, id=50, 377.91188pt x 236.38312pt>
 File: spanndehn2.png Graphic file (type png)
  <use spanndehn2.png>
-Package pdftex.def Info: spanndehn2.png used on input line 192.
+Package pdftex.def Info: spanndehn2.png used on input line 193.
 (pdftex.def)             Requested size: 349.97028pt x 218.90704pt.
 
 [5 <C:/Users/B/Documents/Bac/vdkdtol.png>]
-<steckbiegeeinheit.jpg, id=58, 2508.37125pt x 1569.865pt>
+<steckbiegeeinheit.jpg, id=60, 2508.37125pt x 1569.865pt>
 File: steckbiegeeinheit.jpg Graphic file (type jpg)
 
 <use steckbiegeeinheit.jpg>
-Package pdftex.def Info: steckbiegeeinheit.jpg used on input line 205.
+Package pdftex.def Info: steckbiegeeinheit.jpg used on input line 206.
 (pdftex.def)             Requested size: 349.97028pt x 219.01306pt.
 
 Underfull \vbox (badness 6332) has occurred while \output is active []
 
  [6 <C:/Users/B/Documents/Bac/spanndehn2.png>]
-<streckbiegen.png, id=65, 363.60844pt x 255.20343pt>
+<streckbiegen.png, id=67, 363.60844pt x 255.20343pt>
 File: streckbiegen.png Graphic file (type png)
  <use streckbiegen.png>
-Package pdftex.def Info: streckbiegen.png used on input line 215.
+Package pdftex.def Info: streckbiegen.png used on input line 216.
 (pdftex.def)             Requested size: 349.97028pt x 245.63892pt.
 
 Underfull \vbox (badness 7151) has occurred while \output is active []
 
  [7]
-Underfull \hbox (badness 10000) in paragraph at lines 221--223
+Underfull \hbox (badness 10000) in paragraph at lines 222--224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
@@ -1497,58 +1797,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--225
 Underfull \vbox (badness 1817) has occurred while \output is active []
 
  [8 <C:/Users/B/Documents/Bac/steckbiegeeinheit.jpg>]
-<springback.png, id=73, 376.40625pt x 225.84375pt>
+<springback.png, id=75, 376.40625pt x 225.84375pt>
 File: springback.png Graphic file (type png)
  <use springback.png>
-Package pdftex.def Info: springback.png used on input line 228.
+Package pdftex.def Info: springback.png used on input line 229.
 (pdftex.def)             Requested size: 349.97028pt x 209.99805pt.
 
 Underfull \vbox (badness 7273) has occurred while \output is active []
 
  [9 <C:/Users/B/Documents/Bac/streckbiegen.png>]
-<neutralefaser.png, id=79, 406.51875pt x 268.75406pt>
+<neutralefaser.png, id=81, 406.51875pt x 268.75406pt>
 File: neutralefaser.png Graphic file (type png)
  <use neutralefaser.png>
-Package pdftex.def Info: neutralefaser.png used on input line 239.
+Package pdftex.def Info: neutralefaser.png used on input line 240.
 (pdftex.def)             Requested size: 349.97028pt x 231.37823pt.
 
 Underfull \vbox (badness 2503) has occurred while \output is active []
 
  [10 <C:/Users/B/Documents/Bac/springback.png>] [11 <C:/Users/B/Documents/Bac/n
-eutralefaser.png>] [12] [13] <klip.jpg, id=96, 1543.17706pt x 1048.62354pt>
+eutralefaser.png>] [12] [13] <klip.jpg, id=98, 1543.17706pt x 1048.62354pt>
 File: klip.jpg Graphic file (type jpg)
  <use klip.jpg>
-Package pdftex.def Info: klip.jpg used on input line 335.
+Package pdftex.def Info: klip.jpg used on input line 336.
 (pdftex.def)             Requested size: 349.97028pt x 237.8022pt.
 
 [14 <C:/Users/B/Documents/Bac/klip.jpg>]
-<messpunktevdkda3.png, id=100, 387.69844pt x 172.39406pt>
+<messpunktevdkda3.png, id=102, 387.69844pt x 172.39406pt>
 File: messpunktevdkda3.png Graphic file (type png)
 
 <use messpunktevdkda3.png>
-Package pdftex.def Info: messpunktevdkda3.png used on input line 351.
+Package pdftex.def Info: messpunktevdkda3.png used on input line 352.
 (pdftex.def)             Requested size: 349.97028pt x 155.62144pt.
 
-<Messlehre.jpg, id=101, 3150.77126pt x 1191.45125pt>
+<Messlehre.jpg, id=103, 3150.77126pt x 1191.45125pt>
 File: Messlehre.jpg Graphic file (type jpg)
  <use Messlehre.jpg>
-Package pdftex.def Info: Messlehre.jpg used on input line 366.
+Package pdftex.def Info: Messlehre.jpg used on input line 367.
 (pdftex.def)             Requested size: 286.73026pt x 108.42586pt.
 
-Overfull \hbox (20.68282pt too wide) in paragraph at lines 366--366
+Overfull \hbox (20.68282pt too wide) in paragraph at lines 367--367
 [] [] 
  []
 
-<messvdkd.jpg, id=102, 3296.315pt x 2477.255pt>
+<messvdkd.jpg, id=104, 3296.315pt x 2477.255pt>
 File: messvdkd.jpg Graphic file (type jpg)
  <use messvdkd.jpg>
-Package pdftex.def Info: messvdkd.jpg used on input line 368.
+Package pdftex.def Info: messvdkd.jpg used on input line 369.
 (pdftex.def)             Requested size: 144.05247pt x 108.25868pt.
 
 ! Undefined control sequence.
 <argument> ...; \; \quad \quad \qquad \qquadqquad 
                                                   \qquad \qquad \qquad \qqua...
-l.368 ...{\includegraphics[scale=.0437]{messvdkd}}
+l.369 ...{\includegraphics[scale=.0437]{messvdkd}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1559,7 +1859,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...; \; \quad \quad \qquad \qquadqquad 
                                                   \qquad \qquad \qquad \qqua...
-l.368 ...{\includegraphics[scale=.0437]{messvdkd}}
+l.369 ...{\includegraphics[scale=.0437]{messvdkd}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1570,7 +1870,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...; \; \quad \quad \qquad \qquadqquad 
                                                   \qquad \qquad \qquad \qqua...
-l.368 ...{\includegraphics[scale=.0437]{messvdkd}}
+l.369 ...{\includegraphics[scale=.0437]{messvdkd}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1579,49 +1879,49 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--368
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
 []
  []
 
 
-Overfull \hbox (172.66249pt too wide) in paragraph at lines 368--368
+Overfull \hbox (172.66249pt too wide) in paragraph at lines 369--369
 [] 
  []
 
-<vdkdorient.jpg, id=103, 949.29657pt x 413.29407pt>
+<vdkdorient.jpg, id=105, 949.29657pt x 413.29407pt>
 File: vdkdorient.jpg Graphic file (type jpg)
  <use vdkdorient.jpg>
-Package pdftex.def Info: vdkdorient.jpg used on input line 378.
+Package pdftex.def Info: vdkdorient.jpg used on input line 379.
 (pdftex.def)             Requested size: 349.97028pt x 152.36775pt.
 
 [15 <C:/Users/B/Documents/Bac/messpunktevdkda3.png>] [16 <C:/Users/B/Documents/
 Bac/Messlehre.jpg> <C:/Users/B/Documents/Bac/messvdkd.jpg> <C:/Users/B/Document
 s/Bac/vdkdorient.jpg>]
-<mitkontausstrckb.jpg, id=112, 476.53032pt x 307.90031pt>
+<mitkontausstrckb.jpg, id=114, 476.53032pt x 307.90031pt>
 File: mitkontausstrckb.jpg Graphic file (type jpg)
 
 <use mitkontausstrckb.jpg>
-Package pdftex.def Info: mitkontausstrckb.jpg used on input line 451.
+Package pdftex.def Info: mitkontausstrckb.jpg used on input line 452.
 (pdftex.def)             Requested size: 349.97028pt x 226.13722pt.
  [17] [18] [19 <C:/Users/B/Documents/Bac/mitkontausstrckb.jpg>] [20] [21] <mess
-werte2.jpg, id=129, 492.33937pt x 407.27156pt>
+werte2.jpg, id=132, 492.33937pt x 407.27156pt>
 File: messwerte2.jpg Graphic file (type jpg)
 
 <use messwerte2.jpg>
-Package pdftex.def Info: messwerte2.jpg used on input line 553.
+Package pdftex.def Info: messwerte2.jpg used on input line 554.
 (pdftex.def)             Requested size: 349.97028pt x 289.51283pt.
  [22 <C:/Users/B/Documents/Bac/messwerte2.jpg>] [23]
-<fraesneumess.jpg, id=136, 432.11438pt x 357.58594pt>
+<fraesneumess.jpg, id=139, 432.11438pt x 357.58594pt>
 File: fraesneumess.jpg Graphic file (type jpg)
  <use fraesneumess.jpg>
-Package pdftex.def Info: fraesneumess.jpg used on input line 597.
+Package pdftex.def Info: fraesneumess.jpg used on input line 598.
 (pdftex.def)             Requested size: 349.97028pt x 289.62119pt.
 
 [24] [25 <C:/Users/B/Documents/Bac/fraesneumess.jpg>] [26]
 ! Undefined control sequence.
 <argument> ...al \expandafter \let \cmrsideswitch 
                                                   \@tempa \fi \fi 
-l.680 \cmidrule(2){3-12}
+l.681 \cmidrule(2){3-12}
                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1632,7 +1932,7 @@ and I'll forget about whatever was undefined.
 ! Too many }'s.
 \color@endbox ->\color@endgroup \egroup 
                                         
-l.708 \end{sidewaystable}
+l.709 \end{sidewaystable}
                          
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1644,7 +1944,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.708 \end{sidewaystable}
+l.709 \end{sidewaystable}
                          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1653,27 +1953,27 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.708 \end{sidewaystable}
+l.709 \end{sidewaystable}
                          
 Things are pretty mixed up, but I think the worst is over.
 
-[27] <verzugfraes.jpg, id=150, 480.29437pt x 313.9228pt>
+[27] <verzugfraes.jpg, id=153, 480.29437pt x 313.9228pt>
 File: verzugfraes.jpg Graphic file (type jpg)
  <use verzugfraes.jpg>
-Package pdftex.def Info: verzugfraes.jpg used on input line 712.
+Package pdftex.def Info: verzugfraes.jpg used on input line 713.
 (pdftex.def)             Requested size: 349.97028pt x 228.745pt.
 
 [28 <C:/Users/B/Documents/Bac/verzugfraes.jpg>]
-<messstreifen.jpg, id=154, 2346.7675pt x 1583.9175pt>
+<messstreifen.jpg, id=157, 2346.7675pt x 1583.9175pt>
 File: messstreifen.jpg Graphic file (type jpg)
  <use messstreifen.jpg>
-Package pdftex.def Info: messstreifen.jpg used on input line 725.
+Package pdftex.def Info: messstreifen.jpg used on input line 726.
 (pdftex.def)             Requested size: 349.97028pt x 236.19977pt.
 
-<messaction.jpg, id=155, 2258.4375pt x 1090.0725pt>
+<messaction.jpg, id=158, 2258.4375pt x 1090.0725pt>
 File: messaction.jpg Graphic file (type jpg)
  <use messaction.jpg>
-Package pdftex.def Info: messaction.jpg used on input line 731.
+Package pdftex.def Info: messaction.jpg used on input line 732.
 (pdftex.def)             Requested size: 349.97028pt x 168.90959pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1681,25 +1981,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [29]
 [30 <C:/Users/B/Documents/Bac/messstreifen.jpg> <C:/Users/B/Documents/Bac/messa
 ction.jpg>]
-<messbereicheVDKDunterseite.jpg, id=162, 886.06032pt x 286.82156pt>
+<messbereicheVDKDunterseite.jpg, id=165, 886.06032pt x 286.82156pt>
 File: messbereicheVDKDunterseite.jpg Graphic file (type jpg)
 
 <use messbereicheVDKDunterseite.jpg>
-Package pdftex.def Info: messbereicheVDKDunterseite.jpg used on input line 758.
+Package pdftex.def Info: messbereicheVDKDunterseite.jpg used on input line 759.
 
 (pdftex.def)             Requested size: 349.97028pt x 113.2867pt.
  [31 <C:/Users/B/Documents/Bac/messbereicheVDKDunterseite.jpg>] <Kreide.jpg, id
-=166, 1770.615pt x 835.12pt>
+=169, 1770.615pt x 835.12pt>
 File: Kreide.jpg Graphic file (type jpg)
 
 <use Kreide.jpg>
-Package pdftex.def Info: Kreide.jpg used on input line 791.
+Package pdftex.def Info: Kreide.jpg used on input line 792.
 (pdftex.def)             Requested size: 349.97028pt x 165.05862pt.
- <warmleittip.png, id=167, 105.39375pt x 119.69719pt>
+ <warmleittip.png, id=170, 105.39375pt x 119.69719pt>
 File: warmleittip.png Graphic file (type png)
 
 <use warmleittip.png>
-Package pdftex.def Info: warmleittip.png used on input line 812.
+Package pdftex.def Info: warmleittip.png used on input line 813.
 (pdftex.def)             Requested size: 174.9818pt x 198.73378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1707,30 +2007,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [32 <C:/Users/B/Documents/Bac/Kreide.jpg>] [33 <C:/Users/B/Documents/Bac/warml
 eittip.png>]
 
-! LaTeX Error: \begin{description*} on input line 823 ended by \end{description
+! LaTeX Error: \begin{description*} on input line 824 ended by \end{description
 }.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.840 \end{description}
+l.841 \end{description}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[34] <diagrammpolier.jpg, id=182, 478.78876pt x 271.0125pt>
+[34] <diagrammpolier.jpg, id=186, 478.78876pt x 271.0125pt>
 File: diagrammpolier.jpg Graphic file (type jpg)
 
 <use diagrammpolier.jpg>
-Package pdftex.def Info: diagrammpolier.jpg used on input line 864.
+Package pdftex.def Info: diagrammpolier.jpg used on input line 865.
 (pdftex.def)             Requested size: 349.97028pt x 198.09799pt.
  [35] [36 <C:/Users/B/Documents/Bac/diagrammpolier.jpg>] [37]
 ! Undefined control sequence.
 <argument> ...al \expandafter \let \cmrsideswitch 
                                                   \@tempa \fi \fi 
-l.963 \cmidrule(2){3-12}
+l.964 \cmidrule(2){3-12}
                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1741,7 +2041,7 @@ and I'll forget about whatever was undefined.
 ! Too many }'s.
 \color@endbox ->\color@endgroup \egroup 
                                         
-l.1008 \end{sidewaystable}
+l.1009 \end{sidewaystable}
                           
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1753,7 +2053,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1008 \end{sidewaystable}
+l.1009 \end{sidewaystable}
                           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1762,24 +2062,24 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.1008 \end{sidewaystable}
+l.1009 \end{sidewaystable}
                           
 Things are pretty mixed up, but I think the worst is over.
 
-[38] <verzugpolier.jpg, id=195, 421.575pt x 286.82156pt>
+[38] <verzugpolier.jpg, id=199, 421.575pt x 286.82156pt>
 File: verzugpolier.jpg Graphic file (type jpg)
 
 <use verzugpolier.jpg>
-Package pdftex.def Info: verzugpolier.jpg used on input line 1024.
+Package pdftex.def Info: verzugpolier.jpg used on input line 1025.
 (pdftex.def)             Requested size: 349.97028pt x 238.10995pt.
  [39 <C:/Users/B/Documents/Bac/verzugpolier.jpg>]
-<elox.jpg, id=200, 464.4853pt x 395.22656pt>
+<elox.jpg, id=204, 464.4853pt x 395.22656pt>
 File: elox.jpg Graphic file (type jpg)
  <use elox.jpg>
-Package pdftex.def Info: elox.jpg used on input line 1066.
+Package pdftex.def Info: elox.jpg used on input line 1067.
 (pdftex.def)             Requested size: 349.97028pt x 297.79417pt.
  [40] [41 <C:/Users/B/Documents/Bac/elox.jpg>] [42]
-Underfull \hbox (badness 1436) in paragraph at lines 1133--1133
+Underfull \hbox (badness 1436) in paragraph at lines 1134--1134
 [] []\T1/lmss/bx/sl/10.95 Ta-bel-le 13[][]: []|\T1/lmss/m/sl/10.95 Ma-te-ri-al-
 ver-zug im Ver-gleich zum Vor-pro-zess Schlei-
  []
@@ -1787,7 +2087,7 @@ ver-zug im Ver-gleich zum Vor-pro-zess Schlei-
 ! Undefined control sequence.
 <argument> ...al \expandafter \let \cmrsideswitch 
                                                   \@tempa \fi \fi 
-l.1142 \cmidrule(2){3-12}
+l.1143 \cmidrule(2){3-12}
                          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1796,14 +2096,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (6.85158pt too wide) in paragraph at lines 1139--1171
+Overfull \hbox (6.85158pt too wide) in paragraph at lines 1140--1172
 [][] 
  []
 
 ! Too many }'s.
 \color@endbox ->\color@endgroup \egroup 
                                         
-l.1171 \end{sidewaystable}
+l.1172 \end{sidewaystable}
                           
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1815,7 +2115,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1171 \end{sidewaystable}
+l.1172 \end{sidewaystable}
                           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1824,25 +2124,25 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.1171 \end{sidewaystable}
+l.1172 \end{sidewaystable}
                           
 Things are pretty mixed up, but I think the worst is over.
 
-[43] <verzugelox.jpg, id=215, 485.56406pt x 286.06876pt>
+[43] <verzugelox.jpg, id=219, 485.56406pt x 286.06876pt>
 File: verzugelox.jpg Graphic file (type jpg)
  <use verzugelox.jpg>
-Package pdftex.def Info: verzugelox.jpg used on input line 1176.
+Package pdftex.def Info: verzugelox.jpg used on input line 1177.
 (pdftex.def)             Requested size: 349.97028pt x 206.18323pt.
 
-Underfull \hbox (badness 4981) in paragraph at lines 1177--1177
+Underfull \hbox (badness 4981) in paragraph at lines 1178--1178
 [] []\T1/lmss/bx/sl/10.95 Ab-bil-dung 26[][]: []|\T1/lmss/m/sl/10.95 Ver-zug El
 o-xie-ren ge-gen-über Vor-pro-zess Schlei-
  []
 
-<durapro.jpg, id=216, 399.74344pt x 304.88907pt>
+<durapro.jpg, id=220, 399.74344pt x 304.88907pt>
 File: durapro.jpg Graphic file (type jpg)
  <use durapro.jpg>
-Package pdftex.def Info: durapro.jpg used on input line 1192.
+Package pdftex.def Info: durapro.jpg used on input line 1193.
 (pdftex.def)             Requested size: 349.97028pt x 266.9401pt.
  [44 <C:/Users/B/Documents/Bac/verzugelox.jpg>] [45 <C:/Users/B/Documents/Bac/d
 urapro.jpg>]
@@ -1850,7 +2150,7 @@ urapro.jpg>]
 ! Undefined control sequence.
 <argument> ...al \expandafter \let \cmrsideswitch 
                                                   \@tempa \fi \fi 
-l.1270 \cmidrule(2){3-12}
+l.1271 \cmidrule(2){3-12}
                          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1859,14 +2159,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (16.07408pt too wide) in paragraph at lines 1267--1299
+Overfull \hbox (16.07408pt too wide) in paragraph at lines 1268--1300
 [][] 
  []
 
 ! Too many }'s.
 \color@endbox ->\color@endgroup \egroup 
                                         
-l.1299 \end{sidewaystable}
+l.1300 \end{sidewaystable}
                           
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1878,7 +2178,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1299 \end{sidewaystable}
+l.1300 \end{sidewaystable}
                           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1887,21 +2187,21 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.1299 \end{sidewaystable}
+l.1300 \end{sidewaystable}
                           
 Things are pretty mixed up, but I think the worst is over.
 
-[47] <verzugdurapro.jpg, id=230, 406.51875pt x 240.9pt>
+[47] <verzugdurapro.jpg, id=234, 406.51875pt x 240.9pt>
 File: verzugdurapro.jpg Graphic file (type jpg)
 
 <use verzugdurapro.jpg>
-Package pdftex.def Info: verzugdurapro.jpg used on input line 1304.
+Package pdftex.def Info: verzugdurapro.jpg used on input line 1305.
 (pdftex.def)             Requested size: 349.97028pt x 207.39784pt.
 
 ! Undefined control sequence.
 <argument> \textasciiacute 
                            
-l.1325 ...eite "Â´WÃ¶rterbuchnetz"' [27.10.2013].}
+l.1326 ...eite "Â´WÃ¶rterbuchnetz"' [27.10.2013].}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1909,148 +2209,148 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<kropfeinhzeich.jpg, id=231, 830.39647pt x 1394.38588pt>
+<kropfeinhzeich.jpg, id=235, 830.39647pt x 1394.38588pt>
 File: kropfeinhzeich.jpg Graphic file (type jpg)
 
 <use kropfeinhzeich.jpg>
-Package pdftex.def Info: kropfeinhzeich.jpg used on input line 1330.
+Package pdftex.def Info: kropfeinhzeich.jpg used on input line 1331.
 (pdftex.def)             Requested size: 170.23238pt x 285.85095pt.
 
-Overfull \hbox (78.93176pt too wide) in paragraph at lines 1330--1330
+Overfull \hbox (78.93176pt too wide) in paragraph at lines 1331--1331
 [] [] 
  []
 
-<kropfeinheit.png, id=232, 250.68657pt x 329.73187pt>
+<kropfeinheit.png, id=236, 250.68657pt x 329.73187pt>
 File: kropfeinheit.png Graphic file (type png)
  <use kropfeinheit.png>
-Package pdftex.def Info: kropfeinheit.png used on input line 1332.
+Package pdftex.def Info: kropfeinheit.png used on input line 1333.
 (pdftex.def)             Requested size: 217.59444pt x 286.20529pt.
 
-Overfull \hbox (55.25073pt too wide) in paragraph at lines 1332--1332
+Overfull \hbox (55.25073pt too wide) in paragraph at lines 1333--1333
 [] [] 
  []
 
-<kropffrasbereich.png, id=233, 183.68625pt x 193.47281pt>
+<kropffrasbereich.png, id=237, 183.68625pt x 193.47281pt>
 File: kropffrasbereich.png Graphic file (type png)
 
 <use kropffrasbereich.png>
-Package pdftex.def Info: kropffrasbereich.png used on input line 1341.
+Package pdftex.def Info: kropffrasbereich.png used on input line 1342.
 (pdftex.def)             Requested size: 150.99084pt x 159.03546pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1341--1341
+Underfull \hbox (badness 10000) in paragraph at lines 1342--1342
 []
  []
 
 
-Overfull \hbox (177.10504pt too wide) in paragraph at lines 1341--1341
+Overfull \hbox (177.10504pt too wide) in paragraph at lines 1342--1342
 [] 
  []
 
-<kropfung.jpg, id=234, 1463.4675pt x 1000.73875pt>
+<kropfung.jpg, id=238, 1463.4675pt x 1000.73875pt>
 File: kropfung.jpg Graphic file (type jpg)
  <use kropfung.jpg>
-Package pdftex.def Info: kropfung.jpg used on input line 1343.
+Package pdftex.def Info: kropfung.jpg used on input line 1344.
 (pdftex.def)             Requested size: 234.15958pt x 160.12148pt.
 
-Overfull \hbox (46.96815pt too wide) in paragraph at lines 1343--1343
+Overfull \hbox (46.96815pt too wide) in paragraph at lines 1344--1344
 [] [] 
  []
 
-<kropfeinpic.jpg, id=235, 300.3722pt x 383.18156pt>
+<kropfeinpic.jpg, id=239, 300.3722pt x 383.18156pt>
 File: kropfeinpic.jpg Graphic file (type jpg)
  <use kropfeinpic.jpg>
-Package pdftex.def Info: kropfeinpic.jpg used on input line 1354.
+Package pdftex.def Info: kropfeinpic.jpg used on input line 1355.
 (pdftex.def)             Requested size: 349.97028pt x 446.49054pt.
 
 [48 <C:/Users/B/Documents/Bac/verzugdurapro.jpg>] [49 <C:/Users/B/Documents/Bac
 /kropfeinhzeich.jpg> <C:/Users/B/Documents/Bac/kropfeinheit.png> <C:/Users/B/Do
 cuments/Bac/kropffrasbereich.png> <C:/Users/B/Documents/Bac/kropfung.jpg>]
 [50 <C:/Users/B/Documents/Bac/kropfeinpic.jpg>]
-<krpfsequenz.png, id=247, 584.1825pt x 220.57407pt>
+<krpfsequenz.png, id=251, 584.1825pt x 220.57407pt>
 File: krpfsequenz.png Graphic file (type png)
  <use krpfsequenz.png>
-Package pdftex.def Info: krpfsequenz.png used on input line 1376.
+Package pdftex.def Info: krpfsequenz.png used on input line 1377.
 (pdftex.def)             Requested size: 349.97028pt x 132.14351pt.
 
-<krpfgesamt.png, id=248, 441.90094pt x 362.10281pt>
+<krpfgesamt.png, id=252, 441.90094pt x 362.10281pt>
 File: krpfgesamt.png Graphic file (type png)
  <use krpfgesamt.png>
-Package pdftex.def Info: krpfgesamt.png used on input line 1389.
+Package pdftex.def Info: krpfgesamt.png used on input line 1390.
 (pdftex.def)             Requested size: 349.97028pt x 286.7874pt.
 
 [51 <C:/Users/B/Documents/Bac/krpfsequenz.png>] [52 <C:/Users/B/Documents/Bac/k
 rpfgesamt.png>]
-<materialflussvergleich.png, id=258, 508.90125pt x 256.70906pt>
+<materialflussvergleich.png, id=262, 508.90125pt x 256.70906pt>
 File: materialflussvergleich.png Graphic file (type png)
 
 <use materialflussvergleich.png>
-Package pdftex.def Info: materialflussvergleich.png used on input line 1403.
+Package pdftex.def Info: materialflussvergleich.png used on input line 1404.
 (pdftex.def)             Requested size: 349.97028pt x 176.54579pt.
  [53 <C:/Users/B/Documents/Bac/materialflussvergleich.png>]
 LaTeX Font Info:    Font shape `OMS/lmr/m/it' in size <8> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 1416.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 1417.
 
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 1416.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 1417.
 
  [54]
-Overfull \hbox (0.7953pt too wide) in paragraph at lines 1419--1422
+Overfull \hbox (0.79189pt too wide) in paragraph at lines 1420--1423
 \T1/lmr/m/n/12 gel-druck-här-te [][], Char-py Kerb-schlag-zä-hig-keit [][], Gle
 it-ver-schleiÿ
  []
 
-[55] <diebronze.jpg, id=270, 505.89pt x 361.35pt>
+[55] <diebronze.jpg, id=275, 505.89pt x 361.35pt>
 File: diebronze.jpg Graphic file (type jpg)
  <use diebronze.jpg>
-Package pdftex.def Info: diebronze.jpg used on input line 1438.
+Package pdftex.def Info: diebronze.jpg used on input line 1439.
 (pdftex.def)             Requested size: 118.11491pt x 84.36588pt.
 
-<diestahl.jpg, id=271, 2122.93124pt x 1505.625pt>
+<diestahl.jpg, id=276, 2122.93124pt x 1505.625pt>
 File: diestahl.jpg Graphic file (type jpg)
  <use diestahl.jpg>
-Package pdftex.def Info: diestahl.jpg used on input line 1441.
+Package pdftex.def Info: diestahl.jpg used on input line 1442.
 (pdftex.def)             Requested size: 118.11491pt x 83.76305pt.
 
-<diekunst.jpg, id=272, 554.5518pt x 384.9582pt>
+<diekunst.jpg, id=277, 554.5518pt x 384.9582pt>
 File: diekunst.jpg Graphic file (type jpg)
  <use diekunst.jpg>
-Package pdftex.def Info: diekunst.jpg used on input line 1444.
+Package pdftex.def Info: diekunst.jpg used on input line 1445.
 (pdftex.def)             Requested size: 122.63861pt x 85.1316pt.
 
-Overfull \hbox (21.13487pt too wide) in paragraph at lines 1452--1453
+Overfull \hbox (21.13487pt too wide) in paragraph at lines 1453--1454
 []\T1/lmr/m/n/12 Eine Ne-ben-ein-an-der-stel-lung der un-ter-schied-li-chen Zie
 h-stem-pel folgt hier (Ab-bil-dung 36[][][]): 
  []
 
-<punchbronze.jpg, id=273, 537.6888pt x 367.3725pt>
+<punchbronze.jpg, id=278, 537.6888pt x 367.3725pt>
 File: punchbronze.jpg Graphic file (type jpg)
  <use punchbronze.jpg>
-Package pdftex.def Info: punchbronze.jpg used on input line 1458.
+Package pdftex.def Info: punchbronze.jpg used on input line 1459.
 (pdftex.def)             Requested size: 118.11491pt x 80.69887pt.
 
-<punchstahl.jpg, id=274, 2250.4075pt x 1561.835pt>
+<punchstahl.jpg, id=279, 2250.4075pt x 1561.835pt>
 File: punchstahl.jpg Graphic file (type jpg)
  <use punchstahl.jpg>
-Package pdftex.def Info: punchstahl.jpg used on input line 1461.
+Package pdftex.def Info: punchstahl.jpg used on input line 1462.
 (pdftex.def)             Requested size: 118.11491pt x 81.95705pt.
 
-<punchkunst.jpg, id=275, 4835.06375pt x 3011.25pt>
+<punchkunst.jpg, id=280, 4835.06375pt x 3011.25pt>
 File: punchkunst.jpg Graphic file (type jpg)
  <use punchkunst.jpg>
-Package pdftex.def Info: punchkunst.jpg used on input line 1464.
+Package pdftex.def Info: punchkunst.jpg used on input line 1465.
 (pdftex.def)             Requested size: 129.5293pt x 80.63858pt.
 
-<niederhalterkunst.jpg, id=276, 287.1528pt x 212.4738pt>
+<niederhalterkunst.jpg, id=281, 287.1528pt x 212.4738pt>
 File: niederhalterkunst.jpg Graphic file (type jpg)
 
 <use niederhalterkunst.jpg>
-Package pdftex.def Info: niederhalterkunst.jpg used on input line 1480.
+Package pdftex.def Info: niederhalterkunst.jpg used on input line 1481.
 (pdftex.def)             Requested size: 183.0748pt x 135.46725pt.
 
-<niederhalterS.jpg, id=277, 2017.5375pt x 1455.4375pt>
+<niederhalterS.jpg, id=282, 2017.5375pt x 1455.4375pt>
 File: niederhalterS.jpg Graphic file (type jpg)
  <use niederhalterS.jpg>
-Package pdftex.def Info: niederhalterS.jpg used on input line 1483.
+Package pdftex.def Info: niederhalterS.jpg used on input line 1484.
 (pdftex.def)             Requested size: 187.01277pt x 134.89235pt.
 
 [56 <C:/Users/B/Documents/Bac/diebronze.jpg> <C:/Users/B/Documents/Bac/diestahl
@@ -2058,282 +2358,288 @@ Package pdftex.def Info: niederhalterS.jpg used on input line 1483.
 onze.jpg> <C:/Users/B/Documents/Bac/punchstahl.jpg> <C:/Users/B/Documents/Bac/p
 unchkunst.jpg> <C:/Users/B/Documents/Bac/niederhalterkunst.jpg> <C:/Users/B/Doc
 uments/Bac/niederhalterS.jpg>]
-Overfull \hbox (4.3108pt too wide) in paragraph at lines 1493--1494
+Overfull \hbox (4.3108pt too wide) in paragraph at lines 1494--1495
 []\T1/lmr/m/n/12 optimales Er-geb-nis, klei-ne Rau-ig-keit (klei-ne kreis-för-m
 i-ge Flä-che rechts). 
  []
 
-<Ss1a.jpg, id=281, 324.0105pt x 115.8729pt>
+<Ss1a.jpg, id=286, 324.0105pt x 115.8729pt>
 File: Ss1a.jpg Graphic file (type jpg)
  <use Ss1a.jpg>
-Package pdftex.def Info: Ss1a.jpg used on input line 1496.
+Package pdftex.def Info: Ss1a.jpg used on input line 1497.
 (pdftex.def)             Requested size: 349.97028pt x 125.1603pt.
 
-<Ss2.jpg, id=282, 316.7835pt x 112.0185pt>
+<Ss2.jpg, id=287, 316.7835pt x 112.0185pt>
 File: Ss2.jpg Graphic file (type jpg)
  <use Ss2.jpg>
-Package pdftex.def Info: Ss2.jpg used on input line 1504.
+Package pdftex.def Info: Ss2.jpg used on input line 1505.
 (pdftex.def)             Requested size: 349.97028pt x 123.75398pt.
 
-<Ss3.jpg, id=283, 363.9999pt x 118.2819pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57 <C:/Users/B/Documents/Bac/Ss1a.jpg>] <Ss3.jpg, id=292, 363.9999pt x 118.28
+19pt>
 File: Ss3.jpg Graphic file (type jpg)
- <use Ss3.jpg>
-Package pdftex.def Info: Ss3.jpg used on input line 1511.
+
+<use Ss3.jpg>
+Package pdftex.def Info: Ss3.jpg used on input line 1512.
 (pdftex.def)             Requested size: 349.97028pt x 113.73161pt.
- [57 <C:/Users/B/Documents/Bac/Ss1a.jpg> <C:/Users/B/Documents/Bac/Ss2.jpg>]
-<Sk1.jpg, id=288, 443.0151pt x 152.9715pt>
+ <Sk1.jpg, id=293, 443.0151pt x 152.9715pt>
 File: Sk1.jpg Graphic file (type jpg)
  <use Sk1.jpg>
-Package pdftex.def Info: Sk1.jpg used on input line 1518.
+Package pdftex.def Info: Sk1.jpg used on input line 1519.
 (pdftex.def)             Requested size: 349.97028pt x 120.84613pt.
 
-<PunchDefektGut.jpg, id=289, 631.6398pt x 246.1998pt>
+<PunchDefektGut.jpg, id=294, 631.6398pt x 246.1998pt>
 File: PunchDefektGut.jpg Graphic file (type jpg)
  <use PunchDefektGut.jpg>
-Package pdftex.def Info: PunchDefektGut.jpg used on input line 1524.
+Package pdftex.def Info: PunchDefektGut.jpg used on input line 1525.
 (pdftex.def)             Requested size: 349.97028pt x 136.41333pt.
 
-[58 <C:/Users/B/Documents/Bac/Ss3.jpg> <C:/Users/B/Documents/Bac/Sk1.jpg> <C:/U
-sers/B/Documents/Bac/PunchDefektGut.jpg>]
-<Sb1a.jpg, id=293, 346.6551pt x 113.4639pt>
+Underfull \vbox (badness 1009) has occurred while \output is active []
+
+ [58 <C:/Users/B/Documents/Bac/Ss2.jpg> <C:/Users/B/Documents/Bac/Ss3.jpg> <C:/
+Users/B/Documents/Bac/Sk1.jpg>] [59 <C:/Users/B/Documents/Bac/PunchDefektGut.jp
+g>]
+<Sb1a.jpg, id=301, 346.6551pt x 113.4639pt>
 File: Sb1a.jpg Graphic file (type jpg)
  <use Sb1a.jpg>
-Package pdftex.def Info: Sb1a.jpg used on input line 1534.
+Package pdftex.def Info: Sb1a.jpg used on input line 1535.
 (pdftex.def)             Requested size: 349.97028pt x 114.5578pt.
 
-<Sb2.jpg, id=294, 358.7001pt x 129.8451pt>
+<Sb2.jpg, id=302, 358.7001pt x 129.8451pt>
 File: Sb2.jpg Graphic file (type jpg)
  <use Sb2.jpg>
-Package pdftex.def Info: Sb2.jpg used on input line 1541.
+Package pdftex.def Info: Sb2.jpg used on input line 1542.
 (pdftex.def)             Requested size: 349.97028pt x 126.68858pt.
 
-<Sb3.jpg, id=295, 304.2567pt x 112.0185pt>
+<Sb3.jpg, id=303, 304.2567pt x 112.0185pt>
 File: Sb3.jpg Graphic file (type jpg)
  <use Sb3.jpg>
-Package pdftex.def Info: Sb3.jpg used on input line 1548.
+Package pdftex.def Info: Sb3.jpg used on input line 1549.
 (pdftex.def)             Requested size: 349.97028pt x 128.85101pt.
 
-<Kb1a.jpg, id=296, 297.9933pt x 90.3375pt>
+<Kb1a.jpg, id=304, 297.9933pt x 90.3375pt>
 File: Kb1a.jpg Graphic file (type jpg)
  <use Kb1a.jpg>
-Package pdftex.def Info: Kb1a.jpg used on input line 1556.
+Package pdftex.def Info: Kb1a.jpg used on input line 1557.
 (pdftex.def)             Requested size: 349.97028pt x 106.10245pt.
- [59 <C:/Users/B/Documents/Bac/Sb1a.jpg> <C:/Users/B/Documents/Bac/Sb2.jpg> <C:
-/Users/B/Documents/Bac/Sb3.jpg>] <Kb2.jpg, id=300, 334.1283pt x 117.3183pt>
+ [60 <C:/Users/B/Documents/Bac/Sb1a.jpg> <C:/Users/B/Documents/Bac/Sb2.jpg> <C:
+/Users/B/Documents/Bac/Sb3.jpg>] <Kb2.jpg, id=308, 334.1283pt x 117.3183pt>
 File: Kb2.jpg Graphic file (type jpg)
  <use Kb2.jpg>
-Package pdftex.def Info: Kb2.jpg used on input line 1564.
+Package pdftex.def Info: Kb2.jpg used on input line 1565.
 (pdftex.def)             Requested size: 349.97028pt x 122.87994pt.
- [60 <C:/Users/B/Documents/Bac/Kb1a.jpg> <C:/Users/B/Documents/Bac/Kb2.jpg>]
-<Bb1.jpg, id=304, 345.6915pt x 133.6995pt>
+ [61 <C:/Users/B/Documents/Bac/Kb1a.jpg> <C:/Users/B/Documents/Bac/Kb2.jpg>]
+<Bb1.jpg, id=312, 345.6915pt x 133.6995pt>
 File: Bb1.jpg Graphic file (type jpg)
  <use Bb1.jpg>
-Package pdftex.def Info: Bb1.jpg used on input line 1573.
+Package pdftex.def Info: Bb1.jpg used on input line 1574.
 (pdftex.def)             Requested size: 349.97028pt x 135.35367pt.
 
-<Bb2.jpg, id=305, 347.6187pt x 140.4447pt>
+<Bb2.jpg, id=313, 347.6187pt x 140.4447pt>
 File: Bb2.jpg Graphic file (type jpg)
  <use Bb2.jpg>
-Package pdftex.def Info: Bb2.jpg used on input line 1581.
+Package pdftex.def Info: Bb2.jpg used on input line 1582.
 (pdftex.def)             Requested size: 349.97028pt x 141.40442pt.
- [61 <C:/Users/B/Documents/Bac/Bb1.jpg> <C:/Users/B/Documents/Bac/Bb2.jpg>]
-<Bb3a.jpg, id=309, 340.3917pt x 119.7273pt>
+ [62 <C:/Users/B/Documents/Bac/Bb1.jpg> <C:/Users/B/Documents/Bac/Bb2.jpg>]
+<Bb3a.jpg, id=317, 340.3917pt x 119.7273pt>
 File: Bb3a.jpg Graphic file (type jpg)
  <use Bb3a.jpg>
-Package pdftex.def Info: Bb3a.jpg used on input line 1590.
+Package pdftex.def Info: Bb3a.jpg used on input line 1591.
 (pdftex.def)             Requested size: 349.97028pt x 123.10124pt.
 
-<Bb4.jpg, id=310, 333.1647pt x 127.4361pt>
+<Bb4.jpg, id=318, 333.1647pt x 127.4361pt>
 File: Bb4.jpg Graphic file (type jpg)
  <use Bb4.jpg>
-Package pdftex.def Info: Bb4.jpg used on input line 1600.
+Package pdftex.def Info: Bb4.jpg used on input line 1601.
 (pdftex.def)             Requested size: 349.97028pt x 133.86629pt.
- [62 <C:/Users/B/Documents/Bac/Bb3a.jpg> <C:/Users/B/Documents/Bac/Bb4.jpg>]
-<PunchBAlubau.jpg, id=314, 730.8906pt x 361.8318pt>
+ [63 <C:/Users/B/Documents/Bac/Bb3a.jpg> <C:/Users/B/Documents/Bac/Bb4.jpg>]
+<PunchBAlubau.jpg, id=323, 730.8906pt x 361.8318pt>
 File: PunchBAlubau.jpg Graphic file (type jpg)
  <use PunchBAlubau.jpg>
-Package pdftex.def Info: PunchBAlubau.jpg used on input line 1607.
+Package pdftex.def Info: PunchBAlubau.jpg used on input line 1608.
 (pdftex.def)             Requested size: 349.97028pt x 173.25769pt.
 
-<DieBAlubau.jpg, id=315, 372.6723pt x 140.6856pt>
+<DieBAlubau.jpg, id=324, 372.6723pt x 140.6856pt>
 File: DieBAlubau.jpg Graphic file (type jpg)
  <use DieBAlubau.jpg>
-Package pdftex.def Info: DieBAlubau.jpg used on input line 1613.
+Package pdftex.def Info: DieBAlubau.jpg used on input line 1614.
 (pdftex.def)             Requested size: 349.97028pt x 132.11995pt.
- [63 <C:/Users/B/Documents/Bac/PunchBAlubau.jpg> <C:/Users/B/Documents/Bac/DieB
-Alubau.jpg>] <Bs1a.jpg, id=320, 389.5353pt x 145.2627pt>
+ [64 <C:/Users/B/Documents/Bac/PunchBAlubau.jpg> <C:/Users/B/Documents/Bac/DieB
+Alubau.jpg>] <Bs1a.jpg, id=328, 389.5353pt x 145.2627pt>
 File: Bs1a.jpg Graphic file (type jpg)
  <use Bs1a.jpg>
-Package pdftex.def Info: Bs1a.jpg used on input line 1622.
+Package pdftex.def Info: Bs1a.jpg used on input line 1623.
 (pdftex.def)             Requested size: 349.97028pt x 130.50911pt.
 
-<Bs2.jpg, id=321, 321.1197pt x 116.3547pt>
+<Bs2.jpg, id=329, 321.1197pt x 116.3547pt>
 File: Bs2.jpg Graphic file (type jpg)
  <use Bs2.jpg>
-Package pdftex.def Info: Bs2.jpg used on input line 1630.
+Package pdftex.def Info: Bs2.jpg used on input line 1631.
 (pdftex.def)             Requested size: 349.97028pt x 126.817pt.
- [64 <C:/Users/B/Documents/Bac/Bs1a.jpg> <C:/Users/B/Documents/Bac/Bs2.jpg>]
-<Ks1.jpg, id=325, 338.9463pt x 108.1641pt>
+ [65 <C:/Users/B/Documents/Bac/Bs1a.jpg> <C:/Users/B/Documents/Bac/Bs2.jpg>]
+<Ks1.jpg, id=333, 338.9463pt x 108.1641pt>
 File: Ks1.jpg Graphic file (type jpg)
  <use Ks1.jpg>
-Package pdftex.def Info: Ks1.jpg used on input line 1639.
+Package pdftex.def Info: Ks1.jpg used on input line 1640.
 (pdftex.def)             Requested size: 349.97028pt x 111.68422pt.
 
-<SteinKAlubau.jpg, id=326, 336.5373pt x 206.9331pt>
+<SteinKAlubau.jpg, id=334, 336.5373pt x 206.9331pt>
 File: SteinKAlubau.jpg Graphic file (type jpg)
  <use SteinKAlubau.jpg>
-Package pdftex.def Info: SteinKAlubau.jpg used on input line 1645.
+Package pdftex.def Info: SteinKAlubau.jpg used on input line 1646.
 (pdftex.def)             Requested size: 349.97028pt x 215.19586pt.
 
-[65 <C:/Users/B/Documents/Bac/Ks1.jpg> <C:/Users/B/Documents/Bac/SteinKAlubau.j
-pg>] <Kk1a.jpg, id=330, 385.1991pt x 154.4169pt>
+[66 <C:/Users/B/Documents/Bac/Ks1.jpg> <C:/Users/B/Documents/Bac/SteinKAlubau.j
+pg>] <Kk1a.jpg, id=338, 385.1991pt x 154.4169pt>
 File: Kk1a.jpg Graphic file (type jpg)
  <use Kk1a.jpg>
-Package pdftex.def Info: Kk1a.jpg used on input line 1654.
+Package pdftex.def Info: Kk1a.jpg used on input line 1655.
 (pdftex.def)             Requested size: 349.97028pt x 140.2981pt.
 
-<Kk2.jpg, id=331, 365.9271pt x 153.4533pt>
+<Kk2.jpg, id=339, 365.9271pt x 153.4533pt>
 File: Kk2.jpg Graphic file (type jpg)
  <use Kk2.jpg>
-Package pdftex.def Info: Kk2.jpg used on input line 1663.
+Package pdftex.def Info: Kk2.jpg used on input line 1664.
 (pdftex.def)             Requested size: 349.97028pt x 146.76788pt.
- [66 <C:/Users/B/Documents/Bac/Kk1a.jpg> <C:/Users/B/Documents/Bac/Kk2.jpg>]
-<Kkk1.jpg, id=335, 413.1435pt x 215.6055pt>
+ [67 <C:/Users/B/Documents/Bac/Kk1a.jpg> <C:/Users/B/Documents/Bac/Kk2.jpg>]
+<Kkk1.jpg, id=343, 413.1435pt x 215.6055pt>
 File: Kkk1.jpg Graphic file (type jpg)
  <use Kkk1.jpg>
-Package pdftex.def Info: Kkk1.jpg used on input line 1672.
+Package pdftex.def Info: Kkk1.jpg used on input line 1673.
 (pdftex.def)             Requested size: 349.97028pt x 182.64374pt.
 
-<BauteilAbsenkSk3.jpg, id=336, 2036.60875pt x 771.88374pt>
+<BauteilAbsenkSk3.jpg, id=344, 2036.60875pt x 771.88374pt>
 File: BauteilAbsenkSk3.jpg Graphic file (type jpg)
 
 <use BauteilAbsenkSk3.jpg>
-Package pdftex.def Info: BauteilAbsenkSk3.jpg used on input line 1678.
+Package pdftex.def Info: BauteilAbsenkSk3.jpg used on input line 1679.
 (pdftex.def)             Requested size: 349.97028pt x 132.63185pt.
- [67 <C:/Users/B/Documents/Bac/Kkk1.jpg> <C:/Users/B/Documents/Bac/BauteilAbsen
+ [68 <C:/Users/B/Documents/Bac/Kkk1.jpg> <C:/Users/B/Documents/Bac/BauteilAbsen
 kSk3.jpg>]
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 1684
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 1685
 .
 
-<Ssk1.jpg, id=341, 315.8199pt x 176.5797pt>
+<Ssk1.jpg, id=349, 315.8199pt x 176.5797pt>
 File: Ssk1.jpg Graphic file (type jpg)
  <use Ssk1.jpg>
-Package pdftex.def Info: Ssk1.jpg used on input line 1687.
+Package pdftex.def Info: Ssk1.jpg used on input line 1688.
 (pdftex.def)             Requested size: 349.97028pt x 195.67703pt.
- [68 <C:/Users/B/Documents/Bac/Ssk1.jpg>] [69] [70]
+ [69 <C:/Users/B/Documents/Bac/Ssk1.jpg>] [70] [71]
 
-! LaTeX Error: \begin{itemize*} on input line 1742 ended by \end{itemize}.
+! LaTeX Error: \begin{itemize*} on input line 1744 ended by \end{itemize}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1753 \end{itemize}
+l.1755 \end{itemize}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (4.97992pt too wide) in paragraph at lines 1755--1759
+Overfull \hbox (4.97992pt too wide) in paragraph at lines 1757--1761
 \T1/lmr/m/n/12 su-chen ha-ben die neu-en Ma-te-ri-al-kom-bi-na-tio-nen (Zieh-st
 em-pel/Kröpfstein/Niederhalter)
  []
 
-<DueseMittelweit.jpg, id=352, 358.941pt x 279.2031pt>
+<DueseMittelweit.jpg, id=360, 358.941pt x 279.2031pt>
 File: DueseMittelweit.jpg Graphic file (type jpg)
 
 <use DueseMittelweit.jpg>
-Package pdftex.def Info: DueseMittelweit.jpg used on input line 1761.
+Package pdftex.def Info: DueseMittelweit.jpg used on input line 1763.
 (pdftex.def)             Requested size: 349.97028pt x 272.22404pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71]
-<DueseGut.jpg, id=356, 1963.335pt x 823.075pt>
+ [72]
+<DueseGut.jpg, id=364, 1963.335pt x 823.075pt>
 File: DueseGut.jpg Graphic file (type jpg)
  <use DueseGut.jpg>
-Package pdftex.def Info: DueseGut.jpg used on input line 1768.
+Package pdftex.def Info: DueseGut.jpg used on input line 1770.
 (pdftex.def)             Requested size: 349.97028pt x 146.71536pt.
- [72 <C:/Users/B/Documents/Bac/DueseMittelweit.jpg> <C:/Users/B/Documents/Bac/D
+ [73 <C:/Users/B/Documents/Bac/DueseMittelweit.jpg> <C:/Users/B/Documents/Bac/D
 ueseGut.jpg>]
-[73] [74] <makromikro.png, id=366, 770.88pt x 432.11438pt>
+[74] [75] <makromikro.png, id=375, 770.88pt x 432.11438pt>
 File: makromikro.png Graphic file (type png)
 
 <use makromikro.png>
-Package pdftex.def Info: makromikro.png used on input line 1824.
+Package pdftex.def Info: makromikro.png used on input line 1826.
 (pdftex.def)             Requested size: 349.97028pt x 196.17058pt.
- [75]
-<elementarzellen.png, id=371, 419.31656pt x 140.77594pt>
+ [76]
+<elementarzellen.png, id=379, 419.31656pt x 140.77594pt>
 File: elementarzellen.png Graphic file (type png)
 
 <use elementarzellen.png>
-Package pdftex.def Info: elementarzellen.png used on input line 1845.
+Package pdftex.def Info: elementarzellen.png used on input line 1847.
 (pdftex.def)             Requested size: 349.97028pt x 117.49484pt.
- [76 <C:/Users/B/Documents/Bac/makromikro.png>]
-Overfull \hbox (6.97215pt too wide) in paragraph at lines 1859--1860
+ [77 <C:/Users/B/Documents/Bac/makromikro.png>]
+Overfull \hbox (6.97215pt too wide) in paragraph at lines 1861--1862
 []\T1/lmr/bx/n/12 Austausch- oder Sub-sti-tu-ti-ons-ato-me\T1/lmr/m/n/12 . Die 
 Atom-plät-ze wer-den von Frem-
  []
 
-<versetzung.png, id=376, 257.46187pt x 135.50626pt>
+<versetzung.png, id=384, 257.46187pt x 135.50626pt>
 File: versetzung.png Graphic file (type png)
  <use versetzung.png>
-Package pdftex.def Info: versetzung.png used on input line 1867.
+Package pdftex.def Info: versetzung.png used on input line 1869.
 (pdftex.def)             Requested size: 349.97028pt x 184.21161pt.
 
-[77 <C:/Users/B/Documents/Bac/elementarzellen.png>]
-<eloplastkristall.png, id=381, 305.64188pt x 199.49532pt>
+[78 <C:/Users/B/Documents/Bac/elementarzellen.png>]
+<eloplastkristall.png, id=389, 305.64188pt x 199.49532pt>
 File: eloplastkristall.png Graphic file (type png)
 
 <use eloplastkristall.png>
-Package pdftex.def Info: eloplastkristall.png used on input line 1883.
+Package pdftex.def Info: eloplastkristall.png used on input line 1885.
 (pdftex.def)             Requested size: 349.97028pt x 228.44067pt.
- [78 <C:/Users/B/Documents/Bac/versetzung.png>]
-<wandernstufenversetzung.png, id=386, 305.64188pt x 191.21437pt>
+ [79 <C:/Users/B/Documents/Bac/versetzung.png>]
+<wandernstufenversetzung.png, id=394, 305.64188pt x 191.21437pt>
 File: wandernstufenversetzung.png Graphic file (type png)
 
 <use wandernstufenversetzung.png>
-Package pdftex.def Info: wandernstufenversetzung.png used on input line 1891.
+Package pdftex.def Info: wandernstufenversetzung.png used on input line 1893.
 (pdftex.def)             Requested size: 349.97028pt x 218.95822pt.
 
-<rekristall.png, id=387, 637.63219pt x 326.72063pt>
+<rekristall.png, id=395, 637.63219pt x 326.72063pt>
 File: rekristall.png Graphic file (type png)
  <use rekristall.png>
-Package pdftex.def Info: rekristall.png used on input line 1902.
+Package pdftex.def Info: rekristall.png used on input line 1904.
 (pdftex.def)             Requested size: 349.97028pt x 179.32298pt.
 
-[79 <C:/Users/B/Documents/Bac/eloplastkristall.png>] [80 <C:/Users/B/Documents/
+[80 <C:/Users/B/Documents/Bac/eloplastkristall.png>] [81 <C:/Users/B/Documents/
 Bac/wandernstufenversetzung.png>]
-<eigenspanabk.png, id=396, 264.23718pt x 246.9225pt>
+<eigenspanabk.png, id=405, 264.23718pt x 246.9225pt>
 File: eigenspanabk.png Graphic file (type png)
  <use eigenspanabk.png>
-Package pdftex.def Info: eigenspanabk.png used on input line 1932.
+Package pdftex.def Info: eigenspanabk.png used on input line 1934.
 (pdftex.def)             Requested size: 349.97028pt x 327.0577pt.
 
-[81 <C:/Users/B/Documents/Bac/rekristall.png>]
-<eigenspanfaser.png, id=402, 313.17pt x 143.78719pt>
+[82 <C:/Users/B/Documents/Bac/rekristall.png>]
+<eigenspanfaser.png, id=410, 313.17pt x 143.78719pt>
 File: eigenspanfaser.png Graphic file (type png)
  <use eigenspanfaser.png>
-Package pdftex.def Info: eigenspanfaser.png used on input line 1940.
+Package pdftex.def Info: eigenspanfaser.png used on input line 1942.
 (pdftex.def)             Requested size: 349.97028pt x 160.6895pt.
 
-<eigenspandrahtzieh.png, id=403, 299.61937pt x 137.01187pt>
+<eigenspandrahtzieh.png, id=411, 299.61937pt x 137.01187pt>
 File: eigenspandrahtzieh.png Graphic file (type png)
 
 <use eigenspandrahtzieh.png>
-Package pdftex.def Info: eigenspandrahtzieh.png used on input line 1947.
+Package pdftex.def Info: eigenspandrahtzieh.png used on input line 1949.
 (pdftex.def)             Requested size: 349.97028pt x 160.04819pt.
 
-<eigenspanmol.png, id=404, 211.54031pt x 176.91093pt>
+<eigenspanmol.png, id=412, 211.54031pt x 176.91093pt>
 File: eigenspanmol.png Graphic file (type png)
  <use eigenspanmol.png>
-Package pdftex.def Info: eigenspanmol.png used on input line 1955.
+Package pdftex.def Info: eigenspanmol.png used on input line 1957.
 (pdftex.def)             Requested size: 349.97028pt x 292.68945pt.
 
 ! Extra }, or forgotten \endgroup.
-l.1959  }
+l.1961  }
          
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2341,26 +2647,26 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<eigenspanschnitt.png, id=405, 347.04657pt x 185.19188pt>
+<eigenspanschnitt.png, id=413, 347.04657pt x 185.19188pt>
 File: eigenspanschnitt.png Graphic file (type png)
 
 <use eigenspanschnitt.png>
-Package pdftex.def Info: eigenspanschnitt.png used on input line 1964.
+Package pdftex.def Info: eigenspanschnitt.png used on input line 1966.
 (pdftex.def)             Requested size: 349.97028pt x 186.75972pt.
- [82 <C:/Users/B/Documents/Bac/eigenspanabk.png>]
-[83 <C:/Users/B/Documents/Bac/eigenspanfaser.png> <C:/Users/B/Documents/Bac/eig
-enspandrahtzieh.png>] [84 <C:/Users/B/Documents/Bac/eigenspanmol.png>] [85 <C:/
-Users/B/Documents/Bac/eigenspanschnitt.png>] [86]
-<einachsspann.png, id=426, 353.82187pt x 203.25937pt>
+ [83 <C:/Users/B/Documents/Bac/eigenspanabk.png>]
+[84 <C:/Users/B/Documents/Bac/eigenspanfaser.png> <C:/Users/B/Documents/Bac/eig
+enspandrahtzieh.png>] [85 <C:/Users/B/Documents/Bac/eigenspanmol.png>] [86 <C:/
+Users/B/Documents/Bac/eigenspanschnitt.png>] [87]
+<einachsspann.png, id=436, 353.82187pt x 203.25937pt>
 File: einachsspann.png Graphic file (type png)
  <use einachsspann.png>
-Package pdftex.def Info: einachsspann.png used on input line 2015.
+Package pdftex.def Info: einachsspann.png used on input line 2017.
 (pdftex.def)             Requested size: 349.97028pt x 201.0506pt.
 
 ! Undefined control sequence.
 \A ->\ERROR 
             
-l.2020 ...en erhÃ¤lt man die KrÃ¤fte $ \sigma_0 \A
+l.2022 ...en erhÃ¤lt man die KrÃ¤fte $ \sigma_0 \A
                                                   _0 $ und $ \sigma_{\varphi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2369,19 +2675,19 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Double subscript.
-l.2020 ...n erhÃ¤lt man die KrÃ¤fte $ \sigma_0 \A_
+l.2022 ...n erhÃ¤lt man die KrÃ¤fte $ \sigma_0 \A_
                                                   0 $ und $ \sigma_{\varphi}...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-[87] <normalvektor.png, id=431, 504.38437pt x 221.32687pt>
+[88] <normalvektor.png, id=440, 504.38437pt x 221.32687pt>
 File: normalvektor.png Graphic file (type png)
 
 <use normalvektor.png>
-Package pdftex.def Info: normalvektor.png used on input line 2040.
+Package pdftex.def Info: normalvektor.png used on input line 2042.
 (pdftex.def)             Requested size: 349.97028pt x 153.57011pt.
 
 ! Undefined control sequence.
-l.2044 ...entialquotienten bildet,  in dem $ \Delt
+l.2046 ...entialquotienten bildet,  in dem $ \Delt
                                                    A \rightarrow 0 $ gegen N...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2389,72 +2695,78 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[88 <C:/Users/B/Documents/Bac/einachsspann.png>]
-<tensor.png, id=436, 572.89032pt x 228.10219pt>
+[89 <C:/Users/B/Documents/Bac/einachsspann.png>]
+<tensor.png, id=445, 572.89032pt x 228.10219pt>
 File: tensor.png Graphic file (type png)
  <use tensor.png>
-Package pdftex.def Info: tensor.png used on input line 2051.
+Package pdftex.def Info: tensor.png used on input line 2053.
 (pdftex.def)             Requested size: 349.97028pt x 139.34746pt.
- [89 <C:/Users/B/Documents/Bac/normalvektor.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2061--2065
+ [90 <C:/Users/B/Documents/Bac/normalvektor.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2063--2067
 
  []
 
-[90 <C:/Users/B/Documents/Bac/tensor.png>] [91] [92]
-Overfull \hbox (11.73456pt too wide) in paragraph at lines 2116--2116
+[91 <C:/Users/B/Documents/Bac/tensor.png>] [92] [93]
+Overfull \hbox (11.73456pt too wide) in paragraph at lines 2118--2118
 []\T1/lmr/m/n/12 Lothar Pa-pu-la. \T1/lmr/m/it/12 Ma-the-ma-ti-sche For-melsamm
 -lung\T1/lmr/m/n/12 . Zehn-te Auf-la-ge. Vieweg-Teubner,
  []
 
-[93] [94] [95] (C:\Users\B\Documents\Bac\bac080614.aux)
+[94] [95] [96] (C:\Users\B\Documents\Bac\bac080614.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'bac080614.run.xml'.
  )
-(\end occurred when \ifx on line 1270 was incomplete)
-(\end occurred when \ifx on line 1142 was incomplete)
-(\end occurred when \ifx on line 963 was incomplete)
-(\end occurred when \ifx on line 680 was incomplete) 
+(\end occurred when \ifx on line 1271 was incomplete)
+(\end occurred when \ifx on line 1143 was incomplete)
+(\end occurred when \ifx on line 964 was incomplete)
+(\end occurred when \ifx on line 681 was incomplete) 
 Here is how much of TeX's memory you used:
- 20206 strings out of 493921
- 374066 string characters out of 3144887
- 520521 words of memory out of 3000000
- 23065 multiletter control sequences out of 15000+200000
- 168976 words of font info for 115 fonts, out of 3000000 for 9000
+ 20600 strings out of 493921
+ 378414 string characters out of 3144887
+ 521250 words of memory out of 3000000
+ 23438 multiletter control sequences out of 15000+200000
+ 177347 words of font info for 139 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
  50i,21n,54p,2385b,1669s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiK
-TeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-
-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/lm/lmbxi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
-lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/public/lm/lmmib10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
-lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmro12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss10
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbo10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
-fonts/symbols/msbm10.pfb>
-Output written on bac080614.pdf (99 pages, 15902157 bytes).
+ <C:\Users\B\AppData\Local\
+MiKTeX\2.9\fonts\pk\ljfour\public\mathabx\dpi600\mathb8.pk>{C:/Program Files (x
+86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/
+fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips
+/lm/lm-mathsy.enc} <C:\Users\B\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\
+mathabx\dpi600\matha6.pk>{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/
+lm-mathit.enc} <C:\Users\B\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\math
+abx\dpi720\mathb12.pk> <C:\Users\B\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\pub
+lic\mathabx\dpi600\matha10.pk> <C:\Users\B\AppData\Local\MiKTeX\2.9\fonts\pk\lj
+four\public\mathabx\dpi720\mathx10.pk>{C:/Program Files (x86)/MiKTeX 2.9/fonts/
+enc/dvips/lm/lm-ts1.enc} <C:\Users\B\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\p
+ublic\mathabx\dpi600\matha8.pk> <C:\Users\B\AppData\Local\MiKTeX\2.9\fonts\pk\l
+jfour\public\mathabx\dpi657\matha10.pk> <C:\Users\B\AppData\Local\MiKTeX\2.9\fo
+nts\pk\ljfour\public\mathabx\dpi600\matha12.pk><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+lm/lmbxi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/lm/lmmib10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/lm/lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmro12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
+ss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbo10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/lm/lmsy8.pfb>
+Output written on bac080614.pdf (100 pages, 15908778 bytes).
 PDF statistics:
- 554 PDF objects out of 1000 (max. 8388607)
+ 622 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  436 words of extra memory for PDF output out of 10000 (max. 10000000)
 
