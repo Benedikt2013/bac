@@ -1,0 +1,37 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Firmenportrait}{1}
+\contentsline {section}{\numberline {2}Einleitung}{2}
+\contentsline {section}{\numberline {3}Bauteil}{4}
+\contentsline {subsection}{\numberline {3.1}Funktion \& Qualit\IeC {\"a}tsumfang}{5}
+\contentsline {subsection}{\numberline {3.2}Aluminium}{5}
+\contentsline {section}{\numberline {4}Streckbiegen}{7}
+\contentsline {subsection}{\numberline {4.1}Methode Messauswertung}{11}
+\contentsline {subsection}{\numberline {4.2}Versuchskonventionen Streckbiegen}{12}
+\contentsline {subsection}{\numberline {4.3}Versuchsreihe Nr.1 Streckbiegen}{13}
+\contentsline {subsection}{\numberline {4.4}Versuchsreihe Nr. 2 Streckbiegen}{20}
+\contentsline {subsection}{\numberline {4.5}Fr\IeC {\"a}sen}{24}
+\contentsline {subsection}{\numberline {4.6}Schleifen und Polieren}{28}
+\contentsline {subsubsection}{\numberline {4.6.1}Herleitung der Formel und Berechnung der Oberfl\IeC {\"a}chentemperatur}{32}
+\contentsline {subsubsection}{\numberline {4.6.2}Auswertung Schleifen und Polieren}{35}
+\contentsline {subsection}{\numberline {4.7}Eloxieren}{40}
+\contentsline {subsection}{\numberline {4.8}DURApro Beschichten}{44}
+\contentsline {section}{\numberline {5}Kr\IeC {\"o}pfen }{48}
+\contentsline {subsection}{\numberline {5.1}Versuchsdurchf\IeC {\"u}hrung Kr\IeC {\"o}pfen}{54}
+\contentsline {subsection}{\numberline {5.2}Protokoll Kr\IeC {\"o}pfversuche}{57}
+\contentsline {subsection}{\numberline {5.3}Fazit}{71}
+\contentsline {section}{\numberline {6}Ausblick}{74}
+\contentsline {section}{\numberline {7}Anhang}{75}
+\contentsline {subsection}{\numberline {7.1}Exkurs Umformtechnik}{75}
+\contentsline {subsubsection}{\numberline {7.1.1}Systematisierung Formgebungsverfahren}{75}
+\contentsline {subsubsection}{\numberline {7.1.2}Metallurgische Zusammenh\IeC {\"a}nge}{76}
+\contentsline {subsubsection}{\numberline {7.1.3}Verformung prinzipiell}{79}
+\contentsline {subsubsection}{\numberline {7.1.4}Rekristallisation, Erholung und Kaltverfestigung}{80}
+\contentsline {subsubsection}{\numberline {7.1.5}Eigenspannungen}{81}
+\contentsline {subsubsection}{\numberline {7.1.6}Umformgrad}{86}
+\contentsline {subsubsection}{\numberline {7.1.7}Umformgeschwindigkeit}{88}
+\contentsline {subsubsection}{\numberline {7.1.8}Einachsiger Spannungszustand}{88}
+\contentsline {subsubsection}{\numberline {7.1.9}Spannungsvektor und Spannungstensor}{90}
+\contentsline {subsubsection}{\numberline {7.1.10}Festigkeitshypothesen}{93}
+\contentsline {section}{\numberline {8}Erkl\IeC {\"a}rung}{96}
